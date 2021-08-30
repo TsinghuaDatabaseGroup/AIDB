@@ -55,7 +55,7 @@ Table of Contents
 
 **[Tutorial]** Lu, J., Chen, Y., Herodotou, H., Babu, S. (2019). *Speedup Your Analytics : Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
 
-Jindal, A., & Interlandi, M. (n.d.). *Machine Learning for Cloud Data Systems : the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)] 
+**[Tutorial]** Jindal, A., & Interlandi, M. (n.d.). *Machine Learning for Cloud Data Systems : the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)] 
 
 
 
