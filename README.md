@@ -41,6 +41,7 @@ Table of Contents
 ## 0 Survey & Tutorial
 
 **[Survey]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets AI: A Survey. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
+
 **[Survey]** Wang, W., Zhang, M., Chen, G., Jagadish, H. V., Ooi, B. C., & Tan, K. L. (2016). Database meets deep learning: Challenges and opportunities. SIGMOD, 2016. [[paper](https://doi.org/10.1145/3003665.3003669)] 
 
 **[Survey]** Cai, Q., Cui, C., Xiong, Y., Xie, Z., & Zhang, M. (2021). A Survey on Deep Reinforcement Learning for Data Processing and Analytics, 2021. [[paper](http://arxiv.org/abs/2108.04526)]
