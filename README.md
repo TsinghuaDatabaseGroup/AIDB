@@ -36,6 +36,7 @@ Table of Contents
 
 * [7. Demonstrations](#8-demonstrations)
 
+* [8. Talks](#8-talks)
   
 
 ## 0 Survey & Tutorial
