@@ -50,6 +50,7 @@ Table of Contents
 **[Tutorial]** Idreos, S., & Kraska, T. (2019). From auto-tuning one size fits all to self-designed and learned data-intensive systems. Proceedings of the ACM SIGMOD International Conference on Management of Data, 2054–2059. [[paper](https://doi.org/10.1145/3299869.3314034)] 
 
 **[Tutorial]** Guoliang Li, Xuanhe Zhou, Lei Cao. AI Meets Database: AI4DB and DB4AI. SIGMOD 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
+
 **[Tutorial]** Guoliang Li, Xuanhe Zhou, Lei Cao. Machine Learning for Databases. VLDB 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
 
 **[Tutorial]** Lu, J., Chen, Y., Herodotou, H., Babu, S. (2019). *Speedup Your Analytics : Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
