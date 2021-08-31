@@ -81,7 +81,7 @@ Table of Contents
 
 **[IT Stack]** Cereda, S., Doni, S., & Milano, P. (n.d.). *CGPTuner : a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions*. VLDB, 2021. [[paper](https://doi.org/10.14778/3457390.3457404)] 
 
-**[App]** Xu, Q., Hu, Y. C., & Jindal, A. (2020). *App Parameter Energy Profiling: Optimizing App Energy Drain by Finding Tunable App Parameters*. aXive. [[paper](http://arxiv.org/abs/2009.12156)]
+**[App]** Xu, Q., Hu, Y. C., & Jindal, A. (2020). *App Parameter Energy Profiling: Optimizing App Energy Drain by Finding Tunable App Parameters*. arXiv, 2020. [[paper](http://arxiv.org/abs/2009.12156)]
 
 ### View Advisor
 
@@ -103,7 +103,7 @@ Kossmann, J., Halfpap, S., Jankrift, M., & Schlosser, R. (2020). Magic mirror in
 
 Ding, B., Das, S., Marcus, R., Wu, W., Chaudhuri, S., & Narasayya, V. R. (2019). AI meets AI: Leveraging query executions to improve index recommendations. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3324957)]
 
-Borovica-gajic, R., Perera, M., Oetomo, B., & Rubinstein, B. I. P. (2019). *DBA bandits : Self-driving physical design tuning under ad-hoc workloads with safety guarantees*. arXive, 2019. [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
+Borovica-gajic, R., Perera, M., Oetomo, B., & Rubinstein, B. I. P. (2019). *DBA bandits : Self-driving physical design tuning under ad-hoc workloads with safety guarantees*. arXiv, 2019. [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
 
 Paludo, G., Julia, L., Couto, C., Fátima, P. De, & Renata, M. (n.d.). *S MART IX : A database indexing agent based on reinforcement learning*. 2020. [[paper](https://link.springer.com/article/10.1007/s10489-020-01674-8)]
 
@@ -117,7 +117,7 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 
 **[performance]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
 
-**[performance]** Wu, W., Bernstein, P. A., Raizman, A., & Pavlopoulou, C. (2020). *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. arXive, 2020. [[paper](http://arxiv.org/abs/2008.12379)]
+**[performance]** Wu, W., Bernstein, P. A., Raizman, A., & Pavlopoulou, C. (2020). *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. arXiv, 2020. [[paper](http://arxiv.org/abs/2008.12379)]
 
 **[performance]** Wu, J. (2021). *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
 
@@ -161,7 +161,7 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 **[Query-based]** Tzoumas K, Deshpande A, Jensen C S. Lightweight graphical models for selectivity estimation without independence assumptions[J]. Proceedings of the VLDB Endowment, 4(11): 852-863, 2011. [[paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.675&rep=rep1&type=pdf)]
 
-**[Query-based]** Hayek, R., & Shmueli, O. (2020). *NN-based Transformation of Any SQL Cardinality Estimator for Handling DISTINCT, AND, OR and NOT*. arXive， 2020. [[paper](http://arxiv.org/abs/2004.07009)]
+**[Query-based]** Hayek, R., & Shmueli, O. (2020). *NN-based Transformation of Any SQL Cardinality Estimator for Handling DISTINCT, AND, OR and NOT*. arXiv， 2020. [[paper](http://arxiv.org/abs/2004.07009)]
 
 **[Data-based]** Yang, Z., Kamsetty, A., Luan, S., Liang, E., Duan, Y., Chen, X., & Stoica, I. (2020). Neurocard: One cardinality estimator for all tables. *Proceedings of the VLDB Endowment*, *14*(1), 61–73, 2020. [[paper](https://doi.org/10.14778/3421424.3421432)]
 
@@ -209,7 +209,9 @@ Tang, N. (n.d.). *Reinforcement Learning with Tree-LSTM for Join Order Selection
 
 Pasupuleti, K., Park, M., & Valluri, S. (n.d.). *SQL Plan Observability through Hints in Oracle Autonomous Database*. *14*(1). [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Learning to Steer Query Optimizers. *ArXiv*.3. Database Design. [[paper](https://doi.org/10.14778/2850583.2850594)]
+Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Making Learned Query Optimization Practical. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452838)]
+
+Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, Marc Friedman, Alekh Jindal. Steering Query Optimizers: A Practical Take on Big Data Workloads. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457568)]
 
 
 
@@ -235,7 +237,7 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 
 ### Query Execution
 
-Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. 1–5. [[paper](http://arxiv.org/abs/2007.10568)]
+Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://drive.google.com/file/d/1trNYAcQ3S71SHu5dbtkBR2hjcK-VWFSx/view?usp=sharing)]
 
 
 
