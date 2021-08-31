@@ -53,7 +53,7 @@ Table of Contents
 
 ## 1. Database Configuration
 
-### 1.1 Knob Tuner
+### 1.1. Knob Tuner
 
 **[DB]** Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
 
