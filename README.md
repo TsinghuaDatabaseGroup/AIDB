@@ -9,25 +9,25 @@ Table of Contents
 * [0. Survey & Tutorial](#0-system-&-tutorial)
 
 * [1. Database Configuration](#1-database-configuration)
-	* [1.1 Knob Tuner](#1.1 Knob Tuner)
-	* [1.2 View Advisor](#1.2 view advisor)
-	* [1.3 Index Advisor](#1.3 index advisor)
-	* [1.4 Query Rewriter](#1.4 query rewriter)
-	* [1.5 Partition Advisor](#1.5 partition advisor)
+	* [1.1 Knob Tuner](#11-knob-tuner)
+	* [1.2 View Advisor](#12-view-advisor)
+	* [1.3 Index Advisor](#13-index-advisor)
+	* [1.4 Query Rewriter](#14-query-rewriter)
+	* [1.5 Partition Advisor](#15-partition-advisor)
 	
 * [2. Query Optimization](#2-query-optimization)
-	* [2.1 Cardinality/Cost Estimation](#2.1 Cardinality/Cost-Estimation)
-	* [2.2 Join Enumerator](#2.2 Join Enumerator)
-	* [2.3 Plan Hinter](#2.3 plan hinter)
+	* [2.1 Cardinality/Cost Estimation](#21-CardinalityCost-Estimation)
+	* [2.2 Join Enumerator](#22-Join-Enumerator)
+	* [2.3 Plan Hinter](#23-plan-hinter)
 * [3. Database Design](#3-database-design)
-	* [3.1 Physical Design](#3.1 physical design)
-	* [3.2 Query Execution](#3.2 query execution)
+	* [3.1 Physical Design](#31-physical-design)
+	* [3.2 Query Execution](#32-query-execution)
 	
 * [4. Database Monitoring](#4-database-monitoring)
 
 * [5. Database Diagnosis](#5-database-diagnosis)
-	* [5.1 Physical Diagnosis](#5.1 System Diagnosis)
-	* [5.2 Query Diagnosis](#5.2 Query Diagnosis)
+	* [5.1 Physical Diagnosis](#51-System-Diagnosis)
+	* [5.2 Query Diagnosis](#52-Query-Diagnosis)
 	
 * [6. Autonomous Database](#6-autonomous-database)
 
