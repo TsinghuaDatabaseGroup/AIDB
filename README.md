@@ -9,29 +9,29 @@ Table of Contents
 
 * [0. Survey & Tutorial](#0-system-&-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-	* [1.1 Knob Tuner](#1-1-Knob-Tuner)
-	* [1.2 View Advisor](#1-2-view-advisor)
-	* [1.3 Index Advisor](#1.3 index advisor)
-	* [1.4 Query Rewriter](#1.4 query rewriter)
-	* [1.5 Partition Advisor](#1.5 partition advisor)
+	* [1.1 Knob Tuner](#Knob-Tuner)
+	* [1.2 View Advisor](#view-advisor)
+	* [1.3 Index Advisor](#index-advisor)
+	* [1.4 Query Rewriter](#query-rewriter)
+	* [1.5 Partition Advisor](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
-	* [2.1 Cardinality/Cost Estimation](#2.1 Cardinality/Cost-Estimation)
-	* [2.2 Join Enumerator](#2.2 Join Enumerator)
-	* [2.3 Plan Hinter](#2.3 plan hinter)
+	* [2.1 Cardinality/Cost Estimation](#Cardinality/Cost-Estimation)
+	* [2.2 Join Enumerator](#Join-Enumerator)
+	* [2.3 Plan Hinter](#plan-hinter)
 * [3. Database Design](#3-database-design)
-	* [3.1 Physical Design](#3.1 physical design)
-	* [3.2 Query Execution](#3.2 query execution)
+	* [3.1 Physical Design](#physical-design)
+	* [3.2 Query Execution](#query-execution)
 * [4. Database Monitoring](#4-database-monitoring)
 * [5. Database Diagnosis](#5-database-diagnosis)
-	* [5.1 Physical Diagnosis](#5.1 System Diagnosis)
-	* [5.2 Query Diagnosis](#5.2 Query Diagnosis)
+	* [5.1 Physical Diagnosis](#System-Diagnosis)
+	* [5.2 Query Diagnosis](#Query-Diagnosis)
 * [6. Autonomous Database](#6-autonomous-database)
 * [7. Demonstrations](#7-demonstrations)
 * [8. Talks](#8-talks)
 
 
 
-## 0 Survey & Tutorial
+## 0. Survey & Tutorial
 
 **[Survey]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets AI: A Survey. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
@@ -53,7 +53,7 @@ Table of Contents
 
 ## 1. Database Configuration
 
-### 1.1. Knob Tuner
+### Knob Tuner
 
 **[DB]** Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
 
@@ -83,7 +83,7 @@ Table of Contents
 
 **[App]** Xu, Q., Hu, Y. C., & Jindal, A. (2020). *App Parameter Energy Profiling: Optimizing App Energy Drain by Finding Tunable App Parameters*. aXive. [[paper](http://arxiv.org/abs/2009.12156)]
 
-### 1.2 View Advisor
+### View Advisor
 
 A. Jindal, K. Karanasos, S. Rao, and H. Patel. Selecting subexpressions to materialize at datacenter scale. PVLDB, 11(7):800–812, 2018.[[paper](http://www.vldb.org/pvldb/vol11/p800-jindal.pdf)]
 
@@ -93,7 +93,7 @@ Yuan, H., Sun, J., & Li, G. (2020). *Automatic View Generation for Equivalent Su
 
 Han, Y., Li, G., Yuan, H., & Sun, J. (n.d.). *An Autonomous Materialized View Management System with Deep Reinforcement Learning*. ICDE, 2021. [[paper](https://doi.org/10.1109/ICDE51399.2021.00217)]
 
-### 1.3 Index Advisor
+### Index Advisor
 
 Agrawal, S., Bruno, N., Chaudhuri, S., & Narasayya, V. (2006). AutoAdmin : Self-Tuning Database Systems Technology 2 Physical Database Design Tuning. *Data Engineering*, 2006. [[paper]()]
 
@@ -109,7 +109,7 @@ Paludo, G., Julia, L., Couto, C., Fátima, P. De, & Renata, M. (n.d.). *S MART I
 
 Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Learning. CIKM, 2020. [[paper](https://doi.org/10.1145/3340531.3412106)]
 
-### 1.4 Query Rewriter
+### Query Rewriter
 
 **[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
 
@@ -127,7 +127,7 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 
 **[equivalence]** Chu, S., Weitz, K., Cheung, A., & Suciu, D. (2017). HoTTSQL: Proving query rewrites with univalent SQL semantics. *ACM SIGPLAN Notices*, *52*(6), 510–524. [[paper](https://doi.org/10.1145/3062341.3062348)]
 
-### 1.5 Partition Advisor
+### Partition Advisor
 
 **[horizontal]** Boissier, M., & Daniel, K. (2018). Workload-driven horizontal partitioning and pruning for large HTAP systems. *Proceedings - IEEE 34th International Conference on Data Engineering Workshops, ICDEW 2018*, (April 2018), 116–121. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
 
@@ -153,11 +153,15 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 ## 2. Query Optimization
 
-### 2.1 Cardinality/Cost Estimation
+### Cardinality/Cost Estimation
 
 **[Query-based]** Kipf A, Kipf T, Radke B, et al. Learned cardinalities: Estimating correlated joins with deep learning. CIDR, 2019. [[paper](https://arxiv.org/pdf/1809.00677)]
 
+**[Query-based]** Woltmann L, Hartmann C, Thiele M, et al. Cardinality estimation with local deep learning models. aiDM, 2019. [[paper](https://doi.org/10.1145/3329859.3329875)]
+
 **[Query-based]** Tzoumas K, Deshpande A, Jensen C S. Lightweight graphical models for selectivity estimation without independence assumptions[J]. Proceedings of the VLDB Endowment, 4(11): 852-863, 2011. [[paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.675&rep=rep1&type=pdf)]
+
+**[Query-based]** Hayek, R., & Shmueli, O. (2020). *NN-based Transformation of Any SQL Cardinality Estimator for Handling DISTINCT, AND, OR and NOT*. arXive， 2020. [[paper](http://arxiv.org/abs/2004.07009)]
 
 **[Data-based]** Yang, Z., Kamsetty, A., Luan, S., Liang, E., Duan, Y., Chen, X., & Stoica, I. (2020). Neurocard: One cardinality estimator for all tables. *Proceedings of the VLDB Endowment*, *14*(1), 61–73, 2020. [[paper](https://doi.org/10.14778/3421424.3421432)]
 
@@ -187,7 +191,7 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 **[Survey]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
 
-### 2.2 Join Enumerator
+### Join Enumerator
 
 Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Neo: A Learned query optimizer. *Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
 
@@ -201,7 +205,7 @@ Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Consider
 
 Tang, N. (n.d.). *Reinforcement Learning with Tree-LSTM for Join Order Selection*. [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-### 2.3 Plan Hinter
+### Plan Hinter
 
 Pasupuleti, K., Park, M., & Valluri, S. (n.d.). *SQL Plan Observability through Hints in Oracle Autonomous Database*. *14*(1). [[paper](https://doi.org/10.14778/2850583.2850594)]
 
@@ -211,7 +215,7 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 
 ## 3. Database Design
 
-### 3.1 Physical Design
+### Physical Design
 
 **[Learned Index, mutable]** Galakatos, A., Markovitch, M., Binnig, C., Fonseca, R., & Kraska, T. (2019). Fiting-tree: A data-aware index structure. *Proceedings of the 2019 International Conference on Management of Data*, 1189-1206. [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3319860)]
 
@@ -229,7 +233,7 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 
 **[Learned Layout]** Yang, Z., Chandramouli, B., Wang, C., Gehrke, J., Li, Y., Minhas, U. F., … Acharya, R. (n.d.). *Qd-tree : Learning Data Layouts for Big Data Analytics*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3183713.3196909)]
 
-### 3.2 Query Execution
+### Query Execution
 
 Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. 1–5. [[paper](http://arxiv.org/abs/2007.10568)]
 
@@ -257,7 +261,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 ## 5. Database Diagnosis
 
-### 5.1 System Diagnosis
+### System Diagnosis
 
 Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases. *PVLDB Endowment.* [[paper](https://doi.org/10.1145/3299869.3319904)]
 
@@ -265,7 +269,7 @@ Kalmegh, P., Babu, S., & Roy, S. (2019). *iQCAR*. 918–935. [[paper](https://do
 
 Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnostic tool for transactional databases. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *26*-*June*-*20*(i), 1599–1614. [[paper](https://doi.org/10.1145/2882903.2915218)]
 
-### 5.2 Query Diagnosis
+### Query Diagnosis
 
 
 
@@ -289,6 +293,8 @@ Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnosti
 
 **[AutoDB]** Ma, L., Zhang, W., Jiao, J., Wang, W., Butrovich, M., Lim, W. S., … Pavlo, A. (2021). *MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems*. SIGMOD, 2021. [[paper](https://dl.acm.org/doi/10.1145/3448016.3457276)]
 
+
+
 ## 7. Demonstrations
 
 **[DB Tuning]** Zhang, B., Van Aken, D., Wang, J., Dai, T., Jiang, S., Lao, J., . A Demonstration of the ottertune automatic database management system tuning service. VLDB, 1910–1913. [[paper](http://www.vldb.org/pvldb/vol11/p1910-zhang.pdf)]
@@ -296,6 +302,8 @@ Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnosti
 **[DB Tuning]** Junxiong Wang, Immanuel Trummer, Debabrota Basu. Demonstrating UDO: A Unified Approach for Optimizing Transaction Code, Physical Design, and System Parameters via Reinforcement Learning. SIGMOD, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3448016.3452754)]
 
 **[AutoDB]** Xuanhe Zhou, Lianyuan Jin, Ji Sun, Xinyang Zhao, Xiang Yu, Shifu Li, Tianqing Wang, Kun Li, luyang liu. *DBMind: A Self-Driving Platform in openGauss*. [[paper](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)] [[website](http://vldb.org/2021/?program-schedule-demonstrations)] 
+
+
 
 ## 8. Talks
 
