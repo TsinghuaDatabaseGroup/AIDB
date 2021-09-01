@@ -1,6 +1,6 @@
 ## AIDB-Papers
 
-Continuously update the AIDB papers based on our past tutorials.
+Continuously update the AIDB papers based on our past tutorials. Please inform us If there are any great papers missed :) 
 
 
 
@@ -135,7 +135,7 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 
 **[horizontal]** Curino, C., Jones, E., Zhang, Y., & Madden, S. (2010). Schism: A workload-driven approach to database replication and partitioning. *Proceedings of the VLDB Endowment*, *3*(1), 48–57. [[paper](https://doi.org/10.14778/1920841.1920853)]
 
-**[horizontal]** Bandle, M., Giceva, J., & Neumann, T. (2021). *To Partition, or Not to Partition, That is the Join Question in a Real System*. 168–180. [[paper](https://doi.org/10.1145/3448016.3452831)]
+**[horizontal]** Bandle, M., Giceva, J., & Neumann, T. (2021). To Partition, or Not to Partition, That is the Join Question in a Real System. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
 
 **[horizontal]** Parchas, P., Naamad, Y., Van Bouwel, P., Faloutsos, C., & Petropoulos, M. (2020). Fast and effective distribution-key recommendation for amazon redshift. *Proceedings of the VLDB Endowment*, *13*(11), 2411–2423. [[paper](https://doi.org/10.14778/3407790.3407834)]
 
@@ -199,15 +199,15 @@ Marcus, R., & Papaemmanouil, O. (2018). Deep reinforcement learning for join ord
 
 Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. (2016). How Good Are Query Optimizers, Really? *Proceedings of the VLDB Endowment*, *9*(3), 204–215. [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). *SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning*. [[paper](https://doi.org/10.14778/2850583.2850594)]
+Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)]
 
-Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Considering User Preference University of Chinese Academy of Sciences*. [[paper](https://doi.org/10.14778/2850583.2850594)]
+Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Considering User Preference. CIDR, 2021. [[paper](http://cidrdb.org/cidr2021/papers/cidr2021_paper02.pdf)]
 
-Tang, N. (n.d.). *Reinforcement Learning with Tree-LSTM for Join Order Selection*. [[paper](https://doi.org/10.14778/2850583.2850594)]
+Yu, X., Li, G., Tang, N. (n.d.). Reinforcement Learning with Tree-LSTM for Join Order Selection. ICDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2020-learnedjoinorder.pdf)]
 
 ### Plan Hinter
 
-Pasupuleti, K., Park, M., & Valluri, S. (n.d.). *SQL Plan Observability through Hints in Oracle Autonomous Database*. *14*(1). [[paper](https://doi.org/10.14778/2850583.2850594)]
+Pasupuleti, K., Park, M., & Valluri, S. (n.d.). SQL Plan Observability through Hints in Oracle Autonomous Database.
 
 Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Making Learned Query Optimization Practical. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452838)]
 
@@ -237,7 +237,7 @@ Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, 
 
 ### Query Execution
 
-Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://drive.google.com/file/d/1trNYAcQ3S71SHu5dbtkBR2hjcK-VWFSx/view?usp=sharing)]
+Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
 
 
 
@@ -265,11 +265,11 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Awar
 
 ### System Diagnosis
 
-Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases. *PVLDB Endowment.* [[paper](https://doi.org/10.1145/3299869.3319904)]
+Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnostic tool for transactional databases. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *26*-*June*-*20*(i), 1599–1614. [[paper](https://web.eecs.umich.edu/~mozafari/php/data/uploads/sigmod_2016.pdf)]
 
-Kalmegh, P., Babu, S., & Roy, S. (2019). *iQCAR*. 918–935. [[paper](https://doi.org/10.1145/3299869.3319904)]
+Kalmegh, P., Babu, S., & Roy, S. (2019). iQCAR: inter-Query Contention Analyzer for Data Analytics Frameworks. SIGMOD. [[paper](https://dl.acm.org/doi/10.1145/3299869.3319904)]
 
-Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnostic tool for transactional databases. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *26*-*June*-*20*(i), 1599–1614. [[paper](https://doi.org/10.1145/2882903.2915218)]
+Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases. *PVLDB Endowment.* [[paper](http://www.vldb.org/pvldb/vol13/p1176-ma.pdf)]
 
 ### Query Diagnosis
 
@@ -277,7 +277,7 @@ Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnosti
 
 ## 6. Autonomous Database
 
-**[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://doi.org/10.1145/3299869.3319904)]
+**[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
 **[NLP]** James Thorne, Majid Yazdani, Marzieh Saeidi, Fabrizio Silvestri, Sebastian Riedel, Alon Y. Levy. From Natural Language Processing to Neural Databases. VLDB, 2021. [[paper](http://www.vldb.org/pvldb/vol14/p1033-thorne.pdf)]
 
@@ -287,7 +287,7 @@ Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnosti
 
 **[AutoDB]** Kraska, T., Alizadeh, M., Beutel, A., Chi, E. H., Ding, J., Kristo, A., … Nathan, V. (2019). SageDB: A learned database system. CIDR, 2019. [[paper](http://www.alexbeutel.com/papers/CIDR2019_SageDB.pdf)]
 
-**[AutoDB]** Li, G., Zhou, X., Li, S. (2019). *XuanYuan: An AI-Native Database*. Data Eng., 2019. [[paper](https://aws.amazon.com/cn/rds/aurora/)]
+**[AutoDB]** Li, G., Zhou, X., Li, S. (2019). *XuanYuan: An AI-Native Database*. Data Eng., 2019. [[paper](http://sites.computer.org/debull/A19june/p70.pdf)]
 
 **[AutoDB]** Hilprecht, B., Bang, T., El-Hindi, M., Hättasch, B., Khanna, A., Rehrmann, R., … Binnig, C. (2020). DBMS Fitting: Why should we learn what we already know? Cidr, 2020. [[paper](http://cidrdb.org/cidr2020/papers/p34-hilprecht-cidr20.pdf)]
 
@@ -303,13 +303,13 @@ Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnosti
 
 **[DB Tuning]** Junxiong Wang, Immanuel Trummer, Debabrota Basu. Demonstrating UDO: A Unified Approach for Optimizing Transaction Code, Physical Design, and System Parameters via Reinforcement Learning. SIGMOD, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3448016.3452754)]
 
-**[AutoDB]** Xuanhe Zhou, Lianyuan Jin, Ji Sun, Xinyang Zhao, Xiang Yu, Shifu Li, Tianqing Wang, Kun Li, luyang liu. *DBMind: A Self-Driving Platform in openGauss*. [[paper](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)] [[website](http://vldb.org/2021/?program-schedule-demonstrations)] 
+**[AutoDB]** Xuanhe Zhou, Lianyuan Jin, Ji Sun, Xinyang Zhao, Xiang Yu, Shifu Li, Tianqing Wang, Kun Li, luyang liu. DBMind: A Self-Driving Platform in openGauss. [[paper](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)] [[website](https://www.dbmind.cn/)] 
 
 
 
 ## 8. Talks
 
-**[AutoDB]** Pavlo, A., Butrovich, M., Ma, L., Menon, P., Lim, W. S., Aken, D. Van, & Zhang, W. (n.d.). *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://doi.org/10.14778/3476311.3476411)]
+**[AutoDB]** Pavlo, A., Butrovich, M., Ma, L., Menon, P., Lim, W. S., Aken, D. Van, & Zhang, W. (n.d.). *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
 **[AutoDB]** Kraska, T.. Towards instance-optimized data systems. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
