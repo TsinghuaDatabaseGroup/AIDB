@@ -1,6 +1,6 @@
 ## AIDB-Papers
 
-Continuously update the AIDB papers based on our past tutorials. Please inform us If there are any great papers missed :) 
+Continuously update the AIDB papers based on our past tutorials. Please inform us if there are any great papers missed :) 
 
 
 
