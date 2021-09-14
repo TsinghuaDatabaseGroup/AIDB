@@ -155,6 +155,8 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 ### Cost Estimation
 
+**[Card, Query&Data-based]** Wu P, Cong G. A Unified Deep Model of Learning from both Data and Queries for Cardinality Estimation[C]//Proceedings of the 2021 International Conference on Management of Data. 2021: 2009-2022. [[paper](https://arxiv.org/pdf/2107.12295)]
+
 **[Card, Query-based]** Kipf A, Kipf T, Radke B, et al. Learned cardinalities: Estimating correlated joins with deep learning. CIDR, 2019. [[paper](https://arxiv.org/pdf/1809.00677)]
 
 **[Card, Query-based]** Woltmann L, Hartmann C, Thiele M, et al. Cardinality estimation with local deep learning models. aiDM, 2019. [[paper](https://doi.org/10.1145/3329859.3329875)]
@@ -319,5 +321,3 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 **[AutoDB]** Kraska, T.. Towards instance-optimized data systems. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
 **[AutoDB]** Guoliang Li. AI-Native Database. VLDB, 2021.
-
-test
