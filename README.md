@@ -109,6 +109,9 @@ Paludo, G., Julia, L., Couto, C., Fátima, P. De, & Renata, M. (n.d.). *S MART I
 
 Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Learning. CIKM, 2020. [[paper](https://doi.org/10.1145/3340531.3412106)]
 
+Vishal Sharma, Curtis E. Dyreson, Nicholas Flann. MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning. IDEAS, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3472163.3472176)]
+
+
 ### Query Rewriter
 
 **[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
