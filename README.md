@@ -1,6 +1,6 @@
 ## AI4DB & DB4AI-Papers
 
-Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers based on our past tutorials. Please inform us if there are any great papers missed :) 
+Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :) 
 
 
 
