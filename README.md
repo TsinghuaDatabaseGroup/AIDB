@@ -51,7 +51,7 @@ Table of Contents
 
 **[Tutorial]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
 
-**[Tutorial]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
+**[Tutorial]** 	Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Tutorial: Adaptive Replication and Partitioning in Data Systems. Middleware, 2018. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
 
 
 
