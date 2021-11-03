@@ -49,6 +49,10 @@ Table of Contents
 
 **[Tutorial]** Jindal, A., & Interlandi, M. (n.d.). *Machine Learning for Cloud Data Systems : the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)] 
 
+**[Tutorial]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
+
+**[Tutorial]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
+
 
 
 ## 1. Database Configuration
@@ -261,6 +265,8 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Awar
 
 ## 4. Database Monitoring
 
+**[Trend Prediction]** L. Ma, D. V. Aken, A. Hefny, G. Mezerhane, A. Pavlo, and G. J. Gordon, “Query-based Workload Forecasting for Self-driving Database Management Systems,” in SIGMOD, 2018. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/sigmod18-ma.pdf)]
+
 **[Performance Prediction]** Dorn, J., Apel, S., & Siegmund, N. (n.d.). *Mastering Uncertainty in Performance Estimations of Configurable Software Systems*. (3).
 
 **[Performance Prediction]** Marcus, R., & Papaemmanouil, O. (2019). Plan-structured deep neural network models for query performance prediction. *Proceedings of the VLDB Endowment*, *12*(11), 1733–1746. [[paper](https://doi.org/10.14778/3342263.3342646)]
@@ -276,6 +282,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Awar
 **[Performance Prediction]** Unterbrunner, P., Giannikis, G., Alonso, G., Fauser, D., & Kossmann, D. (2009). Predictable performance for unpredictable workloads. *Proceedings of the VLDB Endowment*, *2*(1), 706–717. [[paper](https://doi.org/10.14778/1687627.1687707)]
 
 **[Performance Prediction]** Xuanhe Zhou, Ji Sun, Guoliang Li, Jianhua Feng. Query Performance Prediction for Concurrent Queries using Graph Embedding. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-concurrent.pdf)]
+
 
 
 
