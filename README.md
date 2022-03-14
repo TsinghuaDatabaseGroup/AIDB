@@ -25,9 +25,10 @@ Table of Contents
 * [5. Database Diagnosis](#5-database-diagnosis)
 	* [5.1 System Diagnosis](#System-Diagnosis)
 	* [5.2 Query Diagnosis](#Query-Diagnosis)
-* [6. Autonomous Database](#6-autonomous-database)
-* [7. Demonstrations](#7-demonstrations)
-* [8. Talks](#8-talks)
+* [6. Query/Data Generation](#6-data-generation)
+* [7. Autonomous Database](#7-autonomous-database)
+* [8. Demonstrations](#8-demonstrations)
+* [9. Talks](#9-talks)
 
 
 
@@ -301,9 +302,22 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Diagnosis
 
+## 5. Query/Data Generation
+
+### Query Generation
+
+L.Zhang,C.Chai,X.Zhou,andG.Li.Learnedsqlgen:Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper]()]
+
+Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with generative adversarial networks. In ICDM, 2018. [[paper](http://cn.liuleics.com/uploads/1/4/1/2/14126273/1808.07582.pdf)]
+
+### Data Generation
+
+Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand your training limits! Generating training data for ML-based data management [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457286)]
+
+Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
 
-## 6. Autonomous Database
+## 7. Autonomous Database
 
 **[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
@@ -325,7 +339,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 
 
-## 7. Demonstrations
+## 8. Demonstrations
 
 **[DB Tuning]** Zhang, B., Van Aken, D., Wang, J., Dai, T., Jiang, S., Lao, J., . A Demonstration of the ottertune automatic database management system tuning service. VLDB, 1910–1913. [[paper](http://www.vldb.org/pvldb/vol11/p1910-zhang.pdf)]
 
@@ -335,7 +349,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 
 
-## 8. Talks
+## 9. Talks
 
 **[AutoDB]** Pavlo, A., Butrovich, M., Ma, L., Menon, P., Lim, W. S., Aken, D. Van, & Zhang, W. (n.d.). *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
