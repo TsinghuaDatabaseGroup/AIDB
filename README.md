@@ -306,7 +306,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Generation
 
-L.Zhang,C.Chai,X.Zhou,andG.Li.Learnedsqlgen:Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper]()]
+L.Zhang, C.Chai, X.Zhou, and G.Li. Learned sqlgen: Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper]()]
 
 Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with generative adversarial networks. In ICDM, 2018. [[paper](http://cn.liuleics.com/uploads/1/4/1/2/14126273/1808.07582.pdf)]
 
