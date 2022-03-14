@@ -302,7 +302,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Diagnosis
 
-## 5. Query/Data Generation
+## 6. Query/Data Generation
 
 ### Query Generation
 
