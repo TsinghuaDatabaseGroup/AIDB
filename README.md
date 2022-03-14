@@ -61,9 +61,9 @@ Table of Contents
 
 ### Knob Tuner
 
-**[DB]** Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
-
 **[DB]** Aken, D. Van, Pavlo, A., Gordon, G. J., & Zhang, B. (2017). Automatic database management system tuning through large-scale machine learning. SIGMOD, 2017. [[paper](https://doi.org/10.1145/3035918.3064029)]
+
+**[DB]** Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
 
 **[DB]** Li, G., Zhou, X., Gao, B., & Li, S. (2019). *QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning*. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p2118-li.pdf)] 
 
@@ -117,6 +117,7 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 
 Vishal Sharma, Curtis E. Dyreson, Nicholas Flann. MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning. IDEAS, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3472163.3472176)]
 
+Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper]()]
 
 ### Query Rewriter
 
