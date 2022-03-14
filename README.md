@@ -25,7 +25,7 @@ Table of Contents
 * [5. Database Diagnosis](#5-database-diagnosis)
 	* [5.1 System Diagnosis](#System-Diagnosis)
 	* [5.2 Query Diagnosis](#Query-Diagnosis)
-* [6. Query/Data Generation](#6-data-generation)
+* [6. Training Data Generation](#6-training-data-generation)
 * [7. Autonomous Database](#7-autonomous-database)
 * [8. Demonstrations](#8-demonstrations)
 * [9. Talks](#9-talks)
@@ -302,7 +302,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Diagnosis
 
-## 6. Query/Data Generation
+## 6. Training Data Generation
 
 ### Query Generation
 
