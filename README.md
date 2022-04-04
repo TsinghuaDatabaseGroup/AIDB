@@ -7,7 +7,7 @@ Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes ba
 Table of Contents
 =================
 
-* [0. Survey & Tutorial](#0-system-&-tutorial)
+* [0. Survey and Tutorial](#0-system-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
 	* [1.1 Knob Tuner](#Knob-Tuner)
 	* [1.2 View Advisor](#view-advisor)
@@ -32,7 +32,7 @@ Table of Contents
 
 
 
-## 0. Survey & Tutorial
+## 0. Survey and Tutorial
 
 **[Survey]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets AI: A Survey. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
