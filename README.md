@@ -7,7 +7,7 @@ Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes ba
 Table of Contents
 =================
 
-* [0. Survey and Tutorial](#0-system-and-tutorial)
+* [0. Survey and Tutorial](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
 	* [1.1 Knob Tuner](#Knob-Tuner)
 	* [1.2 View Advisor](#view-advisor)
