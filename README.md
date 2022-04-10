@@ -109,7 +109,8 @@ Kossmann, J., Halfpap, S., Jankrift, M., & Schlosser, R. (2020). Magic mirror in
 
 Ding, B., Das, S., Marcus, R., Wu, W., Chaudhuri, S., & Narasayya, V. R. (2019). AI meets AI: Leveraging query executions to improve index recommendations. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3324957)]
 
-Borovica-gajic, R., Perera, M., Oetomo, B., & Rubinstein, B. I. P. (2019). *DBA bandits : Self-driving physical design tuning under ad-hoc workloads with safety guarantees*. arXiv, 2019. [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
+
+R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein. *DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees*. ICDE, 2021. [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
 
 Paludo, G., Julia, L., Couto, C., Fátima, P. De, & Renata, M. (n.d.). *S MART IX : A database indexing agent based on reinforcement learning*. 2020. [[paper](https://link.springer.com/article/10.1007/s10489-020-01674-8)]
 
