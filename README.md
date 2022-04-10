@@ -1,6 +1,6 @@
 ## AI4DB & DB4AI-Papers
 
-Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :) 
+Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :)
 
 
 
@@ -9,22 +9,22 @@ Table of Contents
 
 * [0. Survey and Tutorial](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-	* [1.1 Knob Tuner](#Knob-Tuner)
-	* [1.2 View Advisor](#view-advisor)
-	* [1.3 Index Advisor](#index-advisor)
-	* [1.4 Query Rewriter](#query-rewriter)
-	* [1.5 Partition Advisor](#partition-advisor)
+    * [1.1 Knob Tuner](#Knob-Tuner)
+    * [1.2 View Advisor](#view-advisor)
+    * [1.3 Index Advisor](#index-advisor)
+    * [1.4 Query Rewriter](#query-rewriter)
+    * [1.5 Partition Advisor](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
-	* [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
-	* [2.2 Join Enumerator](#Join-Enumerator)
-	* [2.3 Plan Hinter](#plan-hinter)
+    * [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
+    * [2.2 Join Enumerator](#Join-Enumerator)
+    * [2.3 Plan Hinter](#plan-hinter)
 * [3. Database Design](#3-database-design)
-	* [3.1 Physical Design](#physical-design)
-	* [3.2 Query Execution](#query-execution)
+    * [3.1 Physical Design](#physical-design)
+    * [3.2 Query Execution](#query-execution)
 * [4. Database Monitoring](#4-database-monitoring)
 * [5. Database Diagnosis](#5-database-diagnosis)
-	* [5.1 System Diagnosis](#System-Diagnosis)
-	* [5.2 Query Diagnosis](#Query-Diagnosis)
+    * [5.1 System Diagnosis](#System-Diagnosis)
+    * [5.2 Query Diagnosis](#Query-Diagnosis)
 * [6. Training Data Generation](#6-training-data-generation)
 * [7. Autonomous Database](#7-autonomous-database)
 * [8. Demonstrations](#8-demonstrations)
@@ -34,27 +34,27 @@ Table of Contents
 
 ## 0. Survey and Tutorial
 
-**[Survey]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets AI: A Survey. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
+**[Survey | AIDB]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets Artificial Intelligence: A Survey. TKDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
-**[Survey]** Wang, W., Zhang, M., Chen, G., Jagadish, H. V., Ooi, B. C., & Tan, K. L. (2016). Database meets deep learning: Challenges and opportunities. SIGMOD, 2016. [[paper](https://doi.org/10.1145/3003665.3003669)] 
+**[Survey | ML4DB]** Wei Wang, Meihui Zhang, Gang Chen, et al. Database meets deep learning: Challenges and opportunities. SIGMOD Record, 2016. [[paper](https://doi.org/10.1145/3003665.3003669)]
 
-**[Survey]** Cai, Q., Cui, C., Xiong, Y., Xie, Z., & Zhang, M. (2021). A Survey on Deep Reinforcement Learning for Data Processing and Analytics, 2021. [[paper](http://arxiv.org/abs/2108.04526)]
+**[Survey | RL4DB]** Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. A Survey on Deep Reinforcement Learning for Data Processing and Analytics. arXive, 2021. [[paper](http://arxiv.org/abs/2108.04526)]
 
-**[Tutorial]** Idreos, S., & Kraska, T. (2019). From auto-tuning one size fits all to self-designed and learned data-intensive systems. Proceedings of the ACM SIGMOD International Conference on Management of Data, 2054–2059. [[paper](https://doi.org/10.1145/3299869.3314034)] 
+**[Tutorial | AI4DB]** Stratos Idreos, Tim Kraska. From auto-tuning one size fits all to self-designed and learned data-intensive systems. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3314034)]
 
-**[Tutorial]** Guoliang Li, Xuanhe Zhou, Lei Cao. AI Meets Database: AI4DB and DB4AI. SIGMOD 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
+**[Tutorial | AI4DB]** Guoliang Li, Xuanhe Zhou, Lei Cao. AI Meets Database: AI4DB and DB4AI. SIGMOD 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
 
-**[Tutorial]** Guoliang Li, Xuanhe Zhou, Lei Cao. Machine Learning for Databases. VLDB 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
+**[Tutorial | AI4DB]** Guoliang Li, Xuanhe Zhou, Lei Cao. Machine Learning for Databases. VLDB 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
 
-**[Tutorial]** Lu, J., Chen, Y., Herodotou, H., Babu, S. (2019). *Speedup Your Analytics : Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
+**[Tutorial | AI4Tuning]** 	Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. *Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)][[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
 
-**[Tutorial]** Jindal, A., & Interlandi, M. (n.d.). *Machine Learning for Cloud Data Systems : the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)] 
+**[Tutorial | AI4CloudDB]** 	Alekh Jindal, Matteo Interlandi. *Machine Learning for Cloud Data Systems: the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)]
 
-**[Tutorial]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
+**[Tutorial | AI4Tuning]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
 
-**[Tutorial]** 	Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Tutorial: Adaptive Replication and Partitioning in Data Systems. Middleware, 2018. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
+**[Tutorial | AI4DBCluster]** 	Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Tutorial: Adaptive Replication and Partitioning in Data Systems. Middleware, 2018. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
 
-**[Tutorial]** 	Abdullah Al-Mamun, Hao Wu, Walid G. Aref. A Tutorial on Learned Multi-dimensional Indexes. SIGSPATIAL, 2020. [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
+**[Tutorial | LearnedIndex]** 	Abdullah Al-Mamun, Hao Wu, Walid G. Aref. A Tutorial on Learned Multi-dimensional Indexes. SIGSPATIAL, 2020. [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
 
 
 ## 1. Database Configuration
@@ -207,7 +207,7 @@ Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning 
 
 **[ EA&B ]** Sun, J., Zhang, J., Sun, Z., Li, G., & Tang, N. (n.d.). *Learned Cardinality Estimation : A Design Space Exploration and a Comparative Evaluation [ EA & B ]*. *14*(1). VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-card-exp.pdf)]
 
-**[ EA&B ]** Yuxing Han, Ziniu Wu, Peizhi Wu, et al. Cardinality Estimation in DBMS: A Comprehensive Benchmark Evaluation Yuxing. VLDB, 2022. [[paper](https://arxiv.org/abs/2109.05877)]  
+**[ EA&B ]** Yuxing Han, Ziniu Wu, Peizhi Wu, et al. Cardinality Estimation in DBMS: A Comprehensive Benchmark Evaluation Yuxing. VLDB, 2022. [[paper](https://arxiv.org/abs/2109.05877)] 
 
 **[ EA&B ]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
 
