@@ -69,7 +69,7 @@ Table of Contents
 
 **[DB]** Zhang, X., Tan, J., & Cui, B. (n.d.). *ResTune : Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457291)]
 
-**[DB]** Tan, J., Zhang, T., Li, F., Chen, J., Zheng, Q., & Zhang, P. (2019). iBTune : Individualized Buffer Tuning for Large-scale Cloud Databases. VLDB, 2021. [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
+**[DB]** Tan, J., Zhang, T., Li, F., Chen, J., Zheng, Q., & Zhang, P. (2019). iBTune : Individualized Buffer Tuning for Large-scale Cloud Databases. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
 
 **[DB]** Van Aken, D., Yang, D., Brillard, S., Fiorino, A., Zhang, B., Bilien, C., & Pavlo, A. (2021). An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems. VLDB,  2021. [[paper](https://doi.org/10.14778/3450980.3450992)]
 
