@@ -162,6 +162,9 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning with deep reinforcement learning. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
 
+### Encoding Advisor
+Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB[C]//Proceedings of the 2021 International Conference on Management of Data. 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
+
 ## 2. Query Optimization
 
 ### Cost Estimation
