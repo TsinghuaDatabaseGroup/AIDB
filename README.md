@@ -14,6 +14,7 @@ Table of Contents
     * [1.3 Index Advisor](#index-advisor)
     * [1.4 Query Rewriter](#query-rewriter)
     * [1.5 Partition Advisor](#partition-advisor)
+    * [1.5 Encoding Advisor](#Encoding-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
     * [2.2 Join Enumerator](#Join-Enumerator)
