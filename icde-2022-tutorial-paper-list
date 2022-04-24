@@ -26,24 +26,24 @@ Table of Contents
 
 ### Knob Tuner
 
-Songyun Duan, Vamsidhar Thummala, Shivnath Babu. Tuning Database Configuration Parameters with iTuned. VLDB, 2009. [[paper](https://users.cs.duke.edu/~shivnath/papers/ituned.pdf)]
+Songyun Duan, Vamsidhar Thummala, Shivnath Babu. Tuning Database Configuration Parameters with iTuned. VLDB, 2009. [[paper](https://users.cs.duke.edu/~shivnath/papers/ituned.pdf)] 
 
-Aken, D. Van, Pavlo, A., Gordon, G. J., & Zhang, B. (2017). Automatic database management system tuning through large-scale machine learning. SIGMOD, 2017. [[paper](https://doi.org/10.1145/3035918.3064029)]
+Aken, D. Van, Pavlo, A., Gordon, G. J., & Zhang, B. (2017). Automatic database management system tuning through large-scale machine learning. SIGMOD, 2017. [[paper](https://doi.org/10.1145/3035918.3064029)] [code](https://github.com/cmu-db/ottertune/tree/9758c65721d2624b813857ba9340d5550e899bda)
 
-Kunjir, M., & Babu, S. (2020). *Black or White? How to Develop an AutoTuner for Memory-based Analytics [Extended Version]*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3318464.3380591)]
+Kunjir, M., & Babu, S. (2020). *Black or White? How to Develop an AutoTuner for Memory-based Analytics [Extended Version]*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3318464.3380591)] 
 
 Tan, J., Zhang, T., Li, F., Chen, J., Zheng, Q., & Zhang, P. (2019). iBTune : Individualized Buffer Tuning for Large-scale Cloud Databases. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
 
-Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
+Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)] [[code](https://github.com/KqSMea8/CDBTune)]
 
-Li, G., Zhou, X., Gao, B., & Li, S. (2019). *QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning*. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p2118-li.pdf)] 
+Li, G., Zhou, X., Gao, B., & Li, S. (2019). *QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning*. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p2118-li.pdf)] [[code](https://github.com/zhouxh19/qtune-mysql)]
 
-Zhang, X., Tan, J., & Cui, B. (n.d.). *ResTune : Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457291)]
+Zhang, X., Tan, J., & Cui, B. (n.d.). *ResTune : Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457291)] [code](https://github.com/shxinding/ResTune)]
 
 
 ### Index Advisor
 
-G. Valentin, M. Zuliani, D. C. Zilio, G. M. Lohman, and A. Skelley. DB2 advisor: An optimizer smart enough to recommend its own indexes. In ICDE 2000. [[paper](http://www.cs.toronto.edu/~alan/papers/icde00.pdf)]
+G. Valentin, M. Zuliani, D. C. Zilio, G. M. Lohman, and A. Skelley. DB2 advisor: An optimizer smart enough to recommend its own indexes. In ICDE 2000. [[paper](http://www.cs.toronto.edu/~alan/papers/icde00.pdf)] 
 
 K. Schnaitter, S. Abiteboul, T. Milo and N. Polyzotis. On-Line Index Selection for Shifting Workloads. In ICDE 2007. [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.3168&rep=rep1&type=pdf)]
 
@@ -52,6 +52,14 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 Ding, B., Das, S., Marcus, R., Wu, W., Chaudhuri, S., & Narasayya, V. R. (2019). AI meets AI: Leveraging query executions to improve index recommendations. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3324957)]
 
 Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
+
+[Empirical code](https://github.com/shankur/autoindex)]
+
+
+##### Relevant Code Repositories:
+1. https://github.com/shankur/autoindex
+2. https://github.com/hyrise/index_selection_evaluation/tree/bensk1/deep_reinforcement_learning
+
 
 ### View Advisor
 
@@ -84,12 +92,12 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 Qi Zhou, Joy Arulraj, Shamkant B. Navathe, William Harris, Jinpeng Wu. Sia : Optimizing Queries using Learned Predicates. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
 
-Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. A Learned Query Rewrite System using Monte Carlo Tree Search. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. A Learned Query Rewrite System using Monte Carlo Tree Search. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)] [code](http://rewrite_demo.dbmind.cn/)]
 
 
 ### Plan Enumerator
 
-Marcus, R., & Papaemmanouil, O.. Deep reinforcement learning for join order enumeration. aiDM@SIGMOD, 2018. [[paper](https://doi.org/10.1145/3211954.3211957)]
+Marcus, R., & Papaemmanouil, O.. Deep reinforcement learning for join order enumeration. aiDM@SIGMOD, 2018. [[paper](https://doi.org/10.1145/3211954.3211957)] [[code](https://github.com/antonismand/ReJOIN)]
 
 Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N.. Neo: A Learned query optimizer. VLDB, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
 
@@ -97,9 +105,9 @@ Yu, X., Li, G., Tang, N. (n.d.). Reinforcement Learning with Tree-LSTM for Join 
 
 Ron Avnur, Joseph M. Hellerstein. Eddies: Continuously Adaptive Query Processing. SIGMOD, 2000. [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
 
-Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)]
+Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)] [[code](https://github.com/cornelldbgroup/skinnerdb)]
 
-Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Making Learned Query Optimization Practical. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452838)]
+Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Making Learned Query Optimization Practical. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452838)] [[code](https://github.com/learnedsystems/baoforpostgresql)]
 
 The Optimizer In Oracle Database 19c. [[paper](https://www.oracle.com/technetwork/database/bi-datawarehousing/twp-optimizer-with-oracledb-19c-5324206.pdf)]
 
