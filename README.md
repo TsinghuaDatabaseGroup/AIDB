@@ -128,6 +128,9 @@ Vishal Sharma, Curtis E. Dyreson, Nicholas Flann. MANTIS: Multiple Type and Attr
 
 Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
 
+Vishal Sharma, Curtis E. Dyreson. Indexer++: workload-aware online index tuning with transformers and reinforcement learning. ACM/SIGAPP SAC, 2022. [[paper](https://dl.acm.org/doi/10.1145/3477314.3507691)]
+
+
 ### Query Rewriter
 
 **[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
