@@ -154,7 +154,7 @@ Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning 
 
 **[Plan2Feature]** Debjyoti Paul, Jie Cao, Feifei Li, Vivek Srikumar. *Database Workload Characterization with Query Plan Encoders*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p923-paul.pdf)]
 
-Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB[C]//Proceedings of the 2021 International Conference on Management of Data. 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
+Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB. SIGMOD 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
 
 ### Scheduling Advisor
 
@@ -363,7 +363,7 @@ Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with gene
 
 **[DeepAR]** Jingyi Yang, Peizhi Wu, Gao Cong, Tieying Zhang, Xiao He. *SAM: Database Generation from Query Workloads with Supervised Autoregressive Models*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526168)]
 
-Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand your training limits! Generating training data for ML-based data management [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457286)]
+Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand your training limits! Generating training data for ML-based data management. SIGMOD, 2021 [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457286)]
 
 Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
