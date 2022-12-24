@@ -31,7 +31,6 @@ Table of Contents
 * [9. Talks](#9-talks)
 
 
-
 ## 0. Survey and Tutorial
 
 **[Survey | AIDB]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets Artificial Intelligence: A Survey. TKDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
@@ -61,12 +60,51 @@ Table of Contents
 
 ### Knob Tuner
 
+**[rule-based]** OpenTuner: An Extensible Framework for Program Autotuning (PACT, 2014)
+
+**[heuristic]** BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning (SoCC, 2017)
+
+**[gaussian-process]** Tuning Database Conﬁguration Parameters with iTuned. (VLDB, 2009)
+
+**[rl]** An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning (SIGMOD 2019)
+
+**[rl, query encoding]** QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning (VLDB 2019)
+
+**[rl]** Dynamic Configuration Tuning of Working Database Management Systems (2020)
+
+**[dl]** iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases (VLDB 2019)
+
+**[gp, featurization]** Black or White? How to Develop an AutoTuner for Memory-based Analytics (SIGMOD 2020)
+
+**[rl, nlp model]** The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual" (VLDB 2021)
+
+**[rl, nlp model]** DB-BERT: a Database Tuning Tool that “Reads the Manual” (SIGMOD 2022)
+
+**[gpl]** CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions (VLDB 2021)
+
+**[light-weight rl]** Universal Database Optimization using Reinforcement Learning (VLDB 2021)
+
+**[gp, model transferring]** ResTune: Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases (SIGMOD 2021)
+
+**[gp]** LlamaTune: Sample-Efficient DBMS Configuration Tuning (VLDB 2022)
+
+**[genetic algorithm, rl]** HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements (2022 SIGMOD )
+
+**[bounded gp]** Towards Dynamic and Safe Configuration Tuning for Cloud Databases (SIGMOD 2022)
+
+**[experiments]** An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems (VLDB 2021)
+
+**[experiments]** Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation (2021 VLDB)
+
+**[knob selection]** SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008)
+
+**[knob selection]** Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020)
+
 Peer-reviewed papers and codes at https://github.com/evolveDB/tuning-survey/blob/main/README.md
 
 
-### View Advisor
 
-D. Zilio, C. Zuzarte, S. Lightstone, W. Ma, et al. Recommending Materialized Views and Indexes with IBM DB2 Design Advisor. ICAC, 2004. [[paper](https://cs.uwaterloo.ca/~kmsalem/courses/CS848F06/presentations/S05_1.pdf)]
+### View Advisor
 
 A. Jindal, K. Karanasos, S. Rao, and H. Patel. Selecting subexpressions to materialize at datacenter scale. PVLDB, 11(7):800–812, 2018.[[paper](http://www.vldb.org/pvldb/vol11/p800-jindal.pdf)]
 
