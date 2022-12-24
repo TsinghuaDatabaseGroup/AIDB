@@ -367,14 +367,13 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## 7. Database Frameworks
 
+**[MLTrain]** Lim WS, Butrovich M, Zhang W, Crotty A, Ma L, Xu P, Gehrke J, Pavlo A. *Database Gyms*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf.)]
+
 **[AcademicDB]** Immanuel L Haffner, Jens Dittrich. *mutable: A Modern DBMS for Research and Fast Prototyping*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf.)]
 
 **[Transferable]** Ziniu Wu, et al. *A Unified Transferable Model for ML-Enhanced DBMS*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p6-wu.pdf.)]
 
 **[Transferable]** Benjamin Hilprecht, Carsten Binnig. *One Model to Rule them All: Towards Zero-Shot Learning for Databases*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf.)]
-
-
-**[MLTrain]** Lim WS, Butrovich M, Zhang W, Crotty A, Ma L, Xu P, Gehrke J, Pavlo A. *Database Gyms*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf.)]
 
 **[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
