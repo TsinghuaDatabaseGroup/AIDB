@@ -1,8 +1,6 @@
-## AI4DB & DB4AI-Papers
+## Autonomous Database Papers
 
-Continuously update the AI4DB & DB4AI (ML4DB & DB4ML) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :)
-
-
+Continuously update the autonomous database (AI4DB & DB4AI) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :)
 
 Table of Contents
 =================
@@ -18,7 +16,7 @@ Table of Contents
     * [1.7 Scheduling Advisor](#Scheduling-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
-    * [2.2 Join Enumerator](#Join-Enumerator)
+    * [2.2 Plan Optimization](#plan-optimization)
     * [2.3 Plan Hinter](#plan-hinter)
 * [3. Database Design](#3-database-design)
     * [3.1 Physical Design](#physical-design)
@@ -28,7 +26,7 @@ Table of Contents
     * [5.1 System Diagnosis](#System-Diagnosis)
     * [5.2 Query Diagnosis](#Query-Diagnosis)
 * [6. Training Data Generation](#6-training-data-generation)
-* [7. Autonomous Database](#7-autonomous-database)
+* [7. Database Frameworks](#7-database-frameworks)
 * [8. Demonstrations](#8-demonstrations)
 * [9. Talks](#9-talks)
 
@@ -238,7 +236,9 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[ EA&B ]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
 
-### Join Enumerator
+### Plan Optimization
+
+Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
 
 Ron Avnur, Joseph M. Hellerstein. Eddies: Continuously Adaptive Query Processing. SIGMOD, 2000. [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
 
@@ -248,7 +248,6 @@ Marcus, R., & Papaemmanouil, O. (2018). Deep reinforcement learning for join ord
 
 Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. (2016). How Good Are Query Optimizers, Really? *Proceedings of the VLDB Endowment*, *9*(3), 204–215. [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-
 Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)]
 
 Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Considering User Preference. CIDR, 2021. [[paper](http://cidrdb.org/cidr2021/papers/cidr2021_paper02.pdf)]
@@ -256,6 +255,8 @@ Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Consider
 Yu, X., Li, G., Tang, N. (n.d.). Reinforcement Learning with Tree-LSTM for Join Order Selection. ICDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2020-learnedjoinorder.pdf)]
 
 Chenggang Wu, Alekh Jindal, Saeed Amizadeh, Hiren Patel, Wangchao Le, Shi Qiao, Sriram Rao. Towards a Learning Optimizer for Shared Clouds. Proc. VLDB Endow. 12(3): 210-222, 2018. [[paper](http://www.vldb.org/pvldb/vol12/p210-wu.pdf)]
+
+
 
 ### Plan Hinter
 
@@ -270,6 +271,8 @@ Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, 
 ## 3. Database Design
 
 ### Physical Design
+
+**[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
 
 **[Learned Index, immutable]** Kraska, T., Beutel, A., Chi, E. H., Dean, J., & Polyzotis, N. (2018). The case for learned index structures. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 489–504. [[paper](https://dl.acm.org/doi/10.1145/3183713.3196909)] [[code](https://github.com/learnedsystems/RMI/tree/5fdff45d0929beaccf6bc56f8f4c0d82baf10304)]
 
@@ -305,6 +308,8 @@ Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, 
 
 **[Learned Layout]** Jialin Ding, Umar Farooq Minhas, Badrish Chandramouli, et al. *Instance-Optimized Data Layouts for Cloud Analytics Workloads*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457270)]
 
+
+
 ### Query Execution
 
 Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
@@ -330,7 +335,6 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Awar
 **[Performance Prediction]** Unterbrunner, P., Giannikis, G., Alonso, G., Fauser, D., & Kossmann, D. (2009). Predictable performance for unpredictable workloads. *Proceedings of the VLDB Endowment*, *2*(1), 706–717. [[paper](https://doi.org/10.14778/1687627.1687707)]
 
 **[Performance Prediction]** Xuanhe Zhou, Ji Sun, Guoliang Li, Jianhua Feng. Query Performance Prediction for Concurrent Queries using Graph Embedding. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-concurrent.pdf)]
-
 
 
 
@@ -361,7 +365,16 @@ Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand 
 Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
 
-## 7. Autonomous Database
+## 7. Database Frameworks
+
+**[AcademicDB]** Immanuel L Haffner, Jens Dittrich. *mutable: A Modern DBMS for Research and Fast Prototyping*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf.)]
+
+**[Transferable]** Ziniu Wu, et al. *A Unified Transferable Model for ML-Enhanced DBMS*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p6-wu.pdf.)]
+
+**[Transferable]** Benjamin Hilprecht, Carsten Binnig. *One Model to Rule them All: Towards Zero-Shot Learning for Databases*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf.)]
+
+
+**[MLTrain]** Lim WS, Butrovich M, Zhang W, Crotty A, Ma L, Xu P, Gehrke J, Pavlo A. *Database Gyms*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf.)]
 
 **[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
@@ -380,7 +393,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[NLP]** James Thorne, Majid Yazdani, Marzieh Saeidi, Fabrizio Silvestri, Sebastian Riedel, Alon Y. Levy. From Natural Language Processing to Neural Databases. VLDB, 2021. [[paper](http://www.vldb.org/pvldb/vol14/p1033-thorne.pdf)]
 
-**[Embedding]** Raasveldt, M. (2018). MonetDBLite: An embedded analytical database. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 1837–1838. [[paper](https://arxiv.org/pdf/1805.08520.pdf#:~:text=MonetDBLite%20is%20an%20in%2Dprocess,%2C%20R%2C%20Python%20and%20Java.)]
+**[Embedding]** Raasveldt, M.. *MonetDBLite: An embedded analytical database*. SIGMOD, 2018. [[paper](https://arxiv.org/pdf/1805.08520.pdf#:~:text=MonetDBLite%20is%20an%20in%2Dprocess,%2C%20R%2C%20Python%20and%20Java.)]
 
 
 
