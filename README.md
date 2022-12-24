@@ -61,33 +61,8 @@ Table of Contents
 
 ### Knob Tuner
 
-**[DB]**  Songyun Duan, Vamsidhar Thummala, Shivnath Babu. Tuning Database Configuration Parameters with iTuned. VLDB, 2009. [[paper](https://users.cs.duke.edu/~shivnath/papers/ituned.pdf)]
+Peer-reviewed papers and codes at https://github.com/evolveDB/tuning-survey/blob/main/README.md
 
-**[DB]** Aken, D. Van, Pavlo, A., Gordon, G. J., & Zhang, B. (2017). Automatic database management system tuning through large-scale machine learning. SIGMOD, 2017. [[paper](https://doi.org/10.1145/3035918.3064029)]
-
-**[DB]** Zhang, J., Liu, Y., Zhou, K., Li, G., Xiao, Z., Cheng, B., … Li, Z. (2019). An end-to-end automatic cloud database tuning system using deep reinforcement learning. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3300085)]
-
-**[DB]** Li, G., Zhou, X., Gao, B., & Li, S. (2019). *QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning*. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p2118-li.pdf)] 
-
-**[DB]** Zhang, X., Tan, J., & Cui, B. (n.d.). *ResTune : Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457291)]
-
-**[DB]** Tan, J., Zhang, T., Li, F., Chen, J., Zheng, Q., & Zhang, P. (2019). iBTune : Individualized Buffer Tuning for Large-scale Cloud Databases. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
-
-**[DB]** Van Aken, D., Yang, D., Brillard, S., Fiorino, A., Zhang, B., Bilien, C., & Pavlo, A. (2021). An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems. VLDB,  2021. [[paper](https://doi.org/10.14778/3450980.3450992)]
-
-**[DB]** Zhu, Y., Liu, J., Guo, M., Bao, Y., & Ma, W. (2017). *BestConfig : Tapping the Performance Potential of Systems via Automatic Configuration Tuning*, SoCC, 2017. [[paper](https://doi.org/10.1145/3127479.3128605)]
-
-**[KV Store]** Jiake Ge, Ynagfeng Chai, Yunpeng Chai. *A Workload-aware Tuning System of Key-Value Stores with Attention-Based Deep Reinforcement Learning 1*. (n.d.). JCST, 2021.
-
-**[Spark]** Gallinucci, E., & Golfarelli, M. (2019). *SparkTune : tuning Spark SQL through query cost modeling*. EDBT, 546–549. [[paper](https://openproceedings.org/2019/conf/edbt/EDBT19_paper_226.pdf)]
-
-**[Spark]** Kunjir, M., & Babu, S. (2020). *Black or White? How to Develop an AutoTuner for Memory-based Analytics [Extended Version]*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3318464.3380591)]
-
-**[SSD]** Kakaraparthy, A., & Kroth, B. P. (n.d.). *Optimizing Databases by Learning Hidden Parameters of Solid State Drives*. VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol13/p519-kakaraparthy.pdf)]
-
-**[IT Stack]** Cereda, S., Doni, S., & Milano, P. (n.d.). *CGPTuner : a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions*. VLDB, 2021. [[paper](https://doi.org/10.14778/3457390.3457404)] 
-
-**[App]** Xu, Q., Hu, Y. C., & Jindal, A. (2020). *App Parameter Energy Profiling: Optimizing App Energy Drain by Finding Tunable App Parameters*. arXiv, 2020. [[paper](http://arxiv.org/abs/2009.12156)]
 
 ### View Advisor
 
