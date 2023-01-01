@@ -116,18 +116,17 @@ Han, Y., Li, G., Yuan, H., & Sun, J. (n.d.). *An Autonomous Materialized View Ma
 
 ### Index Advisor
 
-Agrawal, S., Bruno, N., Chaudhuri, S., & Narasayya, V. (2006). AutoAdmin : Self-Tuning Database Systems Technology 2 Physical Database Design Tuning. *Data Engineering*, 2006. [[paper]()]
+Agrawal, Sanjay, et al. *AutoAdmin : Self-Tuning Database Systems Technology 2 Physical Database Design Tuning*. IEEE Data Eng. Bull, 2006. [[paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/deb.pdf)]
 
 G. Valentin, M. Zuliani, D. C. Zilio, G. M. Lohman, and A. Skelley. DB2 advisor: An optimizer smart enough to recommend its own indexes. In ICDE 2000. [[paper](http://www.cs.toronto.edu/~alan/papers/icde00.pdf)]
 
 K. Schnaitter, S. Abiteboul, T. Milo and N. Polyzotis. On-Line Index Selection for Shifting Workloads. In ICDE 2007. [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.3168&rep=rep1&type=pdf)]
 
-Sadri, Z., & Gruenwald, L. (2020). *Online Index Selection Using Deep Reinforcement Learning for a Cluster Database*. ICDE Workshop, 2020. [[paper](https://doi.org/10.1109/ICDEW49219.2020.00035)]
+Zahra Sadri, Le Gruenwald, Eleazar Leal. *Online Index Selection Using Deep Reinforcement Learning for a Cluster Database*. ICDE Workshop, 2020. [[paper](https://doi.org/10.1109/ICDEW49219.2020.00035)]
 
 Kossmann, J., Halfpap, S., Jankrift, M., & Schlosser, R. (2020). Magic mirror in my hand, which is the best in the land? An experimental  evaluation of index selection algorithms. VLDB, 2020. [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)]
 
 Ding, B., Das, S., Marcus, R., Wu, W., Chaudhuri, S., & Narasayya, V. R. (2019). AI meets AI: Leveraging query executions to improve index recommendations. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3324957)]
-
 
 R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein. *DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees*. ICDE, 2021. [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
 
@@ -137,10 +136,11 @@ Hai Lan, Zhifeng Bao, Yuwei Peng. An Index Advisor Using Deep Reinforcement Lear
 
 Vishal Sharma, Curtis E. Dyreson, Nicholas Flann. MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning. IDEAS, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3472163.3472176)]
 
-Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
-
 Vishal Sharma, Curtis E. Dyreson. Indexer++: workload-aware online index tuning with transformers and reinforcement learning. ACM/SIGAPP SAC, 2022. [[paper](https://dl.acm.org/doi/10.1145/3477314.3507691)]
 
+Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
+
+Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Reinforcement Learning*. SIGMOD, 2022. [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
 
 ### Query Rewriter
 
