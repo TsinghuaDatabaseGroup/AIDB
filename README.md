@@ -55,6 +55,7 @@ Table of Contents
 
 **[Tutorial | LearnedIndex]** 	Abdullah Al-Mamun, Hao Wu, Walid G. Aref. A Tutorial on Learned Multi-dimensional Indexes. SIGSPATIAL, 2020. [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
 
+**[Tutorial | NLP4DB]**   Immanuel Trummer. From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management. VLDB, 2022. [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
 
 ## 1. Database Configuration
 
