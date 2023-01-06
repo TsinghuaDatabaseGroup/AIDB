@@ -16,7 +16,7 @@ Table of Contents
     * [2.2 Cardinality/Cost Estimation](#Cost-Estimation)
     * [2.3 Plan Optimization](#plan-optimization)
     * [2.4 Plan Hinter](#plan-hinter)
-* [3 Workload Scheduling](#3-workload-scheduling)
+* [3. Workload Scheduling](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Physical Design](#physical-design)
     * [4.2 Query Execution](#query-execution)
@@ -284,7 +284,7 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 
 Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, Marc Friedman, Alekh Jindal. Steering Query Optimizers: A Practical Take on Big Data Workloads. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457568)]
 
-## 3 Workload Scheduling
+## 3. Workload Scheduling
 
 Ibrahim Sabek, Tenzin Samten Ukyab, Tim Kraska. *LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526158)] 
 
