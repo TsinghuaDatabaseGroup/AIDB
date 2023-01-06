@@ -10,12 +10,12 @@ Table of Contents
     * [1.1 Knob Tuner](#Knob-Tuner)
     * [1.2 View Advisor](#view-advisor)
     * [1.3 Index Advisor](#index-advisor)
-    * [1.4 Query Rewriter](#query-rewriter)
     * [1.5 Partition Advisor](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
-    * [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
-    * [2.2 Plan Optimization](#plan-optimization)
-    * [2.3 Plan Hinter](#plan-hinter)
+    * [2.1 Query Rewriter](#query-rewriter)
+    * [2.2 Cardinality/Cost Estimation](#Cost-Estimation)
+    * [2.3 Plan Optimization](#plan-optimization)
+    * [2.4 Plan Hinter](#plan-hinter)
 * [3 Workload Scheduling](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Physical Design](#physical-design)
@@ -145,23 +145,6 @@ Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIn
 
 Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Reinforcement Learning*. SIGMOD, 2022. [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
 
-### Query Rewriter
-
-**[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
-
-**[performance]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014.
-
-**[performance]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
-
-**[performance]** Wu, W., Bernstein, P. A., Raizman, A., & Pavlopoulou, C. (2020). *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. arXiv, 2020. [[paper](http://arxiv.org/abs/2008.12379)]
-
-**[performance]** Wu, J. (2021). *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
-
-**[performance]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. A Learned Query Rewrite System using Monte Carlo Tree Search. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
-
-**[redundancy]** Sarthi, P., Rajan, K., Lal, A., Jain, P., Liu, M., Gosalia, A., & Kalikar, S. (2020). *Generalized Sub-Query Fusion for Eliminating Redundant I / O from Big-Data Queries*. OSDI, 2020. [[paper](https://www.usenix.org/conference/osdi20/presentation/sarthi)]
-
-**[equivalence]** Chu, S., Weitz, K., Cheung, A., & Suciu, D. (2017). HoTTSQL: Proving query rewrites with univalent SQL semantics. *ACM SIGPLAN Notices*, *52*(6), 510–524. [[paper](https://doi.org/10.1145/3062341.3062348)]
 
 ### Partition Advisor
 
@@ -189,6 +172,25 @@ Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning 
 
 
 ## 2. Query Optimization
+
+### Query Rewriter
+
+**[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
+
+**[performance]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014.
+
+**[performance]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
+
+**[performance]** Wu, W., Bernstein, P. A., Raizman, A., & Pavlopoulou, C. (2020). *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. arXiv, 2020. [[paper](http://arxiv.org/abs/2008.12379)]
+
+**[performance]** Wu, J. (2021). *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
+
+**[performance]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. A Learned Query Rewrite System using Monte Carlo Tree Search. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+
+**[redundancy]** Sarthi, P., Rajan, K., Lal, A., Jain, P., Liu, M., Gosalia, A., & Kalikar, S. (2020). *Generalized Sub-Query Fusion for Eliminating Redundant I / O from Big-Data Queries*. OSDI, 2020. [[paper](https://www.usenix.org/conference/osdi20/presentation/sarthi)]
+
+**[equivalence]** Chu, S., Weitz, K., Cheung, A., & Suciu, D. (2017). HoTTSQL: Proving query rewrites with univalent SQL semantics. *ACM SIGPLAN Notices*, *52*(6), 510–524. [[paper](https://doi.org/10.1145/3062341.3062348)]
+
 
 ### Cost Estimation
 
