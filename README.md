@@ -12,23 +12,25 @@ Table of Contents
     * [1.3 Index Advisor](#index-advisor)
     * [1.4 Query Rewriter](#query-rewriter)
     * [1.5 Partition Advisor](#partition-advisor)
-    * [1.6 Encoding Advisor](#Encoding-advisor)
-    * [1.7 Scheduling Advisor](#Scheduling-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Cardinality/Cost Estimation](#Cost-Estimation)
     * [2.2 Plan Optimization](#plan-optimization)
     * [2.3 Plan Hinter](#plan-hinter)
-* [3. Database Design](#3-database-design)
-    * [3.1 Physical Design](#physical-design)
-    * [3.2 Query Execution](#query-execution)
-* [4. Database Monitoring](#4-database-monitoring)
-* [5. Database Diagnosis](#5-database-diagnosis)
-    * [5.1 System Diagnosis](#System-Diagnosis)
-    * [5.2 Query Diagnosis](#Query-Diagnosis)
-* [6. Training Data Generation](#6-training-data-generation)
-* [7. Database Frameworks](#7-database-frameworks)
-* [8. Demonstrations](#8-demonstrations)
-* [9. Talks](#9-talks)
+* [3 Workload Scheduling](#3-workload-scheduling)
+* [4. Database Design](#4-database-design)
+    * [4.1 Physical Design](#physical-design)
+    * [4.2 Query Execution](#query-execution)
+* [5. Database Monitoring](#5-database-monitoring)
+* [6. Database Diagnosis](#6-database-diagnosis)
+    * [6.1 System Diagnosis](#System-Diagnosis)
+    * [6.2 Query Diagnosis](#Query-Diagnosis)
+* [7. Training Data Generation](#7-training-data-generation)
+* [8. AI Techniques](#8-ai-techniques)
+    * [8.1 Feature Encoding](#Feature-Encoding)
+    * [8.2 Model Transfer](#Model-Transfer) 
+* [9. Database Frameworks](#9-database-frameworks)
+* [10. Demonstrations](#10-demonstrations)
+* [11. Talks](#11-talks)
 
 
 ## 0. Survey and Tutorial
@@ -185,22 +187,6 @@ Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partit
 
 Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning with deep reinforcement learning. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
 
-### Encoding Advisor
-
-**[PlanEncoding]** Yue Zhao, Gao Cong, Jiachen Shi, Chunyan Miao. *QueryFormer: A Tree Transformer Model for Query Plan Representation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1658-zhao.pdf)]
-
-**[DataSummary]** Brit Youngmann et al. *Guided Exploration of Data Summaries*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1798-youngmann.pdf)]
-
-**[Plan2Feature]** Debjyoti Paul, Jie Cao, Feifei Li, Vivek Srikumar. *Database Workload Characterization with Query Plan Encoders*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p923-paul.pdf)]
-
-Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB. SIGMOD 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
-
-### Scheduling Advisor
-
-Ibrahim Sabek, Tenzin Samten Ukyab, Tim Kraska. *LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526158)] 
-
-Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. In VLDB, 2020. [[paper](https://arxiv.org/pdf/2007.10568.pdf)] 
-
 
 ## 2. Query Optimization
 
@@ -296,8 +282,14 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 
 Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, Marc Friedman, Alekh Jindal. Steering Query Optimizers: A Practical Take on Big Data Workloads. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457568)]
 
+## 3 Workload Scheduling
 
-## 3. Database Design
+Ibrahim Sabek, Tenzin Samten Ukyab, Tim Kraska. *LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526158)] 
+
+Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. In VLDB, 2020. [[paper](https://arxiv.org/pdf/2007.10568.pdf)] 
+
+
+## 4. Database Design
 
 ### Physical Design
 
@@ -355,8 +347,7 @@ Construction Algorithm*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p
 Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
 
 
-
-## 4. Database Monitoring
+## 5. Database Monitoring
 
 **[Trend Prediction]** L. Ma, D. V. Aken, A. Hefny, G. Mezerhane, A. Pavlo, and G. J. Gordon, “Query-based Workload Forecasting for Self-driving Database Management Systems,” in SIGMOD, 2018. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/sigmod18-ma.pdf)]
 
@@ -378,7 +369,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Awar
 
 
 
-## 5. Database Diagnosis
+## 6. Database Diagnosis
 
 ### System Diagnosis
 
@@ -390,7 +381,7 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Diagnosis
 
-## 6. Training Data Generation
+## 7. Training Data Generation
 
 ### Query Generation
 
@@ -406,8 +397,24 @@ Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand 
 
 Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
+## 8. AI Techniques
 
-## 7. Database Frameworks
+### Feature Encoding
+
+**[PlanEncoding]** Yue Zhao, Gao Cong, Jiachen Shi, Chunyan Miao. *QueryFormer: A Tree Transformer Model for Query Plan Representation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1658-zhao.pdf)]
+
+**[DataSummary]** Brit Youngmann et al. *Guided Exploration of Data Summaries*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1798-youngmann.pdf)]
+
+**[Plan2Feature]** Debjyoti Paul, Jie Cao, Feifei Li, Vivek Srikumar. *Database Workload Characterization with Query Plan Encoders*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p923-paul.pdf)]
+
+Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB. SIGMOD 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
+
+
+### Model Transfer
+
+Meghdad Kurmanji, Peter Triantafillou. Detect, Distill and Update: Learned DB Systems Facing Out of Distribution Data. SIGMOD, 2022. [[paper](https://arxiv.org/pdf/2210.05508.pdf)]
+
+## 9. Database Frameworks
 
 **[MLTrain]** Lim WS, Butrovich M, Zhang W, Crotty A, Ma L, Xu P, Gehrke J, Pavlo A. *Database Gyms*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf.)]
 
@@ -439,7 +446,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[Embedding]** Raasveldt, M.. *MonetDBLite: An embedded analytical database*. SIGMOD, 2018. [[paper](https://arxiv.org/pdf/1805.08520.pdf#:~:text=MonetDBLite%20is%20an%20in%2Dprocess,%2C%20R%2C%20Python%20and%20Java.)]
 
 
-## 8. Demonstrations
+## 10. Demonstrations
 
 **[DB Tuning]** Immanuel Trummer. *Demonstrating DB-BERT: A Database Tuning Tool that "Reads" the Manual*. SIGMOD, 2022. [[paper](https://arxiv.org/pdf/2112.10925.pdf)]
 
@@ -453,7 +460,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[DB Tuning]** Bohan Zhang, Dana Van Aken, Justin Wang, Tao Dai, Shuli Jiang, Jacky Lao, Siyuan Sheng, Andrew Pavlo, Geoffrey J. Gordon. *A Demonstration of the ottertune automatic database management system tuning service*. VLDB, 2018. [[paper](http://www.vldb.org/pvldb/vol11/p1910-zhang.pdf)]
 
 
-## 9. Talks
+## 11. Talks
 
 **[AutoDB]** 	Andy Pavlo, Matthew Butrovich, Lin Ma, Prashanth Menon, Wan Shen Lim, Dana Van Aken, William Zhang. *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
