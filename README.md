@@ -385,6 +385,8 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 ### Query Diagnosis
 
+Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases. ICDE 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
+
 ## 7. Training Data Generation
 
 ### Query Generation
