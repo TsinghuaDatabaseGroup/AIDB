@@ -117,6 +117,8 @@ Yuan, H., Sun, J., & Li, G. (2020). *Automatic View Generation for Equivalent Su
 
 Han, Y., Li, G., Yuan, H., & Sun, J. (n.d.). *An Autonomous Materialized View Management System with Deep Reinforcement Learning*. ICDE, 2021. [[paper](https://doi.org/10.1109/ICDE51399.2021.00217)]
 
+Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan. Dynamic Materialized View Management using Graph Neural Network. ICDE 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dynamic-view-icde23.pdf)]
+
 ### Index Advisor
 
 Agrawal, Sanjay, et al. *AutoAdmin : Self-Tuning Database Systems Technology 2 Physical Database Design Tuning*. IEEE Data Eng. Bull, 2006. [[paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/deb.pdf)]
