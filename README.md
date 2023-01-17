@@ -152,27 +152,25 @@ Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Rei
 
 ### Partition Advisor
 
-**[horizontal]** Boissier, M., & Daniel, K. (2018). Workload-driven horizontal partitioning and pruning for large HTAP systems. *Proceedings - IEEE 34th International Conference on Data Engineering Workshops, ICDEW 2018*, (April 2018), 116–121. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
+**[horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Learning a Partitioning Advisor for Cloud Databases*. SIGMOD, 2020. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
 
-**[horizontal]** Agrawal, S., Chu, E., & Narasayya, V. (2006). Automatic physical design tuning: Workload as a sequence. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 683–694. [[paper](https://doi.org/10.1145/1142473.1142549)]
+**[horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Towards learning a partitioning advisor with deep reinforcement learning*. aiDM@SIGMOD, 2019. [[paper](https://doi.org/10.1145/3329859.3329876)]
 
-**[horizontal]** Curino, C., Jones, E., Zhang, Y., & Madden, S. (2010). Schism: A workload-driven approach to database replication and partitioning. *Proceedings of the VLDB Endowment*, *3*(1), 48–57. [[paper](https://doi.org/10.14778/1920841.1920853)]
+**[horizontal, HybridAlgorithms]** 	Panos Parchas, Yonatan Naamad, Peter Van Bouwel, et al. *Fast and effective distribution-key recommendation for amazon redshift*. PVLDB, 2020. [[paper](https://doi.org/10.14778/3407790.3407834)]
 
-**[horizontal]** Bandle, M., Giceva, J., & Neumann, T. (2021). To Partition, or Not to Partition, That is the Join Question in a Real System. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
+**[horizontal, DataSkip]** Martin Boissier, Kurzynski Daniel. *Workload-driven horizontal partitioning and pruning for large HTAP systems*. ICDE Workshop, 2018. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
 
-**[horizontal]** Parchas, P., Naamad, Y., Van Bouwel, P., Faloutsos, C., & Petropoulos, M. (2020). Fast and effective distribution-key recommendation for amazon redshift. *Proceedings of the VLDB Endowment*, *13*(11), 2411–2423. [[paper](https://doi.org/10.14778/3407790.3407834)]
+**[horizontal, GraphPartition]** Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. *Schism: a Workload-Driven Approach to Database Replication and Partitioning*. PVLDB, 2010. [[paper](https://doi.org/10.14778/1920841.1920853)]
 
-**[horizontal]** Hilprecht, B., Binnig, C., & Röhm, U. (2019). Towards learning a partitioning advisor with deep reinforcement learning. *Proceedings of the ACM SIGMOD International Conference on Management of Data*. [[paper](https://doi.org/10.1145/3329859.3329876)]
+**[horizontal, Heuristic]** Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. *Automating physical database design in a parallel database*. SIGMOD, 2002. [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
 
-**[co-partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). Locality-aware partitioning in parallel database systems. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *2015*-*May*, 17–30. [[paper](https://doi.org/10.1145/2723372.2723718)]
+**[vertical partitioning, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
 
-**[co-partition]** Rabl, T., & Jacobsen, H. A. (2017). Query centric partitioning and allocation for partially replicated database systems. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *Part F1277*, 315–330. [[paper](https://doi.org/10.1145/3035918.3064052)]
+**[co-partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
 
-**[situ]** Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, M., & Ailamaki, A. (2020). Adaptive partitioning and indexing for in situ query processing. *VLDB Journal*, *29*(1), 569–591. [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
+**[co-partition]** Rabl, T., & Jacobsen, H. A. (2017). *Query centric partitioning and allocation for partially replicated database systems*. SIGMOD. [[paper](https://doi.org/10.1145/3035918.3064052)]
 
-Sun, L., Franklin, M. J., Krishnan, S., & Xin, R. S. (2014). Fine-grained partitioning for aggressive data skipping. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 1115–1126. [[paper](https://doi.org/10.1145/2588555.2610515)]
-
-Campero Durand G, Piriyev R, Pinnecke M, et al. Automated vertical partitioning with deep reinforcement learning. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
+**[situ]** Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, M., & Ailamaki, A. (2020). *Adaptive partitioning and indexing for in situ query processing*. VLDB Journal. [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
 
 
 ## 2. Query Optimization
@@ -297,7 +295,7 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 ## 4. Database Design
 
-### Physical Design
+### Indexes/Layouts
 
 **[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
 
@@ -340,11 +338,13 @@ Construction Algorithm*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p
 
 **[Learned Layout]** Michael Abebe. *Tiresias: Enabling Predictive Autonomous Storate and Indexing*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p3126-abebe.pdf)]
 
-
-**[Learned Layout]** Yang, Z., Chandramouli, B., Wang, C., Gehrke, J., Li, Y., Minhas, U. F., … Acharya, R. (n.d.). *Qd-tree : Learning Data Layouts for Big Data Analytics*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3183713.3196909)]
-
 **[Learned Layout]** Jialin Ding, Umar Farooq Minhas, Badrish Chandramouli, et al. *Instance-Optimized Data Layouts for Cloud Analytics Workloads*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457270)]
 
+**[Learned Layout]** Yang, Z., Chandramouli, B., Wang, C., Gehrke, J., Li, Y., Minhas, U. F., … Acharya, R. (n.d.). *Qd-tree: Learning Data Layouts for Big Data Analytics*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3183713.3196909)]
+
+**[Learned Layout]** Liwen Sun, Michael J. Franklin, Sanjay Krishnan, et al. *Fine-grained partitioning for aggressive data skipping*. SIGMOD, 2014. [[paper](https://doi.org/10.1145/2588555.2610515)]
+
+**[Learned Layout]** Bandle, M., Giceva, J., & Neumann, T. (2021). To Partition, or Not to Partition, That is the Join Question in a Real System. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
 
 ### Query Execution
 
@@ -412,6 +412,8 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[PlanEncoding]** Yue Zhao, Gao Cong, Jiachen Shi, Chunyan Miao. *QueryFormer: A Tree Transformer Model for Query Plan Representation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1658-zhao.pdf)]
 
 **[Plan2Feature]** Debjyoti Paul, Jie Cao, Feifei Li, Vivek Srikumar. *Database Workload Characterization with Query Plan Encoders*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p923-paul.pdf)]
+
+**[WorkloadAsGraph]** Sanjay Agrawal, Eric Chu, Vivek R. Narasayya. Automatic physical design tuning: workload as a sequence. SIGMOD, 2006. [[paper](https://doi.org/10.1145/1142473.1142549)]
 
 **[DataSummary]** Brit Youngmann et al. *Guided Exploration of Data Summaries*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1798-youngmann.pdf)]
 
