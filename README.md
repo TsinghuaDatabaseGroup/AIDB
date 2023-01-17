@@ -18,7 +18,7 @@ Table of Contents
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
-    * [4.1 Index And Layout (23)](#index-and-layout)
+    * [4.1 Index and Layout (23)](#index-and-layout)
     * [4.2 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
@@ -295,7 +295,7 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 ## 4. Database Design
 
-### Index And Layout
+### Index and Layout
 
 **[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
 
