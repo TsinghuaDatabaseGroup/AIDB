@@ -14,7 +14,7 @@ Table of Contents
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (8)](#query-rewriter)
     * [2.2 Cardinality/Cost Estimation (28)](#Cost-Estimation)
-    * [2.3 Plan Optimization (10)](#plan-optimization)
+    * [2.3 Plan Optimization (11)](#plan-optimization)
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
@@ -257,7 +257,9 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 ### Plan Optimization
 
-**[ OptimizedRL ]** Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion StoicaBalsa. *Learning a Query Optimizer Without Expert Demonstrations*. SIGMOD, 2022  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)].
+**[Parallel MCTS]** Ziyun Wei, Immanuel Trummer. *SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms*. PVLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+
+**[OptimizedRL]** Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion StoicaBalsa. *Learning a Query Optimizer Without Expert Demonstrations*. SIGMOD, 2022  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)].
 
 Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
 
