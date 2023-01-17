@@ -10,7 +10,7 @@ Table of Contents
     * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
     * [1.3 Index Advisor (13)](#index-advisor)
-    * [1.4 Partition Advisor (11)](#partition-advisor)
+    * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (8)](#query-rewriter)
     * [2.2 Cardinality/Cost Estimation (28)](#Cost-Estimation)
@@ -18,7 +18,7 @@ Table of Contents
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
-    * [4.1 Physical Design (21)](#physical-design)
+    * [4.1 Index And Layout (23)](#index-and-layout)
     * [4.2 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
@@ -28,7 +28,7 @@ Table of Contents
     * [7.1 Query Generation (2)](#Query-Generation)
     * [7.2 Data Generation (3)](#Data-Generation)
 * [8. AI Techniques](#8-ai-techniques)
-    * [8.1 Feature Encoding (4)](#Feature-Encoding)
+    * [8.1 Feature Encoding (5)](#Feature-Encoding)
     * [8.2 Model Transfer (1)](#Model-Transfer) 
 * [9. Database Frameworks (14)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
@@ -295,7 +295,7 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 ## 4. Database Design
 
-### Indexes/Layouts
+### Index And Layout
 
 **[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
 
