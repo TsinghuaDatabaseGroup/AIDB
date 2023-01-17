@@ -164,7 +164,7 @@ Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Rei
 
 **[horizontal, Heuristic]** Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. *Automating physical database design in a parallel database*. SIGMOD, 2002. [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
 
-**[vertical partitioning, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
+**[vertical, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
 
 **[co-partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
 
