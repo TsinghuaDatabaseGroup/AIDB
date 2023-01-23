@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f1ec609-0693-4c93-be92-81fcf9c22a52" name="Changes" comment="">
+    <list default="true" id="0f1ec609-0693-4c93-be92-81fcf9c22a52" name="Changes" comment="tuner update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -37,11 +37,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674479142579</updated>
-      <workItem from="1674479144234" duration="665000" />
+      <workItem from="1674479144234" duration="980000" />
     </task>
+    <task id="LOCAL-00001" summary="tuner update">
+      <created>1674480117296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674480117296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tuner update" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuner update" />
   </component>
 </project>

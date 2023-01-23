@@ -93,7 +93,7 @@ Table of Contents
 
 **[DL]** iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases (VLDB, 2019)
 
-####RL-based
+#### RL-based
 
 **[RL]** An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning (SIGMOD, 2019)
 
