@@ -9,7 +9,7 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
-    * [1.3 Index Advisor (13)](#index-advisor)
+    * [1.3 Index Advisor (18)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (8)](#query-rewriter)
@@ -147,7 +147,7 @@ Vishal Sharma, Curtis E. Dyreson. Indexer++: workload-aware online index tuning 
 
 Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIndex: An Incremental Index Management System for Dynamic Workloads. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
 
-Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Reinforcement Learning*. SIGMOD, 2022. [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
+Wentao Wu, Chi Wang, Tarique Siddiqui, et al. Budge-aware Index Tuning with Reinforcement Learning. SIGMOD, 2022. [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
 
 Tarique Siddiqui, Saehan Jo, Wentao Wu, Chi Wang, Vivek R. Narasayya, Surajit Chaudhuri:
 ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning. SIGMOD Conference 2022: 660-673 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526152)]
