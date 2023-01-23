@@ -149,6 +149,21 @@ Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Tianqing Wang, Shifu Li. AutoIn
 
 Wentao Wu, Chi Wang, Tarique Siddiqui, et al. *Budge-aware Index Tuning with Reinforcement Learning*. SIGMOD, 2022. [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
 
+Tarique Siddiqui, Saehan Jo, Wentao Wu, Chi Wang, Vivek R. Narasayya, Surajit Chaudhuri:
+ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning. SIGMOD Conference 2022: 660-673 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526152)]
+
+Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
+DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning. Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
+
+R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein, Renata Borovica-Gajic:
+HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning. Proc. VLDB Endow. 16(2): 216-229 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3565816.3565824)]
+
+Jianling Gao, Nan Zhao, Ning Wang, Shuang Hao:
+SmartIndex: An Index Advisor with Learned Cost Estimator. CIKM 2022: 4853-4856 [[paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557163)]
+
+Jianling Gao, Nan Zhao, Ning Wang, Shuang Hao, Haoyan Wu:
+Automatic index selection with learned cost estimator. Inf. Sci. 612: 706-723 (2022) [[paper](https://www.sciencedirect.com/science/article/pii/S0020025522009379)]
+
 
 ### Partition Advisor
 
