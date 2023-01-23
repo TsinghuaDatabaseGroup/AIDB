@@ -69,58 +69,58 @@ Table of Contents
 
 **[Rule-based]** PGTune: https://pgtune.leopard.in.ua.
 
-**[Search-based]** OpenTuner: An Extensible Framework for Program Autotuning (PACT, 2014)
+**[Search-based]** OpenTuner: An Extensible Framework for Program Autotuning (PACT, 2014) [[paper](https://dl.acm.org/doi/pdf/10.1145/2628071.2628092)]
 
-**[Search-based]** BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning (SoCC, 2017)
+**[Search-based]** BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning (SoCC, 2017) [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
 
 #### BO-based
 
-**[Gaussian Process]** Tuning Database Conﬁguration Parameters with iTuned. (VLDB, 2009)
+**[Gaussian Process]** Tuning Database Conﬁguration Parameters with iTuned. (VLDB, 2009) [[paper](https://users.cs.duke.edu/~shivnath/ituned/paper.pdf)]
 
-**[Gaussian Process]** Automatic database management system tuning through large-scale machine learning. (SIGMOD, 2017)
+**[Gaussian Process]** Automatic database management system tuning through large-scale machine learning. (SIGMOD, 2017) [[paper](https://dl.acm.org/doi/pdf/10.1145/3035918.3064029)]
 
-**[Gaussian Process, Featurization]** Black or White? How to Develop an AutoTuner for Memory-based Analytics (SIGMOD, 2020)
+**[Gaussian Process, Featurization]** Black or White? How to Develop an AutoTuner for Memory-based Analytics (SIGMOD, 2020) [[paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380591)]
 
-**[Gaussian Process, Model Transferring]** ResTune: Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases (SIGMOD, 2021)
+**[Gaussian Process, Model Transferring]** ResTune: Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases (SIGMOD, 2021) [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/zhang-sigmod2021.pdf)]
 
-**[Contextual Gaussian Process]** CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions (VLDB, 2021)
+**[Contextual Gaussian Process]** CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions (VLDB, 2021) [[paper](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2021_2022/papers/CGPTUNER_VLDB_2021.pdf)]
 
-**[Bounded Gaussian Process]** Towards Dynamic and Safe Configuration Tuning for Cloud Databases (SIGMOD, 2022)
+**[Bounded Gaussian Process]** Towards Dynamic and Safe Configuration Tuning for Cloud Databases (SIGMOD, 2022) [[paper](https://arxiv.org/pdf/2203.14473)]
 
-**[Gaussian Process]** LlamaTune: Sample-Efficient DBMS Configuration Tuning (VLDB, 2022)
+**[Gaussian Process]** LlamaTune: Sample-Efficient DBMS Configuration Tuning (VLDB, 2022) [[paper](https://arxiv.org/pdf/2203.05128)]
 
 #### DL-based
 
-**[DL]** iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases (VLDB, 2019)
+**[DL]** iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases (VLDB, 2019) [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
 
 #### RL-based
 
-**[RL]** An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning (SIGMOD, 2019)
+**[RL]** An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning (SIGMOD, 2019) [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3300085)]
 
-**[RL, Query Encoding]** QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning (VLDB, 2019)
+**[RL, Query Encoding]** QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning (VLDB, 2019) [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/p2118-li.pdf)]
 
-**[Light-weight RL]** Universal Database Optimization using Reinforcement Learning (VLDB, 2021)
+**[Light-weight RL]** Universal Database Optimization using Reinforcement Learning (VLDB, 2021) [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
 
-**[RL, Pre-trained model]** Watuning: A workload-aware tuning system with attention-based deep reinforcement learning. (JCST, 2021)
+**[RL, Pre-trained model]** Watuning: A workload-aware tuning system with attention-based deep reinforcement learning. (JCST, 2021) [[paper](https://link.springer.com/article/10.1007/s11390-021-1350-8)]
 
-**[RL, NLP model]** The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual" (VLDB, 2021)
+**[RL, NLP model]** The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual" (VLDB, 2021) [[paper](http://vldb.org/pvldb/vol14/p1159-trummer.pdf)]
 
-**[RL, NLP model]** DB-BERT: a Database Tuning Tool that “Reads the Manual” (SIGMOD, 2022)
+**[RL, NLP model]** DB-BERT: a Database Tuning Tool that “Reads the Manual” (SIGMOD, 2022) [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517843)]
 
-**[RL, Genetic algorithm]** HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements (SIGMOD,2022 )
+**[RL, Genetic algorithm]** HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements (SIGMOD,2022 ) [[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
 
 
 #### Experiments
 
-An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems (VLDB, 2021)
+An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems (VLDB, 2021) [[paper](https://www.cs.cmu.edu/~./pavlo/papers/p1241-aken.pdf)]
 
-Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation (VLDB, 2021)
+Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation (VLDB, 2021) [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
 
 #### Knob Selection
 
-SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008)
+SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008) [[paper](https://www-users.cse.umn.edu/~mokbel/papers/SARD.pdf)]
 
-Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020)
+Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020) [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
 Peer-reviewed papers and codes at https://github.com/evolveDB/tuning-survey/blob/main/README.md
 
