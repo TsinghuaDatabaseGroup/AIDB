@@ -216,7 +216,7 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 ### Query Rewriter 
 
-(note other interesting problems like text2SQL is not within the scope)
+(note other interesting problems like text2SQL are not within the scope)
 
 **[rewrite rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
 
