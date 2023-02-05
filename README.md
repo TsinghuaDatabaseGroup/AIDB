@@ -214,7 +214,9 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 ## 2. Query Optimization
 
-### Query Rewriter (note other interesting problems like text2SQL is not within the scope)
+### Query Rewriter 
+
+(note other interesting problems like text2SQL is not within the scope)
 
 **[rewrite rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
 
@@ -230,7 +232,7 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 **[rewrite strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
 
-**[rewrite rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+**[rewrite rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](https://ipads.se.sjtu.edu.cn/_media/publications/wetune_final.pdf)]
 
 **[map-reduce]** 	Partho Sarthi, Kaushik Rajan, Akash Lal, Abhishek Modi, et al. *Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries. OSDI 2020: 209-224*.  [[paper](https://www.usenix.org/system/files/osdi20-sarthi_0.pdf)]
 
