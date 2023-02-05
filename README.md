@@ -214,23 +214,29 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 ## 2. Query Optimization
 
-### Query Rewriter
+### Query Rewriter (note other interesting problems like text2SQL is not within the scope)
 
-**[performance]** Pirahesh, H., & Hellerstein, J. M. (1992). Extensible / Rule Based Query Rewrite Optimization in Starburst. SIGMOD, 1992. [[paper](https://doi.org/10.1145/130283.130294)]
+**[rewrite rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
 
-**[performance]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014.
+**[rewrite rules]** 	Hamid Pirahesh, Joseph M. Hellerstein, Waqar Hasan. *Extensible/Rule Based Query Rewrite Optimization in Starburst*. SIGMOD Conference 1992. [[paper](https://sigmodrecord.org/publications/sigmodRecord/9206/pdfs/141484.130294.pdf)]
 
-**[performance]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
+**[cost/heuristic rewrite]** Rafi Ahmed, Allison W. Lee, Andrew Witkowski, et al. *Cost-Based Query Transformation in Oracle*. VLDB 2006: 1026-1036. [[paper](https://www.researchgate.net/publication/221311318_Cost-Based_Query_Transformation_in_Oracle/link/572bbc5e08aef7c7e2c6b829/download)]
 
-**[performance]** Wu, W., Bernstein, P. A., Raizman, A., & Pavlopoulou, C. (2020). *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. arXiv, 2020. [[paper](http://arxiv.org/abs/2008.12379)]
+**[heuristic rewrite]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014. [[paper](https://www.researchgate.net/publication/264081912_ARE-SQL_AN_ONLINE_AUTOMATIC_AND_NON-INTRUSIVE_APPROACH_FOR_REWRITING_SQL_QUERIES)]
 
-**[performance]** Wu, J. (2021). *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
+**[optimization engine]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). *Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources*. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
 
-**[performance]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. A Learned Query Rewrite System using Monte Carlo Tree Search. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+**[predicate rewrite]** Qi Zhou, Joy Arulraj, Shamkant B. Navathe, William Harris, Jinpeng Wu. *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
 
-**[redundancy]** Sarthi, P., Rajan, K., Lal, A., Jain, P., Liu, M., Gosalia, A., & Kalikar, S. (2020). *Generalized Sub-Query Fusion for Eliminating Redundant I / O from Big-Data Queries*. OSDI, 2020. [[paper](https://www.usenix.org/conference/osdi20/presentation/sarthi)]
+**[rewrite strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
 
-**[equivalence]** Chu, S., Weitz, K., Cheung, A., & Suciu, D. (2017). HoTTSQL: Proving query rewrites with univalent SQL semantics. *ACM SIGPLAN Notices*, *52*(6), 510–524. [[paper](https://doi.org/10.1145/3062341.3062348)]
+**[rewrite rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+
+**[map-reduce]** 	Partho Sarthi, Kaushik Rajan, Akash Lal, Abhishek Modi, et al. *Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries. OSDI 2020: 209-224*.  [[paper](https://www.usenix.org/system/files/osdi20-sarthi_0.pdf)]
+
+**[streaming]** Wentao Wu, Philip A. Bernstein, Alex Raizman, Christina Pavlopoulou. *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. CoRR abs/2008.12379 (2020)  [[paper](https://www.researchgate.net/profile/Wentao-Wu-2/publication/343986286_Cost-based_Query_Rewriting_Techniques_for_Optimizing_Aggregates_Over_Correlated_Windows/links/5f52ad2e299bf13a31a07101/Cost-based-Query-Rewriting-Techniques-for-Optimizing-Aggregates-Over-Correlated-Windows.pdf)]
+
+**[equivalence]** 	Shumo Chu, Konstantin Weitz, Alvin Cheung, Dan Suciu. *HoTTSQL: proving query rewrites with univalent SQL semantics*. PLDI 2017: 510-524. [[paper](https://doi.org/10.1145/3062341.3062348)]
 
 
 ### Cost Estimation
