@@ -12,7 +12,7 @@ Table of Contents
     * [1.3 Index Advisor (20)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
-    * [2.1 Query Rewriter (8)](#query-rewriter)
+    * [2.1 Query Rewriter (11)](#query-rewriter)
     * [2.2 Cardinality/Cost Estimation (28)](#Cost-Estimation)
     * [2.3 Plan Optimization (11)](#plan-optimization)
     * [2.4 Plan Hinter (3)](#plan-hinter)
