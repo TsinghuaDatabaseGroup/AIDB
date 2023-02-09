@@ -29,7 +29,7 @@ Table of Contents
     * [7.2 Data Generation (3)](#Data-Generation)
 * [8. AI Techniques](#8-ai-techniques)
     * [8.1 Feature Encoding (6)](#Feature-Encoding)
-    * [8.2 Model Transfer (2)](#Model-Transfer) 
+    * [8.2 Model Transfer (1)](#Model-Transfer) 
 * [9. Database Frameworks (14)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
 * [11. Talks](#11-talks)
