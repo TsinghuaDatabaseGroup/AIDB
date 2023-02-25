@@ -353,64 +353,84 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 ## 4. Database Design
 
-### Index and Layout
+### Index
+#### One-dimensional Index
+
+**[1-D, Immutable]** Kraska, T., Beutel, A., Chi, E. H., Dean, J., & Polyzotis, N. (2018). *The case for learned index structures*. SIGMOD, 2018. [[paper](https://dl.acm.org/doi/10.1145/3183713.3196909)] [[code](https://github.com/learnedsystems/RMI/tree/5fdff45d0929beaccf6bc56f8f4c0d82baf10304)]
+
+**[1-D, Mutable]** Galakatos, A., Markovitch, M., Binnig, C., Fonseca, R., & Kraska, T. (2019). *Fiting-tree: A data-aware index structure*. SIGMOD, 2019. [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3319860)]
+
+**[1-D, Mutable, Secondary]** Wu, Y., Yu, J., Tian, Y., Sidle, R., Barber, R. (2019). *Designing succinct secondary indexing mechanism by exploiting column correlations*. SIGMOD 2019. [[paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3319861)]
+
+**[1-D, Mutable]** Ferragina, P., & Vinciguerra, G. (2020). *The PGM-index : a fully-dynamic compressed learned index with provable worst-case bounds*. VLDB, 2020. [[paper](https://dl.acm.org/doi/abs/10.14778/3389133.3389135)]
+
+**[1-D, Mutable]** Ding, J., Minhas, U. F., Yu, J., Wang, C., Do, J., Li, Y., Zhang, H., Chandramouli, B., Gehrke, J., Kossmann, D., Lomet, D., & Kraska, T. (2020). *ALEX: An Updatable Adaptive Learned Index*. SIGMOD, 2020. [[paper](https://dl.acm.org/doi/10.1145/3318464.3389711)] [[code](https://github.com/microsoft/ALEX)]
+
+**[1-D, Mutable, Persistent]** Lu, B., Ding, J., Lo, E., Minhas, U. F., & Wang, T. (2021). *APEX: A High-Performance Learned Index on Persistent Memory*. VLDB, 2021. [[paper](https://doi.org/10.14778/3494124.3494141)]
+
+**[1-D, Immutable, Auto-generated]** Dittrich, J., Nix, J., & Schön, C. (2021). *The next 50 Years in Database Indexing or: The Case for Automatically Generated Index Structures*. VLDB, 2021. [[paper](https://doi.org/10.14778/3494124.3494136)] [[code](https://github.com/BigDataAnalyticsGroup/GENE)]
+
+**[1-D, Mutable, Concurrency]** Li, P., Hua, Y., Jia, J., Zuo, P. (2021). *FINEdex: A Fine-grained Learned Index Scheme for Scalable and Concurrent Memory Systems*. VLDB, 2021. [[paper](https://www.vldb.org/pvldb/vol15/p321-hua.pdf)]
+
+**[1-D, Mutable]** Wu, J., Zhang, Y., Chen, S., Wang, J., Chen, Y., Xing, C. (2021). *Updatable learned index with precise positions*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p1276-wu.pdf)]
+
+**[1-D, Mutable]** Ma, C., Yu, X., Li, Y., Meng, X., & Maoliniyazi, A. (2022). *FILM: A Fully Learned Index for Larger-Than-Memory Databases*. VLDB, 2022. [[paper](https://dl.acm.org/doi/pdf/10.14778/3570690.3570704)]
+
+**[1-D, Mutable, Concurrency]** Wang, Z., Chen, H., Wang, Y., & Tang, C. (2022). *The Concurrent Learned Indexes for Multicore Data Storage*. ACM Transactions on Storage, 18(1), 1-35. [[paper](https://dl.acm.org/doi/pdf/10.1145/3478289)] [[code](https://ipads.se.sjtu.edu.cn:1312/opensource/xindex.git)]
+
+**[1-D, Mutable]** Jiaoyi Zhang, Yihan Gao. (2022). *CARMI: A Cache-Aware Learned Index with a Cost-based Construction Algorithm*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2679-gao.pdf)]
+
+**[1-D, Mutable]** Shangyu Wu. (2022). *NFL: Robust Learned Index via Distribution Transformation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2188-wu.pdf)]
+
+**[1-D, Mutable, Persistent]** Zhang, Z., Chu, Z., Jin, P., Luo, Y., Xie, X., Wan, S., Luo, Y., Wu, X., Zou, P., Zheng, C., Wu, G., Rudoff. A. (2022). *PLIN: A Persistent Learned Index for Non-Volatile Memory with High Performance and Instant Recovery*. VLDB, 2022. [[paper](https://doi.org/10.14778/3565816.3565826)]
+
+#### Multi-dimensional Index
+
+**[Multi-D, Immutable]** Nathan, V., Ding, J., Alizadeh, M., & Kraska, T. (2020). *Learning multi-dimensional indexes*. SIGMOD, 2020. [[paper](https://dl.acm.org/doi/10.1145/3318464.3380579)]
+
+**[Multi-D, Mutable, Persistent]** Li, P., Lu, H., Zheng, Q., Yang, L., & Pan, G. (2020). *LISA: A Learned Index Structure for Spatial Data*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3318464.3389703)]
+
+**[Multi-D, Mutable, Persistent]** Qi, J., Liu, G., Jensen, C.S., Kulik, L. (2020). *Effectively learning spatial indices*. VLDB, 2020. [[paper](http://www.vldb.org/pvldb/vol13/p2341-qi.pdf)]
+
+**[Multi-D, Immutable]** Ding, J., Nathan, V., Alizadeh, M., & Kraska, T. (2020). *Tsunami: A learned multi-dimensional index for correlated data and skewed workloads*. VLDB, 2020. [[paper](https://dl.acm.org/doi/abs/10.14778/3425879.3425880)]
+
+**[Multi-D, Mutable]** Dong, H., Chai, C., Luo, Y., Liu, J., Feng, J., Zhan, C. (2022). *RW-Tree: A Learned Workload-aware Framework for R-tree Construction*. ICDE, 2022. [[paper](https://doi.org/10.1109/ICDE53745.2022.00201)]
+
+#### Experiment and Analysis
+
+**[1-D, Immutable, Analysis]** Ferragina, P., Lillo, F., & Vinciguerra, G. (2020). *Why are learned indexes so effective?*. ICML, 2020. [[paper](http://proceedings.mlr.press/v119/ferragina20a/ferragina20a.pdf)]
+
+**[1-D, Immutable, Experiment]** Marcus, R., Stoian, M., Kipf, A., Misra, S., van Renen, A., Kemper, A., Neumann, T., & Kraska, T. (2020). *Benchmarking learned indexes*. VLDB, 2020. [[paper](https://dl.acm.org/doi/10.14778/3421424.3421425)] [[code](https://github.com/learnedsystems/SOSD)]
+
+**[1-D, Poisoning Attack]** Evgenios M. Kornaropoulos, Silei Ren, Roberto Tamassia. (2022). *The Price of Tailoring the Index to Your Data: Poisoning Attacks on Learned Index Structures*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517867)]
+
+**[1-D, Mutable, Experiment]** Wongkham, C., Lu, B., Liu, C., Zhong, Z., Lo, E., Wang, T. (2022). *Are Updatable Learned Indexes Ready?*. VLDB, 2022. [[paper](https://doi.org/10.14778/3551793.3551848)]
+
+**[1-D, Immutable, Experiment]** Maltry, M., Dittrich, J. (2022). *A critical analysis of recursive model indexes*. VLDB, 2022. [[paper](https://doi.org/10.14778/3510397.3510405)]
+
+**[1-D, Hash Index, Experiment]** Sabek, I., Vaidya, K., Horn TUM, D., Kipf, A., Mitzenmacher, M., Kraska, T., Horn, D., Kraska Can, T. (2022) *Can Learned Models Replace Hash Functions?*. VLDB, 2022. [[paper](https://doi.org/10.14778/3570690.3570702)]
+
+### Layout
+
+**[Learned Layout]** Liwen Sun, Michael J. Franklin, Sanjay Krishnan, et al. *Fine-grained partitioning for aggressive data skipping*. SIGMOD, 2014. [[paper](https://doi.org/10.1145/2588555.2610515)]
+
+**[Learned Layout]** Yang, Z., Chandramouli, B., Wang, C., Gehrke, J., Li, Y., Minhas, U. F., … Acharya, R. (n.d.). *Qd-tree: Learning Data Layouts for Big Data Analytics*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3318464.3389770)]
+
+**[Learned Layout]** Jialin Ding, Umar Farooq Minhas, Badrish Chandramouli, et al. *Instance-Optimized Data Layouts for Cloud Analytics Workloads*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457270)]
+
+**[Learned Layout]** Bandle, M., Giceva, J., & Neumann, T. (2021). *To Partition, or Not to Partition, That is the Join Question in a Real System*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
 
 **[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
-
-**[Learned Index, immutable]** Jiaoyi Zhang, Yihan Gao. *CARMI: A Cache-Aware Learned Index with a Cost-based
-Construction Algorithm*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2679-gao.pdf)]
-
-**[Learned Index, immutable]** Shangyu Wu. *NFL: Robust Learned Index via Distribution Transformation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2188-wu.pdf)]
-
-**[Learned Index, immutable]** Kraska, T., Beutel, A., Chi, E. H., Dean, J., & Polyzotis, N. (2018). The case for learned index structures. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 489–504. [[paper](https://dl.acm.org/doi/10.1145/3183713.3196909)] [[code](https://github.com/learnedsystems/RMI/tree/5fdff45d0929beaccf6bc56f8f4c0d82baf10304)]
-
-**[Learned Index, poisoning attack]** Evgenios M. Kornaropoulos, Silei Ren, Roberto Tamassia: The Price of Tailoring the Index to Your Data: Poisoning Attacks on Learned Index Structures. SIGMOD Conference 2022: 1331-1344 [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517867)]
-
-**[Learned Index, mutable]** Ding, J., Minhas, U. F., Yu, J., Wang, C., Do, J., Li, Y., Zhang, H., Chandramouli, B., Gehrke, J., Kossmann, D., Lomet, D., & Kraska, T. (2020). ALEX: An Updatable Adaptive Learned Index. *Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data*, 969–984. [[paper](https://dl.acm.org/doi/10.1145/3318464.3389711)] [[code](https://github.com/microsoft/ALEX)]
-
-**[Learned Index, mutable]** Galakatos, A., Markovitch, M., Binnig, C., Fonseca, R., & Kraska, T. (2019). Fiting-tree: A data-aware index structure. *Proceedings of the 2019 International Conference on Management of Data*, 1189-1206. [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3319860)]
-
-**[Learned Index, mutable]** Ferragina, P., & Vinciguerra, G. (2020). The PGM-index : a fully-dynamic compressed learned index with provable worst-case bounds. *The Proceedings of the VLDB Endowment (PVLDB)*, *13*(8), 1162–1175. [[paper](https://dl.acm.org/doi/abs/10.14778/3389133.3389135)]
-
-**[Learned Index, mutable]** Hadian, A., & Heinis, T. (n.d.). MADEX : Learning-augmented Algorithmic Index Structures. *( Regular Papers )*. [[paper](http://www.hadian.org/files/papers/hadian2020madex.pdf)] [[slides](http://www.hadian.org/files/papers/hadian2020madex_slides.pdf)]
-
-
-**[Learned Index, immutable, multi-d]** Nathan, V., Ding, J., Alizadeh, M., & Kraska, T. (2020). Learning multi-dimensional indexes. *Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data*, 985-1000. [[paper](https://dl.acm.org/doi/10.1145/3318464.3380579)]
-
-**[Learned Index, immutable, multi-d]** Ding, J., Nathan, V., Alizadeh, M., & Kraska, T. (2020). Tsunami: A learned multi-dimensional index for correlated data and skewed workloads. *Proceedings of the VLDB Endowment*, *14*(2), 74-86. [[paper](https://dl.acm.org/doi/abs/10.14778/3425879.3425880)]
-
-**[Learned Index, immutable, multi-d]** Wu, J., Zhang, Y., Chen, S., Wang, J., Chen, Y., & Xing, C. (2021). Updatable Learned Index with Precise Positions. *Proceedings of the VLDB Endowment*, *14*(8), 1276-1288. [[paper](https://arxiv.org/abs/2104.05520)]
-
-**[Learned Index, mutable, multi-d, non-memory]** Li, P., Lu, H., Zheng, Q., Yang, L., & Pan, G. (2020). LISA: A Learned Index Structure for Spatial Data. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, 2119–2133. [[paper](https://doi.org/10.1145/3318464.3389703)]
-
-**[Learned Index, immutable, auto-generated]** Dittrich, J., Nix, J., & Schön, C. (2021). The next 50 years in database indexing or. *The Proceedings of the VLDB Endowment (PVLDB)*, *15*(3), 527–540. [[paper](https://doi.org/10.14778/3494124.3494136)] [[code](https://github.com/BigDataAnalyticsGroup/GENE)]
-
-**[Learned Index, mutable, non-memory]** Lu, B., Ding, J., Lo, E., Minhas, U. F., & Wang, T. (2021). *APEX: A High-Performance Learned Index on Persistent Memory. Proceedings of the VLDB Endowment*, *15*(3), 597–610. [[paper](https://doi.org/10.14778/3494124.3494141)]
-
-**[Learned Index, mutable, concurrency]** Wang, Z., Chen, H., Wang, Y., & Tang, C. (2022). The Concurrent Learned Indexes for Multicore Data Storage. *ACM Transactions on Storage*, *18*(1), 1-35. [[paper](https://dl.acm.org/doi/pdf/10.1145/3478289)] [[code](https://ipads.se.sjtu.edu.cn:1312/opensource/xindex.git)]
-
-**[Learned Index, benchmark]** Anders Hammershøj Jensen, Frederik Lauridsen, Fatemeh Zardbani, Stratos Idreos, Panagiotis Karras. Revisiting Multidimensional Adaptive Indexing [Experiment & Analysis]. EDBT 2021: 469-474. [[paper](https://cs.au.dk/~karras/p46.pdf)] 
-
-**[Learned Index, benchmark]** Marcus, R., Stoian, M., Kipf, A., Misra, S., van Renen, A., Kemper, A., Neumann, T., & Kraska, T. (2020). Benchmarking learned indexes. *The Proceedings of the VLDB Endowment (PVLDB)*, *14*(1), 1–13. [[paper](https://dl.acm.org/doi/10.14778/3421424.3421425)] [[code](https://github.com/learnedsystems/SOSD)]
-
 
 **[Learned Layout]** Teng Zhang, Jian Tan, Xin Cai, Jianying Wang, Feifei Li, Jianling Sun. *SA-LSM : Optimize Data Layout for LSM-tree Based Storage using Survival Analysis*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2161-zhang.pdf)]
 
 **[Learned Layout]** Michael Abebe. *Tiresias: Enabling Predictive Autonomous Storate and Indexing*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p3126-abebe.pdf)]
 
-**[Learned Layout]** Jialin Ding, Umar Farooq Minhas, Badrish Chandramouli, et al. *Instance-Optimized Data Layouts for Cloud Analytics Workloads*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457270)]
-
-**[Learned Layout]** Yang, Z., Chandramouli, B., Wang, C., Gehrke, J., Li, Y., Minhas, U. F., … Acharya, R. (n.d.). *Qd-tree: Learning Data Layouts for Big Data Analytics*. SIGMOD, 2020. [[paper](https://doi.org/10.1145/3183713.3196909)]
-
-**[Learned Layout]** Liwen Sun, Michael J. Franklin, Sanjay Krishnan, et al. *Fine-grained partitioning for aggressive data skipping*. SIGMOD, 2014. [[paper](https://doi.org/10.1145/2588555.2610515)]
-
-**[Learned Layout]** Bandle, M., Giceva, J., & Neumann, T. (2021). To Partition, or Not to Partition, That is the Join Question in a Real System. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
-
 ### Query Execution
 
-**[CodeGen]** Immanuel Trummer. CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
+**[CodeGen]** Immanuel Trummer. *CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
 
-Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
+Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
 
 
 ## 5. Database Monitoring
