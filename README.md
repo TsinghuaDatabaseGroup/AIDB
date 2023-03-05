@@ -559,4 +559,4 @@ Meghdad Kurmanji, Peter Triantafillou. Detect, Distill and Update: Learned DB Sy
 
 **[AutoDB]** Tim Kraska. *Towards instance-optimized data systems*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
-**[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021.
+**[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
