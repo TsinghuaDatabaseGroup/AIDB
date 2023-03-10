@@ -1,6 +1,8 @@
-## Autonomous Database Papers
+## Researches in Autonomous Databases
 
-Continuously update the autonomous database (AI4DB & DB4AI) papers and source codes based on our past tutorials. Please inform us if there are any great papers missed :)
+Continuously update the *autonomous database works* based on our past tutorials.
+
+Kindly let us know if we have missed any great papers. Thank you!
 
 Table of Contents
 =================
