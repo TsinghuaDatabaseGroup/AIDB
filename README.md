@@ -15,7 +15,7 @@ Table of Contents
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (11)](#query-rewriter)
-    * [2.2 Cardinality/Cost Estimation (31)](#Cost-Estimation)
+    * [2.2 Cardinality/Cost Estimation (32)](#Cost-Estimation)
     * [2.3 Plan Optimization (11)](#plan-optimization)
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
@@ -250,6 +250,8 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 
 ### Cost Estimation
+
+**[Card, Estimator Advisor]** Jintao Zhang, Chao Zhang, Guoliang Li, Chengliang Chai. *AutoCE: An Accurate and Efficient Model Advisor for Learned Cardinality Estimation*. ICDE, 2023.  [[paper](https://github.com/jt-zhang/jt-zhang.github.io/raw/master/files/AutoCE_camera_ready_icde23.pdf)]
 
 **[Card, Query-based]** Xiao Hu, Yuxi Liu, Haibo Xiu, Pankaj K. Agarwal, Debmalya Panigrahi, Sudeepa Roy, Jun Yang. *Selectivity Functions of Range Queries are Learnable*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517896)]
 
