@@ -15,8 +15,8 @@ Table of Contents
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (11)](#query-rewriter)
-    * [2.2 Cardinality/Cost Estimation (32)](#Cost-Estimation)
-    * [2.3 Plan Optimization (11)](#plan-optimization)
+    * [2.2 Cardinality/Cost Estimation (33)](#Cardinality-Estimation)
+    * [2.3 Plan Optimization (13)](#plan-optimization)
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
@@ -190,8 +190,6 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 *DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
 
 
-
-
 ### Partition Advisor
 
 **[horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Learning a Partitioning Advisor for Cloud Databases*. SIGMOD, 2020. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
@@ -249,7 +247,7 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 **[rewrite strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
 
 
-### Cost Estimation
+### Cardinality Estimation
 
 **[Card, Estimator Advisor]** Jintao Zhang, Chao Zhang, Guoliang Li, Chengliang Chai. *AutoCE: An Accurate and Efficient Model Advisor for Learned Cardinality Estimation*. ICDE, 2023.  [[paper](https://github.com/jt-zhang/jt-zhang.github.io/raw/master/files/AutoCE_camera_ready_icde23.pdf)]
 
@@ -268,6 +266,8 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 **[Card, Query-based, Adaptability]** Beibin Li, Yao Lu, Srikanth Kandula: Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts. SIGMOD Conference 2022: 1920-1933 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526179)]
 
 **[Card, Query-based, Adaptability]** Negi, Parimarjan, Ziniu Wu, Andreas Kipf, Nesime Tatbul, Ryan Marcus, Sam Madden, Tim Kraska, and Mohammad Alizadeh: Robust Query Driven Cardinality Estimation under Changing Workloads. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1520-negi.pdf)]
+
+**[Card, Query-based, Robust Training]** Negi, Parimarjan, Ziniu Wu, Andreas Kipf, Nesime Tatbul, Ryan Marcus, Sam Madden, Tim Kraska, and Mohammad Alizadeh. *Robust Query Driven Cardinality Estimation under Changing Workloads.* [[paper](https://www.vldb.org/pvldb/vol16/p1520-negi.pdf)]
 
 **[Card, Data-based]** Lu Y, Kandula S, König A C, et al. Pre-training summarization models of structured datasets for cardinality estimation[J]. Proceedings of the VLDB Endowment, 2021. [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494127?casa_token=v6OMWXKyNM4AAAAA:gN2zqOt0DBvEt7AhW3e26aZSREvTaMWb6f64f9m_Vs4dLcs-18paOgLbX4Mzq1IlJ-ILFl2-nNZXdiI)] 
 
@@ -319,19 +319,13 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 ### Plan Optimization
 
-**[Parallel MCTS]** Ziyun Wei, Immanuel Trummer. *SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms*. PVLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
-
-**[OptimizedRL]** Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion Stoica. Balsa. *Learning a Query Optimizer Without Expert Demonstrations*. SIGMOD, 2022  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)]
-
-Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
-
 Ron Avnur, Joseph M. Hellerstein. Eddies: Continuously Adaptive Query Processing. SIGMOD, 2000. [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
+
+Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. (2016). How Good Are Query Optimizers, Really? *Proceedings of the VLDB Endowment*, *9*(3), 204–215. [[paper](https://doi.org/10.14778/2850583.2850594)]
 
 Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Neo: A Learned query optimizer. *Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
 
 Marcus, R., & Papaemmanouil, O. (2018). Deep reinforcement learning for join order enumeration. *Proceedings of the 1st International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, AiDM 2018*, 0–3. [[paper](https://doi.org/10.1145/3211954.3211957)]
-
-Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. (2016). How Good Are Query Optimizers, Really? *Proceedings of the VLDB Endowment*, *9*(3), 204–215. [[paper](https://doi.org/10.14778/2850583.2850594)]
 
 Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)]
 
@@ -340,6 +334,18 @@ Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Consider
 Yu, X., Li, G., Tang, N. (n.d.). Reinforcement Learning with Tree-LSTM for Join Order Selection. ICDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2020-learnedjoinorder.pdf)]
 
 Chenggang Wu, Alekh Jindal, Saeed Amizadeh, Hiren Patel, Wangchao Le, Shi Qiao, Sriram Rao. Towards a Learning Optimizer for Shared Clouds. Proc. VLDB Endow. 12(3): 210-222, 2018. [[paper](http://www.vldb.org/pvldb/vol12/p210-wu.pdf)]
+
+**[Parallel MCTS]** Ziyun Wei, Immanuel Trummer. *SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms*. PVLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+
+**[OptimizedRL]** Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion Stoica. Balsa. *Learning a Query Optimizer Without Expert Demonstrations*. SIGMOD, 2022  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)]
+
+Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
+
+**[Hybrid]** Yu, Xiang, Chengliang Chai, Guoliang Li, and Jiabin Liu. *Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection.* PVLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
+
+**[GNN-based]** Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. LOGER: A Learned
+Optimizer towards Generating Efficient and Robust Query Execution Plans.
+PVLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
 
 
 ### Plan Hinter
