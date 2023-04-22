@@ -411,6 +411,8 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[1-D, Hash Index, Experiment]** Sabek, I., Vaidya, K., Horn TUM, D., Kipf, A., Mitzenmacher, M., Kraska, T., Horn, D., Kraska Can, T. (2022) *Can Learned Models Replace Hash Functions?*. VLDB, 2022. [[paper](https://doi.org/10.14778/3570690.3570702)]
 
+**[1-D, Mutable, Experiment]** Sun, Z., Zhou, X., Li, G. (2023) *Learned Index: A Comprehensive Experimental Evaluation*. VLDB, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/experiment-learned-index.pdf)] [[code](https://github.com/curtis-sun/TLI)]
+
 ### Layout
 
 **[Learned Layout]** Liwen Sun, Michael J. Franklin, Sanjay Krishnan, et al. *Fine-grained partitioning for aggressive data skipping*. SIGMOD, 2014. [[paper](https://doi.org/10.1145/2588555.2610515)]
