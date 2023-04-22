@@ -20,7 +20,7 @@ Table of Contents
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
-    * [4.1 Learned Index (25)](#index)
+    * [4.1 Learned Index (26)](#index)
     * [4.2 Learned Layout (7)](#layout)
     * [4.3 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
@@ -421,6 +421,8 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 **[1-D, Immutable, Experiment]** Maltry, M., Dittrich, J. (2022). *A critical analysis of recursive model indexes*. VLDB, 2022. [[paper](https://doi.org/10.14778/3510397.3510405)]
 
 **[1-D, Hash Index, Experiment]** Sabek, I., Vaidya, K., Horn TUM, D., Kipf, A., Mitzenmacher, M., Kraska, T., Horn, D., Kraska Can, T. (2022) *Can Learned Models Replace Hash Functions?*. VLDB, 2022. [[paper](https://doi.org/10.14778/3570690.3570702)]
+
+**[1-D, Mutable, Experiment]** Sun, Z., Zhou, X., Li, G. (2023) *Learned Index: A Comprehensive Experimental Evaluation*. VLDB, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/experiment-learned-index.pdf)] [[code](https://github.com/curtis-sun/TLI)]
 
 ### Layout
 
