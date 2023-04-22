@@ -18,7 +18,7 @@ Table of Contents
     * [2.4 Plan Hinter (3)](#plan-hinter)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
-    * [4.1 Index (25)](#index)
+    * [4.1 Index (26)](#index)
     * [4.2 Layout (7)](#layout)
     * [4.3 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
