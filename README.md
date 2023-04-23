@@ -125,9 +125,9 @@ SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008
 
 Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020) [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
-Peer-reviewed papers and codes at https://github.com/evolveDB/tuning-survey/blob/main/README.md
+#### Survey
 
-
+Automatic Database Knob Tuning: A Survey. TKDE, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
 ### View Advisor
 
