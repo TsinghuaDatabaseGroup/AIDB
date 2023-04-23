@@ -9,7 +9,7 @@ Table of Contents
 
 * [0. Survey and Tutorial (12)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (20)](#Knob-Tuner)
+    * [1.1 Knob Tuner (21)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
     * [1.3 Index Advisor (20)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
