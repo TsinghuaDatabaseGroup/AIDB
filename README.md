@@ -112,18 +112,17 @@ Table of Contents
 
 **[RL, Genetic algorithm]** HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements (SIGMOD,2022 ) [[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
 
+#### Knob Selection
+
+SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008) [[paper](https://www-users.cse.umn.edu/~mokbel/papers/SARD.pdf)]
+
+Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020) [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
 #### Experiments
 
 An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems (VLDB, 2021) [[paper](https://www.cs.cmu.edu/~./pavlo/papers/p1241-aken.pdf)]
 
 Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation (VLDB, 2021) [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
-
-#### Knob Selection
-
-SARD: A statistical approach for ranking database tuning parameters (ICDEW, 2008) [[paper](https://www-users.cse.umn.edu/~mokbel/papers/SARD.pdf)]
-
-Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs (HotStorage 2020) [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
 #### Survey
 
@@ -192,25 +191,25 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 ### Partition Advisor
 
-**[horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Learning a Partitioning Advisor for Cloud Databases*. SIGMOD, 2020. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
+**[Horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Learning a Partitioning Advisor for Cloud Databases*. SIGMOD, 2020. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
 
-**[horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Towards learning a partitioning advisor with deep reinforcement learning*. aiDM@SIGMOD, 2019. [[paper](https://doi.org/10.1145/3329859.3329876)]
+**[Horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Towards learning a partitioning advisor with deep reinforcement learning*. aiDM@SIGMOD, 2019. [[paper](https://doi.org/10.1145/3329859.3329876)]
 
-**[horizontal, HybridAlgorithms]** 	Panos Parchas, Yonatan Naamad, Peter Van Bouwel, et al. *Fast and effective distribution-key recommendation for amazon redshift*. PVLDB, 2020. [[paper](https://doi.org/10.14778/3407790.3407834)]
+**[Horizontal, HybridAlgorithms]** 	Panos Parchas, Yonatan Naamad, Peter Van Bouwel, et al. *Fast and effective distribution-key recommendation for amazon redshift*. PVLDB, 2020. [[paper](https://doi.org/10.14778/3407790.3407834)]
 
-**[horizontal, DataSkip]** Martin Boissier, Kurzynski Daniel. *Workload-driven horizontal partitioning and pruning for large HTAP systems*. ICDE Workshop, 2018. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
+**[Horizontal, DataSkip]** Martin Boissier, Kurzynski Daniel. *Workload-driven horizontal partitioning and pruning for large HTAP systems*. ICDE Workshop, 2018. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
 
-**[horizontal, GraphPartition]** Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. *Schism: a Workload-Driven Approach to Database Replication and Partitioning*. PVLDB, 2010. [[paper](https://doi.org/10.14778/1920841.1920853)]
+**[Horizontal, GraphPartition]** Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. *Schism: a Workload-Driven Approach to Database Replication and Partitioning*. PVLDB, 2010. [[paper](https://doi.org/10.14778/1920841.1920853)]
 
-**[horizontal, Heuristic]** Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. *Automating physical database design in a parallel database*. SIGMOD, 2002. [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
+**[Horizontal, Heuristic]** Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. *Automating physical database design in a parallel database*. SIGMOD, 2002. [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
 
-**[vertical, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
+**[Vertical, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
 
-**[co-partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
+**[Co-Partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
 
-**[co-partition]** Rabl, T., & Jacobsen, H. A. (2017). *Query centric partitioning and allocation for partially replicated database systems*. SIGMOD. [[paper](https://doi.org/10.1145/3035918.3064052)]
+**[Co-partition]** Rabl, T., & Jacobsen, H. A. (2017). *Query centric partitioning and allocation for partially replicated database systems*. SIGMOD. [[paper](https://doi.org/10.1145/3035918.3064052)]
 
-**[situ]** Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, M., & Ailamaki, A. (2020). *Adaptive partitioning and indexing for in situ query processing*. VLDB Journal. [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
+**[Situ]** Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, M., & Ailamaki, A. (2020). *Adaptive partitioning and indexing for in situ query processing*. VLDB Journal. [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
 
 
 ## 2. Query Optimization
@@ -221,30 +220,30 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 #### Traditional
 
-**[rewrite rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
+**[Rewrite Rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
 
-**[rewrite rules]** 	Hamid Pirahesh, Joseph M. Hellerstein, Waqar Hasan. *Extensible/Rule Based Query Rewrite Optimization in Starburst*. SIGMOD Conference 1992. [[paper](https://sigmodrecord.org/publications/sigmodRecord/9206/pdfs/141484.130294.pdf)]
+**[Rewrite Rules]** 	Hamid Pirahesh, Joseph M. Hellerstein, Waqar Hasan. *Extensible/Rule Based Query Rewrite Optimization in Starburst*. SIGMOD Conference 1992. [[paper](https://sigmodrecord.org/publications/sigmodRecord/9206/pdfs/141484.130294.pdf)]
 
-**[cost/heuristic rewrite]** Rafi Ahmed, Allison W. Lee, Andrew Witkowski, et al. *Cost-Based Query Transformation in Oracle*. VLDB 2006: 1026-1036. [[paper](https://www.researchgate.net/publication/221311318_Cost-Based_Query_Transformation_in_Oracle/link/572bbc5e08aef7c7e2c6b829/download)]
+**[Cost/Heuristic Rewrite]** Rafi Ahmed, Allison W. Lee, Andrew Witkowski, et al. *Cost-Based Query Transformation in Oracle*. VLDB 2006: 1026-1036. [[paper](https://www.researchgate.net/publication/221311318_Cost-Based_Query_Transformation_in_Oracle/link/572bbc5e08aef7c7e2c6b829/download)]
 
-**[heuristic rewrite]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014. [[paper](https://www.researchgate.net/publication/264081912_ARE-SQL_AN_ONLINE_AUTOMATIC_AND_NON-INTRUSIVE_APPROACH_FOR_REWRITING_SQL_QUERIES)]
+**[Heuristic Rewrite]** De Araújo, A. H. M., Monteiro, J. M., Antônio, J., De Macêdo, F., Tavares, J. A., Brayner, A., & Lifschitz, S. (2014). *ARe-SQL: An Online, Automatic and Non-Intrusive Approach for Rewriting SQL Queries*. JIDM, 2014. [[paper](https://www.researchgate.net/publication/264081912_ARE-SQL_AN_ONLINE_AUTOMATIC_AND_NON-INTRUSIVE_APPROACH_FOR_REWRITING_SQL_QUERIES)]
 
-**[equivalence]** 	Shumo Chu, Konstantin Weitz, Alvin Cheung, Dan Suciu. *HoTTSQL: proving query rewrites with univalent SQL semantics*. PLDI 2017: 510-524. [[paper](https://doi.org/10.1145/3062341.3062348)]
+**[Semantic Equivalence]** 	Shumo Chu, Konstantin Weitz, Alvin Cheung, Dan Suciu. *HoTTSQL: proving query rewrites with univalent SQL semantics*. PLDI 2017: 510-524. [[paper](https://doi.org/10.1145/3062341.3062348)]
 
-**[optimization engine]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). *Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources*. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
+**[Optimization Engine]** Begoli, E., Camacho-Rodríguez, J., Hyde, J., Mior, M. J., & Lemire, D. (2018). *Apache calcite: A foundational framework for optimized query processing over heterogeneous data sources*. SIGMOD, 2018. [[paper](https://doi.org/10.1145/3183713.3190662)]
 
-**[map-reduce]** 	Partho Sarthi, Kaushik Rajan, Akash Lal, Abhishek Modi, et al. *Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries. OSDI 2020: 209-224*.  [[paper](https://www.usenix.org/system/files/osdi20-sarthi_0.pdf)]
+**[Map-Reduce Rewrite]** 	Partho Sarthi, Kaushik Rajan, Akash Lal, Abhishek Modi, et al. *Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries. OSDI 2020: 209-224*.  [[paper](https://www.usenix.org/system/files/osdi20-sarthi_0.pdf)]
 
-**[streaming]** Wentao Wu, Philip A. Bernstein, Alex Raizman, Christina Pavlopoulou. *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. CoRR abs/2008.12379 (2020)  [[paper](https://www.researchgate.net/profile/Wentao-Wu-2/publication/343986286_Cost-based_Query_Rewriting_Techniques_for_Optimizing_Aggregates_Over_Correlated_Windows/links/5f52ad2e299bf13a31a07101/Cost-based-Query-Rewriting-Techniques-for-Optimizing-Aggregates-Over-Correlated-Windows.pdf)]
+**[Streaming]** Wentao Wu, Philip A. Bernstein, Alex Raizman, Christina Pavlopoulou. *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. CoRR abs/2008.12379 (2020)  [[paper](https://www.researchgate.net/profile/Wentao-Wu-2/publication/343986286_Cost-based_Query_Rewriting_Techniques_for_Optimizing_Aggregates_Over_Correlated_Windows/links/5f52ad2e299bf13a31a07101/Cost-based-Query-Rewriting-Techniques-for-Optimizing-Aggregates-Over-Correlated-Windows.pdf)]
 
-**[rewrite rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](https://ipads.se.sjtu.edu.cn/_media/publications/wetune_final.pdf)]
+**[Rewrite Rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](https://ipads.se.sjtu.edu.cn/_media/publications/wetune_final.pdf)]
 
 
 #### Learning-based
 
-**[predicate rewrite]** Qi Zhou, Joy Arulraj, Shamkant B. Navathe, William Harris, Jinpeng Wu. *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
+**[Predicate Rewrite]** Qi Zhou, Joy Arulraj, Shamkant B. Navathe, William Harris, Jinpeng Wu. *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
 
-**[rewrite strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
+**[Rewrite Strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
 
 
 ### Cardinality Estimation
