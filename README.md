@@ -1,4 +1,4 @@
-## Researches in Autonomous Databases [Paper List]
+## Researches and Practices in Autonomous Databases
 
 Continuously update the *autonomous database works* based on our past tutorials.
 
