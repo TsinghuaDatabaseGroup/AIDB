@@ -11,12 +11,12 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (21)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
-    * [1.3 Index Advisor (20)](#index-advisor)
+    * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (11)](#query-rewriter)
     * [2.2 Cardinality/Cost Estimation (33)](#Cardinality-Estimation)
-    * [2.3 Plan Optimization (18)](#plan-optimization)
+    * [2.3 Plan Optimization (21)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Learned Index (26)](#index)
@@ -267,7 +267,7 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 **[Card, Query-based, Adaptability]** Beibin Li, Yao Lu, Srikanth Kandula: Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts. SIGMOD Conference 2022: 1920-1933 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526179)]
 
-**[Card, Query-based, Robust Training]** Negi, Parimarjan, Ziniu Wu, Andreas Kipf, Nesime Tatbul, Ryan Marcus, Sam Madden, Tim Kraska, and Mohammad Alizadeh: Robust Query Driven Cardinality Estimation under Changing Workloads. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1520-negi.pdf)]
+**[Card, Query-based, Robust Encoding & Training]** Negi, Parimarjan, Ziniu Wu, Andreas Kipf, Nesime Tatbul, Ryan Marcus, Sam Madden, Tim Kraska, and Mohammad Alizadeh: Robust Query Driven Cardinality Estimation under Changing Workloads. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1520-negi.pdf)]
 
 **[Card, Data-based]** Leis, V., Radke, B., Gubichev, A., Kemper, A., & Neumann, T. (2017). Cardinality estimation done right: Index-based join sampling. CIDR, 2017. [[paper](http://cidrdb.org/cidr2017/papers/p9-leis-cidr17.pdf)]
 
@@ -344,13 +344,19 @@ Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion Stoic
 
 Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
 
-**[GNN]** Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans. PVLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
+**[GNN, Hint]** Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans. PVLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
 
 **[Collaborated Cost/Latency Reward]** Chen, Xu, Zhen Wang, Shuncheng Liu, et al. *BASE: Bridging the Gap between Cost and Latency for Query Optimization*. [[paper](https://zheng-kai.com/paper/vldb_2023_chen.pdf)]
 
 **[Relative Cost]** Xu, Xianghong, Zhibing Zhao, Tieying Zhang, et al. *COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations*. [[paper](https://arxiv.org/pdf/2304.04407.pdf)]
 
+**[Rank, Pair-wise Classification]** Rong Zhu, Wei Chen, Bolin Ding, Xingguang Chen, Andreas Pfadler, Ziniu Wu, Jingren Zhou. Lero: A Learning-to-Rank Query Optimizer. VLDB 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1466-zhu.pdf)]
+
 **[Benefit-v.s.-Uncertainty]** Xiang Yu, Chengliang Chai, Guoliang Li, Jiabin Liu. *Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection*. VLDB 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
+
+**[PQO]** Kapil Vaidya, Anshuman Dutt, Vivek Narasayya, Surajit Chaudhuri. Leveraging Query Logs and Machine Learning for Parametric Query Optimization. VLDB 2022. [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494126)]
+
+**[PQO, Robustness, Perturbation]** Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. Kepler: Robust Learning for Parametric Query Optimization. SIGMOD 2023. [[paper](#)] (to appear)
 
 ## 3. Workload Scheduling
 
