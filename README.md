@@ -26,7 +26,7 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (3)](#System-Diagnosis)
     * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
-* [7. Large Language Models for Database (4)](#7-large-language-models-for-database)
+* [7. **Large Language Models for Database** (4)](#7-large-language-models-for-database)
 * [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Encoding (6)](#Feature-Encoding)
     * [8.2 Model Transfer (1)](#Model-Transfer) 
