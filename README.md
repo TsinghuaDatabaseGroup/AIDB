@@ -26,7 +26,7 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (3)](#System-Diagnosis)
     * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
-* [7. Large Language Models for Database (4)](#6-large-language-models-for-database)
+* [7. Large Language Models for Database (4)](#7-large-language-models-for-database)
 * [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Encoding (6)](#Feature-Encoding)
     * [8.2 Model Transfer (1)](#Model-Transfer) 
@@ -490,15 +490,19 @@ Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Res
 ## 7. Large Language Models for Database
 
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
+
    *Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Chenhao Ma, Kevin C.C. Chang, Fei Huang, Reynold Cheng, Yongbin Li.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
 **Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
+
    *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+
    *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
 
 **Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+
    *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
 
 ## 8. General Techniques
