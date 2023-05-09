@@ -26,12 +26,11 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (3)](#System-Diagnosis)
     * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
-* [7. Training Data Generation](#7-training-data-generation)
-    * [7.1 Query Generation (2)](#Query-Generation)
-    * [7.2 Data Generation (3)](#Data-Generation)
-* [8. AI Techniques](#8-ai-techniques)
+* [7. Large Language Models for Database (4)](#6-large-language-models-for-database)
+* [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Encoding (6)](#Feature-Encoding)
     * [8.2 Model Transfer (1)](#Model-Transfer) 
+    * [8.3 Query And Data Generation (5)](#query-and-data-generation)
 * [9. Database Frameworks (14)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
 * [11. Talks](#11-talks)
@@ -487,23 +486,22 @@ Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing 
 
 Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases. ICDE 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
 
-## 7. Training Data Generation
 
-### Query Generation
+## 7. Large Language Models for Database
 
-L.Zhang, C.Chai, X.Zhou, and G.Li. Learned sqlgen: Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod2022-sqlgen.pdf)]
+**Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
+   *Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Chenhao Ma, Kevin C.C. Chang, Fei Huang, Reynold Cheng, Yongbin Li.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
-Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with generative adversarial networks. In ICDM, 2018. [[paper](http://cn.liuleics.com/uploads/1/4/1/2/14126273/1808.07582.pdf)]
+**Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
+   *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
-### Data Generation
+**Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+   *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
 
-**[DeepAR]** Jingyi Yang, Peizhi Wu, Gao Cong, Tieying Zhang, Xiao He. *SAM: Database Generation from Query Workloads with Supervised Autoregressive Models*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526168)]
+**Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
 
-Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand your training limits! Generating training data for ML-based data management. SIGMOD, 2021 [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457286)]
-
-Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
-
-## 8. AI Techniques
+## 8. General Techniques
 
 ### Feature Encoding
 
@@ -523,6 +521,23 @@ Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding 
 ### Model Transfer
 
 Meghdad Kurmanji, Peter Triantafillou. Detect, Distill and Update: Learned DB Systems Facing Out of Distribution Data. SIGMOD, 2023. [[paper](https://arxiv.org/pdf/2210.05508.pdf)]
+
+### Query And Data Generation
+
+#### Query Generation
+
+L.Zhang, C.Chai, X.Zhou, and G.Li. Learned sqlgen: Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod2022-sqlgen.pdf)]
+
+Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with generative adversarial networks. In ICDM, 2018. [[paper](http://cn.liuleics.com/uploads/1/4/1/2/14126273/1808.07582.pdf)]
+
+#### Data Generation
+
+**[DeepAR]** Jingyi Yang, Peizhi Wu, Gao Cong, Tieying Zhang, Xiao He. *SAM: Database Generation from Query Workloads with Supervised Autoregressive Models*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526168)]
+
+Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand your training limits! Generating training data for ML-based data management. SIGMOD, 2021 [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457286)]
+
+Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
+
 
 ## 9. Database Frameworks
 
