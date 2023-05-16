@@ -14,7 +14,7 @@ Table of Contents
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
 * [2. Query Optimization](#2-query-optimization)
-    * [2.1 Query Rewriter (11)](#query-rewriter)
+    * [2.1 Query Rewriter (12)](#query-rewriter)
     * [2.2 Cardinality/Cost Estimation (33)](#Cardinality-Estimation)
     * [2.3 Plan Optimization (21)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
@@ -241,6 +241,8 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 **[Streaming]** Wentao Wu, Philip A. Bernstein, Alex Raizman, Christina Pavlopoulou. *Cost-based Query Rewriting Techniques for Optimizing Aggregates Over Correlated Windows*. CoRR abs/2008.12379 (2020)  [[paper](https://www.researchgate.net/profile/Wentao-Wu-2/publication/343986286_Cost-based_Query_Rewriting_Techniques_for_Optimizing_Aggregates_Over_Correlated_Windows/links/5f52ad2e299bf13a31a07101/Cost-based-Query-Rewriting-Techniques-for-Optimizing-Aggregates-Over-Correlated-Windows.pdf)]
 
 **[Rewrite Rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](https://ipads.se.sjtu.edu.cn/_media/publications/wetune_final.pdf)]
+
+**[Rewrite Rules]** 	Qiushi Bai, Sadeem Alsudais, Chen Li. *QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting*. arXiv, 2023. [[paper](https://arxiv.org/pdf/2305.08272.pdf)]
 
 
 #### Learning-based
