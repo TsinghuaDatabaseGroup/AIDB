@@ -549,7 +549,7 @@ Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding 
 
 **FEBench: A Benchmark for Real-Time Relational Data Feature Extraction.** ![](https://img.shields.io/badge/-benchmark-purple)
 
-*Xuanhe Zhou, Cheng Chen, Kunyi Li, et al. 2023. Proc. VLDB Endow.* [[papar](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)]
+*Xuanhe Zhou, Cheng Chen, Kunyi Li, Bingsheng He, Mian Lu, Qiaosheng Liu, Wei Huang, Guoliang Li, Zhao Zheng, Yuqqiang Chen. 2023. Proc. VLDB Endow.* [[paper](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)]
 
 
 ### Model Transfer
