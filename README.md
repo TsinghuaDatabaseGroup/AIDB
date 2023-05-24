@@ -28,13 +28,13 @@ Table of Contents
     * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
 * [7. **Large Language Models for Database** (4)](#7-Large-Language-Models-For-Database)
 * [8. General Techniques](#8-general-techniques)
-    * [8.1 Feature Encoding (6)](#Feature-Encoding)
-    * [8.2 Model Transfer (1)](#Model-Transfer) 
-    * [8.3 Query And Data Generation (5)](#query-and-data-generation)
+    * [8.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
+    * [8.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
+    * [8.3 Model Transfer (1)](#Model-Transfer) 
+    * [8.4 Query And Data Generation (5)](#query-and-data-generation)
 * [9. Database Frameworks (14)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
 * [11. Talks](#11-talks)
-* [12. Feature Stores](#12-feature-stores)
 
 
 ## 0. Survey and Tutorial
@@ -510,7 +510,7 @@ Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Res
 
 ## 8. General Techniques
 
-### Feature Encoding
+### Feature Engineering for DB
 
 **[PlanEncoding]** Yue Zhao, Gao Cong, Jiachen Shi, Chunyan Miao. *QueryFormer: A Tree Transformer Model for Query Plan Representation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1658-zhao.pdf)]
 
@@ -523,6 +523,33 @@ Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Res
 **[DataSummary]** Brit Youngmann et al. *Guided Exploration of Data Summaries*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1798-youngmann.pdf)]
 
 Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB. SIGMOD 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
+
+
+### Feature Engineering for AI
+
+**[Apache flink: Stream and batch processing in a single engine[J].]** ![](https://img.shields.io/badge/-feature_extraction-green)
+
+*Carbone P, Katsifodimos A, Ewen S, et al.  The Bulletin of the Technical Committee on Data Engineering, 2015, 38(4).* [paper](https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf)
+
+**[Feature selection in machine learning: A new perspective[J/OL].]** ![](https://img.shields.io/badge/-feature_selection-yellow)
+
+*CAI J, LUO J, WANG S et al.  Neurocomputing (Amsterdam), 2018, 300: 70-79. DOI:10.1016/j.neucom.2017.11.077.* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231218302911)
+
+**[Optimizing in-memory database engine for AI-powered on-line decision augmentation using persistent memory.]** ![](https://img.shields.io/badge/-feature_extraction-green)
+
+*Cheng Chen, Jun Yang, Mian Lu, Taize Wang, Zhao Zheng, Yuqiang Chen, Wenyuan Dai, Bingsheng He, Weng-Fai Wong, Guoan Wu, Yuping Zhao, and Andy Rudoff. 2021.  Proc. VLDB Endow. 14, 5 (January 2021), 799–812.* [paper](https://doi.org/10.14778/3446095.3446102)
+
+**[Managing ML pipelines: feature stores and the coming wave of embedding ecosystems[J].]** ![](https://img.shields.io/badge/-fe_for_embedding-red)
+
+*Orr L, Sanyal A, Ling X, et al.  arXiv preprint arXiv:2108.05053, 2021.* [paper](https://arxiv.org/pdf/2108.05053.pdf)
+
+**[A System for Time Series Feature Extraction in Federated Learning.]** ![](https://img.shields.io/badge/-fe_for_federated_learning-blue)
+
+*Siqi Wang, Jiashu Li, Mian Lu, Zhao Zheng, Yuqiang Chen, and Bingsheng He. 2022.  In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM '22). Association for Computing Machinery, New York, NY, USA, 5024–5028.* [paper](https://doi.org/10.1145/3511808.3557176)
+
+**[FEBench: A Benchmark for Real-Time Relational Data Feature Extraction]** ![](https://img.shields.io/badge/-benchmark-purple)
+
+*Xuanhe Zhou, Cheng Chen, Kunyi Li, et al. 2023. Proc. VLDB Endow.* [papar](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)
 
 
 ### Model Transfer
@@ -600,29 +627,4 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
 
-## 12. Feature Stores
-
-**[FEBench: A Benchmark for Real-Time Relational Data Feature Extraction]** ![](https://img.shields.io/badge/-benchmark-purple)
-
-*Xuanhe Zhou, Cheng Chen, Kunyi Li, et al. 2023. Proc. VLDB Endow.* [papar](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)
-
-**[Optimizing in-memory database engine for AI-powered on-line decision augmentation using persistent memory.]** ![](https://img.shields.io/badge/-feature_extraction-green)
-
-*Cheng Chen, Jun Yang, Mian Lu, Taize Wang, Zhao Zheng, Yuqiang Chen, Wenyuan Dai, Bingsheng He, Weng-Fai Wong, Guoan Wu, Yuping Zhao, and Andy Rudoff. 2021.  Proc. VLDB Endow. 14, 5 (January 2021), 799–812.* [paper](https://doi.org/10.14778/3446095.3446102)
-
-**[Apache flink: Stream and batch processing in a single engine[J].]** ![](https://img.shields.io/badge/-feature_extraction-green)
-
-*Carbone P, Katsifodimos A, Ewen S, et al.  The Bulletin of the Technical Committee on Data Engineering, 2015, 38(4).* [paper](https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf)
-
-**[Managing ML pipelines: feature stores and the coming wave of embedding ecosystems[J].]** ![](https://img.shields.io/badge/-fe_for_embedding-red)
-
-*Orr L, Sanyal A, Ling X, et al.  arXiv preprint arXiv:2108.05053, 2021.* [paper](https://arxiv.org/pdf/2108.05053.pdf)
-
-**[Feature selection in machine learning: A new perspective[J/OL].]** ![](https://img.shields.io/badge/-feature_selection-yellow)
-
-*CAI J, LUO J, WANG S et al.  Neurocomputing (Amsterdam), 2018, 300: 70-79. DOI:10.1016/j.neucom.2017.11.077.* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231218302911)
-
-**[A System for Time Series Feature Extraction in Federated Learning.]** ![](https://img.shields.io/badge/-fe_for_federated_learning-blue)
-
-*Siqi Wang, Jiashu Li, Mian Lu, Zhao Zheng, Yuqiang Chen, and Bingsheng He. 2022.  In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM '22). Association for Computing Machinery, New York, NY, USA, 5024–5028.* [paper](https://doi.org/10.1145/3511808.3557176)
 
