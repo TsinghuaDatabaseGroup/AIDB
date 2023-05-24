@@ -7,9 +7,9 @@ Kindly let us know if we have missed any great papers. Thank you!
 Table of Contents
 =================
 
-* [0. Survey and Tutorial (12)](#0-survey-and-tutorial)
+* [0. Survey and Tutorial (13)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (21)](#Knob-Tuner)
+    * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (10)](#partition-advisor)
@@ -39,11 +39,13 @@ Table of Contents
 
 ## 0. Survey and Tutorial
 
-**[Survey | AIDB]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets Artificial Intelligence: A Survey. TKDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
-
 **[Survey | ML4DB]** Wei Wang, Meihui Zhang, Gang Chen, et al. Database meets deep learning: Challenges and opportunities. SIGMOD Record, 2016. [[paper](https://doi.org/10.1145/3003665.3003669)]
 
+**[Survey | AIDB]** Xuanhe Zhou, Chengliang Chai, Guoliang Li, Ji Sun. Database Meets Artificial Intelligence: A Survey. TKDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
+
 **[Survey | RL4DB]** Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. A Survey on Deep Reinforcement Learning for Data Processing and Analytics. arXive, 2021. [[paper](http://arxiv.org/abs/2108.04526)]
+
+**[Survey | Knob Tuning]** Automatic Database Knob Tuning: A Survey. TKDE, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
 **[Tutorial | AI4DB]** Stratos Idreos, Tim Kraska. From auto-tuning one size fits all to self-designed and learned data-intensive systems. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3314034)]
 
@@ -122,10 +124,6 @@ Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Importan
 An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems (VLDB, 2021) [[paper](https://www.cs.cmu.edu/~./pavlo/papers/p1241-aken.pdf)]
 
 Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation (VLDB, 2021) [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
-
-#### Survey
-
-Automatic Database Knob Tuning: A Survey. TKDE, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
 ### View Advisor
 
@@ -221,7 +219,7 @@ Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan.
 
 ### Query Rewriter 
 
-(note other interesting problems like text2SQL are not within the scope)
+(note other interesting problems like [text2SQL](https://github.com/yechens/NL2SQL) are not within the scope)
 
 #### Traditional
 
