@@ -602,13 +602,15 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## 12. Feature Stores
 
-**[Feature Extraction]** Cheng Chen, Jun Yang, Mian Lu, Taize Wang, Zhao Zheng, Yuqiang Chen, Wenyuan Dai, Bingsheng He, Weng-Fai Wong, Guoan Wu, Yuping Zhao, and Andy Rudoff. 2021. Optimizing in-memory database engine for AI-powered on-line decision augmentation using persistent memory. Proc. VLDB Endow. 14, 5 (January 2021), 799–812. [paper](https://doi.org/10.14778/3446095.3446102)
+**[FEBench: A Benchmark for Real-Time Relational Data Feature Extraction]** Xuanhe Zhou, Cheng Chen, Kunyi Li, et al. 2023. Proc. VLDB Endow.[papar](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)![](https://img.shields.io/badge/-benchmark-purple)
 
-**[Feature Extraction]** Carbone P, Katsifodimos A, Ewen S, et al. Apache flink: Stream and batch processing in a single engine[J]. The Bulletin of the Technical Committee on Data Engineering, 2015, 38(4).[paper](https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf)
+**[Optimizing in-memory database engine for AI-powered on-line decision augmentation using persistent memory.]** Cheng Chen, Jun Yang, Mian Lu, Taize Wang, Zhao Zheng, Yuqiang Chen, Wenyuan Dai, Bingsheng He, Weng-Fai Wong, Guoan Wu, Yuping Zhao, and Andy Rudoff. 2021.  Proc. VLDB Endow. 14, 5 (January 2021), 799–812. [paper](https://doi.org/10.14778/3446095.3446102)![](https://img.shields.io/badge/-Feature Extraction-green)
 
-**[FE for Embedding]** Orr L, Sanyal A, Ling X, et al. Managing ML pipelines: feature stores and the coming wave of embedding ecosystems[J]. arXiv preprint arXiv:2108.05053, 2021.[paper](https://arxiv.org/pdf/2108.05053.pdf)
+**[Apache flink: Stream and batch processing in a single engine[J].]** Carbone P, Katsifodimos A, Ewen S, et al.  The Bulletin of the Technical Committee on Data Engineering, 2015, 38(4).[paper](https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf)![](https://img.shields.io/badge/-Feature Extraction-green)
 
-**[Feature Selection]** CAI J, LUO J, WANG S et al. Feature selection in machine learning: A new perspective[J/OL]. Neurocomputing (Amsterdam), 2018, 300: 70-79. DOI:10.1016/j.neucom.2017.11.077.[paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231218302911)
+**[Managing ML pipelines: feature stores and the coming wave of embedding ecosystems[J].]** Orr L, Sanyal A, Ling X, et al.  arXiv preprint arXiv:2108.05053, 2021.[paper](https://arxiv.org/pdf/2108.05053.pdf)![](https://img.shields.io/badge/-FE for Embedding-red)
 
-**[FE for Federated learning]** Siqi Wang, Jiashu Li, Mian Lu, Zhao Zheng, Yuqiang Chen, and Bingsheng He. 2022. A System for Time Series Feature Extraction in Federated Learning. In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM '22). Association for Computing Machinery, New York, NY, USA, 5024–5028.[paper](https://doi.org/10.1145/3511808.3557176)
+**[Feature selection in machine learning: A new perspective[J/OL].]** CAI J, LUO J, WANG S et al.  Neurocomputing (Amsterdam), 2018, 300: 70-79. DOI:10.1016/j.neucom.2017.11.077.[paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231218302911)![](https://img.shields.io/badge/-Feature Selection-yellow)
+
+**[A System for Time Series Feature Extraction in Federated Learning.]** Siqi Wang, Jiashu Li, Mian Lu, Zhao Zheng, Yuqiang Chen, and Bingsheng He. 2022.  In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM '22). Association for Computing Machinery, New York, NY, USA, 5024–5028.[paper](https://doi.org/10.1145/3511808.3557176)![](https://img.shields.io/badge/-FE for Federated learning-blue)
 
