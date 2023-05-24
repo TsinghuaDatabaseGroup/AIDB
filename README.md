@@ -34,6 +34,7 @@ Table of Contents
 * [9. Database Frameworks (14)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
 * [11. Talks](#11-talks)
+* [12. Feature Stores](#12-feature-stores)
 
 
 ## 0. Survey and Tutorial
@@ -598,3 +599,30 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[AutoDB]** Tim Kraska. *Towards instance-optimized data systems*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
 **[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
+
+## 12. Feature Stores
+
+**[FEBench: A Benchmark for Real-Time Relational Data Feature Extraction]** ![](https://img.shields.io/badge/-benchmark-purple)
+
+*Xuanhe Zhou, Cheng Chen, Kunyi Li, et al. 2023. Proc. VLDB Endow.* [papar](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)
+
+**[Optimizing in-memory database engine for AI-powered on-line decision augmentation using persistent memory.]** ![](https://img.shields.io/badge/-feature_extraction-green)
+
+*Cheng Chen, Jun Yang, Mian Lu, Taize Wang, Zhao Zheng, Yuqiang Chen, Wenyuan Dai, Bingsheng He, Weng-Fai Wong, Guoan Wu, Yuping Zhao, and Andy Rudoff. 2021.  Proc. VLDB Endow. 14, 5 (January 2021), 799–812.* [paper](https://doi.org/10.14778/3446095.3446102)
+
+**[Apache flink: Stream and batch processing in a single engine[J].]** ![](https://img.shields.io/badge/-feature_extraction-green)
+
+*Carbone P, Katsifodimos A, Ewen S, et al.  The Bulletin of the Technical Committee on Data Engineering, 2015, 38(4).* [paper](https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf)
+
+**[Managing ML pipelines: feature stores and the coming wave of embedding ecosystems[J].]** ![](https://img.shields.io/badge/-fe_for_embedding-red)
+
+*Orr L, Sanyal A, Ling X, et al.  arXiv preprint arXiv:2108.05053, 2021.* [paper](https://arxiv.org/pdf/2108.05053.pdf)
+
+**[Feature selection in machine learning: A new perspective[J/OL].]** ![](https://img.shields.io/badge/-feature_selection-yellow)
+
+*CAI J, LUO J, WANG S et al.  Neurocomputing (Amsterdam), 2018, 300: 70-79. DOI:10.1016/j.neucom.2017.11.077.* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231218302911)
+
+**[A System for Time Series Feature Extraction in Federated Learning.]** ![](https://img.shields.io/badge/-fe_for_federated_learning-blue)
+
+*Siqi Wang, Jiashu Li, Mian Lu, Zhao Zheng, Yuqiang Chen, and Bingsheng He. 2022.  In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM '22). Association for Computing Machinery, New York, NY, USA, 5024–5028.* [paper](https://doi.org/10.1145/3511808.3557176)
+
