@@ -43,13 +43,23 @@ Table of Contents
 
 *Wei Wang, Meihui Zhang, Gang Chen, et al.  SIGMOD Record, 2016.* [[paper](https://doi.org/10.1145/3003665.3003669)]
 
+
 **Database Meets Artificial Intelligence: A Survey.** ![](https://img.shields.io/badge/-ai4db-brown) ![](https://img.shields.io/badge/-db4ai-green)
 
 *Xuanhe Zhou, Chengliang Chai, Guoliang Li, et al. TKDE, 2020.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
-**[Survey | RL4DB]** Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. A Survey on Deep Reinforcement Learning for Data Processing and Analytics. arXive, 2021. [[paper](http://arxiv.org/abs/2108.04526)]
+**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_query_optimizer-brown)
 
-**[Survey | Knob Tuning]** Automatic Database Knob Tuning: A Survey. TKDE, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
+*Hai Lan, Zhifeng Bao, Yuwei Peng. Data Science and Engineering, 2021.* [[paper](https://link.springer.com/article/10.1007/s41019-020-00149-7)]
+
+**A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-brown)
+
+*Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. TKDE, 2022.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9723570)]
+
+
+**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-brown)
+
+*Xinyang Zhao, Xuanhe Zhou, Guoliang Li. TKDE, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
 **[Tutorial | AI4DB]** Stratos Idreos, Tim Kraska. From auto-tuning one size fits all to self-designed and learned data-intensive systems. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3314034)]
 
