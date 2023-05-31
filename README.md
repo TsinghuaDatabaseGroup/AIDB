@@ -50,7 +50,7 @@ Table of Contents
 
 *Xuanhe Zhou, Chengliang Chai, Guoliang Li, et al. TKDE, 2020.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
-**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_optimizer-Informational)
+**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_optimizer-orange)
 
 *Hai Lan, Zhifeng Bao, Yuwei Peng. Data Science and Engineering, 2021.* [[paper](https://link.springer.com/article/10.1007/s41019-020-00149-7)]
 
@@ -59,7 +59,7 @@ Table of Contents
 *Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. TKDE, 2022.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9723570)]
 
 
-**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-Informational)
+**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-brown)
 
 *Xinyang Zhao, Xuanhe Zhou, Guoliang Li. TKDE, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
@@ -71,21 +71,22 @@ Table of Contents
 *Stratos Idreos, Tim Kraska. SIGMOD, 2019.*  [[paper](https://doi.org/10.1145/3299869.3314034)]
 
 
-**Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
+**Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems.** ![](https://img.shields.io/badge/-learned_tuning-brown)
 
 *Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. VLDB, 2019.*  [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
+
 
 **Tutorial: Adaptive Replication and Partitioning in Data Systems.** ![](https://img.shields.io/badge/-auto_db_cluster-Informational)
 
 *Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Middleware, 2018.*  [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
 
 
-**A Tutorial on Learned Multi-dimensional Indexes.** ![](https://img.shields.io/badge/-learned_index-Informational)
+**A Tutorial on Learned Multi-dimensional Indexes.** ![](https://img.shields.io/badge/-learned_index-black)
 
 *Abdullah Al-Mamun, Hao Wu, Walid G. Aref. SIGSPATIAL, 2020.*  [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
 
 
-**AI Meets Database: AI4DB and DB4AI.** ![](https://img.shields.io/badge/-ai4db-Informational)
+**AI Meets Database: AI4DB and DB4AI.** ![](https://img.shields.io/badge/-ai4db-Informational) ![](https://img.shields.io/badge/-db4ai-informational)
 
 *Guoliang Li, Xuanhe Zhou, Lei Cao. SIGMOD, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
 
@@ -100,13 +101,12 @@ Table of Contents
 *Alekh Jindal, Matteo Interlandi. VLDB, 2021.*  [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)]
 
 
-**Workload-Aware Performance Tuning for Autonomous DBMSs.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
+**Workload-Aware Performance Tuning for Autonomous DBMSs.** ![](https://img.shields.io/badge/-learned_tuning-brown)
 
 *Zhengtong Yan, Jiaheng Lu, Naresh Chainani, et al. ICDE, 2021.*  [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
 
 
-
-**Learned Query Optimizer: At the Forefront of AI-Driven Databases.** ![](https://img.shields.io/badge/-learned_optimizer-Informational)
+**Learned Query Optimizer: At the Forefront of AI-Driven Databases.** ![](https://img.shields.io/badge/-learned_optimizer-orange)
 
 *Zhu, Rong, Ziniu Wu, Chengliang Chai, et al. EDBT, 2022.*  [[paper](https://openproceedings.org/2022/conf/edbt/tutorial-1.pdf)]
 
@@ -114,7 +114,6 @@ Table of Contents
 **From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.** ![](https://img.shields.io/badge/-llm4db-Informational)
 
 *Immanuel Trummer. VLDB, 2022.*  [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
-
 
 
 ## 1. Database Configuration
@@ -542,9 +541,12 @@ Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Res
 
 ## 7. Large Language Models For Database
 
+
+
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
 
-   *Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Chenhao Ma, Kevin C.C. Chang, Fei Huang, Reynold Cheng, Yongbin Li.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
+   *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
+
 
 **Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
 
