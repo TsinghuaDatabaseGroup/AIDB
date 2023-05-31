@@ -71,7 +71,7 @@ Table of Contents
 *Stratos Idreos, Tim Kraska. SIGMOD, 2019.*  [[paper](https://doi.org/10.1145/3299869.3314034)]
 
 
-**From auto-tuning one size fits all to self-designed and learned data-intensive systems.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
+**Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
 
 *Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. VLDB, 2019.*  [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
 
