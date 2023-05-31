@@ -7,7 +7,7 @@ Kindly let us know if we have missed any great papers. Thank you!
 Table of Contents
 =================
 
-* [0. Survey and Tutorial (14)](#0-survey-and-tutorial)
+* [0. Survey and Tutorial (15)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
@@ -71,25 +71,51 @@ Table of Contents
 *Stratos Idreos, Tim Kraska. SIGMOD, 2019.*  [[paper](https://doi.org/10.1145/3299869.3314034)]
 
 
+**From auto-tuning one size fits all to self-designed and learned data-intensive systems.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
+
+*Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. VLDB, 2019.*  [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)] [[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
+
+**Tutorial: Adaptive Replication and Partitioning in Data Systems.** ![](https://img.shields.io/badge/-auto_db_cluster-Informational)
+
+*Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Middleware, 2018.*  [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
+
+
+**A Tutorial on Learned Multi-dimensional Indexes.** ![](https://img.shields.io/badge/-learned_index-Informational)
+
+*Abdullah Al-Mamun, Hao Wu, Walid G. Aref. SIGSPATIAL, 2020.*  [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
+
+
 **AI Meets Database: AI4DB and DB4AI.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
 *Guoliang Li, Xuanhe Zhou, Lei Cao. SIGMOD, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
 
-**[Tutorial | AI4DB]** Guoliang Li, Xuanhe Zhou, Lei Cao. Machine Learning for Databases. VLDB 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
 
-**[Tutorial | AI4DB]** Zhu, Rong, et al. "Learned Query Optimizer: At the Forefront of AI-Driven Databases." EDBT. 2022.
+**Machine Learning for Databases.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
-**[Tutorial | AI4Tuning]** 	Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. *Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)][[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
+*Guoliang Li, Xuanhe Zhou, Lei Cao. VLDB, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
 
-**[Tutorial | AI4CloudDB]** 	Alekh Jindal, Matteo Interlandi. *Machine Learning for Cloud Data Systems: the Promise , the Progress , and the Path Forward*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)]
 
-**[Tutorial | AI4Tuning]** Zhengtong Yan, Jiaheng Lu, Naresh Chainani, Chunbin Lin. Workload-Aware Performance Tuning for Autonomous DBMSs. ICDE, 2021. [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
+**Machine Learning for Cloud Data Systems: the Promise, the Progress, and the Path Forward.** ![](https://img.shields.io/badge/-learned_cloud_db-Informational)
 
-**[Tutorial | AI4DBCluster]** 	Brad Glasbergen, Michael Abebe, Khuzaima Daudjee. Tutorial: Adaptive Replication and Partitioning in Data Systems. Middleware, 2018. [[paper](https://cs.uwaterloo.ca/~kdaudjee/AdaptiveTutorial.pdf)]
+*Alekh Jindal, Matteo Interlandi. VLDB, 2021.*  [[paper](http://vldb.org/pvldb/vol14/p3202-jindal.pdf)]
 
-**[Tutorial | LearnedIndex]** 	Abdullah Al-Mamun, Hao Wu, Walid G. Aref. A Tutorial on Learned Multi-dimensional Indexes. SIGSPATIAL, 2020. [[paper](https://dl.acm.org/doi/10.1145/3397536.3426358)]
 
-**[Tutorial | NLP4DB]**   Immanuel Trummer. From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management. VLDB, 2022. [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
+**Workload-Aware Performance Tuning for Autonomous DBMSs.** ![](https://img.shields.io/badge/-learned_tuning-Informational)
+
+*Zhengtong Yan, Jiaheng Lu, Naresh Chainani, et al. ICDE, 2021.*  [[paper](https://www2.helsinki.fi/sites/default/files/atoms/files/icde_2021_tutorial_latest.pdf)]
+
+
+
+**Learned Query Optimizer: At the Forefront of AI-Driven Databases.** ![](https://img.shields.io/badge/-learned_optimizer-Informational)
+
+*Zhu, Rong, Ziniu Wu, Chengliang Chai, et al. EDBT, 2022.*  [[paper](https://openproceedings.org/2022/conf/edbt/tutorial-1.pdf)]
+
+
+**From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.** ![](https://img.shields.io/badge/-llm4db-Informational)
+
+*Immanuel Trummer. VLDB, 2022.*  [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
+
+
 
 ## 1. Database Configuration
 
