@@ -39,33 +39,45 @@ Table of Contents
 
 ## 0. Survey and Tutorial
 
-**Database meets deep learning: Challenges and opportunities.** ![](https://img.shields.io/badge/-ai4db-critical)
+### Survey
+
+**Database meets deep learning: Challenges and opportunities.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
 *Wei Wang, Meihui Zhang, Gang Chen, et al.  SIGMOD Record, 2016.* [[paper](https://doi.org/10.1145/3003665.3003669)]
 
 
-**Database Meets Artificial Intelligence: A Survey.** ![](https://img.shields.io/badge/-ai4db-critical) ![](https://img.shields.io/badge/-db4ai-informational)
+**Database Meets Artificial Intelligence: A Survey.** ![](https://img.shields.io/badge/-ai4db-Informational) ![](https://img.shields.io/badge/-db4ai-informational)
 
 *Xuanhe Zhou, Chengliang Chai, Guoliang Li, et al. TKDE, 2020.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
-**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_optimizer-critical)
+**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_optimizer-Informational)
 
 *Hai Lan, Zhifeng Bao, Yuwei Peng. Data Science and Engineering, 2021.* [[paper](https://link.springer.com/article/10.1007/s41019-020-00149-7)]
 
-**A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-critical)
+**A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-Informational)
 
 *Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. TKDE, 2022.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9723570)]
 
 
-**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-critical)
+**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-Informational)
 
 *Xinyang Zhao, Xuanhe Zhou, Guoliang Li. TKDE, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
-**[Tutorial | AI4DB]** Stratos Idreos, Tim Kraska. From auto-tuning one size fits all to self-designed and learned data-intensive systems. SIGMOD, 2019. [[paper](https://doi.org/10.1145/3299869.3314034)]
 
-**[Tutorial | AI4DB]** Guoliang Li, Xuanhe Zhou, Lei Cao. AI Meets Database: AI4DB and DB4AI. SIGMOD 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
+### Tutorial
+
+**From auto-tuning one size fits all to self-designed and learned data-intensive systems.** ![](https://img.shields.io/badge/-ai4db-Informational)
+
+*Stratos Idreos, Tim Kraska. SIGMOD, 2019.*  [[paper](https://doi.org/10.1145/3299869.3314034)]
+
+
+**AI Meets Database: AI4DB and DB4AI.** ![](https://img.shields.io/badge/-ai4db-Informational)
+
+*Guoliang Li, Xuanhe Zhou, Lei Cao. SIGMOD, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
 
 **[Tutorial | AI4DB]** Guoliang Li, Xuanhe Zhou, Lei Cao. Machine Learning for Databases. VLDB 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
+
+**[Tutorial | AI4DB]** Zhu, Rong, et al. "Learned Query Optimizer: At the Forefront of AI-Driven Databases." EDBT. 2022.
 
 **[Tutorial | AI4Tuning]** 	Jiaheng Lu, Yuxing Chen, Herodotos Herodotou, Shivnath Babu. *Speedup Your Analytics: Automatic Parameter Tuning for Databases and Big Data Systems*, VLDB, 2019. [[paper](http://www.vldb.org/pvldb/vol12/p1970-lu.pdf)][[slides](https://pdfs.semanticscholar.org/a784/25f87ec066c51043380f93502950e044cca3.pdf)]
 
@@ -638,5 +650,3 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[AutoDB]** Tim Kraska. *Towards instance-optimized data systems*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
 **[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
-
-
