@@ -7,7 +7,7 @@ Kindly let us know if we have missed any great papers. Thank you!
 Table of Contents
 =================
 
-* [0. Survey and Tutorial (13)](#0-survey-and-tutorial)
+* [0. Survey and Tutorial (14)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
@@ -39,25 +39,25 @@ Table of Contents
 
 ## 0. Survey and Tutorial
 
-**Database meets deep learning: Challenges and opportunities.** ![](https://img.shields.io/badge/-ai4db-brown)
+**Database meets deep learning: Challenges and opportunities.** ![](https://img.shields.io/badge/-ai4db-critical)
 
 *Wei Wang, Meihui Zhang, Gang Chen, et al.  SIGMOD Record, 2016.* [[paper](https://doi.org/10.1145/3003665.3003669)]
 
 
-**Database Meets Artificial Intelligence: A Survey.** ![](https://img.shields.io/badge/-ai4db-brown) ![](https://img.shields.io/badge/-db4ai-green)
+**Database Meets Artificial Intelligence: A Survey.** ![](https://img.shields.io/badge/-ai4db-critical) ![](https://img.shields.io/badge/-db4ai-informational)
 
 *Xuanhe Zhou, Chengliang Chai, Guoliang Li, et al. TKDE, 2020.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
 
-**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_query_optimizer-brown)
+**A Survey on Advancing the DBMS Query Optimizer: Cardinality Estimation, Cost Model, and Plan Enumeration.** ![](https://img.shields.io/badge/-learned_optimizer-critical)
 
 *Hai Lan, Zhifeng Bao, Yuwei Peng. Data Science and Engineering, 2021.* [[paper](https://link.springer.com/article/10.1007/s41019-020-00149-7)]
 
-**A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-brown)
+**A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-critical)
 
 *Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. TKDE, 2022.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9723570)]
 
 
-**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-brown)
+**Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-critical)
 
 *Xinyang Zhao, Xuanhe Zhou, Guoliang Li. TKDE, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
