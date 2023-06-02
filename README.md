@@ -167,36 +167,36 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 #### DL-based
 
-**iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases** ![](https://img.shields.io/badge/-dl-00a15c)  
+**iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases**
 
 *Jian Tan, Tieying Zhang, Feifei Li, et al. VLDB, 2019.* [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
 
 #### RL-based
 
-**An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning** ![](https://img.shields.io/badge/-rl-990036)  
+**An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning** 
 
 *Ji Zhang, Yu Liu, Ke Zhou, Guoliang Li, et al. SIGMOD, 2019.* [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3300085)]
 
-**QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning** ![](https://img.shields.io/badge/-RL-990036)![](https://img.shields.io/badge/-query_encoding_rl-blue)  
+**QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning** ![](https://img.shields.io/badge/-query_encoding-blue)  
 
 *Li G, Zhou X, Li S, et al. VLDB, 2019.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/p2118-li.pdf)]
 
-**Universal Database Optimization using Reinforcement Learning** ![](https://img.shields.io/badge/-rl-990036)  
+**Universal Database Optimization using Reinforcement Learning**
 
 *Wang J, Trummer I, Basu D. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
 
-**Watuning: A workload-aware tuning system with attention-based deep reinforcement learning** ![](https://img.shields.io/badge/-RL-990036)  ![](https://img.shields.io/badge/-pre_trained_rl-grey)
+**Watuning: A workload-aware tuning system with attention-based deep reinforcement learning** ![](https://img.shields.io/badge/-pre_trained-grey)
 
 *Ge J K, Chai Y F, Chai Y P.  JCST, 2021.* [[paper](https://link.springer.com/article/10.1007/s11390-021-1350-8)]
 
-**The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual"** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-llm-f5f5dc)  
+**The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual"** ![](https://img.shields.io/badge/-llm-f5f5dc)  
 
 *Trummer I. VLDB, 2021.* [[paper](http://vldb.org/pvldb/vol14/p1159-trummer.pdf)]
 
-**DB-BERT: a Database Tuning Tool that “Reads the Manual”** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-rl_llm-f5f5dc)   
+**DB-BERT: a Database Tuning Tool that “Reads the Manual”** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-llm-f5f5dc)   
 *Trummer I. SIGMOD, 2022.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517843)]
 
-**HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements** ![](https://img.shields.io/badge/-rl-based-990036)  
+**HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements** 
 
 *Cai B, Liu Y, Zhang C, et al. SIGMOD, 2022.* [[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
 
