@@ -193,7 +193,8 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Trummer I. VLDB, 2021.* [[paper](http://vldb.org/pvldb/vol14/p1159-trummer.pdf)]
 
-**DB-BERT: a Database Tuning Tool that “Reads the Manual”** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-llm-f5f5dc)   
+**DB-BERT: a Database Tuning Tool that “Reads the Manual”** ![](https://img.shields.io/badge/-llm-f5f5dc)  
+
 *Trummer I. SIGMOD, 2022.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517843)]
 
 **HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements** 
