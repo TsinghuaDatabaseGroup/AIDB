@@ -122,80 +122,103 @@ Table of Contents
 
 #### Heuristic 
 
-PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule_based-green) 
+PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-green) 
 
-OpenTuner: An Extensible Framework for Program Autotuning ![](https://img.shields.io/badge/-search_based-yellowgreen)   
-Ansel J, Kamil S, Veeramachaneni K, et al. PACT, 2014.[[paper](https://dl.acm.org/doi/pdf/10.1145/2628071.2628092)] 
+**OpenTuner: An Extensible Framework for Program Autotuning** ![](https://img.shields.io/badge/-search-yellowgreen)   
 
-BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning ![](https://img.shields.io/badge/-search_based-yellowgreen)  
-Zhu Y, Liu J, Guo M, et al. SoCC, 2017. [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
+*Ansel J, Kamil S, Veeramachaneni K, et al. PACT, 2014.* [[paper](https://dl.acm.org/doi/pdf/10.1145/2628071.2628092)] 
+
+**BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning** ![](https://img.shields.io/badge/-search-yellowgreen)  
+
+*Zhu Y, Liu J, Guo M, et al. SoCC, 2017.* [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
 
 #### BO-based
 
-Tuning Database Conﬁguration Parameters with iTuned. ![](https://img.shields.io/badge/-Gaussian_Process-orange)    
-Duan, S., Thummala, V., & Babu, S. VLDB, 2009.[[paper](https://users.cs.duke.edu/~shivnath/ituned/paper.pdf)]
+**Tuning Database Conﬁguration Parameters with iTuned** ![](https://img.shields.io/badge/-gaussian_process-orange)    
 
-Automatic database management system tuning through large-scale machine learning. ![](https://img.shields.io/badge/-Gaussian_Process-orange)  
-Van Aken D, Pavlo A, Gordon G J, et al. SIGMOD, 2017.[[paper](https://dl.acm.org/doi/pdf/10.1145/3035918.3064029)]
+*Duan, S., Thummala, V., & Babu, S. VLDB, 2009.* [[paper](https://users.cs.duke.edu/~shivnath/ituned/paper.pdf)]
 
-Black or White? How to Develop an AutoTuner for Memory-based Analytics ![](https://img.shields.io/badge/-Gaussian_Process-orange) ![](https://img.shields.io/badge/-Featurization-9cf)   
-Kunjir M, Babu S. SIGMOD, 2020.[[paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380591)]
+**Automatic database management system tuning through large-scale machine learning** ![](https://img.shields.io/badge/-gaussian_process-orange)  
 
-ResTune: Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases![](https://img.shields.io/badge/-Gaussian_Process-orange) ![](https://img.shields.io/badge/-Model_Transferring-8cfff3)
-Zhang X, Wu H, Chang Z, et al. SIGMOD, 2021.[[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/zhang-sigmod2021.pdf)]
+*Van Aken D, Pavlo A, Gordon G J, et al. SIGMOD, 2017.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3035918.3064029)]
 
-CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions![](https://img.shields.io/badge/-Contextual_Gaussian_Process-orange)   
-Cereda S, Valladares S, Cremonesi P, et al. VLDB, 2021.[[paper](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2021_2022/papers/CGPTUNER_VLDB_2021.pdf)]
+**Black or White? How to Develop an AutoTuner for Memory-based Analytics** ![](https://img.shields.io/badge/-gaussian_process-orange) ![](https://img.shields.io/badge/-Featurization-9cf)   
 
-Towards Dynamic and Safe Configuration Tuning for Cloud Databases ![](https://img.shields.io/badge/-Bounded_Gaussian_Process-orange)  
-Zhang X, Wu H, Li Y, et al. SIGMOD, 2022.[[paper](https://arxiv.org/pdf/2203.14473)]
+*Kunjir M, Babu S. SIGMOD, 2020.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380591)]
 
-LlamaTune: Sample-Efficient DBMS Configuration Tuning ![](https://img.shields.io/badge/-Gaussian_Process-orange)  
-Kanellis K, Ding C, Kroth B, et al. VLDB, 2022.[[paper](https://arxiv.org/pdf/2203.05128)]
+**ResTune: Resource Oriented Tuning Boosted by Meta-Learning for Cloud Databases** ![](https://img.shields.io/badge/-gaussian_process-orange) ![](https://img.shields.io/badge/-Model_Transferring-8cfff3)
+
+*Zhang X, Wu H, Chang Z, et al. SIGMOD, 2021.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/zhang-sigmod2021.pdf)]
+
+
+**CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions** ![](https://img.shields.io/badge/-contextual_gaussian_process-orange)   
+
+*Cereda S, Valladares S, Cremonesi P, et al. VLDB, 2021.* [[paper](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2021_2022/papers/CGPTUNER_VLDB_2021.pdf)]
+
+
+**Towards Dynamic and Safe Configuration Tuning for Cloud Databases** ![](https://img.shields.io/badge/-bounded_gaussian_process-orange)  
+
+*Zhang X, Wu H, Li Y, et al. SIGMOD, 2022.* [[paper](https://arxiv.org/pdf/2203.14473)]
+
+
+**LlamaTune: Sample-Efficient DBMS Configuration Tuning** ![](https://img.shields.io/badge/-gaussian_process-orange)  
+
+*Kanellis K, Ding C, Kroth B, et al. VLDB, 2022.* [[paper](https://arxiv.org/pdf/2203.05128)]
 
 #### DL-based
 
-iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases ![](https://img.shields.io/badge/-DL-00a15c)  
-VLDB, 2019.[[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
+**iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases** ![](https://img.shields.io/badge/-dl-00a15c)  
+
+*Jian Tan, Tieying Zhang, Feifei Li, et al. VLDB, 2019.* [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
 
 #### RL-based
 
-An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning ![](https://img.shields.io/badge/-RL-990036)  
-Tan J, Zhang T, Li F, et al. SIGMOD, 2019.[[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3300085)]
+**An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning** ![](https://img.shields.io/badge/-rl-990036)  
 
-QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning![](https://img.shields.io/badge/-RL-990036)![](https://img.shields.io/badge/-Query_Encoding-blue)  
-Li G, Zhou X, Li S, et al. VLDB, 2019.[[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/p2118-li.pdf)]
+*Ji Zhang, Yu Liu, Ke Zhou, Guoliang Li, et al. SIGMOD, 2019.* [[paper](https://dl.acm.org/doi/abs/10.1145/3299869.3300085)]
 
-Universal Database Optimization using Reinforcement Learning ![](https://img.shields.io/badge/-RL-990036)  
-Wang J, Trummer I, Basu D. VLDB, 2021.[[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
+**QTune: A Query-Aware Database Tuning System with Deep Reinforcement Learning** ![](https://img.shields.io/badge/-RL-990036)![](https://img.shields.io/badge/-query_encoding_rl-blue)  
 
-Watuning: A workload-aware tuning system with attention-based deep reinforcement learning.![](https://img.shields.io/badge/-RL-990036)  ![](https://img.shields.io/badge/-Pre_trained-grey)
-Ge J K, Chai Y F, Chai Y P.  JCST, 2021.[[paper](https://link.springer.com/article/10.1007/s11390-021-1350-8)]
+*Li G, Zhou X, Li S, et al. VLDB, 2019.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/p2118-li.pdf)]
 
-The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual" ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-NLP-f5f5dc)  
-Trummer I. VLDB, 2021.[[paper](http://vldb.org/pvldb/vol14/p1159-trummer.pdf)]
+**Universal Database Optimization using Reinforcement Learning** ![](https://img.shields.io/badge/-rl-990036)  
 
-DB-BERT: a Database Tuning Tool that “Reads the Manual” ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-NLP-f5f5dc)   
-Trummer I. SIGMOD, 2022.[[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517843)]
+*Wang J, Trummer I, Basu D. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
 
-HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements ![](https://img.shields.io/badge/-RL-990036)  
-Cai B, Liu Y, Zhang C, et al. SIGMOD, 2022.[[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
+**Watuning: A workload-aware tuning system with attention-based deep reinforcement learning** ![](https://img.shields.io/badge/-RL-990036)  ![](https://img.shields.io/badge/-pre_trained_rl-grey)
+
+*Ge J K, Chai Y F, Chai Y P.  JCST, 2021.* [[paper](https://link.springer.com/article/10.1007/s11390-021-1350-8)]
+
+**The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that "Read the Manual"** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-llm-f5f5dc)  
+
+*Trummer I. VLDB, 2021.* [[paper](http://vldb.org/pvldb/vol14/p1159-trummer.pdf)]
+
+**DB-BERT: a Database Tuning Tool that “Reads the Manual”** ![](https://img.shields.io/badge/-RL-990036) ![](https://img.shields.io/badge/-rl_llm-f5f5dc)   
+*Trummer I. SIGMOD, 2022.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517843)]
+
+**HUNTER- An Online Cloud Database Hybrid Tuning System for Personalized Requirements** ![](https://img.shields.io/badge/-rl-based-990036)  
+
+*Cai B, Liu Y, Zhang C, et al. SIGMOD, 2022.* [[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
 
 #### Knob Selection
 
-SARD: A statistical approach for ranking database tuning parameters    
-Debnath B K, Lilja D J, Mokbel M F.  [[paper](https://www-users.cse.umn.edu/~mokbel/papers/SARD.pdf)]
+**SARD: A statistical approach for ranking database tuning parameters**
 
-Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs   
-Kanellis K, Alagappan R, Venkataraman S. [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
+*Debnath B K, Lilja D J, Mokbel M F. ICDE Workshops 2008.*  [[paper](https://www-users.cse.umn.edu/~mokbel/papers/SARD.pdf)]
+
+**Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs**
+
+*Kanellis K, Alagappan R, Venkataraman S. HotStorage 2020.* [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
 #### Experiments
 
-An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems   
-Van Aken D, Yang D, Brillard S, et al. [[paper](https://www.cs.cmu.edu/~./pavlo/papers/p1241-aken.pdf)]
+**An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems**
 
-Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation  
-Zhang X, Chang Z, Li Y, et al. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
+*Van Aken D, Yang D, Brillard S, et al. VLDB, 2021.* [[paper](https://www.cs.cmu.edu/~./pavlo/papers/p1241-aken.pdf)]
+
+**Facilitating Database Tuning with Hyper-Parameter Optimization- A Comprehensive Experimental Evaluation**
+
+*Zhang X, Chang Z, Li Y, et al. VLDB, 2022.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
 
 
 
