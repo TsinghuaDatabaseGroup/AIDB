@@ -24,7 +24,7 @@ Table of Contents
     * [4.3 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
-    * [6.1 System Diagnosis (3)](#System-Diagnosis)
+    * [6.1 System Diagnosis (6)](#System-Diagnosis)
     * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
 * [7. **Large Language Models for Database** (4)](#7-Large-Language-Models-For-Database)
 * [8. General Techniques](#8-general-techniques)
@@ -573,17 +573,43 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 ## 6. Database Diagnosis
 
-### System Diagnosis
+### System/Kernel Causes
 
-Yoon, D. Y., Niu, N., & Mozafari, B. (2016). DBSherlock: A performance diagnostic tool for transactional databases. *Proceedings of the ACM SIGMOD International Conference on Management of Data*, *26*-*June*-*20*(i), 1599–1614. [[paper](https://web.eecs.umich.edu/~mozafari/php/data/uploads/sigmod_2016.pdf)]
+**Automatic Performance Diagnosis and Tuning in Oracle**
 
-Kalmegh, P., Babu, S., & Roy, S. (2019). iQCAR: inter-Query Contention Analyzer for Data Analytics Frameworks. SIGMOD. [[paper](https://dl.acm.org/doi/10.1145/3299869.3319904)]
+*Karl Dias, Mark Ramacher, Uri Shaft, et al. CIDR, 2005.* [[paper](https://www.cidrdb.org/cidr2005/papers/P07.pdf)]
 
-Ma, M., Yin, Z., Zhang, S., Wang, S., Zheng, C., & Jiang, X. (2020). Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases. *PVLDB Endowment.* [[paper](http://www.vldb.org/pvldb/vol13/p1176-ma.pdf)]
 
-### Query Diagnosis
+**DBSherlock: A Performance Diagnostic Tool for Transactional Databases.**
 
-Xiaoze Liu, Zheng Yin, Chao Zhao, et al. PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases. ICDE 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
+*Yoon, D. Y., Niu, N., & Mozafari, B. SIGMOD, 2016.*  [[paper](https://web.eecs.umich.edu/~mozafari/php/data/uploads/sigmod_2016.pdf)]
+
+
+**iQCAR: inter-Query Contention Analyzer for Data Analytics Frameworks.**
+
+*Kalmegh, P., Babu, S., & Roy, S. SIGMOD, 2019.*  [[paper](https://users.cs.duke.edu/~sudeepa/papers/SIGMOD2019-iqcar.pdf)]
+
+
+**FluxInfer: Automatic Diagnosis of Performance Anomaly for Online Database System**
+
+*Ping Liu, Shenglin Zhang, Yongqian Sun, et al. IPCCC, 2020.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9391550)]
+
+
+**Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases.**
+
+*Minghua Ma, Zheng Yin, Shenglin Zhang, et al. VLDB, 2020.*  [[paper](http://www.vldb.org/pvldb/vol13/p1176-ma.pdf)]
+
+
+**Generic and Robust Performance Diagnosis via Causal Inference for OLTP Database Systems.**
+
+*Xianglin Lu, Zhe Xie, Zeyan Li, et al. CCGrid, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9826016)]
+
+
+### Bottleneck Queries
+
+**PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases.** 
+
+*Xiaoze Liu, Zheng Yin, Chao Zhao, et al. ICDE, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
 
 
 ## 7. Large Language Models For Database
