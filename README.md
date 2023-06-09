@@ -26,7 +26,7 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (7)](#System-and-Kernel-Causes)
     * [6.2 Query Diagnosis (1)](#Bottleneck-Queries)
-* [7. **Large Language Models for Database** (4)](#7-Large-Language-Models-For-Database)
+* [7. **Large Language Models for Database** (5)](#7-Large-Language-Models-For-Database)
 * [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
     * [8.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
@@ -619,7 +619,6 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 ## 7. Large Language Models For Database
 
 
-
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
 
    *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
@@ -629,13 +628,21 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
    *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
+
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
 
    *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
 
+
 **Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
 
    *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
+
+
+**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory**
+
+   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+
 
 ## 8. General Techniques
 
