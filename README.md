@@ -603,6 +603,11 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 **Generic and Robust Performance Diagnosis via Causal Inference for OLTP Database Systems.**
 
 *Xianglin Lu, Zhe Xie, Zeyan Li, et al. CCGrid, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9826016)]
+ 
+
+**DBPA: A Benchmark for Transactional Database Performance Anomalies.**
+
+*Shiyue Huang,Ziwei Wang, Xinyi Zhang, et al. SIGMOD, 2023.*  [[paper](https://dl.acm.org/doi/abs/10.1145/3588926)]
 
 
 ### Bottleneck Queries
