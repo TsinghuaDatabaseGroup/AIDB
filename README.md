@@ -24,8 +24,8 @@ Table of Contents
     * [4.3 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
-    * [6.1 System Diagnosis (6)](#System-Diagnosis)
-    * [6.2 Query Diagnosis (1)](#Query-Diagnosis)
+    * [6.1 System Diagnosis (7)](#System-and-Kernel-Causes)
+    * [6.2 Query Diagnosis (1)](#Bottleneck-Queries)
 * [7. **Large Language Models for Database** (4)](#7-Large-Language-Models-For-Database)
 * [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
@@ -573,7 +573,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 ## 6. Database Diagnosis
 
-### System/Kernel Causes
+### System and Kernel Causes
 
 **Automatic Performance Diagnosis and Tuning in Oracle**
 
@@ -608,7 +608,6 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 **DBPA: A Benchmark for Transactional Database Performance Anomalies.**
 
 *Shiyue Huang,Ziwei Wang, Xinyi Zhang, et al. SIGMOD, 2023.*  [[paper](https://dl.acm.org/doi/abs/10.1145/3588926)]
-
 
 ### Bottleneck Queries
 
