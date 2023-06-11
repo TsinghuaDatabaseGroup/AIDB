@@ -26,13 +26,13 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (7)](#System-and-Kernel-Causes)
     * [6.2 Query Diagnosis (1)](#Bottleneck-Queries)
-* [7. **Large Language Models for Database** (5)](#7-Large-Language-Models-For-Database)
+* [7. **Large Language Models Meet Database** (5)](#7-Large-Language-Models-Meet-Database)
 * [8. General Techniques](#8-general-techniques)
     * [8.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
     * [8.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
     * [8.3 Model Transfer (1)](#Model-Transfer) 
     * [8.4 Query And Data Generation (5)](#query-and-data-generation)
-* [9. Database Frameworks (14)](#9-database-frameworks)
+* [9. Database Frameworks (15)](#9-database-frameworks)
 * [10. Demonstrations](#10-demonstrations)
 * [11. Talks](#11-talks)
 
@@ -616,8 +616,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 *Xiaoze Liu, Zheng Yin, Chao Zhao, et al. ICDE, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
 
 
-## 7. Large Language Models For Database
-
+## 7. Large Language Models Meet Database
 
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
 
@@ -711,34 +710,79 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## 9. Database Frameworks
 
-**[MLTrain]** Lim WS, Butrovich M, Zhang W, Crotty A, Ma L, Xu P, Gehrke J, Pavlo A. *Database Gyms*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf.)]
+**Self-Driving Database Management Systems** ![](https://img.shields.io/badge/-model_assembly-orange) 
 
-**[AcademicDB]** Immanuel L Haffner, Jens Dittrich. *mutable: A Modern DBMS for Research and Fast Prototyping*. CIDR, 2023. [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf.)]
-
-**[ModelValid]** Remmelt Ammerlaan, Gilbert Antonius, Marc Friedman, et al. *PerfGuard: Deploying ML-for-Systems without Performance Regressions, Almost!*. VLDB, 2022. [[[paper](https://vldb.org/pvldb/vol14/p3362-hossain.pdf)]
-
-**[Transferable]** Ziniu Wu, et al. *A Unified Transferable Model for ML-Enhanced DBMS*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p6-wu.pdf.)]
-
-**[Transferable]** Benjamin Hilprecht, Carsten Binnig. *One Model to Rule them All: Towards Zero-Shot Learning for Databases*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf.)]
-
-**[AutoDB]** Pavlo, A., Angulo, G., Arulraj, J., Lin, H., Lin, J., Ma, L., … Zhang, T. (2017). Self-Driving Database Management Systems. CIDR, 2017. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
-
-**[AutoDB]** Li, F. (2018). Cloud native database systems at Alibaba: Opportunities and challenges. *Proceedings of the VLDB Endowment*, 2018. [[paper](https://doi.org/10.14778/3352063.3352141)]
-
-**[AutoDB]** Kraska, T., Alizadeh, M., Beutel, A., Chi, E. H., Ding, J., Kristo, A., … Nathan, V. (2019). SageDB: A learned database system. CIDR, 2019. [[paper](http://www.alexbeutel.com/papers/CIDR2019_SageDB.pdf)]
-
-**[AutoDB]** Li, G., Zhou, X., Li, S. (2019). *XuanYuan: An AI-Native Database*. Data Eng., 2019. [[paper](http://sites.computer.org/debull/A19june/p70.pdf)]
-
-**[AutoDB]** Hilprecht, B., Bang, T., El-Hindi, M., Hättasch, B., Khanna, A., Rehrmann, R., … Binnig, C. (2020). DBMS Fitting: Why should we learn what we already know? Cidr, 2020. [[paper](http://cidrdb.org/cidr2020/papers/p34-hilprecht-cidr20.pdf)]
-
-**[AutoDB]** Ma, L., Zhang, W., Jiao, J., Wang, W., Butrovich, M., Lim, W. S., … Pavlo, A. (2021). *MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems*. SIGMOD, 2021. [[paper](https://dl.acm.org/doi/10.1145/3448016.3457276)]
-
-**[AutoDB]** Guoliang Li, Xuanhe Zhou, , Ji Sun, Xiang Yu, Yue Han, Lianyuan Jin, Wenbo Li, Tianqing Wang, Shifu Li. openGauss: An Autonomous Database System. VLDB, 2021. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-opengauss.pdf)]
+*Andrew Pavlo, Gustavo Angulo, Joy Arulraj, et al. CIDR, 2017.* [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
 
-**[NLP]** James Thorne, Majid Yazdani, Marzieh Saeidi, Fabrizio Silvestri, Sebastian Riedel, Alon Y. Levy. From Natural Language Processing to Neural Databases. VLDB, 2021. [[paper](http://www.vldb.org/pvldb/vol14/p1033-thorne.pdf)]
+**Cloud native database systems at Alibaba: Opportunities and challenges** ![](https://img.shields.io/badge/-learned_tuning-orange)  
 
-**[Embedding]** Raasveldt, M.. *MonetDBLite: An embedded analytical database*. SIGMOD, 2018. [[paper](https://arxiv.org/pdf/1805.08520.pdf#:~:text=MonetDBLite%20is%20an%20in%2Dprocess,%2C%20R%2C%20Python%20and%20Java.)]
+*Feifei Li. VLDB, 2018.* [[paper](http://www.vldb.org/pvldb/vol12/p2263-li.pdf)]
+
+
+**SageDB: A learned database system** ![](https://img.shields.io/badge/-learned_CDFs-orange) 
+
+*Tim Kraska, Mohammad Alizadeh, Alex Beutel, et al. CIDR, 2019.* [[paper](http://www.alexbeutel.com/papers/CIDR2019_SageDB.pdf)]
+
+
+**MonetDBLite: An embedded analytical database** 
+
+*Mark Raasveldt. SIGMOD, 2018.* [[paper](https://mytherin.github.io/papers/2018-monetdblitecikm.pdf)]
+
+
+**XuanYuan: An AI-Native Database** ![](https://img.shields.io/badge/-model_assembly-orange)  
+
+*Guoliang Li, Xuanhe Zhou, Sihao Li. Data Eng., 2019* [[paper](http://sites.computer.org/debull/A19june/p70.pdf)]
+
+
+**DBMS Fitting: Why should we learn what we already know?** ![](https://img.shields.io/badge/-near_white_box_cost_model-blue)   
+
+*Benjamin Hilprecht, Tiemo Bang, Muhammad El-Hindi, et al. CIDR, 2020.* [[paper](http://cidrdb.org/cidr2020/papers/p34-hilprecht-cidr20.pdf)]
+
+
+**MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems** ![](https://img.shields.io/badge/-forecast_driven-orange)
+
+*Lin Ma, William Zhang, Jie Jiao, et al. SIGMOD, 2021.* [[paper](https://dl.acm.org/doi/10.1145/3448016.3457276)]
+
+
+**openGauss: An Autonomous Database System** ![](https://img.shields.io/badge/-learned_models-orange)
+
+*Guoliang Li, Xuanhe Zhou, Ji Sun, et al. VLDB, 2021.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-opengauss.pdf)]
+
+
+**From Natural Language Processing to Neural Databases** ![](https://img.shields.io/badge/-nlp_interface-orange) 
+
+*James Thorne, Majid Yazdani, Marzieh Saeidi, et al. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p1033-thorne.pdf)]
+
+
+**One Model to Rule them All: Towards Zero-Shot Learning for Databases** ![](https://img.shields.io/badge/-model_transfer-blue)
+
+*Benjamin Hilprecht, Carsten Binnig. CIDR, 2022.* [[paper](https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf.)]
+
+
+**A Unified Transferable Model for ML-Enhanced DBMS** ![](https://img.shields.io/badge/-model_transfer-blue)
+
+*Ziniu Wu, et al. CIDR, 2022.* [[paper](https://www.cidrdb.org/cidr2022/papers/p6-wu.pdf)]
+
+
+**PerfGuard: Deploying ML-for-Systems without Performance Regressions, Almost!** ![](https://img.shields.io/badge/-model_validation-purple) 
+
+*Remmelt Ammerlaan, Gilbert Antonius, Marc Friedman, et al. VLDB, 2022.* [[[paper](https://vldb.org/pvldb/vol14/p3362-hossain.pdf)]
+
+
+**Database Gyms** ![](https://img.shields.io/badge/-model_training-purple)
+
+*Lim, Wan Shen, Matthew Butrovich, William Zhang, et al. CIDR, 2023.* [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf)]
+
+
+**mutable: A Modern DBMS for Research and Fast Prototyping.** ![](https://img.shields.io/badge/-module_separation-green)
+
+*Immanuel L Haffner, Jens Dittrich. CIDR, 2023.* [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf)]
+
+
+**Towards Building Autonomous Data Services on Azure** ![](https://img.shields.io/badge/-auto_cloud_services-purple)
+
+*Yiwen Zhu, Yuanyuan Tian, Joyce Cahoon, et al. SIGMOD, 2023.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3555041.3589674)]
 
 
 ## 10. Demonstrations
