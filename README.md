@@ -710,27 +710,27 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## 9. Database Frameworks
 
-**Self-Driving Database Management Systems** ![](https://img.shields.io/badge/-model_assembly-orange) 
+**Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-model_assembly-orange) 
 
 *Andrew Pavlo, Gustavo Angulo, Joy Arulraj, et al. CIDR, 2017.* [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf)]
 
 
-**Cloud native database systems at Alibaba: Opportunities and challenges** ![](https://img.shields.io/badge/-learned_tuning-orange)  
+**Cloud native database systems at Alibaba: Opportunities and challenges.** ![](https://img.shields.io/badge/-learned_tuning-orange)  
 
 *Feifei Li. VLDB, 2018.* [[paper](http://www.vldb.org/pvldb/vol12/p2263-li.pdf)]
 
 
-**SageDB: A learned database system** ![](https://img.shields.io/badge/-learned_CDFs-orange) 
+**SageDB: A learned database system.** ![](https://img.shields.io/badge/-learned_CDFs-orange) 
 
 *Tim Kraska, Mohammad Alizadeh, Alex Beutel, et al. CIDR, 2019.* [[paper](http://www.alexbeutel.com/papers/CIDR2019_SageDB.pdf)]
 
 
-**MonetDBLite: An embedded analytical database** 
+**MonetDBLite: An embedded analytical database.** 
 
 *Mark Raasveldt. SIGMOD, 2018.* [[paper](https://mytherin.github.io/papers/2018-monetdblitecikm.pdf)]
 
 
-**XuanYuan: An AI-Native Database** ![](https://img.shields.io/badge/-model_assembly-orange)  
+**XuanYuan: An AI-Native Database.** ![](https://img.shields.io/badge/-model_assembly-blue)  
 
 *Guoliang Li, Xuanhe Zhou, Sihao Li. Data Eng., 2019* [[paper](http://sites.computer.org/debull/A19june/p70.pdf)]
 
@@ -740,27 +740,27 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Benjamin Hilprecht, Tiemo Bang, Muhammad El-Hindi, et al. CIDR, 2020.* [[paper](http://cidrdb.org/cidr2020/papers/p34-hilprecht-cidr20.pdf)]
 
 
-**MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems** ![](https://img.shields.io/badge/-forecast_driven-orange)
+**MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-forecast_driven-orange)
 
 *Lin Ma, William Zhang, Jie Jiao, et al. SIGMOD, 2021.* [[paper](https://dl.acm.org/doi/10.1145/3448016.3457276)]
 
 
-**openGauss: An Autonomous Database System** ![](https://img.shields.io/badge/-learned_models-orange)
+**openGauss: An Autonomous Database System.** ![](https://img.shields.io/badge/-learned_models-orange)
 
 *Guoliang Li, Xuanhe Zhou, Ji Sun, et al. VLDB, 2021.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-opengauss.pdf)]
 
 
-**From Natural Language Processing to Neural Databases** ![](https://img.shields.io/badge/-nlp_interface-orange) 
+**From Natural Language Processing to Neural Databases.** ![](https://img.shields.io/badge/-nlp_interface-orange) 
 
 *James Thorne, Majid Yazdani, Marzieh Saeidi, et al. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p1033-thorne.pdf)]
 
 
-**One Model to Rule them All: Towards Zero-Shot Learning for Databases** ![](https://img.shields.io/badge/-model_transfer-blue)
+**One Model to Rule them All: Towards Zero-Shot Learning for Databases.** ![](https://img.shields.io/badge/-model_transfer-blue)
 
 *Benjamin Hilprecht, Carsten Binnig. CIDR, 2022.* [[paper](https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf.)]
 
 
-**A Unified Transferable Model for ML-Enhanced DBMS** ![](https://img.shields.io/badge/-model_transfer-blue)
+**A Unified Transferable Model for ML-Enhanced DBMS.** ![](https://img.shields.io/badge/-model_transfer-blue)
 
 *Ziniu Wu, et al. CIDR, 2022.* [[paper](https://www.cidrdb.org/cidr2022/papers/p6-wu.pdf)]
 
@@ -770,7 +770,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Remmelt Ammerlaan, Gilbert Antonius, Marc Friedman, et al. VLDB, 2022.* [[[paper](https://vldb.org/pvldb/vol14/p3362-hossain.pdf)]
 
 
-**Database Gyms** ![](https://img.shields.io/badge/-model_training-purple)
+**Database Gyms.** ![](https://img.shields.io/badge/-model_training-purple)
 
 *Lim, Wan Shen, Matthew Butrovich, William Zhang, et al. CIDR, 2023.* [[paper](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf)]
 
@@ -780,7 +780,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Immanuel L Haffner, Jens Dittrich. CIDR, 2023.* [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf)]
 
 
-**Towards Building Autonomous Data Services on Azure** ![](https://img.shields.io/badge/-auto_cloud_services-purple)
+**Towards Building Autonomous Data Services on Azure.** ![](https://img.shields.io/badge/-auto_cloud_services-purple)
 
 *Yiwen Zhu, Yuanyuan Tian, Joyce Cahoon, et al. SIGMOD, 2023.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3555041.3589674)]
 
