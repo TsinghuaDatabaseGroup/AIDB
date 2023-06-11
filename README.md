@@ -740,7 +740,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Benjamin Hilprecht, Tiemo Bang, Muhammad El-Hindi, et al. CIDR, 2020.* [[paper](http://cidrdb.org/cidr2020/papers/p34-hilprecht-cidr20.pdf)]
 
 
-**MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-forecast_driven-orange)
+**MB2 : Decomposed Behavior Modeling for Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-forecast_model_driven-orange)
 
 *Lin Ma, William Zhang, Jie Jiao, et al. SIGMOD, 2021.* [[paper](https://dl.acm.org/doi/10.1145/3448016.3457276)]
 
