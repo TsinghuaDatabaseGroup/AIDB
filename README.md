@@ -33,7 +33,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (15)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
-* [10. Talks](#11-talks)
+* [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (5)](#S1-Large-Language-Models-Meet-Database)
 
 ## 0. Survey and Tutorial
