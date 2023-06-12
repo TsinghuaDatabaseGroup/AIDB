@@ -781,7 +781,8 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 # *📧 Special Issues*
 
-## S1. Large Language Models Meet Database
+## S1 Large Language Models Meet Database
+
 
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
 
