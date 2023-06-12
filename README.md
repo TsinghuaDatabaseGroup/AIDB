@@ -26,16 +26,15 @@ Table of Contents
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (7)](#System-and-Kernel-Causes)
     * [6.2 Query Diagnosis (1)](#Bottleneck-Queries)
-* [7. **Large Language Models Meet Database** (5)](#7-Large-Language-Models-Meet-Database)
-* [8. General Techniques](#8-general-techniques)
-    * [8.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
-    * [8.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
-    * [8.3 Model Transfer (1)](#Model-Transfer) 
-    * [8.4 Query And Data Generation (5)](#query-and-data-generation)
-* [9. Database Frameworks (15)](#9-database-frameworks)
-* [10. Demonstrations](#10-demonstrations)
-* [11. Talks](#11-talks)
-
+* [7. General Techniques](#7-general-techniques)
+    * [7.1 Feature Engineering for DB (6)](#Feature-Engineering-for-DB)
+    * [7.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
+    * [7.3 Model Transfer (1)](#Model-Transfer) 
+    * [7.4 Query And Data Generation (5)](#query-and-data-generation)
+* [8. Database Frameworks (15)](#8-database-frameworks)
+* [9. Demonstrations](#9-demonstrations)
+* [10. Talks](#11-talks)
+* [S1. **Large Language Models Meet Database** (5)](#S1-Large-Language-Models-Meet-Database)
 
 ## 0. Survey and Tutorial
 
@@ -615,35 +614,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 *Xiaoze Liu, Zheng Yin, Chao Zhao, et al. ICDE, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
 
-
-## 7. Large Language Models Meet Database
-
-**Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
-
-   *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
-
-
-**Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
-
-   *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
-
-
-**Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
-
-   *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
-
-
-**Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
-
-   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
-
-
-**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory**
-
-   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
-
-
-## 8. General Techniques
+## 7. General Techniques
 
 ### Feature Engineering for DB
 
@@ -708,7 +679,7 @@ Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand 
 Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
 
-## 9. Database Frameworks
+## 8. Database Frameworks
 
 **Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-model_assembly-orange) 
 
@@ -785,7 +756,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Yiwen Zhu, Yuanyuan Tian, Joyce Cahoon, et al. SIGMOD, 2023.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3555041.3589674)]
 
 
-## 10. Demonstrations
+## 9. Demonstrations
 
 **[DB Tuning]** Immanuel Trummer. *Demonstrating DB-BERT: A Database Tuning Tool that "Reads" the Manual*. SIGMOD, 2022. [[paper](https://arxiv.org/pdf/2112.10925.pdf)]
 
@@ -799,10 +770,40 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[DB Tuning]** Bohan Zhang, Dana Van Aken, Justin Wang, Tao Dai, Shuli Jiang, Jacky Lao, Siyuan Sheng, Andrew Pavlo, Geoffrey J. Gordon. *A Demonstration of the ottertune automatic database management system tuning service*. VLDB, 2018. [[paper](http://www.vldb.org/pvldb/vol11/p1910-zhang.pdf)]
 
 
-## 11. Talks
+## 10. Talks
 
 **[AutoDB]** 	Andy Pavlo, Matthew Butrovich, Lin Ma, Prashanth Menon, Wan Shen Lim, Dana Van Aken, William Zhang. *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
 **[AutoDB]** Tim Kraska. *Towards instance-optimized data systems*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
 
 **[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
+
+
+# *📧 Special Issues*
+
+## S1. Large Language Models Meet Database
+
+**Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
+
+   *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
+
+
+**Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
+
+   *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
+
+
+**Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+
+   *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
+
+
+**Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+
+   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
+
+
+**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory**
+
+   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+
