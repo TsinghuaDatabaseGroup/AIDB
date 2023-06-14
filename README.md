@@ -224,16 +224,37 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ### View Advisor
 
-A. Jindal, K. Karanasos, S. Rao, and H. Patel. Selecting subexpressions to materialize at datacenter scale. PVLDB, 11(7):800–812, 2018.[[paper](http://www.vldb.org/pvldb/vol11/p800-jindal.pdf)]
+**Selecting subexpressions to materialize at datacenter scale**
+*A. Jindal, K. Karanasos, S. Rao, and H. Patel. PVLDB, 11(7):800–812, 2018.* [[paper](http://www.vldb.org/pvldb/vol11/p800-jindal.pdf)]
 
-Ahmed, R., Bello, R., Witkowski, A., & Kumar, P. (2020). Automated generation of materialized views in Oracle. VLDB, 2020. [[paper](https://doi.org/10.14778/3415478.3415533)]
+**Automated generation of materialized views in Oracle**
 
-Yuan, H., Sun, J., & Li, G. (2020). *Automatic View Generation for Equivalent Subqueries with Deep Learning and Reinforcement Learning*. ICDE, 2020. [[paper](https://doi.org/10.1109/ICDE48307.2020.00133)]
+*Ahmed, R., Bello, R., Witkowski, A., & Kumar, P. (2020). VLDB, 2020.* [[paper](https://doi.org/10.14778/3415478.3415533)]
 
-Han, Y., Li, G., Yuan, H., & Sun, J. (n.d.). *An Autonomous Materialized View Management System with Deep Reinforcement Learning*. ICDE, 2021. [[paper](https://doi.org/10.1109/ICDE51399.2021.00217)]
 
-Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan. Dynamic Materialized View Management using Graph Neural Network. ICDE 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dynamic-view-icde23.pdf)]
+**Computation reuse in analytics job service at microsoft**
 
+*Jindal, A., Qiao, S., Patel, H., Yin, Z., Di, J., Bag, M., Friedman, M., Lin, Y., Karanasos, K. and Rao, S., SIGMOD, 2018 (pp. 191-203).* [[paper](https://dl.acm.org/doi/abs/10.1145/3183713.3190656)]
+
+**Automatic View Generation for Equivalent Subqueries with Deep Learning and Reinforcement Learning**
+
+*Yuan, H., Sun, J., & Li, G. (2020). ICDE, 2020.* [[paper](https://doi.org/10.1109/ICDE48307.2020.00133)]
+
+**An Autonomous Materialized View Management System with Deep Reinforcement Learning**
+
+*Han, Y., Li, G., Yuan, H., & Sun, J. ICDE, 2021.* [[paper](https://doi.org/10.1109/ICDE51399.2021.00217)]
+
+**AutoView: An Autonomous Materialized View Management System with Encoder-Reducer**
+
+Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.ieee.org/abstract/document/9744426/)]
+
+**Dynamic Materialized View Management using Graph Neural Network**
+
+*Yue Han, Chengliang Chai, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan. ICDE 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dynamic-view-icde23.pdf)]
+
+**A novel coral reefs optimization algorithm for materialized view selection in data warehouse environments**
+
+*Azgomi, H. and Sohrabi, M.K., Applied Intelligence, 2019, 49, pp.3965-3989.* [[paper](https://link.springer.com/article/10.1007/s10489-019-01481-w)]
 
 
 ### Index Advisor
@@ -413,47 +434,89 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 ### Plan Optimization
 
-Ron Avnur, Joseph M. Hellerstein. Eddies: Continuously Adaptive Query Processing. SIGMOD, 2000. [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
+**Continuously Adaptive Query Processing**
 
-**[Benchmark]** Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. (2016). How Good Are Query Optimizers, Really? *Proceedings of the VLDB Endowment*, *9*(3), 204–215. [[paper](https://doi.org/10.14778/2850583.2850594)]
+*Ron Avnur, Joseph M. Hellerstein. Eddies. SIGMOD, 2000.* [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
 
-**[RL]** Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Neo: A Learned query optimizer. *Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
+**How Good Are Query Optimizers, Really?**
 
-Marcus, R., & Papaemmanouil, O. (2018). Deep reinforcement learning for join order enumeration. *Proceedings of the 1st International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, AiDM 2018*, 0–3. [[paper](https://doi.org/10.1145/3211954.3211957)]
+**[Benchmark]** *Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. Proceedings of the VLDB Endowment (2016), 9(3), 204–215.* [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-**[MCTS]** Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning. SIGMOD, 2019. [[paper](https://arxiv.org/abs/1901.05152)]
+**Neo: A Learned query optimizer**
 
-Ding, M., Chen, S., & Manegold, S. (2021). *Progressive Join Algorithms Considering User Preference*. CIDR, 2021. [[paper](http://cidrdb.org/cidr2021/papers/cidr2021_paper02.pdf)]
+**[RL]** *Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
 
-Yu, X., Li, G., Tang, N. (n.d.). *Reinforcement Learning with Tree-LSTM for Join Order Selection*. ICDE, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2020-learnedjoinorder.pdf)]
+**Deep reinforcement learning for join order enumeration**
 
-Chenggang Wu, Alekh Jindal, Saeed Amizadeh, Hiren Patel, Wangchao Le, Shi Qiao, Sriram Rao. *Towards a Learning Optimizer for Shared Clouds*. Proc. VLDB Endow. 12(3): 210-222, 2018. [[paper](http://www.vldb.org/pvldb/vol12/p210-wu.pdf)]
+*Marcus, R., & Papaemmanouil, O. (2018). Proceedings of the 1st International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, AiDM 2018*, 0–3. [[paper](https://doi.org/10.1145/3211954.3211957)]
 
-Pasupuleti, K., Park, M., & Valluri, S. (n.d.). SQL Plan Observability through Hints in Oracle Autonomous Database.
+**SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning**
 
-**[Learned Hint]** Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Bao: Making Learned Query Optimization Practical. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452838)]
+**[MCTS]** *Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SIGMOD, 2019.* [[paper](https://arxiv.org/abs/1901.05152)]
 
-Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, Marc Friedman, Alekh Jindal. Steering Query Optimizers: A Practical Take on Big Data Workloads. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457568)]
+**Progressive Join Algorithms Considering User Preference**
 
-Ziyun Wei, Immanuel Trummer. *SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms*. PVLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+*Ding, M., Chen, S., & Manegold, S. (2021). CIDR, 2021.* [[paper](http://cidrdb.org/cidr2021/papers/cidr2021_paper02.pdf)]
 
-Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion Stoica. Balsa. *Learning a Query Optimizer Without Expert Demonstrations*. SIGMOD, 2022  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)]
+**Reinforcement Learning with Tree-LSTM for Join Order Selection**
 
-Jan Kossmann. *Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization*. CIDR, 2022 [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
+*Yu, X., Li, G., Tang, N. (n.d.). ICDE, 2020.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2020-learnedjoinorder.pdf)]
 
-**[GNN, Hint]** Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans. PVLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
+**Towards a Learning Optimizer for Shared Clouds**
 
-**[Collaborated Cost/Latency Reward]** Chen, Xu, Zhen Wang, Shuncheng Liu, et al. *BASE: Bridging the Gap between Cost and Latency for Query Optimization*. [[paper](https://zheng-kai.com/paper/vldb_2023_chen.pdf)]
+*Chenggang Wu, Alekh Jindal, Saeed Amizadeh, Hiren Patel, Wangchao Le, Shi Qiao, Sriram Rao. Proc. VLDB Endow. 12(3): 210-222, 2018.* [[paper](http://www.vldb.org/pvldb/vol12/p210-wu.pdf)]
 
-**[Relative Cost]** Xu, Xianghong, Zhibing Zhao, Tieying Zhang, et al. *COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations*. [[paper](https://arxiv.org/pdf/2304.04407.pdf)]
+**SQL Plan Observability through Hints in Oracle Autonomous Database**
 
-**[Rank, Pair-wise Classification]** Rong Zhu, Wei Chen, Bolin Ding, Xingguang Chen, Andreas Pfadler, Ziniu Wu, Jingren Zhou. Lero: A Learning-to-Rank Query Optimizer. VLDB 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1466-zhu.pdf)]
+*Pasupuleti, K., Park, M., & Valluri, S. (n.d.).*
 
-**[Benefit-v.s.-Uncertainty]** Xiang Yu, Chengliang Chai, Guoliang Li, Jiabin Liu. *Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection*. VLDB 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
+**Bao: Making Learned Query Optimization Practical**
 
-**[PQO]** Kapil Vaidya, Anshuman Dutt, Vivek Narasayya, Surajit Chaudhuri. Leveraging Query Logs and Machine Learning for Parametric Query Optimization. VLDB 2022. [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494126)]
+**[Learned Hint]** *Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). SIGMOD, 2021.* [[paper](https://doi.org/10.1145/3448016.3452838)]
 
-**[PQO, Robustness, Perturbation]** Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. Kepler: Robust Learning for Parametric Query Optimization. SIGMOD 2023. [[paper](#)] (to appear)
+**Steering Query Optimizers: A Practical Take on Big Data Workloads**
+
+*Parimarjan Negi, Matteo Interlandi, Ryan Marcus, Mohammad Alizadeh, Tim Kraska, Marc Friedman, Alekh Jindal. SIGMOD, 2021.* [[paper](https://doi.org/10.1145/3448016.3457568)]
+
+**SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms**
+
+*Ziyun Wei, Immanuel Trummer. PVLDB, 2022.* [[paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+
+**Learning a Query Optimizer Without Expert Demonstrations**
+
+*Zongheng Yang, Wei-Lin Chiang, Sifei Luan, Gautam Mittal, Michael Luo, Ion Stoica. Balsa. SIGMOD, 2022*  [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3517885)]
+
+**Workload-driven, Lazy Discovery of Data Dependencies for Query Optimization**
+
+*Jan Kossmann. CIDR, 2022* [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
+
+**LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans**
+
+**[GNN, Hint]** *Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. PVLDB, 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
+
+**BASE: Bridging the Gap between Cost and Latency for Query Optimization**
+
+**[Collaborated Cost/Latency Reward]** *Chen, Xu, Zhen Wang, Shuncheng Liu, et al.* [[paper](https://zheng-kai.com/paper/vldb_2023_chen.pdf)]
+
+**COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations**
+
+**[Relative Cost]** *Xu, Xianghong, Zhibing Zhao, Tieying Zhang, et al.* [[paper](https://arxiv.org/pdf/2304.04407.pdf)]
+
+**Lero: A Learning-to-Rank Query Optimizer**
+
+**[Rank, Pair-wise Classification]** *Rong Zhu, Wei Chen, Bolin Ding, Xingguang Chen, Andreas Pfadler, Ziniu Wu, Jingren Zhou. VLDB 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1466-zhu.pdf)]
+
+**Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection**
+
+**[Benefit-v.s.-Uncertainty]** *Xiang Yu, Chengliang Chai, Guoliang Li, Jiabin Liu. VLDB 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
+
+**Leveraging Query Logs and Machine Learning for Parametric Query Optimization**
+
+**[PQO]** *Kapil Vaidya, Anshuman Dutt, Vivek Narasayya, Surajit Chaudhuri. VLDB 2022.* [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494126)]
+
+**Kepler: Robust Learning for Parametric Query Optimization**
+
+**[PQO, Robustness, Perturbation]** *Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](#)] (to appear)
 
 ## 3. Workload Scheduling
 
