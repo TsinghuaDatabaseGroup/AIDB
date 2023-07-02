@@ -35,7 +35,7 @@ Table of Contents
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (5)](#S1-Large-Language-Models-Meet-Database)
-* [S2. **Open Datasets And SQLs** (5)](#S2-Open-Datasets-And-SQLs)
+* [S2. **Open Datasets And SQLs** (3)](#S2-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
 
