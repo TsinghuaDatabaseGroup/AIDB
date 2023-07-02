@@ -35,6 +35,7 @@ Table of Contents
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (5)](#S1-Large-Language-Models-Meet-Database)
+* [S2. **Open Datasets And SQLs** (5)](#S2-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
 
@@ -872,4 +873,12 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory**
 
    *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+
+## S2 Open Datasets And SQLs
+
+[https://github.com/cmu-db/benchbase](https://github.com/cmu-db/benchbase)
+
+[https://github.com/cwida/public_bi_benchmark/tree/dev/master](https://github.com/cwida/public_bi_benchmark/tree/dev/master)
+
+[https://github.com/TsinghuaDatabaseGroup/datasets](https://github.com/TsinghuaDatabaseGroup/datasets)
 
