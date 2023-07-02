@@ -9,13 +9,14 @@ Table of Contents
 
 * [0. Survey and Tutorial (15)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (20)](#Knob-Tuner)
+    * [1.1 Knob Tuner (19)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
+    * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (12)](#query-rewriter)
-    * [2.2 Cardinality/Cost Estimation (33)](#Cardinality-Estimation)
+    * [2.2 Cardinality/Cost Estimation (35)](#Cardinality-Estimation)
     * [2.3 Plan Optimization (21)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
@@ -181,10 +182,6 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Li G, Zhou X, Li S, et al. VLDB, 2019.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/p2118-li.pdf)]
 
-**Universal Database Optimization using Reinforcement Learning**
-
-*Wang J, Trummer I, Basu D. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
-
 **Watuning: A workload-aware tuning system with attention-based deep reinforcement learning** ![](https://img.shields.io/badge/-pre_trained-grey)
 
 *Ge J K, Chai Y F, Chai Y P.  JCST, 2021.* [[paper](https://link.springer.com/article/10.1007/s11390-021-1350-8)]
@@ -335,6 +332,18 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Horizontal, GNN]** Xuanhe Zhou, Guoliang Li, Jianhua Feng, et al. *Grep: A Graph Learning Based Database Partitioning System*. SIGMOD, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/grep.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/DatabasePartition)]
 
+### Hybrid Advisor
+
+**A Unified and Efficient Coordinating Framework for Autonomous DBMS Tuning**
+
+*Wang J, Trummer I, Basu D. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
+
+
+**Universal Database Optimization using Reinforcement Learning**
+
+*Xinyi Zhang, Zhuo Chang, HONG WU, et al. SIGMOD, 2023.* [[paper](https://arxiv.org/abs/2303.05710)]
+
+
 
 ## 2. Query Optimization
 
@@ -418,6 +427,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Card, Model Selection]** Jintao Zhang, Chao Zhang, Guoliang Li, Chengliang Chai. *AutoCE: An Accurate and Efficient Model Advisor for Learned Cardinality Estimation*. ICDE, 2023.  [[paper](https://github.com/jt-zhang/jt-zhang.github.io/raw/master/files/AutoCE_camera_ready_icde23.pdf)]
 
+**[Card]** 	Xiaoye Miao, Yangyang Wu, Jiazhen Peng, et al. Efficient and Effective Cardinality Estimation for Skyline Family. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588958)]
+
+**[Card]**  Ziniu Wu, Parimarjan Negi, Mohammad Alizadeh, Tim Kraska, Samuel Madden. FactorJoin: A New Cardinality Estimation Framework for Join Queries. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588721)]
+
 **[Cost]** Marcus, R., & Papaemmanouil, O. (2019). *Plan-Structured Deep Neural Network Models for Query Performance Prediction*. 1733–1746. [[paper](http://arxiv.org/abs/1902.00132)]
 
 **[Cost]** Sun, J., & Li, G. (n.d.). *An End-to-End Learning-based Cost Estimator*. VLDB, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-learnedcost.pdf)]
@@ -441,21 +454,21 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Ron Avnur, Joseph M. Hellerstein. Eddies. SIGMOD, 2000.* [[paper](https://dl.acm.org/doi/pdf/10.1145/342009.335420)]
 
-**How Good Are Query Optimizers, Really?**
+**How Good Are Query Optimizers, Really?** ![](https://img.shields.io/badge/benchmark-blue) 
 
-**[Benchmark]** *Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. Proceedings of the VLDB Endowment (2016), 9(3), 204–215.* [[paper](https://doi.org/10.14778/2850583.2850594)]
+*Leis, V., Gubichev, A., Mirchev, A., Boncz, P., Kemper, A., & Neumann, T. Proceedings of the VLDB Endowment (2016), 9(3), 204–215.* [[paper](https://doi.org/10.14778/2850583.2850594)]
 
-**Neo: A Learned query optimizer**
+**Neo: A Learned query optimizer** ![](https://img.shields.io/badge/RL-blue) 
 
-**[RL]** *Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
+*Marcus, R., Negi, P., Mao, H., Zhang, C., Alizadeh, M., Kraska, T., … Tatbul, N. (2018). Proceedings of the VLDB Endowment*, *12*(11), 1705–1718, 2018. [[paper](https://doi.org/10.14778/3342263.3342644)]
 
 **Deep reinforcement learning for join order enumeration**
 
 *Marcus, R., & Papaemmanouil, O. (2018). Proceedings of the 1st International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, AiDM 2018*, 0–3. [[paper](https://doi.org/10.1145/3211954.3211957)]
 
-**SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning**
+**SkinnerDB : Regret-Bounded Query Evaluation via Reinforcement Learning** ![](https://img.shields.io/badge/MCTS-blue) 
 
-**[MCTS]** *Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SIGMOD, 2019.* [[paper](https://arxiv.org/abs/1901.05152)]
+*Trummer, I., Wang, J., Maram, D., Moseley, S., Jo, S., & Antonakakis, J. (n.d.). SIGMOD, 2019.* [[paper](https://arxiv.org/abs/1901.05152)]
 
 **Progressive Join Algorithms Considering User Preference**
 
@@ -473,9 +486,9 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Pasupuleti, K., Park, M., & Valluri, S. (n.d.).*
 
-**Bao: Making Learned Query Optimization Practical**
+**Bao: Making Learned Query Optimization Practical** ![](https://img.shields.io/badge/optimizer_knobs-blue) 
 
-**[Learned Hint]** *Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). SIGMOD, 2021.* [[paper](https://doi.org/10.1145/3448016.3452838)]
+*Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). SIGMOD, 2021.* [[paper](https://doi.org/10.1145/3448016.3452838)]
 
 **Steering Query Optimizers: A Practical Take on Big Data Workloads**
 
@@ -493,33 +506,33 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Jan Kossmann. CIDR, 2022* [[paper](https://www.cidrdb.org/cidr2022/papers/p70-kossmann.pdf)]
 
-**LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans**
+**LOGER: A Learned Optimizer towards Generating Efficient and Robust Query Execution Plans** ![](https://img.shields.io/badge/gnn-blue) 
 
-**[GNN, Hint]** *Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. PVLDB, 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
+*Tianyi Chen, Jun Gao, Hedui Chen, and Yaofeng Tu. PVLDB, 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1777-gao.pdf)]
 
-**BASE: Bridging the Gap between Cost and Latency for Query Optimization**
+**BASE: Bridging the Gap between Cost and Latency for Query Optimization** ![](https://img.shields.io/badge/hybrid_cost_latency-blue) 
 
-**[Collaborated Cost/Latency Reward]** *Chen, Xu, Zhen Wang, Shuncheng Liu, et al.* [[paper](https://zheng-kai.com/paper/vldb_2023_chen.pdf)]
+*Chen, Xu, Zhen Wang, Shuncheng Liu, et al.* [[paper](https://zheng-kai.com/paper/vldb_2023_chen.pdf)]
 
-**COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations**
+**COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations** ![](https://img.shields.io/badge/relative_cost-blue) 
 
-**[Relative Cost]** *Xu, Xianghong, Zhibing Zhao, Tieying Zhang, et al.* [[paper](https://arxiv.org/pdf/2304.04407.pdf)]
+*Xu, Xianghong, Zhibing Zhao, Tieying Zhang, et al.* [[paper](https://arxiv.org/pdf/2304.04407.pdf)]
 
-**Lero: A Learning-to-Rank Query Optimizer**
+**Lero: A Learning-to-Rank Query Optimizer** ![](https://img.shields.io/badge/rank-blue) 
 
-**[Rank, Pair-wise Classification]** *Rong Zhu, Wei Chen, Bolin Ding, Xingguang Chen, Andreas Pfadler, Ziniu Wu, Jingren Zhou. VLDB 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1466-zhu.pdf)]
+*Rong Zhu, Wei Chen, Bolin Ding, Xingguang Chen, Andreas Pfadler, Ziniu Wu, Jingren Zhou. VLDB 2023.* [[paper](https://www.vldb.org/pvldb/vol16/p1466-zhu.pdf)]
 
-**Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection**
+**Cost-based or Learning-based? A Hybrid Query Optimizer for Query Plan Selection** ![](https://img.shields.io/badge/uncertainty-blue) 
 
-**[Benefit-v.s.-Uncertainty]** *Xiang Yu, Chengliang Chai, Guoliang Li, Jiabin Liu. VLDB 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
+*Xiang Yu, Chengliang Chai, Guoliang Li, Jiabin Liu. VLDB 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/optimizer-vldb23.pdf)]
 
-**Leveraging Query Logs and Machine Learning for Parametric Query Optimization**
+**Leveraging Query Logs and Machine Learning for Parametric Query Optimization** 
 
-**[PQO]** *Kapil Vaidya, Anshuman Dutt, Vivek Narasayya, Surajit Chaudhuri. VLDB 2022.* [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494126)]
+*Kapil Vaidya, Anshuman Dutt, Vivek Narasayya, Surajit Chaudhuri. VLDB 2022.* [[paper](https://dl.acm.org/doi/pdf/10.14778/3494124.3494126)]
 
-**Kepler: Robust Learning for Parametric Query Optimization**
+**Kepler: Robust Learning for Parametric Query Optimization** ![](https://img.shields.io/badge/perturbation-blue) 
 
-**[PQO, Robustness, Perturbation]** *Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](#)] (to appear)
+*Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](#)] (to appear)
 
 ## 3. Workload Scheduling
 
