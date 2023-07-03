@@ -334,12 +334,12 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Hybrid Advisor
 
-**A Unified and Efficient Coordinating Framework for Autonomous DBMS Tuning**
+**Universal Database Optimization using Reinforcement Learning**
 
 *Wang J, Trummer I, Basu D. VLDB, 2021.* [[paper](http://www.vldb.org/pvldb/vol14/p3402-wang.pdf)]
 
 
-**Universal Database Optimization using Reinforcement Learning**
+**A Unified and Efficient Coordinating Framework for Autonomous DBMS Tuning**
 
 *Xinyi Zhang, Zhuo Chang, HONG WU, et al. SIGMOD, 2023.* [[paper](https://arxiv.org/abs/2303.05710)]
 
