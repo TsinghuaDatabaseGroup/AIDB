@@ -862,6 +862,12 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *Immanuel L Haffner, Jens Dittrich. CIDR, 2023.* [[paper](https://www.cidrdb.org/cidr2023/papers/p41-haffner.pdf)]
 
 
+**SageDB: An Instance-Optimized Data Analytics System.** ![](https://img.shields.io/badge/-partial_MVs-orange)
+
+*Jialin Ding, Ryan Marcus, Andreas Kipf, et al. VLDB, 2022.* [[paper](https://www.vldb.org/pvldb/vol15/p4062-ding.pdf)]
+
+
+
 **Towards Building Autonomous Data Services on Azure.** ![](https://img.shields.io/badge/-auto_cloud_services-purple)
 
 *Yiwen Zhu, Yuanyuan Tian, Joyce Cahoon, et al. SIGMOD, 2023.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3555041.3589674)]
