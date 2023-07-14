@@ -225,6 +225,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 ### View Advisor
 
 **Selecting subexpressions to materialize at datacenter scale**
+
 *A. Jindal, K. Karanasos, S. Rao, and H. Patel. PVLDB, 11(7):800–812, 2018.* [[paper](http://www.vldb.org/pvldb/vol11/p800-jindal.pdf)]
 
 **Automated generation of materialized views in Oracle**
@@ -312,9 +313,14 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Partition Advisor
 
-**[Horizontal, Heuristic]** Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. *Automating physical database design in a parallel database*. SIGMOD, 2002. [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
+**Automating physical database design in a parallel database.** ![](https://img.shields.io/badge/-horizontal-brown) 
 
-**[Horizontal, GraphPartition]** Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. *Schism: a Workload-Driven Approach to Database Replication and Partitioning*. PVLDB, 2010. [[paper](https://doi.org/10.14778/1920841.1920853)]
+*Jun Rao, Chun Zhang, Nimrod Megiddo, Guy M. Lohman. SIGMOD, 2002.* [[paper](https://www.csd.uoc.gr/~hy460/pdf/p558-rao.pdf)]
+
+
+**Schism: a Workload-Driven Approach to Database Replication and Partitioning.** ![](https://img.shields.io/badge/-horizontal-brown)
+
+*Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. PVLDB, 2010.* [[paper](https://doi.org/10.14778/1920841.1920853)]
 
 **[Co-Partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
 
