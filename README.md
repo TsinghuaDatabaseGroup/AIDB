@@ -320,23 +320,49 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Carlo Curino, Yang Zhang, Evan P. C. Jones, Samuel Madden. PVLDB, 2010.* [[paper](https://doi.org/10.14778/1920841.1920853)]
 
-**[Co-Partition]** Zamanian, E., Binnig, C., & Salama, A. (2015). *Locality-aware partitioning in parallel database systems*. SIGMOD. [[paper](https://doi.org/10.1145/2723372.2723718)]
 
-**[Co-partition]** Rabl, T., & Jacobsen, H. A. (2017). *Query centric partitioning and allocation for partially replicated database systems*. SIGMOD. [[paper](https://doi.org/10.1145/3035918.3064052)]
+**Locality-aware partitioning in parallel database systems.**
 
-**[Horizontal, DataSkip]** Martin Boissier, Kurzynski Daniel. *Workload-driven horizontal partitioning and pruning for large HTAP systems*. ICDE Workshop, 2018. [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
+*Erfan Zamanian, Carsten Binnig, Abdallah Salama. SIGMOD, 2015.* [[paper](https://doi.org/10.1145/2723372.2723718)]
 
-**[Horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Towards learning a partitioning advisor with deep reinforcement learning*. aiDM@SIGMOD, 2019. [[paper](https://doi.org/10.1145/3329859.3329876)]
 
-**[Vertical, DRL]** Campero Durand G, Piriyev R, Pinnecke M, et al. *Automated vertical partitioning with deep reinforcement learning*. ADBIS, 2019. [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
+**Query centric partitioning and allocation for partially replicated database systems.**
 
-**[Horizontal, HybridAlgorithms]** 	Panos Parchas, Yonatan Naamad, Peter Van Bouwel, et al. *Fast and effective distribution-key recommendation for amazon redshift*. PVLDB, 2020. [[paper](https://doi.org/10.14778/3407790.3407834)]
+*Tilmann Rabl, Hans-Arno Jacobsen. SIGMOD, 2017.* [[paper](https://doi.org/10.1145/3035918.3064052)]
 
-**[Situ]** Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, M., & Ailamaki, A. (2020). *Adaptive partitioning and indexing for in situ query processing*. VLDB Journal. [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
+**Workload-driven horizontal partitioning and pruning for large HTAP systems.** ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-data_skip-yellow) 
 
-**[Horizontal, DRL]** Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. *Learning a Partitioning Advisor for Cloud Databases*. SIGMOD, 2020. [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
+*Martin Boissier, Kurzynski Daniel. ICDE Workshop, 2018.* [[paper](https://doi.org/10.1109/ICDEW.2018.00026)]
 
-**[Horizontal, GNN]** Xuanhe Zhou, Guoliang Li, Jianhua Feng, et al. *Grep: A Graph Learning Based Database Partitioning System*. SIGMOD, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/grep.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/DatabasePartition)]
+
+**Towards learning a partitioning advisor with deep reinforcement learning.**  ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-RL-yellow) 
+
+*Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. aiDM@SIGMOD, 2019.* [[paper](https://doi.org/10.1145/3329859.3329876)]
+
+
+**Automated vertical partitioning with deep reinforcement learning**. ![](https://img.shields.io/badge/-vertical-green)
+
+*Campero Durand G, Piriyev R, Pinnecke M, et al. ADBIS, 2019.* [[paper](https://doi.org/10.1007/978-3-030-30278-8_16)]
+
+
+**Fast and effective distribution-key recommendation for amazon redshift.**  ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-algorithm_set-yellow) 
+
+*Panos Parchas, Yonatan Naamad, Peter Van Bouwel, et al. PVLDB, 2020.* [[paper](https://doi.org/10.14778/3407790.3407834)]
+
+
+**Adaptive partitioning and indexing for in situ query processing.** ![](https://img.shields.io/badge/-situ-blue)
+
+*Olma, M., Karpathiotakis, M., Alagiannis, I., Athanassoulis, et al. VLDB Journal.* [[paper](https://doi.org/10.1007/s00778-019-00580-x)]
+
+
+**Learning a Partitioning Advisor for Cloud Databases.**  ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-RL-yellow) 
+
+*Benjamin Hilprecht, Carsten Binnig, Uwe Röhm. SIGMOD, 2020.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/10-partitioning/hilprecht-sigmod2020.pdf)]
+
+
+**Grep: A Graph Learning Based Database Partitioning System.**  ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-GNN-orange) 
+
+*Xuanhe Zhou, Guoliang Li, Jianhua Feng, et al. SIGMOD, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/grep.pdf)] [[demo](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/DatabasePartition)]
 
 ### Hybrid Advisor
 
