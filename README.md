@@ -32,10 +32,10 @@ Table of Contents
     * [7.2 Feature Engineering for AI (6)](#Feature-Engineering-for-AI)
     * [7.3 Model Transfer (1)](#Model-Transfer) 
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
-* [8. Database Frameworks (15)](#8-database-frameworks)
+* [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (5)](#S1-Large-Language-Models-Meet-Database)
+* [S1. **Large Language Models Meet Database** (7)](#S1-Large-Language-Models-Meet-Database)
 * [S2. **Open Datasets And SQLs** (3)](#S2-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
