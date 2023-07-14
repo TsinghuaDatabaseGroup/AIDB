@@ -901,29 +901,38 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 ## S1 Large Language Models Meet Database
 
 
-**Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.** arXiv 2023.  ![](https://img.shields.io/badge/text2sql-orange) 
+**Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.**  ![](https://img.shields.io/badge/text2sql-orange) 
 
    *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
 
-**Querying Large Language Models with SQL [Vision].** arXiv 2023.  ![](https://img.shields.io/badge/sql2res-red) 
+**Querying Large Language Models with SQL [Vision].**  ![](https://img.shields.io/badge/sql2res-red) 
 
-   *Mohammed Saeed, Nicola De Cao, Paolo Papotti.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
-
-
-**Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
-
-   *Matthias Urban, Carsten Binnig.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
+   *Mohammed Saeed, Nicola De Cao, Paolo Papotti. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
 
-**Multimodal Neural Databases.** arXiv 2023.  ![](https://img.shields.io/badge/multi_mode-blue) 
+**Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
-   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
+   *Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
 
 
-**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory**
+**Multimodal Neural Databases.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
-   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
+
+
+**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory** ![](https://img.shields.io/badge/split_task_to_sqls-orange)
+
+   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+
+**Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) 
+
+*https://github.com/chat2db/Chat2DB*
+
+**DB-GPT** ![](https://img.shields.io/badge/query_optimization-purple) 
+
+*https://github.com/TsinghuaDatabaseGroup/DB-GPT* 
+
 
 ## S2 Open Datasets And SQLs
 
