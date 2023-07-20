@@ -35,7 +35,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (7)](#S1-Large-Language-Models-Meet-Database)
+* [S1. **Large Language Models Meet Database** (8)](#S1-Large-Language-Models-Meet-Database)
 * [S2. **Open Datasets And SQLs** (3)](#S2-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
