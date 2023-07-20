@@ -933,6 +933,9 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT* 
 
+**Partially filtered NLP papers** ![](https://img.shields.io/badge/paper_list-yellow)  
+
+*https://qinyuenlp.com/read/*
 
 ## S2 Open Datasets And SQLs
 
