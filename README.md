@@ -4,7 +4,7 @@ Continuously update the *autonomous database works* based on our past tutorials.
 
 Kindly let us know if we have missed any great papers. Thank you!
 
-[Conference deadlines managed by Prof. Hui Li](*https://cddl.lihui.info/?sub=DB*) 
+[Conference_Deadlines](https://cddl.lihui.info/?sub=DB) managed by Prof. Hui Li.
 
 Table of Contents
 =================
