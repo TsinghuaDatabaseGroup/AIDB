@@ -37,8 +37,9 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (8)](#S1-Large-Language-Models-Meet-Database)
-* [S2. **Open Datasets And SQLs** (3)](#S2-Open-Datasets-And-SQLs)
+* [S1. **Large Language Models Meet Database** (7)](#S1-Large-Language-Models-Meet-Database)
+* [S2. **AI Knowledge And Code** (2)](#S2-AI-Knowledge-And-Code)
+* [S3. **Open Datasets And SQLs** (3)](#S3-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
 
@@ -935,11 +936,20 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT* 
 
-**Partially filtered NLP papers** ![](https://img.shields.io/badge/paper_list-yellow)  
+
+## S2 AI Knowledge And Code
+
+**Partially Filtered NLP Papers** ![](https://img.shields.io/badge/nlp-yellow)   ![](https://img.shields.io/badge/paper-yellow)  
 
 *https://qinyuenlp.com/read/*
 
-## S2 Open Datasets And SQLs
+
+**Deployed AI Algorithms** ![](https://img.shields.io/badge/ai-yellow)   ![](https://img.shields.io/badge/paper_and_code-yellow)  
+
+*https://github.com/labmlai/annotated_deep_learning_paper_implementations*
+
+
+## S3 Open Datasets And SQLs
 
 [https://github.com/cmu-db/benchbase](https://github.com/cmu-db/benchbase)
 
