@@ -941,12 +941,12 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## S2 AI Knowledge And Code
 
-**Partially Filtered NLP Papers** ![](https://img.shields.io/badge/nlp-yellow)   ![](https://img.shields.io/badge/paper-orange)  
+**Partially Filtered NLP Papers** ![](https://img.shields.io/badge/paper_list-orange)  
 
 *https://qinyuenlp.com/read/*
 
 
-**Deployed AI Algorithms** ![](https://img.shields.io/badge/ai-yellow)   ![](https://img.shields.io/badge/paper_and_code-orange)  
+**Deployed AI Algorithms** ![](https://img.shields.io/badge/program_list-orange)  
 
 *https://github.com/labmlai/annotated_deep_learning_paper_implementations*
 
