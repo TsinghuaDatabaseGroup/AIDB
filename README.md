@@ -40,7 +40,7 @@ Table of Contents
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (7)](#S1-Large-Language-Models-Meet-Database)
-* [S2. **AI Knowledge And Code** (2)](#S2-AI-Knowledge-And-Code)
+* [S2. **AI Knowledge And Code** (3)](#S2-AI-Knowledge-And-Code)
 * [S3. **Open Datasets And SQLs** (3)](#S3-Open-Datasets-And-SQLs)
 
 ## 0. Survey and Tutorial
@@ -941,15 +941,19 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## S2 AI Knowledge And Code
 
-**Partially Filtered NLP Papers** ![](https://img.shields.io/badge/nlp-yellow)   ![](https://img.shields.io/badge/paper-yellow)  
+**Partially Filtered NLP Papers** ![](https://img.shields.io/badge/nlp-yellow)   ![](https://img.shields.io/badge/paper-orange)  
 
 *https://qinyuenlp.com/read/*
 
 
-**Deployed AI Algorithms** ![](https://img.shields.io/badge/ai-yellow)   ![](https://img.shields.io/badge/paper_and_code-yellow)  
+**Deployed AI Algorithms** ![](https://img.shields.io/badge/ai-yellow)   ![](https://img.shields.io/badge/paper_and_code-orange)  
 
 *https://github.com/labmlai/annotated_deep_learning_paper_implementations*
 
+
+**Brain in a Vat: On Missing Pieces Towards Artificial General Intelligence in Large Language Models**  ![](https://img.shields.io/badge/benchmark-orange)
+
+*Yuxi Ma, Chi Zhang, Song-Chun Zhu. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2307.03762.pdf)].
 
 ## S3 Open Datasets And SQLs
 
