@@ -238,6 +238,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Zhang X, Chang Z, Li Y, et al. VLDB, 2022.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/09-knobs4/zhang-techreport2021.pdf)]
 
+<br>
 
 
 ### View Advisor
