@@ -138,6 +138,8 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Zhu Y, Liu J, Guo M, et al. SoCC, 2017.* [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
 
+---
+
 #### BO-based
 
 **Tuning Database Conﬁguration Parameters with iTuned** ![](https://img.shields.io/badge/-gaussian_process-orange)    
@@ -156,26 +158,27 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Zhang X, Wu H, Chang Z, et al. SIGMOD, 2021.* [[paper](https://15799.courses.cs.cmu.edu/spring2022/papers/08-knobs3/zhang-sigmod2021.pdf)]
 
-
 **CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions** ![](https://img.shields.io/badge/-contextual_gaussian_process-orange)   
 
 *Cereda S, Valladares S, Cremonesi P, et al. VLDB, 2021.* [[paper](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2021_2022/papers/CGPTUNER_VLDB_2021.pdf)]
-
 
 **Towards Dynamic and Safe Configuration Tuning for Cloud Databases** ![](https://img.shields.io/badge/-bounded_gaussian_process-orange)  
 
 *Zhang X, Wu H, Li Y, et al. SIGMOD, 2022.* [[paper](https://arxiv.org/pdf/2203.14473)]
 
-
 **LlamaTune: Sample-Efficient DBMS Configuration Tuning** ![](https://img.shields.io/badge/-gaussian_process-orange)  
 
 *Kanellis K, Ding C, Kroth B, et al. VLDB, 2022.* [[paper](https://arxiv.org/pdf/2203.05128)]
+
+---
 
 #### DL-based
 
 **iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases**
 
 *Jian Tan, Tieying Zhang, Feifei Li, et al. VLDB, 2019.* [[paper](http://www.vldb.org/pvldb/vol12/p1221-tan.pdf)]
+
+---
 
 #### RL-based
 
@@ -203,6 +206,8 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Cai B, Liu Y, Zhang C, et al. SIGMOD, 2022.* [[paper](https://scholar.archive.org/work/mhkvbi2uwfdvfb2zhj73brzb6a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3514221.3517882)]
 
+---
+
 #### Knob Selection
 
 **SARD: A statistical approach for ranking database tuning parameters**
@@ -213,11 +218,15 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Kanellis K, Alagappan R, Venkataraman S. HotStorage 2020.* [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
 
+---
+
 #### Benefit Estimation
 
 **IWEK: An Interpretable What-If Estimator for Database Knobs** ![](https://img.shields.io/badge/-random_forest-orange)   ![](https://img.shields.io/badge/-transfer-8cfff3)  
 
 *Yu Yan, Hongzhi Wang, Jian Geng, et al. arXiv 2023.* [[paper](https://arxiv.org/pdf/2307.16115.pdf)] 
+
+---
 
 #### Experiments
 
