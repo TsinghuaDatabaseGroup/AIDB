@@ -276,6 +276,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Azgomi, H. and Sohrabi, M.K., Applied Intelligence, 2019, 49, pp.3965-3989.* [[paper](https://link.springer.com/article/10.1007/s10489-019-01481-w)]
 
+<br>
 
 ### Index Advisor
 
@@ -329,6 +330,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **[Optimization, What-if Call]** Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
 *DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
 
+<br>
 
 ### Partition Advisor
 
@@ -384,6 +386,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **Grep: A Graph Learning Based Database Partitioning System.**  ![](https://img.shields.io/badge/-horizontal-brown)  ![](https://img.shields.io/badge/-GNN-orange) 
 
 *Xuanhe Zhou, Guoliang Li, Jianhua Feng, et al. SIGMOD, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/grep.pdf)] [[demo](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/DatabasePartition)]
+
+<br>
 
 ### Hybrid Advisor
 
