@@ -13,7 +13,7 @@ Table of Contents
 
 * [0. Survey and Tutorial (15)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (19)](#Knob-Tuner)
+    * [1.1 Knob Tuner (20)](#Knob-Tuner)
     * [1.2 View Advisor (5)](#view-advisor)
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
@@ -212,6 +212,12 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 **Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs**
 
 *Kanellis K, Alagappan R, Venkataraman S. HotStorage 2020.* [[paper](https://www.usenix.org/system/files/hotstorage20_paper_kanellis.pdf)]
+
+#### Benefit Estimation
+
+**IWEK: An Interpretable What-If Estimator for Database Knobs** ![](https://img.shields.io/badge/-random_forest-orange)   ![](https://img.shields.io/badge/-transfer-8cfff3)  
+
+*Yu Yan, Hongzhi Wang, Jian Geng, et al. arXiv 2023.* [[paper](https://arxiv.org/pdf/2307.16115.pdf)] 
 
 #### Experiments
 
