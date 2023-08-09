@@ -20,8 +20,9 @@ Table of Contents
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (12)](#query-rewriter)
-    * [2.2 Cardinality/Cost Estimation (35)](#Cardinality-Estimation)
-    * [2.3 Plan Optimization (21)](#plan-optimization)
+    * [2.2 Cardinality Estimation (33)](#Cardinality-Estimation)
+    * [2.3 Cost Estimation (3)](#Cost-Estimation)
+    * [2.4 Plan Optimization (22)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Learned Index (26)](#index)
@@ -39,7 +40,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (7)](#S1-Large-Language-Models-Meet-Database)
+* [S1. **Large Language Models Meet Database** (8)](#S1-Large-Language-Models-Meet-Database)
 * [S2. **AI Knowledge And Code** (3)](#S2-AI-Knowledge-And-Code)
 * [S3. **Open Datasets And SQLs** (3)](#S3-Open-Datasets-And-SQLs)
 
@@ -428,7 +429,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Rewrite Rules]** 	Zhaoguo Wang, Zhou Zhou, Yicun Yang, Haoran Ding, Gansen Hu, Ding Ding, Chuzhe Tang, Haibo Chen, Jinyang Li. *WeTune: Automatic Discovery and Verification of Query Rewrite Rules*. SIGMOD Conference 2022: 94-107. [[paper](https://ipads.se.sjtu.edu.cn/_media/publications/wetune_final.pdf)]
 
-**[Rewrite Rules]** 	Qiushi Bai, Sadeem Alsudais, Chen Li. *QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting*. arXiv, 2023. [[paper](https://arxiv.org/pdf/2305.08272.pdf)]
+**[Rewrite Rules]** 	Qiushi Bai, Sadeem Alsudais, Chen Li. *QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting*. VLDB, 2023. [[paper](https://arxiv.org/pdf/2305.08272.pdf)]
 
 
 #### Learning-based
@@ -478,22 +479,17 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Card, Data-based]** Yao Lu, Srikanth Kandula, Arnd Christian König, Surajit Chaudhuri. Pre-training summarization models of structured datasets for cardinality estimation. VLDB 2022. [[paper](https://www.vldb.org/pvldb/vol15/p414-lu.pdf)]
 
-**[Card, Query&Data-based]** Wu P, Cong G. A Unified Deep Model of Learning from both Data and Queries for Cardinality Estimation[C]//Proceedings of the 2021 International Conference on Management of Data. 2021: 2009-2022. [[paper](https://arxiv.org/pdf/2107.12295)]
+**[Card, Query&Data-based]** Wu P, Cong G. A Unified Deep Model of Learning from both Data and Queries for Cardinality Estimation. SIGMOD. 2021: 2009-2022. [[paper](https://arxiv.org/pdf/2107.12295)]
 
 **[Card]** Parimarjan Negi, Ryan C. Marcus, Andreas Kipf, Hongzi Mao, Nesime Tatbul, Tim Kraska, Mohammad Alizadeh. Flow-Loss: Learning Cardinality Estimates That Matter. VLDB Endow, 14(11): 2019-2032, 2021. [[paper](http://www.vldb.org/pvldb/vol14/p2019-negi.pdf)] 
 
 **[Card, Model Selection]** Jintao Zhang, Chao Zhang, Guoliang Li, Chengliang Chai. *AutoCE: An Accurate and Efficient Model Advisor for Learned Cardinality Estimation*. ICDE, 2023.  [[paper](https://github.com/jt-zhang/jt-zhang.github.io/raw/master/files/AutoCE_camera_ready_icde23.pdf)]
 
-**[Card]** 	Xiaoye Miao, Yangyang Wu, Jiazhen Peng, et al. Efficient and Effective Cardinality Estimation for Skyline Family. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588958)]
+**[Card]** Xiaoye Miao, Yangyang Wu, Jiazhen Peng, et al. Efficient and Effective Cardinality Estimation for Skyline Family. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588958)]
 
-**[Card]**  Ziniu Wu, Parimarjan Negi, Mohammad Alizadeh, Tim Kraska, Samuel Madden. FactorJoin: A New Cardinality Estimation Framework for Join Queries. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588721)]
+**[Card]** Ziniu Wu, Parimarjan Negi, Mohammad Alizadeh, Tim Kraska, Samuel Madden. FactorJoin: A New Cardinality Estimation Framework for Join Queries. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/10.1145/3588721)]
 
-**[Cost]** Marcus, R., & Papaemmanouil, O. (2019). *Plan-Structured Deep Neural Network Models for Query Performance Prediction*. 1733–1746. [[paper](http://arxiv.org/abs/1902.00132)]
-
-**[Cost]** Sun, J., & Li, G. (n.d.). *An End-to-End Learning-based Cost Estimator*. VLDB, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-learnedcost.pdf)]
-
-**[Cost]** Benjamin Hilprecht, Carsten Binnig. *Zero-Shot Cost Models for
-Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2361-hilprecht.pdf)]
+**[Card, Query-based]** Fang Wang, Xiao Yan, Man Lung Yiu, Shuai Li, Zunyao Mao, and Bo Tang. Speeding Up End-to-end Query Execution via Learning-based Progressive Cardinality Estimation. SIGMOD, 2023. [[paper](https://dl.acm.org/doi/pdf/10.1145/3588708)]
 
 **[ EA&B ]** Wang, X., Qu, C., Wu, W., Wang, J., & Zhou, Q. (2021). Are We Ready For Learned Cardinality Estimation?  Proc. VLDB Endow. 14(9): 1640-1654 (2021). [[paper](http://www.vldb.org/pvldb/vol14/p1640-wang.pdf)]
 
@@ -504,6 +500,15 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 **[ EA&B ]** Kyoungmin Kim, Jisung Jung, In Seo, Wook-Shin Han, Kangwoo Choi, Jaehyok Chong: Learned Cardinality Estimation: An In-depth Study. SIGMOD Conference 2022: 1214-1227 [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3526154)]
 
 **[ EA&B ]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
+
+### Cost Estimation
+
+**[Cost]** Marcus, R., & Papaemmanouil, O. (2019). *Plan-Structured Deep Neural Network Models for Query Performance Prediction*. 1733–1746. [[paper](http://arxiv.org/abs/1902.00132)]
+
+**[Cost]** Sun, J., & Li, G. (n.d.). *An End-to-End Learning-based Cost Estimator*. VLDB, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-learnedcost.pdf)]
+
+**[Cost]** Benjamin Hilprecht, Carsten Binnig. *Zero-Shot Cost Models for
+Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2361-hilprecht.pdf)]
 
 ### Plan Optimization
 
@@ -589,7 +594,11 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 **Kepler: Robust Learning for Parametric Query Optimization** ![](https://img.shields.io/badge/perturbation-blue) 
 
-*Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](#)] (to appear)
+*Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](https://dl.acm.org/doi/10.1145/3588963)]
+
+**LEON: A New Framework for ML-Aided Query Optimization** ![](https://img.shields.io/badge/ML aided-blue)
+
+*Xu Chen, Haitian Chen, Zibo Liang, Shuncheng Liu, Jinghong Wang, Kai Zeng, Han Su, and Kai Zheng.*[[paper](https://www.vldb.org/pvldb/vol16/p2261-chen.pdf)]
 
 ## 3. Workload Scheduling
 
@@ -738,7 +747,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 **Generic and Robust Performance Diagnosis via Causal Inference for OLTP Database Systems.**
 
 *Xianglin Lu, Zhe Xie, Zeyan Li, et al. CCGrid, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9826016)]
- 
+
 
 **DBPA: A Benchmark for Transactional Database Performance Anomalies.**
 
@@ -925,11 +934,13 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## S1 Large Language Models Meet Database
 
-
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.**  ![](https://img.shields.io/badge/text2sql-orange) 
 
    *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
+**Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data cleaning-orange) 
+
+  *Avanika Narayan, Ines Chami, Laurel Orr, and Christopher Ré. VLDB, 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)].
 
 **Querying Large Language Models with SQL [Vision].**  ![](https://img.shields.io/badge/sql2res-red) 
 
@@ -939,7 +950,6 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
    *Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
-
 
 **Multimodal Neural Databases.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
