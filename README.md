@@ -40,7 +40,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (8)](#s1-large-language-models-meet-database)
+* [S1. **Large Language Models Meet Database** (9)](#s1-large-language-models-meet-database)
 * [S2. **AI Knowledge And Code** (3)](#s2-ai-knowledge-and-code)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
