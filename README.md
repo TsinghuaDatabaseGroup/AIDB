@@ -596,7 +596,7 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](https://dl.acm.org/doi/10.1145/3588963)]
 
-**LEON: A New Framework for ML-Aided Query Optimization** ![](https://img.shields.io/badge/ML aided-blue)
+**LEON: A New Framework for ML-Aided Query Optimization** ![](https://img.shields.io/badge/ML--aided-blue)
 
 *Xu Chen, Haitian Chen, Zibo Liang, Shuncheng Liu, Jinghong Wang, Kai Zeng, Han Su, and Kai Zheng.*[[paper](https://www.vldb.org/pvldb/vol16/p2261-chen.pdf)]
 
@@ -938,7 +938,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
    *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
-**Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data cleaning-orange) 
+**Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data_cleaning-green)
 
   *Avanika Narayan, Ines Chami, Laurel Orr, and Christopher Ré. VLDB, 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)].
 
