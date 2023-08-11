@@ -959,7 +959,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
    *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
 
 
-**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory** ![](https://img.shields.io/badge/split_task_to_sqls-orange)
+**ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory.** ![](https://img.shields.io/badge/split_task_to_sqls-orange)
 
    *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
 
@@ -967,7 +967,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/chat2db/Chat2DB*
 
-**LLM As DBA** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
+**LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 ## S2 AI Knowledge And Code
 
