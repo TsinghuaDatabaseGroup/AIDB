@@ -40,7 +40,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (8)](#s1-large-language-models-meet-database)
+* [S1. **Large Language Models Meet Database** (9)](#s1-large-language-models-meet-database)
 * [S2. **AI Knowledge And Code** (3)](#s2-ai-knowledge-and-code)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
@@ -596,7 +596,7 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Lyric Doshi, Vincent Zhuang, Gaurav Jain, Ryan C Marcus, Haoyu Huang, Deniz Altınbüken, Eugene Brevdo, Campbell Fraser. SIGMOD 2023.*[[paper](https://dl.acm.org/doi/10.1145/3588963)]
 
-**LEON: A New Framework for ML-Aided Query Optimization** ![](https://img.shields.io/badge/ML aided-blue)
+**LEON: A New Framework for ML-Aided Query Optimization** ![](https://img.shields.io/badge/ML--aided-blue)
 
 *Xu Chen, Haitian Chen, Zibo Liang, Shuncheng Liu, Jinghong Wang, Kai Zeng, Han Su, and Kai Zheng.*[[paper](https://www.vldb.org/pvldb/vol16/p2261-chen.pdf)]
 
@@ -938,7 +938,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
    *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
 
-**Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data cleaning-orange) 
+**Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data_cleaning-green)
 
   *Avanika Narayan, Ines Chami, Laurel Orr, and Christopher Ré. VLDB, 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)].
 
@@ -946,6 +946,9 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
    *Mohammed Saeed, Nicola De Cao, Paolo Papotti. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
+**CAESURA: Language Models as Multi-Modal Query Planners.** ![](https://img.shields.io/badge/multi_mode-blue)
+
+*Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2308.03424.pdf)].  
 
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
