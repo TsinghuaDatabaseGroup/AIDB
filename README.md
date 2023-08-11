@@ -967,10 +967,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/chat2db/Chat2DB*
 
-**DB-GPT** ![](https://img.shields.io/badge/query_optimization-purple) 
-
-*https://github.com/TsinghuaDatabaseGroup/DB-GPT* 
-
+**LLM As DBA** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 ## S2 AI Knowledge And Code
 
