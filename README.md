@@ -969,6 +969,8 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
+*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
+
 ## S2 AI Knowledge And Code
 
 **Partially Filtered NLP Papers** ![](https://img.shields.io/badge/paper_list-orange)  
