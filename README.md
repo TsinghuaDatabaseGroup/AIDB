@@ -41,7 +41,7 @@ Table of Contents
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (9)](#s1-large-language-models-meet-database)
-* [S2. **AI Knowledge And Code** (3)](#s2-ai-knowledge-and-code)
+* [S2. **AI Paper&Code List** (4)](#s2-ai-knowledge-and-code)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
 ## 0. Survey and Tutorial
@@ -976,6 +976,11 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **Partially Filtered NLP Papers** ![](https://img.shields.io/badge/paper_list-orange)  
 
 *https://qinyuenlp.com/read/*
+
+
+**Prompt Engineering for LLMs** ![](https://img.shields.io/badge/paper_list-orange)  
+
+*https://www.promptingguide.ai/papers*
 
 
 **Deployed AI Algorithms** ![](https://img.shields.io/badge/program_list-orange)  
