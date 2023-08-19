@@ -41,7 +41,7 @@ Table of Contents
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
 * [S1. **Large Language Models Meet Database** (9)](#s1-large-language-models-meet-database)
-* [S2. **AI Paper&Code List** (4)](#s2-ai-knowledge-and-code)
+* [S2. **AI Paper&Code List** (4)](#s2-ai-paper-and-code-list)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
 ## 0. Survey and Tutorial
