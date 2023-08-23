@@ -40,7 +40,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations](#9-demonstrations)
 * [10. Talks](#10-talks)
-* [S1. **Large Language Models Meet Database** (9)](#s1-large-language-models-meet-database)
+* [S1. **Large Language Models Meet Database** (10)](#s1-large-language-models-meet-database)
 * [S2. **AI Paper&Code List** (4)](#s2-ai-paper-and-code-list)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
@@ -970,6 +970,14 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT*
+
+**LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
+
+*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
+
+**DB-GPT: Large Language Model Meets Database.** ![](https://img.shields.io/badge/query_optimization-purple) 
+
+   *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
 
 ## S2 AI Paper And Code List
 
