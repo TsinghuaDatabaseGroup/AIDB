@@ -971,10 +971,6 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT*
 
-**LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
-
-*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
-
 **DB-GPT: Large Language Model Meets Database.** ![](https://img.shields.io/badge/query_optimization-purple) 
 
    *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
