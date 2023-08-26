@@ -11,7 +11,7 @@ Conference deadlines: https://ccfddl.github.io/
 Table of Contents
 =================
 
-* [0. Survey and Tutorial (15)](#0-survey-and-tutorial)
+* [0. Survey and Tutorial (16)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (20)](#knob-tuner)
     * [1.2 View Advisor (5)](#view-advisor)
@@ -64,6 +64,11 @@ Table of Contents
 **A Survey on Deep Reinforcement Learning for Data Processing and Analytics.** ![](https://img.shields.io/badge/-rl4db-Informational)
 
 *Qingpeng Cai, Can Cui, Yiyuan Xiong, et al. TKDE, 2022.* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9723570)]
+
+
+**Self-Driving Database Papers (CMU Spring Course)**. 2022. ![](https://img.shields.io/badge/-ai4db-Informational)
+
+https://15799.courses.cs.cmu.edu/spring2022/schedule.html
 
 
 **Automatic Database Knob Tuning: A Survey.** ![](https://img.shields.io/badge/-learned_knob_tuning-brown)
