@@ -38,11 +38,24 @@ Table of Contents
     * [7.3 Model Transfer (1)](#model-transfer) 
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
-* [9. Demonstrations](#9-demonstrations)
-* [10. Talks](#10-talks)
+* [9. Demonstrations (11)](#9-demonstrations)
 * [S1. **Large Language Models Meet Database** (10)](#s1-large-language-models-meet-database)
 * [S2. **AI Paper&Code List** (4)](#s2-ai-paper-and-code-list)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
+
+
+--- 
+*Great talks you should not miss>>*
+
+***Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation.*** Andy Pavlo, Matthew Butrovich, Lin Ma, et al. [[link](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
+
+
+***Towards instance-optimized data systems.*** Tim Kraska. [[link](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
+
+
+***AI-Native Database.*** Guoliang Li. [[link](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
+
+---
 
 ## 0. Survey and Tutorial
 
@@ -925,28 +938,19 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[DB Tuning]** Xuanhe Zhou, Guoliang Li, Jianming Wu, Jiesi Liu, Zhaoyan Sun, Xinning Zhang. *A Learned Query Rewrite System*. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4110-li.pdf)] [[website](http://rewrite_demo.dbmind.cn/)]
 
+**[DB Tuning]** Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors.* CIKM, 2023. [[video](https://youtu.be/RfV4ylOxpcc)]
+
 **[DB Tuning]** Qiushi Bai, Sadeem Alsudais, Chen Li. *Demo of QueryBooster: Supporting Middleware-based SQL Query Rewriting as a Service.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4038-bai.pdf)]
 
 **[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper]([p3922-anneser.pdf (vldb.org)](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf))]
 
 **[DB Tuning]** Zilong Wang, Qixiong Zeng, Ning Wang, Haowen Lu, Yue Zhang. *CEDA: Learned Cardinality Estimation with Domain Adaptation.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3934-wang.pdf)]
 
+**[DB Tuning]** Junxiong Wang, Immanuel Trummer, Ahmet Kara, Dan Olteanu. *ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p2805-wang.pdf)]
+
 **[DB Tuning]** Immanuel Trummer. *Demonstrating GPT-DB: Generating Query-Specifc and Customizable Code for SQL Processing with GPT-4.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4098-trummer.pdf)]
 
 **[DB Diagnosis]** Xiu Tang, Sai Wu, Dongxiang Zhang, Ziyue Wang, Gongsheng Yuan, and Gang Chen. *A Demonstration of DLBD: Database Logic Bug Detection System.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3914-wu.pdf)]
-
-
-
-
-
-
-## 10. Talks
-
-**[AutoDB]** 	Andy Pavlo, Matthew Butrovich, Lin Ma, Prashanth Menon, Wan Shen Lim, Dana Van Aken, William Zhang. *Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation*. VLDB, 2021. [[paper](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
-
-**[AutoDB]** Tim Kraska. *Towards instance-optimized data systems*. VLDB, 2021. [[paper](http://vldb.org/pvldb/vol14/p3222-kraska.pdf)]
-
-**[AutoDB]** Guoliang Li. *AI-Native Database*. VLDB, 2021. [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
 
 
 # *📧 Special Issues*
