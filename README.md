@@ -45,7 +45,7 @@ Table of Contents
 
 
 --- 
-*Great talks you should not miss>>*
+*Great talks you should not miss >>*
 
 ***Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation.*** Andy Pavlo, Matthew Butrovich, Lin Ma, et al. [[link](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
@@ -54,6 +54,11 @@ Table of Contents
 
 
 ***AI-Native Database.*** Guoliang Li. [[link](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb-slides.pdf)]
+
+***From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.*** Immanuel Trummer. [[link](https://drive.google.com/file/d/1U-2j8oi5au3nuYwPIlhnno7c6UNDfifl/view)]
+
+
+***Retrieval-based Language Models and Applications.*** Akari Asai,	Sewon Min,	Zexuan Zhong,	Danqi Chen. [[link](https://acl2023-retrieval-lm.github.io/)]
 
 ---
 
