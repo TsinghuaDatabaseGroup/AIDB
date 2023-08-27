@@ -929,7 +929,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[DB Tuning]** Qiushi Bai, Sadeem Alsudais, Chen Li. *Demo of QueryBooster: Supporting Middleware-based SQL Query Rewriting as a Service.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4038-bai.pdf)]
 
-**[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper]([p3922-anneser.pdf (vldb.org)](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf))]
+**[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf)]
 
 **[DB Tuning]** Zilong Wang, Qixiong Zeng, Ning Wang, Haowen Lu, Yue Zhang. *CEDA: Learned Cardinality Estimation with Domain Adaptation.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3934-wang.pdf)]
 
