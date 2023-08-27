@@ -938,11 +938,15 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[DB Tuning]** Xuanhe Zhou, Guoliang Li, Jianming Wu, Jiesi Liu, Zhaoyan Sun, Xinning Zhang. *A Learned Query Rewrite System*. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4110-li.pdf)] [[website](http://rewrite_demo.dbmind.cn/)]
 
+**[DB Tuning]** Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors.* CIKM, 2023. [[video](https://youtu.be/RfV4ylOxpcc)]
+
 **[DB Tuning]** Qiushi Bai, Sadeem Alsudais, Chen Li. *Demo of QueryBooster: Supporting Middleware-based SQL Query Rewriting as a Service.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4038-bai.pdf)]
 
 **[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper]([p3922-anneser.pdf (vldb.org)](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf))]
 
 **[DB Tuning]** Zilong Wang, Qixiong Zeng, Ning Wang, Haowen Lu, Yue Zhang. *CEDA: Learned Cardinality Estimation with Domain Adaptation.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3934-wang.pdf)]
+
+**[DB Tuning]** Junxiong Wang, Immanuel Trummer, Ahmet Kara, Dan Olteanu. *ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p2805-wang.pdf)]
 
 **[DB Tuning]** Immanuel Trummer. *Demonstrating GPT-DB: Generating Query-Specifc and Customizable Code for SQL Processing with GPT-4.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4098-trummer.pdf)]
 
