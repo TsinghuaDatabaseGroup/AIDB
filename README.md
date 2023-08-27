@@ -25,7 +25,7 @@ Table of Contents
     * [2.4 Plan Optimization (22)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
-    * [4.1 Learned Index (26)](#index)
+    * [4.1 Learned Index (30)](#index)
     * [4.2 Learned Layout (7)](#layout)
     * [4.3 Query Execution (2)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
@@ -663,7 +663,9 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[1-D, Mutable, Persistent]** Zhang, Z., Chu, Z., Jin, P., Luo, Y., Xie, X., Wan, S., Luo, Y., Wu, X., Zou, P., Zheng, C., Wu, G., Rudoff. A. (2022). *PLIN: A Persistent Learned Index for Non-Volatile Memory with High Performance and Instant Recovery*. VLDB, 2022. [[paper](https://doi.org/10.14778/3565816.3565826)]
 
-**[1-D, Mutable]** Li, Pengfei, Hua Lu, Rong Zhu, Bolin Ding, et al. *DILI: A Distribution-Driven Learned Index*. [[paper](https://arxiv.org/pdf/2304.08817.pdf)]
+**[1-D, Mutable]** Li, Pengfei, Hua Lu, Rong Zhu, Bolin Ding, et al. (2023). *DILI: A Distribution-Driven Learned Index*. VLDB, 2023. [[paper](https://arxiv.org/pdf/2304.08817.pdf)]
+
+**[1-D, Mutable, Persistent]** Yulai Tong, Jiazhen Liu, Hua Wang, Ke Zhou, Rongfeng He, Qin Zhang, and Cheng Wang. (2023). *Sieve: A Learned Data-Skipping Index for Data Analytics*. VLDB, 2023. [[paper](https://dl.acm.org/doi/pdf/10.14778/3611479.3611520)]
 
 #### Multi-dimensional Index
 
@@ -676,6 +678,8 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 **[Multi-D, Immutable]** Ding, J., Nathan, V., Alizadeh, M., & Kraska, T. (2020). *Tsunami: A learned multi-dimensional index for correlated data and skewed workloads*. VLDB, 2020. [[paper](https://dl.acm.org/doi/abs/10.14778/3425879.3425880)]
 
 **[Multi-D, Mutable]** Dong, H., Chai, C., Luo, Y., Liu, J., Feng, J., Zhan, C. (2022). *RW-Tree: A Learned Workload-aware Framework for R-tree Construction*. ICDE, 2022. [[paper](https://doi.org/10.1109/ICDE53745.2022.00201)]
+
+**[Multi-D, Immutable]** Gao, J., Cao, X., Yao, X., Zhang, G., & Wang, W. (2023). *LMSFC: A Novel Multidimensional Index based on Learned Monotonic Space Filling Curves*. VLDB, 2023. [[paper](https://arxiv.org/pdf/2304.12635.pdf)]
 
 #### Experiment and Analysis
 
@@ -691,7 +695,9 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[1-D, Hash Index, Experiment]** Sabek, I., Vaidya, K., Horn TUM, D., Kipf, A., Mitzenmacher, M., Kraska, T., Horn, D., Kraska Can, T. (2022) *Can Learned Models Replace Hash Functions?*. VLDB, 2022. [[paper](https://doi.org/10.14778/3570690.3570702)]
 
-**[1-D, Mutable, Experiment]** Sun, Z., Zhou, X., Li, G. (2023) *Learned Index: A Comprehensive Experimental Evaluation*. VLDB, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/experiment-learned-index.pdf)] [[code](https://github.com/curtis-sun/TLI)]
+**[1-D, Mutable, Experiment]** Sun, Z., Zhou, X., Li, G. (2023). *Learned Index: A Comprehensive Experimental Evaluation*. VLDB, 2023. [[paper](https://dl.acm.org/doi/pdf/10.14778/3594512.3594528)] [[code](https://github.com/curtis-sun/TLI)]
+
+**[1-D, Immutable, Experiment]** Sabek, I., & Kraska, T. (2023). *The Case for Learned In-Memory Joins*. VLDB, 2023. [[paper](https://arxiv.org/pdf/2111.08824.pdf)]
 
 ### Layout
 
