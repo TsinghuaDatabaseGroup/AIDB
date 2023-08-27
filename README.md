@@ -38,13 +38,13 @@ Table of Contents
     * [7.3 Model Transfer (1)](#model-transfer) 
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
-* [9. Demonstrations (11)](#9-demonstrations)
+* [9. Demonstrations (13)](#9-demonstrations)
 * [S1. **Large Language Models Meet Database** (10)](#s1-large-language-models-meet-database)
 * [S2. **AI Paper&Code List** (4)](#s2-ai-paper-and-code-list)
 * [S3. **Open Datasets And SQLs** (3)](#s3-open-datasets-and-sqls)
 
 
---- 
+---
 *Great talks you should not miss >>*
 
 ***Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation.*** Andy Pavlo, Matthew Butrovich, Lin Ma, et al. [[link](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
@@ -947,7 +947,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[DB Tuning]** Qiushi Bai, Sadeem Alsudais, Chen Li. *Demo of QueryBooster: Supporting Middleware-based SQL Query Rewriting as a Service.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4038-bai.pdf)]
 
-**[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper]([p3922-anneser.pdf (vldb.org)](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf))]
+**[DB Tuning]** Christoph Anneser, Mario Petruccelli, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus, and Alfons Kemper. *QO-Insight: Inspecting Steered Query Optimizers.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3922-anneser.pdf)]
 
 **[DB Tuning]** Zilong Wang, Qixiong Zeng, Ning Wang, Haowen Lu, Yue Zhang. *CEDA: Learned Cardinality Estimation with Domain Adaptation.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3934-wang.pdf)]
 
