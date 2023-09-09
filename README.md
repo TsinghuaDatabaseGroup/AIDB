@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. Large Language Models Meet Database (10)](#s1-large-language-models-meet-database)
+* [S1. Large Language Models x Database (10)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (4)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
