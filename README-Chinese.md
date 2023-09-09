@@ -1,57 +1,57 @@
 
-## Researches and Practices in Autonomous Databases
+## 自治数据库的研究与实践
 
 <p align="center">
-    【English | <a href="README-Chinese.md">中文</a>】
+    【<a href="README.md">English</a> | 中文</a>】
 </p>
 
 
-Continuously update the *autonomous database works* based on our past tutorials.
+根据我们过去在三大数据库顶会的tutorial，持续更新*自治数据库工作*。
 
-Kindly let us know if we have missed any great papers. Thank you!
+如果我们漏掉了任何重要的论文，请告诉我们。谢谢！
 
-Conference deadlines: https://ccfddl.github.io/
+会议截止日期：https://ccfddl.github.io/
 
-(Note *conference postponement* may not be promptly synchronized, so just consider it as a reference.)
+（请注意 *会议延期* 可能不会及时同步，所以请只将其视为一个参考 :）
 
-Table of Contents
+目录
 =================
 
-* [0. Survey and Tutorial (16)](#0-survey-and-tutorial)
-* [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (20)](#knob-tuner)
-    * [1.2 View Advisor (5)](#view-advisor)
-    * [1.3 Index Advisor (23)](#index-advisor)
-    * [1.4 Partition Advisor (11)](#partition-advisor)
-    * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
-* [2. Query Optimization](#2-query-optimization)
-    * [2.1 Query Rewriter (12)](#query-rewriter)
-    * [2.2 Cardinality Estimation (33)](#cardinality-estimation)
-    * [2.3 Cost Estimation (3)](#cost-estimation)
-    * [2.4 Plan Optimization (22)](#plan-optimization)
-* [3. Workload Scheduling (2)](#3-workload-scheduling)
-* [4. Database Design](#4-database-design)
-    * [4.1 Learned Index (26)](#index)
-    * [4.2 Learned Layout (7)](#layout)
-    * [4.3 Query Execution (2)](#query-execution)
-* [5. Database Monitoring (9)](#5-database-monitoring)
-* [6. Database Diagnosis](#6-database-diagnosis)
-    * [6.1 System Diagnosis (7)](#system-and-kernel-causes)
-    * [6.2 Query Diagnosis (1)](#bottleneck-queries)
-* [7. General Techniques](#7-general-techniques)
-    * [7.1 Feature Engineering for DB (6)](#feature-engineering-for-db)
-    * [7.2 Feature Engineering for AI (6)](#feature-engineering-for-ai)
-    * [7.3 Model Transfer (1)](#model-transfer) 
-    * [7.4 Query And Data Generation (5)](#query-and-data-generation)
-* [8. Database Frameworks (16)](#8-database-frameworks)
-* [9. Demonstrations (11)](#9-demonstrations)
-* [S1. **Large Language Models x Database** (10)](#s1-large-language-models-meet-database)
-* [S2. AI Resources (4)](#s2-ai-paper-and-code-list)
-* [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
+* [0. 综述和教程 (16)](#0-综述和教程)
+* [1. 数据库自配置](#1-数据库自配置)
+    * [1.1 参数调优 (20)](#参数调优)
+    * [1.2 视图推荐 (5)](#视图推荐)
+    * [1.3 索引推荐 (23)](#索引推荐)
+    * [1.4 划分键推荐 (11)](#划分键推荐)
+    * [1.5 混合调优 (2)](#混合调优)
+* [2. 查询优化](#2-查询优化)
+    * [2.1 查询重写 (12)](#查询重写)
+    * [2.2 基数估计 (33)](#基数估计)
+    * [2.3 代价估计 (3)](#代价估计)
+    * [2.4 物理计划生成 (22)](#物理计划生成)
+* [3. 负载调度 (2)](#3-负载调度)
+* [4. 数据库自设计](#4-数据库自设计)
+    * [4.1 学习型索引 (26)](#索引)
+    * [4.2 学习型数据结构 (7)](#数据结构)
+    * [4.3 查询执行优化 (2)](#查询执行优化)
+* [5. 数据库自监控 (9)](#5-数据库自监控)
+* [6. 数据库自诊断](#6-数据库自诊断)
+    * [6.1 系统诊断 (7)](#系统级别)
+    * [6.2 查询诊断 (1)](#查询级别)
+* [7. 一般技术](#7-general-techniques)
+    * [7.1 面向数据库的特征工程 (6)](#面向数据库的特征工程)
+    * [7.2 面向AI的特征工程 (6)](#面向人工智能的特征工程)
+    * [7.3 模型迁移技术 (1)](#模型迁移) 
+    * [7.4 查询和数据生成 (5)](#查询和数据生成)
+* [8. 自治数据库框架 (16)](#8-自治数据库框架)
+* [9. 演示系统 (11)](#9-演示系统)
+* [S1. **大模型x数据库** (10)](#s1-大模型x数据库)
+* [S2. AI相关资料 (4)](#s2-人工智能相关资料)
+* [S3. 开源数据集和查询语句 (3)](#s3-开源数据集和查询语句)
 
 
 --- 
-*Great talks you should not miss >>*
+*不容错过的精彩演讲 >>*
 
 ***Make Your Database System Dream of Electric Sheep : Towards Self-Driving Operation.*** Andy Pavlo, Matthew Butrovich, Lin Ma, et al. [[link](https://vldb.org/pvldb/vol14/p3211-pavlo.pdf)]
 
@@ -68,9 +68,9 @@ Table of Contents
 
 ---
 
-## 0. Survey and Tutorial
+## 0. 综述和教程
 
-### Survey
+### 综述
 
 **Database meets deep learning: Challenges and opportunities.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
@@ -100,7 +100,7 @@ https://15799.courses.cs.cmu.edu/spring2022/schedule.html
 *Xinyang Zhao, Xuanhe Zhou, Guoliang Li. TKDE, 2023.* [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/tuning-survey.pdf)] [[code](https://github.com/evolveDB/tuning-survey)]
 
 
-### Tutorial
+### 教程
 
 **From auto-tuning one size fits all to self-designed and learned data-intensive systems.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
@@ -152,11 +152,11 @@ https://15799.courses.cs.cmu.edu/spring2022/schedule.html
 *Immanuel Trummer. VLDB, 2022.*  [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
 
 
-## 1. Database Configuration
+## 1. 数据库自配置
 
-### Knob Tuner
+### 参数调优
 
-#### Heuristic 
+#### 启发式
 
 PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-green) 
 
@@ -170,7 +170,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### BO-based
+#### 贝叶斯优化
 
 **Tuning Database Conﬁguration Parameters with iTuned** ![](https://img.shields.io/badge/-gaussian_process-orange)    
 
@@ -202,7 +202,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### DL-based
+#### 深度学习
 
 **iBTune: Individualized Buffer Tuning for Large-scale Cloud Databases**
 
@@ -210,7 +210,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### RL-based
+#### 强化学习
 
 **An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning** 
 
@@ -238,7 +238,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### Knob Selection
+#### 参数选择
 
 **SARD: A statistical approach for ranking database tuning parameters**
 
@@ -250,7 +250,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### Benefit Estimation
+#### 收益估计
 
 **IWEK: An Interpretable What-If Estimator for Database Knobs** ![](https://img.shields.io/badge/-random_forest-orange)   ![](https://img.shields.io/badge/-transfer-8cfff3)  
 
@@ -258,7 +258,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 ---
 
-#### Experiments
+#### 实验论文
 
 **An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems**
 
@@ -271,7 +271,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 <br>
 
 
-### View Advisor
+### 视图推荐
 
 **Selecting subexpressions to materialize at datacenter scale**
 
@@ -308,7 +308,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 <br>
 
-### Index Advisor
+### 索引推荐
 
 **[EA & B]** Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser: *Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms.* Proc. VLDB Endow. 13(11): 2382-2395 (2020) [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)]
 
@@ -362,7 +362,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 <br>
 
-### Partition Advisor
+### 划分键推荐
 
 **Automating physical database design in a parallel database.** ![](https://img.shields.io/badge/-horizontal-brown) 
 
@@ -419,7 +419,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 <br>
 
-### Hybrid Advisor
+### 混合调优
 
 **Universal Database Optimization using Reinforcement Learning**
 
@@ -432,13 +432,13 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 
 
-## 2. Query Optimization
+## 2. 查询优化
 
-### Query Rewriter 
+### 查询重写
 
-(note other interesting problems like [text2SQL](https://github.com/yechens/NL2SQL) are not within the scope)
+（请注意，其他有趣的问题，比如[text2SQL](https://github.com/yechens/NL2SQL)，不在范围之内）
 
-#### Traditional
+#### 传统方法
 
 **[Rewrite Rules]** 	Béatrice Finance, Georges Gardarin. A Rule-Based Query Rewriter in an Extensible DBMS. ICDE 1991. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131472)]
 
@@ -461,14 +461,14 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **[Rewrite Rules]** 	Qiushi Bai, Sadeem Alsudais, Chen Li. *QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting*. VLDB, 2023. [[paper](https://arxiv.org/pdf/2305.08272.pdf)]
 
 
-#### Learning-based
+#### 学习型方法
 
 **[Predicate Rewrite]** Qi Zhou, Joy Arulraj, Shamkant B. Navathe, William Harris, Jinpeng Wu. *Sia : Optimizing Queries using Learned Predicates*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457262)]
 
 **[Rewrite Strategy]** Xuanhe Zhou, Guoliang Li, Chengliang Chai, Jianhua Feng. *A Learned Query Rewrite System using Monte Carlo Tree Search*. VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-query-rewrite.pdf)]
 
 
-### Cardinality Estimation
+### 基数估计
 
 **[Card, Query-based]** Dutt, A., Wang, C., Nazi, A., Kandula, S., Narasayya, V., & Chaudhuri, S. (2018). Selectivity estimation for range predicates using lightweight models. Proceedings of the VLDB Endowment, 12(9), 1044–1057, 2018. [[paper](https://doi.org/10.14778/3329772.3329780)]
 
@@ -530,7 +530,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[ EA&B ]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
 
-### Cost Estimation
+### 代价估计
 
 **[Cost]** Marcus, R., & Papaemmanouil, O. (2019). *Plan-Structured Deep Neural Network Models for Query Performance Prediction*. 1733–1746. [[paper](http://arxiv.org/abs/1902.00132)]
 
@@ -539,7 +539,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **[Cost]** Benjamin Hilprecht, Carsten Binnig. *Zero-Shot Cost Models for
 Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2361-hilprecht.pdf)]
 
-### Plan Optimization
+### 物理计划生成
 
 **Continuously Adaptive Query Processing**
 
@@ -629,17 +629,17 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 
 *Xu Chen, Haitian Chen, Zibo Liang, Shuncheng Liu, Jinghong Wang, Kai Zeng, Han Su, and Kai Zheng.*[[paper](https://www.vldb.org/pvldb/vol16/p2261-chen.pdf)]
 
-## 3. Workload Scheduling
+## 3. 负载调度
 
 Ibrahim Sabek, Tenzin Samten Ukyab, Tim Kraska. *LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526158)] 
 
 Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. In VLDB, 2020. [[paper](https://arxiv.org/pdf/2007.10568.pdf)] 
 
 
-## 4. Database Design
+## 4. 数据库自设计
 
-### Index
-#### One-dimensional Index
+### 索引
+#### 一维索引
 
 **[1-D, Immutable]** Kraska, T., Beutel, A., Chi, E. H., Dean, J., & Polyzotis, N. (2018). *The case for learned index structures*. SIGMOD, 2018. [[paper](https://dl.acm.org/doi/10.1145/3183713.3196909)] [[code](https://github.com/learnedsystems/RMI/tree/5fdff45d0929beaccf6bc56f8f4c0d82baf10304)]
 
@@ -683,7 +683,7 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[Multi-D, Mutable]** Dong, H., Chai, C., Luo, Y., Liu, J., Feng, J., Zhan, C. (2022). *RW-Tree: A Learned Workload-aware Framework for R-tree Construction*. ICDE, 2022. [[paper](https://doi.org/10.1109/ICDE53745.2022.00201)]
 
-#### Experiment and Analysis
+#### 实验分析
 
 **[1-D, Immutable, Analysis]** Ferragina, P., Lillo, F., & Vinciguerra, G. (2020). *Why are learned indexes so effective?*. ICML, 2020. [[paper](http://proceedings.mlr.press/v119/ferragina20a/ferragina20a.pdf)]
 
@@ -699,7 +699,7 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[1-D, Mutable, Experiment]** Sun, Z., Zhou, X., Li, G. (2023) *Learned Index: A Comprehensive Experimental Evaluation*. VLDB, 2023. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/experiment-learned-index.pdf)] [[code](https://github.com/curtis-sun/TLI)]
 
-### Layout
+### 数据结构
 
 **[Learned Layout]** Liwen Sun, Michael J. Franklin, Sanjay Krishnan, et al. *Fine-grained partitioning for aggressive data skipping*. SIGMOD, 2014. [[paper](https://doi.org/10.1145/2588555.2610515)]
 
@@ -715,14 +715,14 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[Learned Layout]** Michael Abebe. *Tiresias: Enabling Predictive Autonomous Storage and Indexing*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p3126-abebe.pdf)]
 
-### Query Execution
+### 查询执行优化
 
 **[CodeGen]** Immanuel Trummer. *CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
 
 Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
 
 
-## 5. Database Monitoring
+## 5. 数据库自监控
 
 **[Trend Prediction]** L. Ma, D. V. Aken, A. Hefny, G. Mezerhane, A. Pavlo, and G. J. Gordon, “Query-based Workload Forecasting for Self-driving Database Management Systems,” in SIGMOD, 2018. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/sigmod18-ma.pdf)]
 
@@ -744,9 +744,9 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 
 
-## 6. Database Diagnosis
+## 6. 数据库自诊断
 
-### System and Kernel Causes
+### 系统级别
 
 **Automatic Performance Diagnosis and Tuning in Oracle**
 
@@ -782,15 +782,15 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 
 *Shiyue Huang,Ziwei Wang, Xinyi Zhang, et al. SIGMOD, 2023.*  [[paper](https://dl.acm.org/doi/abs/10.1145/3588926)]
 
-### Bottleneck Queries
+### 查询级别
 
 **PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases.** 
 
 *Xiaoze Liu, Zheng Yin, Chao Zhao, et al. ICDE, 2022.*  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835371)]
 
-## 7. General Techniques
+## 7. 一般技术
 
-### Feature Engineering for DB
+### 面向数据库的特征工程
 
 **[PlanEncoding]** Yue Zhao, Gao Cong, Jiachen Shi, Chunyan Miao. *QueryFormer: A Tree Transformer Model for Query Plan Representation*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p1658-zhao.pdf)]
 
@@ -805,7 +805,7 @@ Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Awa
 Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding with CodecDB. SIGMOD 2021. [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3457283?casa_token=NVcav-WiJuwAAAAA:iYwHvshbC43qeBpObX4d7UYndrtqsfgE2FkI2Pkx43r59YCZJjsvm1C0Qv-M_oESKhZicbJLTIi0WsI)] 
 
 
-### Feature Engineering for AI
+### 面向人工智能的特征工程
 
 **Apache flink: Stream and batch processing in a single engine[J].** ![](https://img.shields.io/badge/-feature_extraction-green)
 
@@ -832,19 +832,19 @@ Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding 
 *Xuanhe Zhou, Cheng Chen, Kunyi Li, Bingsheng He, Mian Lu, Qiaosheng Liu, Wei Huang, Guoliang Li, Zhao Zheng, Yuqqiang Chen. 2023. Proc. VLDB Endow.* [[paper](https://github.com/decis-bench/febench/blob/main/report/febench.pdf)]
 
 
-### Model Transfer
+### 模型迁移
 
 Meghdad Kurmanji, Peter Triantafillou. Detect, Distill and Update: Learned DB Systems Facing Out of Distribution Data. SIGMOD, 2023. [[paper](https://arxiv.org/pdf/2210.05508.pdf)]
 
-### Query And Data Generation
+### 查询和数据生成
 
-#### Query Generation
+#### 查询生成
 
 L.Zhang, C.Chai, X.Zhou, and G.Li. Learned sqlgen: Constraint-aware sql generation using reinforcement learning. In SIGMOD, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod2022-sqlgen.pdf)]
 
 Liu X, Kong X, Liu L, et al. TreeGAN: syntax-aware sequence generation with generative adversarial networks. In ICDM, 2018. [[paper](http://cn.liuleics.com/uploads/1/4/1/2/14126273/1808.07582.pdf)]
 
-#### Data Generation
+#### 数据生成
 
 **[DeepAR]** Jingyi Yang, Peizhi Wu, Gao Cong, Tieying Zhang, Xiao He. *SAM: Database Generation from Query Workloads with Supervised Autoregressive Models*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526168)]
 
@@ -853,7 +853,7 @@ Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl. Expand 
 Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthesis using Generative Adversarial Networks: A Design Space Exploration. VLDB 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-datagan.pdf)]
 
 
-## 8. Database Frameworks
+## 8. 自治数据库框架
 
 **Self-Driving Database Management Systems.** ![](https://img.shields.io/badge/-model_assembly-orange) 
 
@@ -935,7 +935,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *Yiwen Zhu, Yuanyuan Tian, Joyce Cahoon, et al. SIGMOD, 2023.* [[paper](https://dl.acm.org/doi/pdf/10.1145/3555041.3589674)]
 
-## 9. Demonstrations
+## 9. 演示系统
 
 **[DB Tuning]** Bohan Zhang, Dana Van Aken, Justin Wang, Tao Dai, Shuli Jiang, Jacky Lao, Siyuan Sheng, Andrew Pavlo, Geoffrey J. Gordon. *A Demonstration of the ottertune automatic database management system tuning service*. VLDB, 2018. [[paper](http://www.vldb.org/pvldb/vol11/p1910-zhang.pdf)]
 
@@ -964,9 +964,9 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **[DB Diagnosis]** Xiu Tang, Sai Wu, Dongxiang Zhang, Ziyue Wang, Gongsheng Yuan, and Gang Chen. *A Demonstration of DLBD: Database Logic Bug Detection System.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p3914-wu.pdf)]
 
 
-# *📧 Special Issues*
+# *📧 特别问题*
 
-## S1 Large Language Models Meet Database
+## S1 大模型x数据库
 
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.**  ![](https://img.shields.io/badge/text2sql-orange) 
 
@@ -1009,7 +1009,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
    *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
 
-## S2 AI Paper And Code List
+## S2 人工智能相关资料
 
 **Partially Filtered NLP Papers** ![](https://img.shields.io/badge/paper_list-orange)  
 
@@ -1030,7 +1030,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *Yuxi Ma, Chi Zhang, Song-Chun Zhu. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2307.03762.pdf)].
 
-## S3 Open Datasets And SQLs
+## S3 开源数据集和查询语句
 
 [https://github.com/cmu-db/benchbase](https://github.com/cmu-db/benchbase)
 
