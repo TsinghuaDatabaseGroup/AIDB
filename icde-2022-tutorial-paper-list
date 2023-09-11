@@ -3,23 +3,28 @@
 Table of Contents
 =================
 
-* [1. Learned Advisor](#1-Learned-Advisor)
-    * [1.1 Knob Tuner](#Knob-Tuner)
-    * [1.2 Index Advisor](#index-advisor)
-    * [1.3 View Advisor](#view-advisor)
-    * [1.4 Partition Advisor](#partition-advisor)
-    * [1.5 Scheduling Advisor](#Scheduling-Advisor)
-* [2. Learned Optimizer](#2-Learned-Optimizer)
-    * [2.1 Query Rewriter](#query-rewriter)
-    * [2.2 Join Enumerator](#Join-Enumerator)
-    * [2.3 Cardinality/Cost Estimation](#Cost-Estimation)
-* [3. Learned Designer](#3-Learned-Designer)
-    * [3.1 Learned Index](#Learned-Index)
-    * [3.2 Learned Layout](#Learned-Layout)
-* [4. Learned Generator](#4-Learned-Generator)
-    * [4.1 Adaptive Benchmark](#Adaptive-Benchmark)
-    * [4.2 SQL Generator](#SQL-Generator)
-* [5. Autonomous Database](#5-autonomous-database)
+- [Table of Contents](#table-of-contents)
+  - [1. Learned Advisor](#1-learned-advisor)
+    - [Knob Tuner](#knob-tuner)
+    - [Index Advisor](#index-advisor)
+        - [Relevant Code Repositories:](#relevant-code-repositories)
+    - [View Advisor](#view-advisor)
+    - [Partition Advisor](#partition-advisor)
+    - [Scheduling Advisor](#scheduling-advisor)
+  - [2. Learned Optimizer](#2-learned-optimizer)
+    - [Query Rewriter](#query-rewriter)
+    - [Plan Enumerator](#plan-enumerator)
+    - [Cardinality Estimator](#cardinality-estimator)
+      - [Query-Driven](#query-driven)
+      - [Data-Driven](#data-driven)
+    - [Cost Estimator/Latency Predictor](#cost-estimator)
+  - [3. Learned Designer](#3-learned-designer)
+    - [Learned Index](#learned-index)
+    - [Learned Layout](#learned-layout)
+  - [4. Learned Generator](#4-learned-generator)
+    - [Adaptive Benchmark](#adaptive-benchmark)
+    - [SQL Generation](#sql-generation)
+  - [5. Autonomous Database](#5-autonomous-database)
 
 
 ## 1. Learned Advisor
@@ -112,7 +117,7 @@ Marcus, R., Negi, P., Mao, H., Tatbul, N., Alizadeh, M., & Kraska, T. (2020). Ba
 The Optimizer In Oracle Database 19c. [[paper](https://www.oracle.com/technetwork/database/bi-datawarehousing/twp-optimizer-with-oracledb-19c-5324206.pdf)]
 
 
-### Cost Estimator
+### Cardinality Estimator
 
 #### Query-Driven
 
@@ -135,6 +140,11 @@ Hilprecht, B., Schmidt, A., Kulessa, M., Molina, A., Kersting, K., & Binnig, C. 
 
 Sun, J., & Li, G. (n.d.). *An End-to-End Learning-based Cost Estimator*. VLDB, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-learnedcost.pdf)]
 
+### Cost Estimator
+
+Sun, J., & Li, G. (n.d.). *An End-to-End Learning-based Cost Estimator*. VLDB, 2020. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-learnedcost.pdf)]
+
+Marcus, R., & Papaemmanouil, O. (2019). Plan-structured deep neural network models for query performance prediction. VLDB, 2019. [[paper](https://dl.acm.org/doi/10.14778/3342263.3342646)]
 
 
 ## 3. Learned Designer
