@@ -20,7 +20,7 @@ Table of Contents
 * [0. Survey and Tutorial (16)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (20)](#knob-tuner)
-    * [1.2 View Advisor (5)](#view-advisor)
+    * [1.2 View Advisor (6)](#view-advisor)
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
@@ -359,6 +359,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Optimization, What-if Call]** Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
 *DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
+
+**[Stream Database]** 	Mihai Budiu, Tej Chajed, Frank McSherry, et al: *DBSP: Automatic Incremental View Maintenance for Rich Query Languages.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p1601-budiu.pdf)]
 
 <br>
 
