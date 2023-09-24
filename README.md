@@ -1026,7 +1026,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **PDFTriage: Question Answering over Long, Structured Documents** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
 
-    *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
+*Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
 
 ## S2 AI Paper And Code List
