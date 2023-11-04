@@ -46,7 +46,7 @@ Table of Contents
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
 * [S1. Large Language Models x Database (13)](#s1-large-language-models-meet-database)
-* [S2. AI Resources (4)](#s2-ai-paper-and-code-list)
+* [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
 
@@ -1050,6 +1050,10 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **Deployed AI Algorithms** ![](https://img.shields.io/badge/program_list-orange)  
 
 *https://github.com/labmlai/annotated_deep_learning_paper_implementations*
+
+**LLM Statistics***
+
+*https://aistratagems.com/large-language-model-llm-statistics/*
 
 
 **Brain in a Vat: On Missing Pieces Towards Artificial General Intelligence in Large Language Models**  ![](https://img.shields.io/badge/benchmark-orange)
