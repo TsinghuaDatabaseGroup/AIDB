@@ -1051,7 +1051,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 *https://github.com/labmlai/annotated_deep_learning_paper_implementations*
 
-**LLM Statistics***
+**LLM Statistics**
 
 *https://aistratagems.com/large-language-model-llm-statistics/*
 
