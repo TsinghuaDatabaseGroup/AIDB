@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. Large Language Models x Database (13)](#s1-large-language-models-meet-database)
+* [S1. Large Language Models x Database (26)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -980,25 +980,100 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ## S1 Large Language Models Meet Database
 
+### Peer-Reviewed
+
+**Annotating Columns with Pre-trained Language Models**![](https://img.shields.io/badge/-llm4db-Informational)![](https://img.shields.io/badge/-data_augment-purple)
+
+*Y Suhara, J Li, Y Li, D Zhang, Ç Demiralp, C Chen, WC Tan. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517906)]
+
+
 **Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs.**  ![](https://img.shields.io/badge/text2sql-orange) 
 
-   *Jinyang Li, Binyuan Hui, Ge Qu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
+   *Jinyang Li, Binyuan Hui, Ge Qu, et al. NeurIPS, 2023.* [[pdf](https://arxiv.org/pdf/2305.03111.pdf)].  
+
 
 **Can Foundation Models Wrangle Your Data?** ![](https://img.shields.io/badge/data_cleaning-green)
 
   *Avanika Narayan, Ines Chami, Laurel Orr, and Christopher Ré. VLDB, 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)].
 
+
+**OmniscientDB: A Large Language Model-Augmented DBMS That Knows What Other DBMSs Do Not Know.** ![](https://img.shields.io/badge/-model_augment-purple)
+
+*M Urban, DD Nguyen, C Binnig. aiDM@SIGMOD 2023* [[paper](https://dl.acm.org/doi/abs/10.1145/3593078.3593933)]
+
+
+**DB-GPT: Large Language Model Meets Database.** ![](https://img.shields.io/badge/query_optimization-purple) 
+
+   *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
+
+
+**CatSQL: Towards Real World Natural Language to SQL Applications** ![](https://img.shields.io/badge/text2SQL-blue)
+
+*H Fu, C Liu, B Wu, F Li, J Tan, J Sun. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3583140.3583165)]
+
+
+**DeepJoin: Joinable Table Discovery with Pre-trained Language Models** ![](https://img.shields.io/badge/-llm4db-Informational)
+
+*Y Dong, C Xiao, T Nozawa, M Enomoto, M Oyamada. VLDB 2023* [[paper](https://arxiv.org/abs/2212.07588)]
+
+
+**How Large Language Models Will Disrupt Data Management** ![](https://img.shields.io/badge/data_management-green)
+
+*RC Fernandez, AJ Elmore, MJ Franklin, S Krishnan, C Tan. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3611479.3611527)]
+
+
+**Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4** ![](https://img.shields.io/badge/-llm4db-Informational)
+
+*I Trummer. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3611540.3611630)]
+
+
+**Can Large Language Models Predict Data Correlations from Column Names?** ![](https://img.shields.io/badge/-llm4db-Informational)
+
+*I Trummer. VLDB 2023*
+
+
+**From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management** ![](https://img.shields.io/badge/data_management-green)
+
+*I Trummer. VLDB 2022* [[paper](https://arxiv.org/abs/2306.09339)]
+
+
+**CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex** ![](https://img.shields.io/badge/-llm4db-Informational)
+
+*I Trummer. VLDB 2022* [[paper](https://dl.acm.org/doi/abs/10.14778/3551793.3551841)]
+
+
+**Analyzing How BERT Performs Entity Matching** ![](https://img.shields.io/badge/data_management-green)
+
+*M Paganelli, F Del Buono, A Baraldi, F Guerra. VLDB 2022* [[paper](https://iris.unimore.it/handle/11380/1291984)]
+
+
+**Schema Matching using Pre-Trained Language Models**![](https://img.shields.io/badge/-llm4db-Informational)
+
+Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM Patel. ICDE 2023 [[paper](https://ieeexplore.ieee.org/abstract/document/10184612/)]
+
+
+**DB-BERT: a Database Tuning Tool that "Reads the Manual"** ![](https://img.shields.io/badge/knob_tuning-blue)
+
+*I Trummer. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517843)]
+
+
+### Others
+
+
 **Querying Large Language Models with SQL [Vision].**  ![](https://img.shields.io/badge/sql2res-red) 
 
    *Mohammed Saeed, Nicola De Cao, Paolo Papotti. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
+
 
 **CAESURA: Language Models as Multi-Modal Query Planners.** ![](https://img.shields.io/badge/multi_mode-blue)
 
 *Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2308.03424.pdf)].  
 
+
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
    *Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
+
 
 **Multimodal Neural Databases.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
@@ -1009,21 +1084,21 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
    *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
 
+
 **Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) 
 
 *https://github.com/chat2db/Chat2DB*
+
 
 **From Large Language Models to Databases and Back A discussion on research and education.** ![](https://img.shields.io/badge/wide_discussion-blue) 
 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
 
+
 **LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT*
 
-**DB-GPT: Large Language Model Meets Database.** ![](https://img.shields.io/badge/query_optimization-purple) 
-
-   *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
 
 **Efficient Memory Management for Large Language Model Serving with PagedAttention.** ![](https://img.shields.io/badge/sys4llm-blue) 
 
@@ -1033,6 +1108,11 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 **PDFTriage: Question Answering over Long, Structured Documents** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
 
 *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
+
+
+**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization*** ![](https://img.shields.io/badge/knob_tuning-blue)  
+
+*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
 
 
 ## S2 AI Paper And Code List
