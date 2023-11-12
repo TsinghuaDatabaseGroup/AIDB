@@ -982,7 +982,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ### Peer-Reviewed
 
-**Annotating Columns with Pre-trained Language Models**![](https://img.shields.io/badge/-llm4db-Informational)![](https://img.shields.io/badge/-data_augment-purple)
+**Annotating Columns with Pre-trained Language Models.** ![](https://img.shields.io/badge/-llm4db-Informational)![](https://img.shields.io/badge/-data_augment-purple)
 
 *Y Suhara, J Li, Y Li, D Zhang, Ç Demiralp, C Chen, WC Tan. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517906)]
 
@@ -1007,22 +1007,22 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
    *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)].
 
 
-**CatSQL: Towards Real World Natural Language to SQL Applications** ![](https://img.shields.io/badge/text2SQL-blue)
+**CatSQL: Towards Real World Natural Language to SQL Applications.** ![](https://img.shields.io/badge/text2SQL-blue)
 
 *H Fu, C Liu, B Wu, F Li, J Tan, J Sun. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3583140.3583165)]
 
 
-**DeepJoin: Joinable Table Discovery with Pre-trained Language Models** ![](https://img.shields.io/badge/-llm4db-Informational)
+**DeepJoin: Joinable Table Discovery with Pre-trained Language Models.** ![](https://img.shields.io/badge/-llm4db-Informational)
 
 *Y Dong, C Xiao, T Nozawa, M Enomoto, M Oyamada. VLDB 2023* [[paper](https://arxiv.org/abs/2212.07588)]
 
 
-**How Large Language Models Will Disrupt Data Management** ![](https://img.shields.io/badge/data_management-green)
+**How Large Language Models Will Disrupt Data Management.** ![](https://img.shields.io/badge/data_management-green)
 
 *RC Fernandez, AJ Elmore, MJ Franklin, S Krishnan, C Tan. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3611479.3611527)]
 
 
-**Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4** ![](https://img.shields.io/badge/-llm4db-Informational)
+**Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4.** ![](https://img.shields.io/badge/-llm4db-Informational)
 
 *I Trummer. VLDB 2023* [[paper](https://dl.acm.org/doi/abs/10.14778/3611540.3611630)]
 
@@ -1032,27 +1032,27 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 *I Trummer. VLDB 2023*
 
 
-**From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management** ![](https://img.shields.io/badge/data_management-green)
+**From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.** ![](https://img.shields.io/badge/data_management-green)
 
 *I Trummer. VLDB 2022* [[paper](https://arxiv.org/abs/2306.09339)]
 
 
-**CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex** ![](https://img.shields.io/badge/-llm4db-Informational)
+**CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex.** ![](https://img.shields.io/badge/-llm4db-Informational)
 
 *I Trummer. VLDB 2022* [[paper](https://dl.acm.org/doi/abs/10.14778/3551793.3551841)]
 
 
-**Analyzing How BERT Performs Entity Matching** ![](https://img.shields.io/badge/data_management-green)
+**Analyzing How BERT Performs Entity Matching.** ![](https://img.shields.io/badge/data_management-green)
 
 *M Paganelli, F Del Buono, A Baraldi, F Guerra. VLDB 2022* [[paper](https://iris.unimore.it/handle/11380/1291984)]
 
 
-**Schema Matching using Pre-Trained Language Models**![](https://img.shields.io/badge/-llm4db-Informational)
+**Schema Matching using Pre-Trained Language Models.**![](https://img.shields.io/badge/-llm4db-Informational)
 
 Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM Patel. ICDE 2023 [[paper](https://ieeexplore.ieee.org/abstract/document/10184612/)]
 
 
-**DB-BERT: a Database Tuning Tool that "Reads the Manual"** ![](https://img.shields.io/badge/knob_tuning-blue)
+**DB-BERT: a Database Tuning Tool that "Reads the Manual".** ![](https://img.shields.io/badge/knob_tuning-blue)
 
 *I Trummer. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517843)]
 
@@ -1095,7 +1095,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
 
 
-**LLM As DBA.** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
+**LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 *https://github.com/TsinghuaDatabaseGroup/DB-GPT*
 
@@ -1105,12 +1105,12 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
    *Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, et al. arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.06180)].
 
 
-**PDFTriage: Question Answering over Long, Structured Documents** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
+**PDFTriage: Question Answering over Long, Structured Documents.** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
 
 *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
 
-**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization*** ![](https://img.shields.io/badge/knob_tuning-blue)  
+**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
 *Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
 
