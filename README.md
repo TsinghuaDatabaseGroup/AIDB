@@ -1089,12 +1089,12 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) 
 
-*https://github.com/chat2db/Chat2DB*
+    *https://github.com/eosphoros-ai/DB-GPT*
 
 
 **From Large Language Models to Databases and Back A discussion on research and education.** ![](https://img.shields.io/badge/wide_discussion-blue) 
 
-*Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
+    *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
 
 
 **Efficient Memory Management for Large Language Model Serving with PagedAttention.** ![](https://img.shields.io/badge/sys4llm-blue) 
@@ -1104,7 +1104,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **PDFTriage: Question Answering over Long, Structured Documents.** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
 
-*Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
+    *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
 
 **LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
@@ -1112,13 +1112,11 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **D-Bot: Database Diagnosis System using Large Language Models.** ![](https://img.shields.io/badge/db_maintenance-purple) 
 
-*Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)].
-
-*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
+    *Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)].
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
-*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
+    *Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
 
 
 ## S2 AI Paper And Code List
