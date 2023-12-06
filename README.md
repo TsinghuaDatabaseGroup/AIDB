@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. Large Language Models x Database (27)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (27)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -984,7 +984,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 ### Peer-Reviewed
 
-**Annotating Columns with Pre-trained Language Models.** ![](https://img.shields.io/badge/-llm4db-Informational)![](https://img.shields.io/badge/-data_augment-purple)
+**Annotating Columns with Pre-trained Language Models.** ![](https://img.shields.io/badge/-llm4db-Informational) ![](https://img.shields.io/badge/-data_augment-purple)
 
 *Y Suhara, J Li, Y Li, D Zhang, Ç Demiralp, C Chen, WC Tan. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517906)]
 
@@ -1087,9 +1087,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
 
 
-**Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) 
-
-*https://github.com/eosphoros-ai/DB-GPT*
+**Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) [[project](https://github.com/eosphoros-ai/DB-GPT)]
 
 
 **From Large Language Models to Databases and Back A discussion on research and education.** ![](https://img.shields.io/badge/wide_discussion-blue) 
