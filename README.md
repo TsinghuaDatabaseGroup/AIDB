@@ -26,7 +26,7 @@ Table of Contents
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (12)](#query-rewriter)
-    * [2.2 Cardinality Estimation (33)](#cardinality-estimation)
+    * [2.2 Cardinality Estimation (34)](#cardinality-estimation)
     * [2.3 Cost Estimation (3)](#cost-estimation)
     * [2.4 Plan Optimization (22)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. Large Language Models x Database (26)](#s1-large-language-models-meet-database)
+* [S1. Large Language Models x Database (27)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -535,6 +535,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **[ EA&B ]** Kyoungmin Kim, Jisung Jung, In Seo, Wook-Shin Han, Kangwoo Choi, Jaehyok Chong: Learned Cardinality Estimation: An In-depth Study. SIGMOD Conference 2022: 1214-1227 [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3526154)]
 
 **[ EA&B ]** Harmouch, H., & Naumann, F. (2018). Cardinality Estimation: An Experimental Survey. *Pvldb*, *11*(4), 4999–512, 2017. [[paper](https://doi.org/10.1145/3164135.3164145)]
+
+**[ EA&B, Data Update ]** Meghdad Kurmanji, Eleni Triantafillou, Peter Triantafillou. Machine Unlearning in Learned Databases: An Experimental Analysis. *SIGMOD, 2024.* [[paper](https://arxiv.org/pdf/2311.17276.pdf)] [[code](https://github.com/meghdadk/DB_unlearning)]
 
 ### Cost Estimation
 
@@ -1095,11 +1097,6 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
 
 
-**LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
-
-*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
-
-
 **Efficient Memory Management for Large Language Model Serving with PagedAttention.** ![](https://img.shields.io/badge/sys4llm-blue) 
 
    *Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, et al. arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.06180)].
@@ -1109,6 +1106,15 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
+
+**LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
+
+
+**D-Bot: Database Diagnosis System using Large Language Models.** ![](https://img.shields.io/badge/db_maintenance-purple) 
+
+*Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)].
+
+*https://github.com/TsinghuaDatabaseGroup/DB-GPT*
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
