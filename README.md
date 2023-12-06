@@ -1114,7 +1114,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
-*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
+*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)] [[code](https://github.com/SolidLao/GPTuner)]
 
 
 ## S2 AI Paper And Code List
