@@ -1064,7 +1064,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **Querying Large Language Models with SQL [Vision].**  ![](https://img.shields.io/badge/sql2res-red) 
 
-   *Mohammed Saeed, Nicola De Cao, Paolo Papotti. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
+*Mohammed Saeed, Nicola De Cao, Paolo Papotti. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.00472.pdf)].  
 
 
 **CAESURA: Language Models as Multi-Modal Query Planners.** ![](https://img.shields.io/badge/multi_mode-blue)
@@ -1074,37 +1074,37 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
-   *Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
+*Matthias Urban, Carsten Binnig. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2304.13559.pdf)].  
 
 
 **Multimodal Neural Databases.**   ![](https://img.shields.io/badge/multi_mode-blue) 
 
-   *Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
+*Giovanni Trappolini, Andrea Santilli, Emanuele Rodolà, Alon Halevy, Fabrizio Silvestri. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2305.01447.pdf)].  
 
 
 **ChatDB: Augmenting LLMs with Databases AS Their Symbolic Memory.** ![](https://img.shields.io/badge/split_task_to_sqls-orange)
 
-   *Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
+*Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, Hang Zhao. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.03901.pdf)].
 
 
 **Chat2DB**  ![](https://img.shields.io/badge/text2sql-orange)  ![](https://img.shields.io/badge/query_optimization-purple) 
 
-    *https://github.com/eosphoros-ai/DB-GPT*
+*https://github.com/eosphoros-ai/DB-GPT*
 
 
 **From Large Language Models to Databases and Back A discussion on research and education.** ![](https://img.shields.io/badge/wide_discussion-blue) 
 
-    *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
+*Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
 
 
 **Efficient Memory Management for Large Language Model Serving with PagedAttention.** ![](https://img.shields.io/badge/sys4llm-blue) 
 
-   *Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, et al. arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.06180)].
+*Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, et al. arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.06180)].
 
 
 **PDFTriage: Question Answering over Long, Structured Documents.** ![](https://img.shields.io/badge/text_to_structured_data-blue)  
 
-    *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
+*Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
 
 **LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
@@ -1112,11 +1112,11 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 **D-Bot: Database Diagnosis System using Large Language Models.** ![](https://img.shields.io/badge/db_maintenance-purple) 
 
-    *Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)].
+*Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)].
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
-    *Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
+*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)]
 
 
 ## S2 AI Paper And Code List
