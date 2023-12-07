@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. LLM x DB (27)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (28)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -1105,12 +1105,18 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 *Jon Saad-Falcon, Joe Barrow, Alexa Siu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2309.08872.pdf)].
 
 
+**Automatic Root Cause Analysis via Large Language Models for Cloud Incidents.** ![](https://img.shields.io/badge/db_maintenance-purple) 
+
+*Yinfang Chen, Huaibing Xie, Minghua Ma, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2305.15778.pdf)]
+
+
 **LLM As DBA [Vision].** ![](https://img.shields.io/badge/db_maintenance-purple) *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)].
 
 
 **D-Bot: Database Diagnosis System using Large Language Models.** ![](https://img.shields.io/badge/db_maintenance-purple) 
 
 *Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)].
+
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.*** ![](https://img.shields.io/badge/knob_tuning-blue)  
 
