@@ -172,7 +172,7 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 
 *Zhu Y, Liu J, Guo M, et al. SoCC, 2017.* [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
 
-**An Efficient Transfer Learning Based Configuration Adviser for Database Tuning** ![](https://img.shields.io/badge/-Knob_Ranking-8cfff3) ![](https://img.shields.io/badge/-Search_Space_Transferring-8cfff3)
+**An Efficient Transfer Learning Based Configuration Adviser for Database Tuning** ![](https://img.shields.io/badge/-knob_ranking-yellowgreen) ![](https://img.shields.io/badge/-search_space_transferring-8cfff3)
 
 *Xinyi Zhang, Hong Wu, Yang Li, et al. VLDB, 2023.* [[paper](https://www.vldb.org/pvldb/vol17/p539-zhang.pdf)]
 
