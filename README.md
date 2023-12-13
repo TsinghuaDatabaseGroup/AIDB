@@ -19,7 +19,7 @@ Table of Contents
 
 * [0. Survey and Tutorial (16)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (20)](#knob-tuner)
+    * [1.1 Knob Tuner (21)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
     * [1.3 Index Advisor (23)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
@@ -167,6 +167,14 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 **BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning** ![](https://img.shields.io/badge/-search-yellowgreen)  
 
 *Zhu Y, Liu J, Guo M, et al. SoCC, 2017.* [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
+
+**BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning** ![](https://img.shields.io/badge/-search-yellowgreen)  
+
+*Zhu Y, Liu J, Guo M, et al. SoCC, 2017.* [[paper](https://dl.acm.org/doi/abs/10.1145/3127479.3128605)]
+
+**An Efficient Transfer Learning Based Configuration Adviser for Database Tuning** ![](https://img.shields.io/badge/-Knob_Ranking-8cfff3) ![](https://img.shields.io/badge/-Search_Space_Transferring-8cfff3)
+
+*Xinyi Zhang, Hong Wu, Yang Li, et al. VLDB, 2023.* [[paper](https://www.vldb.org/pvldb/vol17/p539-zhang.pdf)]
 
 ---
 
