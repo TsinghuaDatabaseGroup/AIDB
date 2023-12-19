@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. LLM x DB (29)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (30)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -1133,6 +1133,10 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 **DBCopilot: Scaling Natural Language Querying to Massive Databases.**  ![](https://img.shields.io/badge/text2sql-orange)
 
 *Tianshu Wang, Hongyu Lin, Xianpei Han, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2312.03463.pdf)]
+
+**LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?**  ![](https://img.shields.io/badge/sql_equivalence-orange)
+
+*Fuheng Zhao, Lawrence Lim, Ishtiyaque Ahmad, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2312.10321.pdf)]
 
 
 ## S2 AI Paper And Code List
