@@ -10,7 +10,7 @@ Continuously update the *autonomous database works* based on our past tutorials.
 
 Kindly let us know if we have missed any great papers. Thank you!
 
-Conference deadlines: https://ccfddl.github.io/
+Conference deadlines: https://github.com/ccfddl/ccf-deadlines
 
 (Note *conference postponement* may not be promptly synchronized, so just consider it as a reference.)
 
