@@ -32,8 +32,8 @@ Table of Contents
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Learned Index (30)](#index)
-    * [4.2 Learned Layout (7)](#layout)
-    * [4.3 Query Execution (2)](#query-execution)
+    * [4.2 Learned Layout (6)](#layout)
+    * [4.3 Query Execution (3)](#query-execution)
 * [5. Database Monitoring (9)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (7)](#system-and-kernel-causes)
@@ -372,7 +372,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Optimization, What-if Call]** Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
 *DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
-
 
 <br>
 
@@ -729,8 +728,6 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 **[Learned Layout]** Jialin Ding, Umar Farooq Minhas, Badrish Chandramouli, et al. *Instance-Optimized Data Layouts for Cloud Analytics Workloads*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3457270)]
 
-**[Learned Layout]** Bandle, M., Giceva, J., & Neumann, T. (2021). *To Partition, or Not to Partition, That is the Join Question in a Real System*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
-
 **[Data Container]** Madden S, Ding J, Kraska T, Sudhir S, Cohen D, Mattson T, Tatbul N. *Self-Organizing Data Containers*. CIDR, 2022. [[paper](https://www.cidrdb.org/cidr2022/papers/p44-madden.pdf)]
 
 **[Learned Layout]** Teng Zhang, Jian Tan, Xin Cai, Jianying Wang, Feifei Li, Jianling Sun. *SA-LSM : Optimize Data Layout for LSM-tree Based Storage using Survival Analysis*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2161-zhang.pdf)]
@@ -739,9 +736,11 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 
 ### Query Execution
 
-**[CodeGen]** Immanuel Trummer. *CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
+**[Scheduling]** Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
 
-Zhang, C., Marcus, R., Kleiman, A., & Papaemmanouil, O. (2020). *Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning*. AIDB@VLDB, 2020. [[paper](https://arxiv.org/abs/2007.10568)]
+**[Operators]** Bandle, M., Giceva, J., & Neumann, T. (2021). *To Partition, or Not to Partition, That is the Join Question in a Real System*. SIGMOD, 2021. [[paper](https://doi.org/10.1145/3448016.3452831)]
+
+**[CodeGen]** Immanuel Trummer. *CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
 
 
 ## 5. Database Monitoring
