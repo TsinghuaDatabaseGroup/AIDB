@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. LLM x DB (30)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (31)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -1100,6 +1100,10 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 **From Large Language Models to Databases and Back A discussion on research and education.** ![](https://img.shields.io/badge/wide_discussion-blue) 
 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2306.01388.pdf)]
+
+**Table-GPT: Table-tuned GPT for Diverse Table Tasks.** ![](https://img.shields.io/badge/data_cleaning-green) 
+
+*Peng Li, Yeye He, Dror Yashar, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2310.09263.pdf)] 
 
 
 **Efficient Memory Management for Large Language Model Serving with PagedAttention.** ![](https://img.shields.io/badge/sys4llm-blue) 
