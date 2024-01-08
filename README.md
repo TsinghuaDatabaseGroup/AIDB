@@ -45,7 +45,7 @@ Table of Contents
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (16)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. LLM x DB (31)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (32)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -1141,6 +1141,10 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *Fuheng Zhao, Lawrence Lim, Ishtiyaque Ahmad, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2312.10321.pdf)]
 
+**OpsEval: A Comprehensive Task-Oriented AIOps Benchmark for Large Language Models** ![](https://img.shields.io/badge/db_maintenance-purple) 
+
+*Yuhe Liu, Changhua Pei, Longlong Xu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2310.07637.pdf)]
+
 
 ## S2 AI Paper And Code List
 
@@ -1166,6 +1170,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 **Brain in a Vat: On Missing Pieces Towards Artificial General Intelligence in Large Language Models**  ![](https://img.shields.io/badge/benchmark-orange)
 
 *Yuxi Ma, Chi Zhang, Song-Chun Zhu. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2307.03762.pdf)].
+
 
 ## S3 Open Datasets And SQLs
 
