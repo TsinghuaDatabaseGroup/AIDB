@@ -323,10 +323,59 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Index Advisor
 
+#### Preprocessing
+
+[ISUM] **ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning** ![](https://img.shields.io/badge/-workload_compression-yellowgreen)  ![](https://img.shields.io/badge/-index_aware-blue)
+*Siddiqui, Tarique and Jo, Saehan and Wu, Wentao and Wang, Chi and Narasayya, Vivek and Chaudhuri, Surajit. SIGMOD, 2022* [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/04/ISUM-ExtendedVersion.pdf)] 
+
+[GSUM] **Primitives for workload summarization and implications for SQL** ![](https://img.shields.io/badge/-workload_compression-yellowgreen) ![](https://img.shields.io/badge/-index_agnostic-yellow)
+*Chaudhuri, Surajit and Narasayya, Vivek and Ganesan, Prasanna. VLDB, 2023* [[paper](https://www.bing.com/ck/a?!&&p=e01a9d95f910866cJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTAwOA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMjJQMDIucGRm&ntb=1)] 
+
+[QB5000] **Query-based workload forecasting for self-driving database management systems**  ![](https://img.shields.io/badge/-workload_compression-yellowgreen) ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-query_clustering-green)
+*Ma, Lin and Van Aken, Dana and Hefny, Ahmed and Mezerhane, Gustavo and Pavlo, Andrew and Gordon, Geoffrey J. SIGMOD, 2018* [[paper](https://www.bing.com/ck/a?!&&p=28b344982a71d559JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIzMQ&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Query-based+workload+forecasting+for+self-driving+database+management+systems&u=a1aHR0cHM6Ly93ZWIuZWVjcy51bWljaC5lZHUvfmxpbm1hY3NlL3B1YmxpY2F0aW9ucy8yMDE4LmZvcmVjYXN0aW5nLnNpZ21vZC5wZGY&ntb=1)] 
+
+**Compressing sql workloads** ![](https://img.shields.io/badge/-workload_compression-yellowgreen)  ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-query_clustering-green)
+*Chaudhuri, Surajit and Gupta, Ashish Kumar and Narasayya, Vivek. SIGMOD, 2022* [[paper](https://www.bing.com/ck/a?!&&p=6b800d696b3d4e5aJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Compressing+sql+workloads&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwMi8wNi9TaWcwMi1XQy5wZGY&ntb=1)] 
+
+**Comprehensive and efficient workload compression** ![](https://img.shields.io/badge/-workload_compression-yellowgreen)  ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-greedy_selection-green) 
+*Deep, Shaleen and Gruenheid, Anja and Koutris, Paraschos and Naughton, Jeffrey and Viglas, Stratis. VLDB, 2020* [[paper](https://www.bing.com/ck/a?!&&p=f48d32f30cba6aa4JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTI0Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Comprehensive+and+efficient+workload+compression&u=a1aHR0cHM6Ly92bGRiYXJjLm9yZy9wdmxkYi92b2wxNC9wNDE4LWRlZXAucGRm&ntb=1)] 
+
+[AutoIndex] **Autoindex: An incremental index management system for dynamic workloads** ![](https://img.shields.io/badge/-workload_compression-yellowgreen)  ![](https://img.shields.io/badge/-index_agnostic-yellow)  ![](https://img.shields.io/badge/-templating_and_LRU-green)
+*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://www.bing.com/ck/a?!&&p=2eb543751e1f45c0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Ng&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Autoindex%3a+An+incremental+index+management+system+for+dynamic+workloads&u=a1aHR0cHM6Ly9kYmdyb3VwLmNzLnRzaW5naHVhLmVkdS5jbi9saWdsL3BhcGVycy9pY2RlMjAyMi1hdXRvaW5kZXgucGRm&ntb=1)] 
+
+**Ai meets ai: Leveraging query executions to improve index recommendations** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-DNN_and_Random_Forest-green)
+*Ding, Bailu and Das, Sudipto and Marcus, Ryan and Wu, Wentao and Chaudhuri, Surajit and Narasayya, Vivek R. SIGMOD, 2019* [[paper](https://www.bing.com/ck/a?!&&p=f316aa373db264d0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Ai+meets+ai%3a+Leveraging+query+executions+to+improve+index+recommendations&u=a1aHR0cHM6Ly9wYWdlcy5jcy53aXNjLmVkdS9-d2VudGFvd3UvcGFwZXJzL3NpZ21vZDE5LWF1dG8taW5kZXhpbmcucGRm&ntb=1)] 
+
+**Automatic view generation with deep learning and reinforcement learning** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-LSTM-green)
+*Yuan, Haitao and Li, Guoliang and Feng, Ling and Sun, Ji and Han, Yue. ICDE, 2020* [[paper](https://www.bing.com/ck/a?!&&p=3769b7e1fd57022bJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Automatic+view+generation+with+deep+learning+and+reinforcement+learning&u=a1aHR0cHM6Ly9kYmdyb3VwLmNzLnRzaW5naHVhLmVkdS5jbi9saWdsL3BhcGVycy9pY2RlMjAyMC1sZWFybmVkdmlldy5wZGY&ntb=1)] 
+
+[SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-LSTM_GCN_ResNet-green)
+*Gao, Jianling and Zhao, Nan and Wang, Ning and Hao, Shuang. CIKM, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557163)] [[code](https://github.com/JerryGao818/Index_selection_with_learned_estimator)] 
+
+[QueryFormer] **QueryFormer: a tree transformer model for query plan representation** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-Tree_Transformer-green)
+*Zhao, Yue and Cong, Gao and Shi, Jiachen and Miao, Chunyan. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3529337.3529349)] [[code](https://www.bing.com/ck/a?!&&p=3329458fd937365eJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIwNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=QueryFormer%3a+a+tree+transformer+model+for+query+plan+representation&u=a1aHR0cHM6Ly9naXRodWIuY29tL3Vlc3RjLXRhbmd5aWhlbmcvcXVlcnlmb3JtZXI&ntb=1)] 
+
+[SWIRL] **SWIRL: Selection of Workload-aware Indexes using Reinforcement Learning** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-bag_of_operator-green)   ![](https://img.shields.io/badge/-latent_semantic_index_model-yellow) 
+*Kossmann, Jan and Kastius, Alexander and Schlosser, Rainer. EDBT, 2022* [[paper](https://www.bing.com/ck/a?!&&p=0b35e4290c4ba0adJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9vcGVucHJvY2VlZGluZ3Mub3JnLzIwMjIvY29uZi9lZGJ0L3BhcGVyLTM3LnBkZg&ntb=1)] [[code](https://www.bing.com/ck/a?!&&p=cdf5e3d44367b3bcJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9naXRodWIuY29tL2h5cmlzZS9ybF9pbmRleF9zZWxlY3Rpb24&ntb=1)] 
+
+[Indexer++] **Indexer++ workload-aware online index tuning with transformers and reinforcement learning** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-RoBERTa-green) ![](https://img.shields.io/badge/-T_SNE-yellow)
+*Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
+
+[LIB] **Learned Index Benefits: Machine Learning Based Index Performance Estimation** ![](https://img.shields.io/badge/-feature_representation-blue)  ![](https://img.shields.io/badge/-Set_Transformer-green)
+*Shi, Jiachen and Cong, Gao and Li, Xiao-Li. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3565838.3565848)] [[code](https://www.bing.com/ck/a?!&&p=14cd0ddb44d6c124JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIzNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Learned+Index+Benefits%3a+Machine+Learning+Based+Index+Performance+Estimation&u=a1aHR0cHM6Ly9naXRodWIuY29tL0pDLVNoaS9MZWFybmVkLUluZGV4LUJlbmVmaXRz&ntb=1)] 
+
+
+
+[] **** ![](https://img.shields.io/badge/-candidate_generation-orange)  ![](https://img.shields.io/badge/--)
+** [[paper]()] [[code]()] 
+
+
+
+
 #### Offline Index Tuning
 
 **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)   ![](https://img.shields.io/badge/-evaluation_platform-red)   
-*Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
+*Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
 
 
