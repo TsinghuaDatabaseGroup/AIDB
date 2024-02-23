@@ -391,9 +391,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 
 
- ![](https://img.shields.io/badge/-candidate_generation-orange) [] ****  ![](https://img.shields.io/badge/--)
+ ![](https://img.shields.io/badge/-candidate_generation-orange) [AIM] **AIM: A practical approach to automated index management for SQL databases** 
  
-** [[paper]()] [[code]()] 
+*Yadav, Ritwik and Valluri, Satyanarayana R. and Zaït, Mohamed. ICDE, 2023* [[paper](https://www.vldb.org/conf/1997/P146.PDF)] 
+
 
 
 
@@ -403,41 +404,35 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)   ![](https://img.shields.io/badge/-evaluation_platform-red)   
 *Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
+ ![](https://img.shields.io/badge/-candidate_generation-orange) [] ****  ![](https://img.shields.io/badge/--)
+ 
+** [[paper]()] [[code]()]
 
-
-
----
-
-#### BO-based
-
-
----
-
-#### DL-based
 
 
 
 ---
 
-#### RL-based
+#### Online Index Tuning
+
+
+---
+
+#### Index Benefit Estimation
 
 
 
 ---
 
-#### Knob Selection
+#### Industry Papers
 
 
 
 ---
 
-#### Benefit Estimation
+#### Adaptive Indexing
 
 
-
----
-
-#### Experiments
 
 
 
