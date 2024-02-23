@@ -323,6 +323,49 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Index Advisor
 
+### Knob Tuner
+
+#### Heuristic 
+
+
+
+---
+
+#### BO-based
+
+
+---
+
+#### DL-based
+
+
+
+---
+
+#### RL-based
+
+
+
+---
+
+#### Knob Selection
+
+
+
+---
+
+#### Benefit Estimation
+
+
+
+---
+
+#### Experiments
+
+
+
+<br>
+
 **[EA & B]** Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser: *Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms.* Proc. VLDB Endow. 13(11): 2382-2395 (2020) [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)]
 
 **[Industry, Microsoft Azure]** Sudipto Das, Miroslav Grbic, Igor Ilic, Isidora Jovandic, Andrija Jovanovic, Vivek R. Narasayya, Miodrag Radulovic, Maja Stikic, Gaoxiang Xu, Surajit Chaudhuri: *Automatically Indexing Millions of Databases in Microsoft Azure SQL Database.* SIGMOD Conference 2019: 666-679 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)]
