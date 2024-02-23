@@ -323,9 +323,11 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Index Advisor
 
-### Knob Tuner
+#### Offline Index Tuning
 
-#### Heuristic 
+**Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)   ![](https://img.shields.io/badge/-evaluation_platform-red)   
+*Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
+
 
 
 
