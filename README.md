@@ -401,16 +401,116 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 #### Offline Index Tuning
 
-**Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)   ![](https://img.shields.io/badge/-evaluation_platform-red)   
+![](https://img.shields.io/badge/-Experimental-red) **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)      
 *Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
- ![](https://img.shields.io/badge/-candidate_generation-orange) [] ****  ![](https://img.shields.io/badge/--)
+ ![](https://img.shields.io/badge/-LP-purple)  **Exact and approximate algorithms for the index selection problem in physical database design**  ![](https://img.shields.io/badge/-branch_and_cut-green)
  
-** [[paper]()] [[code]()]
+*Caprara, Alberto and Fischetti, Matteo and Maio, Dario. TKDE, 1995* [[paper](https://www.academia.edu/10160281/Exact_and_Approximate_Algorithms_for_the_Index_Selection_Problem_in_Physical_Database_Design)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **A branch-and-cut algorithm for a generalization of the uncapacitated facility location problem**  ![](https://img.shields.io/badge/-branch_and_cut-green)
+ 
+*Caprara, Alberto and Gonz{\'a}lez, JJ. Top, 1996* [[paper](https://link.springer.com/article/10.1007/bf02568608)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Separating lifted odd-hole inequalities to solve the index selection problem**  ![](https://img.shields.io/badge/-branch_and_cut-green)
+ 
+*Caprara, Alberto and Gonz{\'a}lez, Juan Jos{\'e} Salazar. Discrete Applied Mathematics, 1999* [[paper](https://www.academia.edu/10903910/Separating_Lifted_Odd_hole_Inequalities_to_Solve_the_Index_Selection_Problem)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  [papadomanolakis2007integer] ****  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+** [[paper]()] 
+
+
+ ![](https://img.shields.io/badge/-DFS-purple)  **The optimal selection of secondary indices for files**  ![](https://img.shields.io/badge/--)
+ 
+*Mario Schkolnick. Information Systems, 1975* [[paper](https://figshare.com/articles/journal_contribution/The_optimal_selection_of_secondary_indices_for_files/6610724/1/files/12102875.pdf)] 
+
+
+ ![](https://img.shields.io/badge/-DP-blue)  **Intelligent Index Tuning Approach for Relational Databases**  
+ 
+*Qiu, Tao and Wang, Bin and Shu, Zhaowei and Zhao, Zhibo and Song, Ziwen and Zhong, Yanhui. Journal of Software, 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjFaB-CZazP6wJjOtv-2WmnS1dlFbs215fbK_ycawiuz2UB3hAyYGeu_q_i454q4u7SENxszChJs8NX0wC1Mayun31a93X_S1zDMfF6y8RR-YMh2-sXbv8w-ICPXscSiAq04_ysaHJfJaQ==&uniplatform=NZKPT&language=CHS)] 
+
+
+ ![](https://img.shields.io/badge/-DP-blue)  **CedarAdvisor: A load-adaptive automatic indexing recommendation tool**  
+ 
+*Yang, Wencan and Hu, Huiqi and Duan, Huichao and Hu, Yaoyi and Qian, Weining. Journal of East China Normal University (Natural Science), 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjHzYy-GL4ZZyt6rjdGysJfZQ2JK_cU0VoKlZGkbil-_YD7GpdhxA5ZCFKIi9luSK1xK1outuBYrkuExIzifMI6NxnelRnHBZsnEJlAhl99-jTdL7wB2IJjoFI7-VOCaFzWKEEUgJ_4EPA==&uniplatform=NZKPT&language=CHS)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange) [AutoAdmin] **An efficient, cost-driven index selection tool for Microsoft SQL server**  
+ 
+*Chaudhuri, Surajit and Narasayya, Vivek R. VLDB 1997* [[paper](http://www.vldb.org/conf/1997/P146.PDF)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [DB2Advis] **DB2 advisor: An optimizer smart enough to recommend its own indexes**  
+ 
+*Valentin, Gary and Zuliani, Michael and Zilio, Daniel C and Lohman, Guy and Skelley, Alan. ICDE, 2000* [[paper](https://www.bing.com/ck/a?!&&p=08e4abb7b92dc6a6JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=DB2+advisor%3a+An+optimizer+smart+enough+to+recommend+its+own+indexes&u=a1aHR0cHM6Ly93d3cuY3MudG9yb250by5lZHUvfmFsYW4vcGFwZXJzL2ljZGUwMC5wZGY&ntb=1)] 
 
 
 
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Extend] **Efficient scalable multi-attribute index selection using recursive strategies**  
+ 
+*Schlosser, Rainer and Kossmann, Jan and Boissier, Martin. ICDE, 2019* [[paper](https://www.bing.com/ck/a?!&&p=a7a6f59969709befJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Efficient+scalable+multi-attribute+index+selection+using+recursive+strategies&u=a1aHR0cHM6Ly93d3cucmVzZWFyY2hnYXRlLm5ldC9wcm9maWxlL01hcnRpbi1Cb2lzc2llci9wdWJsaWNhdGlvbi8zMzI1Mjk0NTdfRWZmaWNpZW50X1NjYWxhYmxlX011bHRpLUF0dHJpYnV0ZV9JbmRleF9TZWxlY3Rpb25fVXNpbmdfUmVjdXJzaXZlX1N0cmF0ZWdpZXMvbGlua3MvNWNiZWQ2MDA0NTg1MTU2Y2Q3YWI2OGY1L0VmZmljaWVudC1TY2FsYWJsZS1NdWx0aS1BdHRyaWJ1dGUtSW5kZXgtU2VsZWN0aW9uLVVzaW5nLVJlY3Vyc2l2ZS1TdHJhdGVnaWVzLnBkZg&ntb=1)] 
 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **On the selection of an optimal set of indexes**  
+ 
+*Ip, Maggie Y. L. and Saxton, Lawrence V. and Raghavan, Vijay V.. IEEE Transactions on Software Engineering, 1983* [[paper](https://www.computer.org/csdl/journal/ts/1983/02/01703030/13rRUzphDzm)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Index selection for databases: A hardness study and a principled heuristic solution**  
+ 
+*Chaudhuri, Surajit and Datar, Mayur and Narasayya, Vivek. TKDE, 2004* [[paper](https://www.computer.org/csdl/journal/tk/2004/11/k1313/13rRUx0xPnf)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Drop] **Index selection in relational databases**  
+ 
+*Whang, Kyu-Young. Foundation of Data Organization, 1983* [[paper](https://www.bing.com/ck/a?!&&p=5e89fa294af0e081JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyMQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Index+selection+in+relational+databases&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0xLTQ2MTMtMTg4MS0xXzQxLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Relaxation] **Automatic physical database tuning: A relaxation-based approach**  
+ 
+*Bruno, Nicolas and Chaudhuri, Surajit. SIGMOD, 2005* [[paper](https://www.bing.com/ck/a?!&&p=b8c7cb40b67a2308JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Ng&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+physical+database+tuning%3a+A+relaxation-based+approach&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwNS8wMS9uZXdkdGEucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Index merging**  
+ 
+*Chaudhuri, S. and Narasayya, V.. ICDE, 1999* [[paper](https://ieeexplore.ieee.org/document/754945)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **On a new approach to the index selection problem using mining algorithms**  
+ 
+*Ameri, Parinaz and Meyer, J{\"o}rg and Streit, Achim. Big Data, 2015* [[paper](https://ieeexplore.ieee.org/document/7364084)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Semi-automatic index tuning: Keeping dbas in the loop**  ![](https://img.shields.io/badge/-WFIT-green) 
+ 
+*Schnaitter, Karl and Polyzotis, Neoklis. VLDB, 2012* [[paper](https://dl.acm.org/doi/pdf/10.14778/2140436.2140444)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Automatic index selection for large-scale datalog computation**  
+ 
+*Suboti{\'c}, Pavle and Jordan, Herbert and Chang, Lijun and Fekete, Alan and Scholz, Bernhard. VLDB, 2018* [[paper](https://www.bing.com/ck/a?!&&p=8cda915901b9dd66JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+for+large-scale+datalog+computation&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sMTIvcDE0MS1zdWJvdGljLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ 
+** [[paper]()] 
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ 
+** [[paper]()] 
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ 
+** [[paper]()] 
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ 
+** [[paper]()] 
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ 
+** [[paper]()] 
 ---
 
 #### Online Index Tuning
