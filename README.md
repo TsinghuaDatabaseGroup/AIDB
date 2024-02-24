@@ -515,37 +515,137 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Suboti{\'c}, Pavle and Jordan, Herbert and Chang, Lijun and Fekete, Alan and Scholz, Bernhard. VLDB, 2018* [[paper](https://www.bing.com/ck/a?!&&p=8cda915901b9dd66JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+for+large-scale+datalog+computation&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sMTIvcDE0MS1zdWJvdGljLnBkZg&ntb=1)] 
 
 
- ![](https://img.shields.io/badge/-GA-yellow)   ****  
+ ![](https://img.shields.io/badge/-Genetic_Algorithm-yellow)   **Genetic algorithms and the search for optimal database index selection**  
  
-** [[paper]()] 
- ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+*Fotouhi, Farshad and Galarce, Carlos E. Great Lakes CS Conference on New Research Results in Computer Science, 1989* [[paper](https://www.bing.com/ck/a?!&&p=c731d481ef7afd5dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxNw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Genetic+algorithms+and+the+search+for+optimal+database+index+selection&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3L0JGYjAwMzg1MDAucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **A genetic algorithm for the index selection problem**  
  
-** [[paper]()] 
- ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+*Kratica, Jozef and Ljubi{\'c}, Ivana and To{\v{s}}i{\'c}, Du{\v{s}}an. Workshops on Applications of Evolutionary Computation, 2003* [[paper](https://www.bing.com/ck/a?!&&p=7d796922f1f04061JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=A+genetic+algorithm+for+the+index+selection+problem&u=a1aHR0cHM6Ly93d3cuYWMudHV3aWVuLmFjLmF0L2ZpbGVzL3B1Yi9sanViaWMtMDMucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **Genetic algorithm for database indexing**  
  
-** [[paper]()] 
- ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+*Korytkowski, Marcin and Gabryel, Marcin and Nowicki, Robert and Scherer, Rafa{\l}. International Conference on Artificial Intelligence and Soft Computing, 2004* [[paper](https://www.bing.com/ck/a?!&&p=269c86126874162dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxNg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Genetic+algorithm+for+database+indexing&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTU0MC0yNDg0NC02XzE3OS5wZGY&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **An adaptive approach for index tuning with learning classifier systems on hybrid storage environments**  
  
-** [[paper]()] 
- ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+*Pedrozo, Wendel G{\'o}es and Nievola, J{\'u}lio Cesar and Ribeiro, Deborah Carvalho. International conference on hybrid artificial intelligence systems, 2018* [[paper](https://www.bing.com/ck/a?!&&p=026867298f1f59f1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyNQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=An+adaptive+approach+for+index+tuning+with+learning+classifier+systems+on+hybrid+storage+environments&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTMxOS05MjYzOS0xXzYwLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow) [GADIS]  **GADIS: A genetic algorithm for database index selection**  
  
-** [[paper]()] 
+*Neuhaus, Priscilla and Couto, Julia and Wehrmann, Jonatas and Ruiz, Duncan Dubugras Alcoba and Meneguzzi, Felipe Rech. The 31st International Conference on Software Engineering \& Knowledge Engineering, 2019* [[paper](https://www.bing.com/ck/a?!&&p=e76471a87419cd44JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=GADIS%3a+A+genetic+algorithm+for+database+index+selection&u=a1aHR0cHM6Ly9yZXBvc2l0b3Jpby5wdWNycy5ici9kc3BhY2UvYml0c3RyZWFtLzEwOTIzLzE1Mzk1LzIvR0FESVNfQV9HZW5ldGljX0FsZ29yaXRobV9mb3JfRGF0YWJhc2VfSW5kZXhfU2VsZWN0aW9uLnBkZg&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-Scatter_Search-yellow)   **The index selection problem with configurations and memory limitation: A scatter search approach**  
+ 
+*Kain, Raslan and Manerba, Daniele and Tadei, Roberto. Computers \& Operations Research, 2021* [[paper](https://iris.polito.it/retrieve/handle/11583/2901512/483636/GCFLP_ISP.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-Evolution_Strategy-yellow)   **Automatic index selection in RDBMS by exploring query execution plan space**  
+ 
+*Ko{\l}aczkowski, Piotr and Rybi{\'n}ski, Henryk. Advances in Data Management, 2009* [[paper](https://www.bing.com/ck/a?!&&p=0accd8778c44b5e1JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+in+RDBMS+by+exploring+query+execution+plan+space&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTY0Mi0wMjE5MC05XzEucGRmP3BkZj1pbmxpbmUlMjBsaW5r&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Cost-model oblivious database tuning with reinforcement learning**   ![](https://img.shields.io/badge/-Policy_Iteration-green)
+ 
+*Basu, Debabrota and Lin, Qian and Chen, Weidong and Vo, Hoang Tam and Yuan, Zihong and Senellart, Pierre and Bressan, St{\'e}phane. Database and Expert Systems Applications, 2015* [[paper](https://www.bing.com/ck/a?!&&p=6ddd3821dd096eb3JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTI4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Cost-model+oblivious+database+tuning+with+reinforcement+learning&u=a1aHR0cHM6Ly9kZWJhYnJvdGEtYmFzdS5naXRodWIuaW8vcGRmcy9iYXN1MjAxNWNvc3QucGRm&ntb=1)]  [[code](https://github.com/Debabrota-Basu/rCOREIL-Learning-to-Tune-Databases)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **The case for automatic database administration using deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Sharma, Ankur and Schuhknecht, Felix Martin and Dittrich, Jens. arXiv, 2018* [[paper](https://arxiv.org/pdf/1801.05643)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Learning index selection with structured action spaces**  ![](https://img.shields.io/badge/-Sinkhorn_Policy_Gradient_Algorithm-green)
+ 
+*Welborn, Jeremy and Schaarschmidt, Michael and Yoneki, Eiko. arXiv, 2019* [[paper](https://www.bing.com/ck/a?!&&p=6e063bed253a88ebJmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Learning+index+selection+with+structured+action+spaces&u=a1aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE5MDkuMDc0NDAucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **An index advisor using deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Lan, Hai and Bao, Zhifeng and Peng, Yuwei. CIKM, 2020* [[paper](https://www.bing.com/ck/a?!&&p=dd467734de61c6c3JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwNQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=An+index+advisor+using+deep+reinforcement+learning&u=a1aHR0cHM6Ly9iYW96aGlmZW5nLm5ldC9wYXBlcnMvY2lrbTIwLUluZGV4UmVjLnBkZg&ntb=1)] [[code](https://github.com/rmitbggroup/IndexAdvisor)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **SMARTIX: A database indexing agent based on reinforcement learning**  ![](https://img.shields.io/badge/-Q_learning-green)
+ 
+*Paludo Licks, Gabriel and Colleoni Couto, Julia and de F{\'a}tima Miehe, Priscilla and De Paris, Renata and Dubugras Ruiz, Duncan and Meneguzzi, Felipe. Applied Intelligence, 2020* [[paper](https://www.bing.com/ck/a?!&&p=91ad2a8a8589c2dcJmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=SMARTIX%3a+A+database+indexing+agent+based+on+reinforcement+learning&u=a1aHR0cDovL3d3dy5tZW5lZ3V6emkuZXUvZmVsaXBlL3B1YnMvYXBpbi1zbWFydGl4LTIwMjAucGRm&ntb=1)] [[code](https://github.com/mir-pucrs/smartix-rl)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Online index selection using deep reinforcement learning for a cluster database**  ![](https://img.shields.io/badge/-cluster_database-green)
+ 
+*Sadri, Zahra and Gruenwald, Le and Leal, Eleazar. ICDEW, 2020* [[paper](https://www.bing.com/ck/a?!&&p=fba0518f4f80ad80JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Online+index+selection+using+deep+reinforcement+learning+for+a+cluster+database&u=a1aHR0cHM6Ly9jb25mZXJlbmNlcy5jb21wdXRlci5vcmcvaWNkZS8yMDIwL3BkZnMvSUNERVcyMDIwLTU2TVc5Z1dkMlhSR09rUlJPZWVaMnMvNDI2NjAwYTE1OC80MjY2MDBhMTU4LnBkZg&ntb=1)] [[code](https://github.com/hyrise/rl_index_selection/tree/main/experiments/drlinda_multi_attribute)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Learning an Index Advisor with Deep Reinforcement Learning**  ![](https://img.shields.io/badge/-PPO_MC-green)
+ 
+*Lai, Sichao and Wu, Xiaoying and Wang, Senyang and Peng, Yuwei and Peng, Zhiyong. APWeb and WAIM, 2021* [[paper](https://link.springer.com/content/pdf/10.1007/978-3-030-85899-5.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Sharma, Vishal and Dyreson, Curtis and Flann, Nicholas. 25th International Database Engineering \& Applications Symposium, 2021* [[paper](https://www.bing.com/ck/a?!&&p=0d157108672eb397JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=MANTIS%3a+Multiple+Type+and+Attribute+Index+Selection+using+Deep+Reinforcement+Learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDcyMTYzLjM0NzIxNzY&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Index selection for NoSQL database with deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Yan, Yu and Yao, Shun and Wang, Hongzhi and Gao, Meng. Information Sciences, 2021* [[paper](https://www.sciencedirect.com/science/article/pii/S0020025521000049/pdfft?md5=7f93e2ee09b9b75820df384a601148bf&pid=1-s2.0-S0020025521000049-main.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **SWIRL: Selection of Workload-aware Indexes using Reinforcement Learning**  ![](https://img.shields.io/badge/-PPO-green)
+ 
+*Kossmann, Jan and Kastius, Alexander and Schlosser, Rainer. EDBT, 2022* [[paper](https://www.bing.com/ck/a?!&&p=f788127d7de35d29JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE5NQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9vcGVucHJvY2VlZGluZ3Mub3JnLzIwMjIvY29uZi9lZGJ0L3BhcGVyLTM3LnBkZg&ntb=1)] [[code](https://github.com/hyrise/rl_index_selection)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Budget-aware Index Tuning with Reinforcement Learning**  ![](https://img.shields.io/badge/-MCTS-green)
+ 
+*Wu, Wentao and Wang, Chi and Siddiqui, Tarique and Wang, Junxiong and Narasayya, Vivek and Chaudhuri, Surajit and Bernstein, Philip A. SIGMOD, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526128)] 
+
+
+
+
 ---
 
 #### Online Index Tuning
+
+ ![](https://img.shields.io/badge/-benchmark-purple)   **A benchmark for online index selection**  
+ 
+*Schnaitter, Karl and Polyzotis, Neoklis. ICDE, 2009* [[paper](https://dl.acm.org/doi/pdf/10.1109/ICDE.2009.166)] 
+
+
+ ![](https://img.shields.io/badge/--purple)   ****  
+ 
+** [[paper]()] 
+
 
 
 ---
 
 #### Index Benefit Estimation
 
+ ![](https://img.shields.io/badge/--purple)   ****  
+ 
+** [[paper]()] 
 
+
+ ![](https://img.shields.io/badge/--purple)   ****  
+ 
+** [[paper]()] 
 
 ---
 
 #### Industry Papers
 
-
+ ![](https://img.shields.io/badge/--purple)   ****  
+ 
+** [[paper]()] 
 
 ---
 
