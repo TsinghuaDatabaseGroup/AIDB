@@ -642,9 +642,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
  ![](https://img.shields.io/badge/-RL-red)   **Indexer++ workload-aware online index tuning with transformers and reinforcement learning**  
   ![](https://img.shields.io/badge/-DQN-green)
-  
-** [[paper](https://www.bing.com/ck/a?!&&p=a10320f2f7b9c07eJmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4MQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
 
+*Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
 
 
 
@@ -774,61 +773,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 
 
-
-
-<br>
-
-**[EA & B]** Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser: *Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms.* Proc. VLDB Endow. 13(11): 2382-2395 (2020) [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)]
-
-**[Industry, Microsoft Azure]** Sudipto Das, Miroslav Grbic, Igor Ilic, Isidora Jovandic, Andrija Jovanovic, Vivek R. Narasayya, Miodrag Radulovic, Maja Stikic, Gaoxiang Xu, Surajit Chaudhuri: *Automatically Indexing Millions of Databases in Microsoft Azure SQL Database.* SIGMOD Conference 2019: 666-679 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)]
-
-**[Industry, Meta]** Ritwik Yadav, Satyanarayana R. Valluri, Mohamed Zait: *AIM: A practical approach to automated index management for SQL databases*. ICDE 2023 [[paper](https://research.facebook.com/micro_site/url/?click_from_context_menu=true&country=CN&destination=https%3A%2F%2Fresearch.facebook.com%2Ffile%2F215595724407039%2FAIM_SRT_Update.pdf&event_type=click&last_nav_impression_id=0CS9zArYOjQEk5cnm&max_percent_page_viewed=36&max_viewport_height_px=961&max_viewport_width_px=1912&orig_http_referrer=https%3A%2F%2Fwww.google.com%2F&orig_request_uri=https%3A%2F%2Fresearch.facebook.com%2Fpublications%2Faim-a-practical-approach-to-automated-index-management-for-sql-databases%2F&region=apac&scrolled=false&session_id=0e6eXwoLiqjYPPnEb&site=mc_research)]
-
-**[Heuristic-based, AutoAdmin]** Surajit Chaudhuri, Vivek R. Narasayya: *An Efficient Cost-Driven Index Selection Tool for Microsoft SQL Server.* VLDB 1997: 146-155 [[paper](https://www.vldb.org/conf/1997/P146.PDF)]
-
-**[Heuristic-based, DB2Advis]** Gary Valentin, Michael Zuliani, Daniel C. Zilio, Guy M. Lohman, Alan Skelley: *DB2 Advisor: An Optimizer Smart Enough to Recommend Its Own Indexes.* ICDE 2000: 101-110 [[paper](http://www.cs.toronto.edu/~alan/papers/icde00.pdf)]
-
-**[Heuristic-based, Relaxation]** Nicolas Bruno, Surajit Chaudhuri: Automatic Physical Database Tuning: *A Relaxation-based Approach.* SIGMOD Conference 2005: 227-238 [[paper](https://dl.acm.org/doi/10.1145/1066157.1066184)]
-
-**[Heuristic-based, COLT]** Karl Schnaitter, Serge Abiteboul, Tova Milo, Neoklis Polyzotis: *On-Line Index Selection for Shifting Workloads.* ICDE Workshops 2007: 459-468 [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.3168&rep=rep1&type=pdf)]
-
-**[Heuristic-based, Extend]** Rainer Schlosser, Jan Kossmann, Martin Boissier: *Efficient Scalable Multi-attribute Index Selection Using Recursive Strategies.* ICDE 2019: 1238-1249 [[paper](http://ieeexplore.ieee.org/document/8731387)]
-
-**[Learning-based, DQN]** Hai Lan, Zhifeng Bao, Yuwei Peng: *An Index Advisor Using Deep Reinforcement Learning.* CIKM 2020: 2105-2108 [[paper](https://doi.org/10.1145/3340531.3412106)]
-
-**[Learning-based, DQN]** Zahra Sadri, Le Gruenwald, Eleazar Leal: *Online Index Selection Using Deep Reinforcement Learning for a Cluster Database.* ICDE Workshops 2020: 158-161 [[paper](https://doi.org/10.1109/ICDEW49219.2020.00035)]
-
-**[Learning-based, DQN]** Gabriel Paludo Licks, Júlia Mara Colleoni Couto, Priscilla de Fátima Miehe, Renata De Paris, Duncan Dubugras A. Ruiz, Felipe Meneguzzi: *SmartIX: A Database Indexing Agent based on Reinforcement Learning.* Appl. Intell. 50(8): 2575-2588 (2020) [[paper](https://link.springer.com/article/10.1007/s10489-020-01674-8)]
-
-**[Learning-based, DQN]** Vishal Sharma, Curtis E. Dyreson, Nicholas Flann: *MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning.* IDEAS 2021: 56-64 [[paper](https://dl.acm.org/doi/abs/10.1145/3472163.3472176)]
-
-**[Learning-based, DQN]** Yu Yan, Shun Yao, Hongzhi Wang, Meng Gao: *Index selection for NoSQL database with deep reinforcement learning.* Inf. Sci. 561: 20-30 (2021) [[paper](https://www.sciencedirect.com/science/article/pii/S0020025521000049)]
-
-**[Learning-based, DQN]** Vishal Sharma, Curtis E. Dyreson: *Indexer++: Workload-aware Online Index Tuning with Transformers and Reinforcement Learning.* SAC 2022: 372-380 [[paper](https://dl.acm.org/doi/10.1145/3477314.3507691)]
-
-**[Learning-based, MAB]** R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein, Renata Borovica-Gajic: *DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees.* ICDE 2021: 600-611 [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
-
-**[Learning-based, MAB]** R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein, Renata Borovica-Gajic:
-*HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning.* Proc. VLDB Endow. 16(2): 216-229 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3565816.3565824)]
-
-**[Learning-based, MCTS]** Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Shifu Li, Tianqing Wang, Jianhua Feng: *AutoIndex: An Incremental Index Management System for Dynamic Workloads.* ICDE 2022: 2196-2208 [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
-
-**[Learning-based, MCTS]** Wentao Wu, Chi Wang, Tarique Siddiqui, Junxiong Wang, Vivek R. Narasayya, Surajit Chaudhuri, Philip A. Bernstein: *Budget-aware Index Tuning with Reinforcement Learning.* SIGMOD Conference 2022: 1528-1541 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
-
-**[Optimization, Learned Cost]** Bailu Ding, Sudipto Das, Ryan Marcus, Wentao Wu, Surajit Chaudhuri, Vivek R. Narasayya: *AI Meets AI: Leveraging Query Executions to Improve Index Recommendations.* SIGMOD Conference 2019: 1241-1258 [[paper](https://doi.org/10.1145/3299869.3324957)]
-
-**[Optimization, Learned Cost]** Jiachen Shi, Gao Cong, Xiaoli Li: Learned Index Benefits: Machine Learning Based Index Performance Estimation. Proc. VLDB Endow. 15(13): 3950-3962 (2022) [[paper](https://www.vldb.org/pvldb/vol15/p3950-shi.pdf)]
-
-**[Optimization, Learned Cost]** Jianling Gao, Nan Zhao, Ning Wang, Shuang Hao:
-*SmartIndex: An Index Advisor with Learned Cost Estimator*. CIKM 2022: 4853-4856 [[paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557163)]
-
-**[Optimization, Workload Summarization]** Tarique Siddiqui, Saehan Jo, Wentao Wu, Chi Wang, Vivek R. Narasayya, Surajit Chaudhuri:
-*ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning.* SIGMOD Conference 2022: 660-673 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526152)]
-
-**[Optimization, What-if Call]** Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
-*DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
-
-<br>
 
 ### Partition Advisor
 
