@@ -419,10 +419,29 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Caprara, Alberto and Gonz{\'a}lez, Juan Jos{\'e} Salazar. Discrete Applied Mathematics, 1999* [[paper](https://www.academia.edu/10903910/Separating_Lifted_Odd_hole_Inequalities_to_Solve_the_Index_Selection_Problem)] 
 
 
- ![](https://img.shields.io/badge/-LP-purple)  [papadomanolakis2007integer] ****  ![](https://img.shields.io/badge/-LP_solver-green)
+ ![](https://img.shields.io/badge/-LP-purple)  [ILP] **An integer linear programming approach to database design**  ![](https://img.shields.io/badge/-LP_solver-green)
  
-** [[paper]()] 
+*Papadomanolakis, Stratos and Ailamaki, Anastassia. ICDEW, 2007* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4401027)] 
 
+
+ ![](https://img.shields.io/badge/-LP-purple)  [Cophy] **Cophy: A scalable, portable, and interactive index advisor for large workloads**  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+*Dash, Debabrata and Polyzotis, Neoklis and Ailamaki, Anastasia. VLDB, 2011* [[paper](https://dl.acm.org/doi/pdf/10.14778/1978665.1978668)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Efficient use of the query optimizer for automated physical design**  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+*Papadomanolakis, Stratos and Dash, Debabrata and Ailamaki, Anastasia. VLDB, 2007* [[paper](https://dl.acm.org/doi/pdf/10.5555/1325851.1325974)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **An integer programming approach for the view and index selection problem**  
+ 
+*Talebi, Zohreh Asgharzadeh and Chirkova, Rada and Fathi, Yahya. Data & Knowledge Engineering, 2013* [[paper](https://www.sciencedirect.com/science/article/pii/S0169023X12001000/pdfft?md5=bd4770ae02d6635559025961a377200b&pid=1-s2.0-S0169023X12001000-main.pdf)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Automated Management of Indexes for Dataflow Processing Engines in IaaS Clouds**  
+ 
+*Kllapi, Herald and Pietri, Ilia and Kantere, Verena and Ioannidis, Yannis E. EDBT, 2020* [[paper](https://openproceedings.org/2020/conf/edbt/paper_87.pdf)] 
 
  ![](https://img.shields.io/badge/-DFS-purple)  **The optimal selection of secondary indices for files**  ![](https://img.shields.io/badge/--)
  
@@ -478,12 +497,12 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
  ![](https://img.shields.io/badge/-Heuristic-Orange)   **Index merging**  
  
-*Chaudhuri, S. and Narasayya, V.. ICDE, 1999* [[paper](https://ieeexplore.ieee.org/document/754945)] 
+*Chaudhuri, S. and Narasayya, V.. ICDE, 1999* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=754945)] 
 
 
  ![](https://img.shields.io/badge/-Heuristic-Orange)   **On a new approach to the index selection problem using mining algorithms**  
  
-*Ameri, Parinaz and Meyer, J{\"o}rg and Streit, Achim. Big Data, 2015* [[paper](https://ieeexplore.ieee.org/document/7364084)] 
+*Ameri, Parinaz and Meyer, J{\"o}rg and Streit, Achim. Big Data, 2015* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7364084)] 
 
 
  ![](https://img.shields.io/badge/-Heuristic-Orange)   **Semi-automatic index tuning: Keeping dbas in the loop**  ![](https://img.shields.io/badge/-WFIT-green) 
@@ -496,7 +515,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Suboti{\'c}, Pavle and Jordan, Herbert and Chang, Lijun and Fekete, Alan and Scholz, Bernhard. VLDB, 2018* [[paper](https://www.bing.com/ck/a?!&&p=8cda915901b9dd66JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+for+large-scale+datalog+computation&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sMTIvcDE0MS1zdWJvdGljLnBkZg&ntb=1)] 
 
 
- ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
+ ![](https://img.shields.io/badge/-GA-yellow)   ****  
  
 ** [[paper]()] 
  ![](https://img.shields.io/badge/-Heuristic-Orange)   ****  
