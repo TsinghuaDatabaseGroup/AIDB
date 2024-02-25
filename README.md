@@ -460,6 +460,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Schnaitter, Karl and Polyzotis, Neoklis. VLDB, 2012* [[paper](https://dl.acm.org/doi/pdf/10.14778/2140436.2140444)] 
 
  ![](https://img.shields.io/badge/-Heuristic-Orange) **Automatically indexing millions of databases in microsoft azure sql database** ![](https://img.shields.io/badge/-Industry_Microsoft_Azure-red) 
+ 
  *Sudipto Das, Miroslav Grbic, Igor Ilic, Isidora Jovandic, Andrija Jovanovic, Vivek R. Narasayya, Miodrag Radulovic, Maja Stikic, Gaoxiang Xu, Surajit Chaudhuri. SIGMOD, 2019* [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)] 
 
 
@@ -519,7 +520,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
  ![](https://img.shields.io/badge/-RL-red)   **The case for automatic database administration using deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
  
-*Sharma, Ankur and Schuhknecht, Felix Martin and Dittrich, Jens. arXiv, 2018* [[paper](https://arxiv.org/pdf/1801.05643)] 
+*Sharma, Ankur and Schuhknecht, Felix Martin and Dittrich, Jens. arXiv, 2018* [[paper](https://arxiv.org/pdf/1801.05643)]  [[code](https://github.com/shankur/autoindex)]
 
 
  ![](https://img.shields.io/badge/-RL-red)   **Learning index selection with structured action spaces**  ![](https://img.shields.io/badge/-Sinkhorn_Policy_Gradient_Algorithm-green)
