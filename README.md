@@ -389,6 +389,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Talebi, Zohreh Asgharzadeh and Chirkova, Rada and Fathi, Yahya. Data & Knowledge Engineering, 2013* [[paper](https://www.sciencedirect.com/science/article/pii/S0169023X12001000/pdfft?md5=bd4770ae02d6635559025961a377200b&pid=1-s2.0-S0169023X12001000-main.pdf)] 
 
 
+
  ![](https://img.shields.io/badge/-LP-purple)  **Automated Management of Indexes for Dataflow Processing Engines in IaaS Clouds**  
  
 *Kllapi, Herald and Pietri, Ilia and Kantere, Verena and Ioannidis, Yannis E. EDBT, 2020* [[paper](https://openproceedings.org/2020/conf/edbt/paper_87.pdf)] 
@@ -423,6 +424,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
  
 *Schlosser, Rainer and Kossmann, Jan and Boissier, Martin. ICDE, 2019* [[paper](https://www.bing.com/ck/a?!&&p=a7a6f59969709befJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Efficient+scalable+multi-attribute+index+selection+using+recursive+strategies&u=a1aHR0cHM6Ly93d3cucmVzZWFyY2hnYXRlLm5ldC9wcm9maWxlL01hcnRpbi1Cb2lzc2llci9wdWJsaWNhdGlvbi8zMzI1Mjk0NTdfRWZmaWNpZW50X1NjYWxhYmxlX011bHRpLUF0dHJpYnV0ZV9JbmRleF9TZWxlY3Rpb25fVXNpbmdfUmVjdXJzaXZlX1N0cmF0ZWdpZXMvbGlua3MvNWNiZWQ2MDA0NTg1MTU2Y2Q3YWI2OGY1L0VmZmljaWVudC1TY2FsYWJsZS1NdWx0aS1BdHRyaWJ1dGUtSW5kZXgtU2VsZWN0aW9uLVVzaW5nLVJlY3Vyc2l2ZS1TdHJhdGVnaWVzLnBkZg&ntb=1)] 
 
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange) **Anytime Algorithm of Database Tuning Advisor for Microsoft SQL Server** 
+
+*S. Chaudhuri and V. Narasayya. 2020* [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2020/06/Anytime-Algorithm-of-Database-Tuning-Advisor-for-Microsoft-SQL-Server.pdf)]
 
 
  ![](https://img.shields.io/badge/-Heuristic-Orange)   **On the selection of an optimal set of indexes**  
@@ -581,7 +586,9 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
  
 *Schnaitter, Karl and Polyzotis, Neoklis. ICDE, 2009* [[paper](https://dl.acm.org/doi/pdf/10.1109/ICDE.2009.166)] 
 
-
+ ![](https://img.shields.io/badge/-heuristic-blue) **QUIET: continuous query-driven index tuning**
+ *K. Sattler, I. Geist, and E. Schallehn. VLDB, 2003* [[paper](https://www.bing.com/ck/a?!&&p=895ae88e938db5f0JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTI2OQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=quiet+continuous+query-driven+index+tuning&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMzdQMDUucGRm&ntb=1)]
+ 
  ![](https://img.shields.io/badge/-heuristic-blue)   **Online autoadmin: (physical design tuning)**  
  
 *Bruno, Nicolas and Chaudhuri, Surajit. SIGMOD, 2007* [[paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2007/01/sigmod016d.pdf)] 
@@ -627,6 +634,11 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Lum, Vincent Y and Ling, Huei. Proceedings of the 1971 26th annual conference* [[paper](https://dl.acm.org/doi/pdf/10.1145/800184.810505)] 
 
 
+ ![](https://img.shields.io/badge/-empirical_formula-purple)  **Secondary index optimization**
+
+*Mario Schkolnick. SIGMOD, 1975*  [[paper](https://dl.acm.org/doi/pdf/10.1145/500080.500106)]
+
+
  ![](https://img.shields.io/badge/-empirical_formula-purple)  **Minimum Cost Selection of Secondary Indexes for Formatted Files**  
  
 *Anderson, Henry D. and Berra, P. Bruce. Association for Computing Machinery, 1977* [[paper](https://dl.acm.org/doi/pdf/10.1145/320521.320537)] 
@@ -646,6 +658,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
  
 *Yang, Wencan and Hu, Huiqi and Duan, Huichao and Hu, Yaoyi and Qian, Weining. Journal of East China Normal University (Natural Science), 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjHzYy-GL4ZZyt6rjdGysJfZQ2JK_cU0VoKlZGkbil-_YD7GpdhxA5ZCFKIi9luSK1xK1outuBYrkuExIzifMI6NxnelRnHBZsnEJlAhl99-jTdL7wB2IJjoFI7-VOCaFzWKEEUgJ_4EPA==&uniplatform=NZKPT&language=CHS)] 
 
+
+![](https://img.shields.io/badge/-what_if-green)  **AutoAdmin "what-if" index analysis utility**
+
+*Chaudhuri, Surajit and Narasayya, Vivek. SIGMOD, 1998* [[paper](https://dl.acm.org/doi/pdf/10.1145/276304.276337)] 
 
 
  ![](https://img.shields.io/badge/-ML-red) **Ai meets ai: Leveraging query executions to improve index recommendations**  ![](https://img.shields.io/badge/-DNN_and_Random_Forest-green)
@@ -720,6 +736,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **Predictive indexing**  
  
 *Arulraj, Joy and Xian, Ran and Ma, Lin and Pavlo, Andrew. arXiv, 2019* [[paper](https://arxiv.org/pdf/1901.07064.pdf)] 
+
 
 <br>
 
