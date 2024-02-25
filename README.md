@@ -623,7 +623,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Bruno, Nicolas and Chaudhuri, Surajit. SIGMOD, 2007* [[paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2007/01/sigmod016d.pdf)] 
 
 
- ![](https://img.shields.io/badge/-heuristic-blue)   **On-line index selection for shifting workloads**  
+ ![](https://img.shields.io/badge/-heuristic-blue)  [COLT] **On-line index selection for shifting workloads**  
  
 *Schnaitter, Karl and Abiteboul, Serge and Milo, Tova and Polyzotis, Neoklis. ICDEW, 2007* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4401029)] 
 
