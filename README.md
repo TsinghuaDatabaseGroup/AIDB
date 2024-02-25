@@ -21,7 +21,7 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (21)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
-    * [1.3 Index Advisor (23)](#index-advisor)
+    * [1.3 Index Advisor (83)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
