@@ -21,7 +21,7 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (21)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
-    * [1.3 Index Advisor (83)](#index-advisor)
+    * [1.3 Index Advisor (77)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
@@ -587,6 +587,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Schnaitter, Karl and Polyzotis, Neoklis. ICDE, 2009* [[paper](https://dl.acm.org/doi/pdf/10.1109/ICDE.2009.166)] 
 
  ![](https://img.shields.io/badge/-heuristic-blue) **QUIET: continuous query-driven index tuning**
+ 
  *K. Sattler, I. Geist, and E. Schallehn. VLDB, 2003* [[paper](https://www.bing.com/ck/a?!&&p=895ae88e938db5f0JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTI2OQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=quiet+continuous+query-driven+index+tuning&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMzdQMDUucGRm&ntb=1)]
  
  ![](https://img.shields.io/badge/-heuristic-blue)   **Online autoadmin: (physical design tuning)**  
@@ -609,8 +610,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Perera, R Malinga and Oetomo, Bastian and Rubinstein, Benjamin IP and Borovica-Gajic, Renata. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3565816.3565824)]  [[code](https://github.com/malingaperera/HMAB)]
 
 
- ![](https://img.shields.io/badge/-RL-red)   **Indexer++ workload-aware online index tuning with transformers and reinforcement learning**  
-  ![](https://img.shields.io/badge/-DQN-green)
+ ![](https://img.shields.io/badge/-RL-red)   **Indexer++ workload-aware online index tuning with transformers and reinforcement learning** ![](https://img.shields.io/badge/-DQN-green)
 
 *Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
 
