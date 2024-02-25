@@ -21,7 +21,7 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (21)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
-    * [1.3 Index Advisor (23)](#index-advisor)
+    * [1.3 Index Advisor (83)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
@@ -323,57 +323,451 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ### Index Advisor
 
-**[EA & B]** Jan Kossmann, Stefan Halfpap, Marcel Jankrift, Rainer Schlosser: *Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms.* Proc. VLDB Endow. 13(11): 2382-2395 (2020) [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)]
+#### Preprocessing
+
+ ![](https://img.shields.io/badge/-workload_compression-purple) [ISUM] **ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning**  ![](https://img.shields.io/badge/-index_aware-blue)
+ 
+*Siddiqui, Tarique and Jo, Saehan and Wu, Wentao and Wang, Chi and Narasayya, Vivek and Chaudhuri, Surajit. SIGMOD, 2022* [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/04/ISUM-ExtendedVersion.pdf)] 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple) [GSUM] **Primitives for workload summarization and implications for SQL**  ![](https://img.shields.io/badge/-index_agnostic-yellow)
+
+*Chaudhuri, Surajit and Narasayya, Vivek and Ganesan, Prasanna. VLDB, 2023* [[paper](https://www.bing.com/ck/a?!&&p=e01a9d95f910866cJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTAwOA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMjJQMDIucGRm&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple) [QB5000] **Query-based workload forecasting for self-driving database management systems**  ![](https://img.shields.io/badge/-workload_compression-yellowgreen) ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-query_clustering-green)
+
+*Ma, Lin and Van Aken, Dana and Hefny, Ahmed and Mezerhane, Gustavo and Pavlo, Andrew and Gordon, Geoffrey J. SIGMOD, 2018* [[paper](https://www.bing.com/ck/a?!&&p=28b344982a71d559JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIzMQ&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Query-based+workload+forecasting+for+self-driving+database+management+systems&u=a1aHR0cHM6Ly93ZWIuZWVjcy51bWljaC5lZHUvfmxpbm1hY3NlL3B1YmxpY2F0aW9ucy8yMDE4LmZvcmVjYXN0aW5nLnNpZ21vZC5wZGY&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple)  **Compressing sql workloads**  ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-query_clustering-green)
+
+*Chaudhuri, Surajit and Gupta, Ashish Kumar and Narasayya, Vivek. SIGMOD, 2022* [[paper](https://www.bing.com/ck/a?!&&p=6b800d696b3d4e5aJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Compressing+sql+workloads&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwMi8wNi9TaWcwMi1XQy5wZGY&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple) **Comprehensive and efficient workload compression**   ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-greedy_selection-green) 
+
+*Deep, Shaleen and Gruenheid, Anja and Koutris, Paraschos and Naughton, Jeffrey and Viglas, Stratis. VLDB, 2020* [[paper](https://www.bing.com/ck/a?!&&p=f48d32f30cba6aa4JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTI0Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Comprehensive+and+efficient+workload+compression&u=a1aHR0cHM6Ly92bGRiYXJjLm9yZy9wdmxkYi92b2wxNC9wNDE4LWRlZXAucGRm&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple) [AutoIndex] **Autoindex: An incremental index management system for dynamic workloads**   ![](https://img.shields.io/badge/-index_agnostic-yellow)  ![](https://img.shields.io/badge/-templating_and_LRU-green)
+
+*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://www.bing.com/ck/a?!&&p=2eb543751e1f45c0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Ng&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Autoindex%3a+An+incremental+index+management+system+for+dynamic+workloads&u=a1aHR0cHM6Ly9kYmdyb3VwLmNzLnRzaW5naHVhLmVkdS5jbi9saWdsL3BhcGVycy9pY2RlMjAyMi1hdXRvaW5kZXgucGRm&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-feature_representation-blue) **Ai meets ai: Leveraging query executions to improve index recommendations**   ![](https://img.shields.io/badge/-DNN_and_Random_Forest-green)
+
+*Ding, Bailu and Das, Sudipto and Marcus, Ryan and Wu, Wentao and Chaudhuri, Surajit and Narasayya, Vivek R. SIGMOD, 2019* [[paper](https://www.bing.com/ck/a?!&&p=f316aa373db264d0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Ai+meets+ai%3a+Leveraging+query+executions+to+improve+index+recommendations&u=a1aHR0cHM6Ly9wYWdlcy5jcy53aXNjLmVkdS9-d2VudGFvd3UvcGFwZXJzL3NpZ21vZDE5LWF1dG8taW5kZXhpbmcucGRm&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-feature_representation-blue) **Automatic view generation with deep learning and reinforcement learning**   ![](https://img.shields.io/badge/-LSTM-green)
+
+*Yuan, Haitao and Li, Guoliang and Feng, Ling and Sun, Ji and Han, Yue. ICDE, 2020* [[paper](https://www.bing.com/ck/a?!&&p=3769b7e1fd57022bJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Automatic+view+generation+with+deep+learning+and+reinforcement+learning&u=a1aHR0cHM6Ly9kYmdyb3VwLmNzLnRzaW5naHVhLmVkdS5jbi9saWdsL3BhcGVycy9pY2RlMjAyMC1sZWFybmVkdmlldy5wZGY&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-feature_representation-blue) [SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator**   ![](https://img.shields.io/badge/-LSTM_GCN_ResNet-green)
+
+*Gao, Jianling and Zhao, Nan and Wang, Ning and Hao, Shuang. CIKM, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557163)] [[code](https://github.com/JerryGao818/Index_selection_with_learned_estimator)] 
+
+
+![](https://img.shields.io/badge/-feature_representation-blue) [QueryFormer] **QueryFormer: a tree transformer model for query plan representation**   ![](https://img.shields.io/badge/-Tree_Transformer-green)
+
+*Zhao, Yue and Cong, Gao and Shi, Jiachen and Miao, Chunyan. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3529337.3529349)] [[code](https://www.bing.com/ck/a?!&&p=3329458fd937365eJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIwNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=QueryFormer%3a+a+tree+transformer+model+for+query+plan+representation&u=a1aHR0cHM6Ly9naXRodWIuY29tL3Vlc3RjLXRhbmd5aWhlbmcvcXVlcnlmb3JtZXI&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-feature_representation-blue) [SWIRL] **SWIRL: Selection of Workload-aware Indexes using Reinforcement Learning**  ![](https://img.shields.io/badge/-bag_of_operator-green)   ![](https://img.shields.io/badge/-latent_semantic_index_model-yellow) 
+ 
+*Kossmann, Jan and Kastius, Alexander and Schlosser, Rainer. EDBT, 2022* [[paper](https://www.bing.com/ck/a?!&&p=0b35e4290c4ba0adJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9vcGVucHJvY2VlZGluZ3Mub3JnLzIwMjIvY29uZi9lZGJ0L3BhcGVyLTM3LnBkZg&ntb=1)] [[code](https://www.bing.com/ck/a?!&&p=cdf5e3d44367b3bcJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9naXRodWIuY29tL2h5cmlzZS9ybF9pbmRleF9zZWxlY3Rpb24&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-feature_representation-blue) [Indexer++] **Indexer++ workload-aware online index tuning with transformers and reinforcement learning**  ![](https://img.shields.io/badge/-RoBERTa-green) ![](https://img.shields.io/badge/-T_SNE-yellow)
+ 
+*Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
+
+
+![](https://img.shields.io/badge/-feature_representation-blue) [LIB] **Learned Index Benefits: Machine Learning Based Index Performance Estimation**   ![](https://img.shields.io/badge/-Set_Transformer-green)
+
+*Shi, Jiachen and Cong, Gao and Li, Xiao-Li. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3565838.3565848)] [[code](https://www.bing.com/ck/a?!&&p=14cd0ddb44d6c124JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIzNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Learned+Index+Benefits%3a+Machine+Learning+Based+Index+Performance+Estimation&u=a1aHR0cHM6Ly9naXRodWIuY29tL0pDLVNoaS9MZWFybmVkLUluZGV4LUJlbmVmaXRz&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-candidate_generation-orange) [AIM] **AIM: A practical approach to automated index management for SQL databases** 
+ 
+*Yadav, Ritwik and Valluri, Satyanarayana R. and Zaït, Mohamed. ICDE, 2023* [[paper](https://www.vldb.org/conf/1997/P146.PDF)] 
+
+
+---
+
+
+#### Offline Index Tuning
+
+![](https://img.shields.io/badge/-Experimental-red) **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)      
+*Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Exact and approximate algorithms for the index selection problem in physical database design**  ![](https://img.shields.io/badge/-branch_and_cut-green)
+ 
+*Caprara, Alberto and Fischetti, Matteo and Maio, Dario. TKDE, 1995* [[paper](https://www.academia.edu/10160281/Exact_and_Approximate_Algorithms_for_the_Index_Selection_Problem_in_Physical_Database_Design)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **A branch-and-cut algorithm for a generalization of the uncapacitated facility location problem**  ![](https://img.shields.io/badge/-branch_and_cut-green)
+ 
+*Caprara, Alberto and Gonz{\'a}lez, JJ. Top, 1996* [[paper](https://link.springer.com/article/10.1007/bf02568608)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Separating lifted odd-hole inequalities to solve the index selection problem**  ![](https://img.shields.io/badge/-branch_and_cut-green)
+ 
+*Caprara, Alberto and Gonz{\'a}lez, Juan Jos{\'e} Salazar. Discrete Applied Mathematics, 1999* [[paper](https://www.academia.edu/10903910/Separating_Lifted_Odd_hole_Inequalities_to_Solve_the_Index_Selection_Problem)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  [ILP] **An integer linear programming approach to database design**  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+*Papadomanolakis, Stratos and Ailamaki, Anastassia. ICDEW, 2007* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4401027)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  [Cophy] **Cophy: A scalable, portable, and interactive index advisor for large workloads**  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+*Dash, Debabrata and Polyzotis, Neoklis and Ailamaki, Anastasia. VLDB, 2011* [[paper](https://dl.acm.org/doi/pdf/10.14778/1978665.1978668)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Efficient use of the query optimizer for automated physical design**  ![](https://img.shields.io/badge/-LP_solver-green)
+ 
+*Papadomanolakis, Stratos and Dash, Debabrata and Ailamaki, Anastasia. VLDB, 2007* [[paper](https://dl.acm.org/doi/pdf/10.5555/1325851.1325974)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **An integer programming approach for the view and index selection problem**  
+ 
+*Talebi, Zohreh Asgharzadeh and Chirkova, Rada and Fathi, Yahya. Data & Knowledge Engineering, 2013* [[paper](https://www.sciencedirect.com/science/article/pii/S0169023X12001000/pdfft?md5=bd4770ae02d6635559025961a377200b&pid=1-s2.0-S0169023X12001000-main.pdf)] 
+
+
+ ![](https://img.shields.io/badge/-LP-purple)  **Automated Management of Indexes for Dataflow Processing Engines in IaaS Clouds**  
+ 
+*Kllapi, Herald and Pietri, Ilia and Kantere, Verena and Ioannidis, Yannis E. EDBT, 2020* [[paper](https://openproceedings.org/2020/conf/edbt/paper_87.pdf)] 
+
+ ![](https://img.shields.io/badge/-DFS-purple)  **The optimal selection of secondary indices for files**  ![](https://img.shields.io/badge/--)
+ 
+*Mario Schkolnick. Information Systems, 1975* [[paper](https://figshare.com/articles/journal_contribution/The_optimal_selection_of_secondary_indices_for_files/6610724/1/files/12102875.pdf)] 
+
+
+ ![](https://img.shields.io/badge/-DP-blue)  **Intelligent Index Tuning Approach for Relational Databases**  
+ 
+*Qiu, Tao and Wang, Bin and Shu, Zhaowei and Zhao, Zhibo and Song, Ziwen and Zhong, Yanhui. Journal of Software, 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjFaB-CZazP6wJjOtv-2WmnS1dlFbs215fbK_ycawiuz2UB3hAyYGeu_q_i454q4u7SENxszChJs8NX0wC1Mayun31a93X_S1zDMfF6y8RR-YMh2-sXbv8w-ICPXscSiAq04_ysaHJfJaQ==&uniplatform=NZKPT&language=CHS)] 
+
+
+ ![](https://img.shields.io/badge/-DP-blue)  **CedarAdvisor: A load-adaptive automatic indexing recommendation tool**  
+ 
+*Yang, Wencan and Hu, Huiqi and Duan, Huichao and Hu, Yaoyi and Qian, Weining. Journal of East China Normal University (Natural Science), 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjHzYy-GL4ZZyt6rjdGysJfZQ2JK_cU0VoKlZGkbil-_YD7GpdhxA5ZCFKIi9luSK1xK1outuBYrkuExIzifMI6NxnelRnHBZsnEJlAhl99-jTdL7wB2IJjoFI7-VOCaFzWKEEUgJ_4EPA==&uniplatform=NZKPT&language=CHS)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange) [AutoAdmin] **An efficient, cost-driven index selection tool for Microsoft SQL server**  
+ 
+*Chaudhuri, Surajit and Narasayya, Vivek R. VLDB 1997* [[paper](http://www.vldb.org/conf/1997/P146.PDF)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [DB2Advis] **DB2 advisor: An optimizer smart enough to recommend its own indexes**  
+ 
+*Valentin, Gary and Zuliani, Michael and Zilio, Daniel C and Lohman, Guy and Skelley, Alan. ICDE, 2000* [[paper](https://www.bing.com/ck/a?!&&p=08e4abb7b92dc6a6JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=DB2+advisor%3a+An+optimizer+smart+enough+to+recommend+its+own+indexes&u=a1aHR0cHM6Ly93d3cuY3MudG9yb250by5lZHUvfmFsYW4vcGFwZXJzL2ljZGUwMC5wZGY&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Extend] **Efficient scalable multi-attribute index selection using recursive strategies**  
+ 
+*Schlosser, Rainer and Kossmann, Jan and Boissier, Martin. ICDE, 2019* [[paper](https://www.bing.com/ck/a?!&&p=a7a6f59969709befJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Efficient+scalable+multi-attribute+index+selection+using+recursive+strategies&u=a1aHR0cHM6Ly93d3cucmVzZWFyY2hnYXRlLm5ldC9wcm9maWxlL01hcnRpbi1Cb2lzc2llci9wdWJsaWNhdGlvbi8zMzI1Mjk0NTdfRWZmaWNpZW50X1NjYWxhYmxlX011bHRpLUF0dHJpYnV0ZV9JbmRleF9TZWxlY3Rpb25fVXNpbmdfUmVjdXJzaXZlX1N0cmF0ZWdpZXMvbGlua3MvNWNiZWQ2MDA0NTg1MTU2Y2Q3YWI2OGY1L0VmZmljaWVudC1TY2FsYWJsZS1NdWx0aS1BdHRyaWJ1dGUtSW5kZXgtU2VsZWN0aW9uLVVzaW5nLVJlY3Vyc2l2ZS1TdHJhdGVnaWVzLnBkZg&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **On the selection of an optimal set of indexes**  
+ 
+*Ip, Maggie Y. L. and Saxton, Lawrence V. and Raghavan, Vijay V.. IEEE Transactions on Software Engineering, 1983* [[paper](https://www.computer.org/csdl/journal/ts/1983/02/01703030/13rRUzphDzm)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Index selection for databases: A hardness study and a principled heuristic solution**  
+ 
+*Chaudhuri, Surajit and Datar, Mayur and Narasayya, Vivek. TKDE, 2004* [[paper](https://www.computer.org/csdl/journal/tk/2004/11/k1313/13rRUx0xPnf)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Drop] **Index selection in relational databases**  
+ 
+*Whang, Kyu-Young. Foundation of Data Organization, 1983* [[paper](https://www.bing.com/ck/a?!&&p=5e89fa294af0e081JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyMQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Index+selection+in+relational+databases&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0xLTQ2MTMtMTg4MS0xXzQxLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  [Relaxation] **Automatic physical database tuning: A relaxation-based approach**  
+ 
+*Bruno, Nicolas and Chaudhuri, Surajit. SIGMOD, 2005* [[paper](https://www.bing.com/ck/a?!&&p=b8c7cb40b67a2308JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Ng&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+physical+database+tuning%3a+A+relaxation-based+approach&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwNS8wMS9uZXdkdGEucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Index merging**  
+ 
+*Chaudhuri, S. and Narasayya, V.. ICDE, 1999* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=754945)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **On a new approach to the index selection problem using mining algorithms**  
+ 
+*Ameri, Parinaz and Meyer, J{\"o}rg and Streit, Achim. Big Data, 2015* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7364084)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Semi-automatic index tuning: Keeping dbas in the loop**  ![](https://img.shields.io/badge/-WFIT-green) 
+ 
+*Schnaitter, Karl and Polyzotis, Neoklis. VLDB, 2012* [[paper](https://dl.acm.org/doi/pdf/10.14778/2140436.2140444)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)   **Automatic index selection for large-scale datalog computation**  
+ 
+*Suboti{\'c}, Pavle and Jordan, Herbert and Chang, Lijun and Fekete, Alan and Scholz, Bernhard. VLDB, 2018* [[paper](https://www.bing.com/ck/a?!&&p=8cda915901b9dd66JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+for+large-scale+datalog+computation&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sMTIvcDE0MS1zdWJvdGljLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-Genetic_Algorithm-yellow)   **Genetic algorithms and the search for optimal database index selection**  
+ 
+*Fotouhi, Farshad and Galarce, Carlos E. Great Lakes CS Conference on New Research Results in Computer Science, 1989* [[paper](https://www.bing.com/ck/a?!&&p=c731d481ef7afd5dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxNw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Genetic+algorithms+and+the+search+for+optimal+database+index+selection&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3L0JGYjAwMzg1MDAucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **A genetic algorithm for the index selection problem**  
+ 
+*Kratica, Jozef and Ljubi{\'c}, Ivana and To{\v{s}}i{\'c}, Du{\v{s}}an. Workshops on Applications of Evolutionary Computation, 2003* [[paper](https://www.bing.com/ck/a?!&&p=7d796922f1f04061JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=A+genetic+algorithm+for+the+index+selection+problem&u=a1aHR0cHM6Ly93d3cuYWMudHV3aWVuLmFjLmF0L2ZpbGVzL3B1Yi9sanViaWMtMDMucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **Genetic algorithm for database indexing**  
+ 
+*Korytkowski, Marcin and Gabryel, Marcin and Nowicki, Robert and Scherer, Rafa{\l}. International Conference on Artificial Intelligence and Soft Computing, 2004* [[paper](https://www.bing.com/ck/a?!&&p=269c86126874162dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxNg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Genetic+algorithm+for+database+indexing&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTU0MC0yNDg0NC02XzE3OS5wZGY&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow)   **An adaptive approach for index tuning with learning classifier systems on hybrid storage environments**  
+ 
+*Pedrozo, Wendel G{\'o}es and Nievola, J{\'u}lio Cesar and Ribeiro, Deborah Carvalho. International conference on hybrid artificial intelligence systems, 2018* [[paper](https://www.bing.com/ck/a?!&&p=026867298f1f59f1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyNQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=An+adaptive+approach+for+index+tuning+with+learning+classifier+systems+on+hybrid+storage+environments&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTMxOS05MjYzOS0xXzYwLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-GA-yellow) [GADIS]  **GADIS: A genetic algorithm for database index selection**  
+ 
+*Neuhaus, Priscilla and Couto, Julia and Wehrmann, Jonatas and Ruiz, Duncan Dubugras Alcoba and Meneguzzi, Felipe Rech. The 31st International Conference on Software Engineering \& Knowledge Engineering, 2019* [[paper](https://www.bing.com/ck/a?!&&p=e76471a87419cd44JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=GADIS%3a+A+genetic+algorithm+for+database+index+selection&u=a1aHR0cHM6Ly9yZXBvc2l0b3Jpby5wdWNycy5ici9kc3BhY2UvYml0c3RyZWFtLzEwOTIzLzE1Mzk1LzIvR0FESVNfQV9HZW5ldGljX0FsZ29yaXRobV9mb3JfRGF0YWJhc2VfSW5kZXhfU2VsZWN0aW9uLnBkZg&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-Scatter_Search-yellow)   **The index selection problem with configurations and memory limitation: A scatter search approach**  
+ 
+*Kain, Raslan and Manerba, Daniele and Tadei, Roberto. Computers \& Operations Research, 2021* [[paper](https://iris.polito.it/retrieve/handle/11583/2901512/483636/GCFLP_ISP.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-Evolution_Strategy-yellow)   **Automatic index selection in RDBMS by exploring query execution plan space**  
+ 
+*Ko{\l}aczkowski, Piotr and Rybi{\'n}ski, Henryk. Advances in Data Management, 2009* [[paper](https://www.bing.com/ck/a?!&&p=0accd8778c44b5e1JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMg&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+in+RDBMS+by+exploring+query+execution+plan+space&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0zLTY0Mi0wMjE5MC05XzEucGRmP3BkZj1pbmxpbmUlMjBsaW5r&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Cost-model oblivious database tuning with reinforcement learning**   ![](https://img.shields.io/badge/-Policy_Iteration-green)
+ 
+*Basu, Debabrota and Lin, Qian and Chen, Weidong and Vo, Hoang Tam and Yuan, Zihong and Senellart, Pierre and Bressan, St{\'e}phane. Database and Expert Systems Applications, 2015* [[paper](https://www.bing.com/ck/a?!&&p=6ddd3821dd096eb3JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTI4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Cost-model+oblivious+database+tuning+with+reinforcement+learning&u=a1aHR0cHM6Ly9kZWJhYnJvdGEtYmFzdS5naXRodWIuaW8vcGRmcy9iYXN1MjAxNWNvc3QucGRm&ntb=1)]  [[code](https://github.com/Debabrota-Basu/rCOREIL-Learning-to-Tune-Databases)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **The case for automatic database administration using deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Sharma, Ankur and Schuhknecht, Felix Martin and Dittrich, Jens. arXiv, 2018* [[paper](https://arxiv.org/pdf/1801.05643)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Learning index selection with structured action spaces**  ![](https://img.shields.io/badge/-Sinkhorn_Policy_Gradient_Algorithm-green)
+ 
+*Welborn, Jeremy and Schaarschmidt, Michael and Yoneki, Eiko. arXiv, 2019* [[paper](https://www.bing.com/ck/a?!&&p=6e063bed253a88ebJmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Learning+index+selection+with+structured+action+spaces&u=a1aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE5MDkuMDc0NDAucGRm&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **An index advisor using deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Lan, Hai and Bao, Zhifeng and Peng, Yuwei. CIKM, 2020* [[paper](https://www.bing.com/ck/a?!&&p=dd467734de61c6c3JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwNQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=An+index+advisor+using+deep+reinforcement+learning&u=a1aHR0cHM6Ly9iYW96aGlmZW5nLm5ldC9wYXBlcnMvY2lrbTIwLUluZGV4UmVjLnBkZg&ntb=1)] [[code](https://github.com/rmitbggroup/IndexAdvisor)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **SMARTIX: A database indexing agent based on reinforcement learning**  ![](https://img.shields.io/badge/-Q_learning-green)
+ 
+*Paludo Licks, Gabriel and Colleoni Couto, Julia and de F{\'a}tima Miehe, Priscilla and De Paris, Renata and Dubugras Ruiz, Duncan and Meneguzzi, Felipe. Applied Intelligence, 2020* [[paper](https://www.bing.com/ck/a?!&&p=91ad2a8a8589c2dcJmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=SMARTIX%3a+A+database+indexing+agent+based+on+reinforcement+learning&u=a1aHR0cDovL3d3dy5tZW5lZ3V6emkuZXUvZmVsaXBlL3B1YnMvYXBpbi1zbWFydGl4LTIwMjAucGRm&ntb=1)] [[code](https://github.com/mir-pucrs/smartix-rl)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Online index selection using deep reinforcement learning for a cluster database**  ![](https://img.shields.io/badge/-cluster_database-green)
+ 
+*Sadri, Zahra and Gruenwald, Le and Leal, Eleazar. ICDEW, 2020* [[paper](https://www.bing.com/ck/a?!&&p=fba0518f4f80ad80JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Online+index+selection+using+deep+reinforcement+learning+for+a+cluster+database&u=a1aHR0cHM6Ly9jb25mZXJlbmNlcy5jb21wdXRlci5vcmcvaWNkZS8yMDIwL3BkZnMvSUNERVcyMDIwLTU2TVc5Z1dkMlhSR09rUlJPZWVaMnMvNDI2NjAwYTE1OC80MjY2MDBhMTU4LnBkZg&ntb=1)] [[code](https://github.com/hyrise/rl_index_selection/tree/main/experiments/drlinda_multi_attribute)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Learning an Index Advisor with Deep Reinforcement Learning**  ![](https://img.shields.io/badge/-PPO_MC-green)
+ 
+*Lai, Sichao and Wu, Xiaoying and Wang, Senyang and Peng, Yuwei and Peng, Zhiyong. APWeb and WAIM, 2021* [[paper](https://link.springer.com/content/pdf/10.1007/978-3-030-85899-5.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Sharma, Vishal and Dyreson, Curtis and Flann, Nicholas. 25th International Database Engineering \& Applications Symposium, 2021* [[paper](https://www.bing.com/ck/a?!&&p=0d157108672eb397JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=MANTIS%3a+Multiple+Type+and+Attribute+Index+Selection+using+Deep+Reinforcement+Learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDcyMTYzLjM0NzIxNzY&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Index selection for NoSQL database with deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)
+ 
+*Yan, Yu and Yao, Shun and Wang, Hongzhi and Gao, Meng. Information Sciences, 2021* [[paper](https://www.sciencedirect.com/science/article/pii/S0020025521000049/pdfft?md5=7f93e2ee09b9b75820df384a601148bf&pid=1-s2.0-S0020025521000049-main.pdf)] 
+
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **SWIRL: Selection of Workload-aware Indexes using Reinforcement Learning**  ![](https://img.shields.io/badge/-PPO-green)
+ 
+*Kossmann, Jan and Kastius, Alexander and Schlosser, Rainer. EDBT, 2022* [[paper](https://www.bing.com/ck/a?!&&p=f788127d7de35d29JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE5NQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=SWIRL%3a+Selection+of+Workload-aware+Indexes+using+Reinforcement+Learning&u=a1aHR0cHM6Ly9vcGVucHJvY2VlZGluZ3Mub3JnLzIwMjIvY29uZi9lZGJ0L3BhcGVyLTM3LnBkZg&ntb=1)] [[code](https://github.com/hyrise/rl_index_selection)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Budget-aware Index Tuning with Reinforcement Learning**  ![](https://img.shields.io/badge/-MCTS-green)
+ 
+*Wu, Wentao and Wang, Chi and Siddiqui, Tarique and Wang, Junxiong and Narasayya, Vivek and Chaudhuri, Surajit and Bernstein, Philip A. SIGMOD, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526128)] 
+
+
+---
+
+#### Online Index Tuning
+
+ ![](https://img.shields.io/badge/-benchmark-purple)   **A benchmark for online index selection**  
+ 
+*Schnaitter, Karl and Polyzotis, Neoklis. ICDE, 2009* [[paper](https://dl.acm.org/doi/pdf/10.1109/ICDE.2009.166)] 
+
+
+ ![](https://img.shields.io/badge/-heuristic-blue)   **Online autoadmin: (physical design tuning)**  
+ 
+*Bruno, Nicolas and Chaudhuri, Surajit. SIGMOD, 2007* [[paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2007/01/sigmod016d.pdf)] 
+
+
+ ![](https://img.shields.io/badge/-heuristic-blue)  [COLT] **On-line index selection for shifting workloads**  
+ 
+*Schnaitter, Karl and Abiteboul, Serge and Milo, Tova and Polyzotis, Neoklis. ICDEW, 2007* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4401029)] 
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees**   ![](https://img.shields.io/badge/-MAB-green)
+ 
+*Perera, R Malinga and Oetomo, Bastian and Rubinstein, Benjamin IP and Borovica-Gajic, Renata. ICDE, 2021* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458699)]  [[code](https://github.com/malingaperera/DBABandits)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **HMAB: self-driving hierarchy of bandits for integrated physical database design tuning**   ![](https://img.shields.io/badge/-MAB-green)
+ 
+*Perera, R Malinga and Oetomo, Bastian and Rubinstein, Benjamin IP and Borovica-Gajic, Renata. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3565816.3565824)]  [[code](https://github.com/malingaperera/HMAB)]
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Indexer++ workload-aware online index tuning with transformers and reinforcement learning**  
+  ![](https://img.shields.io/badge/-DQN-green)
+
+*Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-RL-red)   **Autoindex: An incremental index management system for dynamic workloads**   ![](https://img.shields.io/badge/-MCTS-green)
+ 
+*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835594)]  [[code](https://github.com/zhouxh19/AutoIndex)]
+
+
+---
+
+#### Index Benefit Estimation
+
+ ![](https://img.shields.io/badge/-empirical_formula-purple)   **An optimization problem on the selection of secondary keys**  
+ 
+*Lum, Vincent Y and Ling, Huei. Proceedings of the 1971 26th annual conference* [[paper](https://dl.acm.org/doi/pdf/10.1145/800184.810505)] 
+
+
+ ![](https://img.shields.io/badge/-empirical_formula-purple)  **Minimum Cost Selection of Secondary Indexes for Formatted Files**  
+ 
+*Anderson, Henry D. and Berra, P. Bruce. Association for Computing Machinery, 1977* [[paper](https://dl.acm.org/doi/pdf/10.1145/320521.320537)] 
+
+
+ ![](https://img.shields.io/badge/-empirical_formula-purple)  **The optimal selection of secondary indices for files**  
+ 
+*Mario Schkolnick. Information Systems, 1975* [[paper](https://www.bing.com/ck/a?!&&p=9aa52709b6a41de1JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=The+optimal+selection+of+secondary+indices+for+files&u=a1aHR0cHM6Ly9hcHBzLmR0aWMubWlsL3N0aS90ci9wZGYvQURBMDA1NjkyLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-empirical_formula-purple)   **Index selection in relational databases**  
+ 
+*Whang, Kyu-Young. Foundations of Data Organization, 1987* [[paper](https://www.bing.com/ck/a?!&&p=e1446335f89b9d36JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Index+selection+in+relational+databases&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9jb250ZW50L3BkZi8xMC4xMDA3Lzk3OC0xLTQ2MTMtMTg4MS0xXzQxLnBkZg&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-empirical_formula-purple)  **CedarAdvisor: A load-adaptive automatic indexing recommendation tool**  
+ 
+*Yang, Wencan and Hu, Huiqi and Duan, Huichao and Hu, Yaoyi and Qian, Weining. Journal of East China Normal University (Natural Science), 2020* [[paper](https://kns.cnki.net/kcms2/article/abstract?v=xFzLC8E_KjHzYy-GL4ZZyt6rjdGysJfZQ2JK_cU0VoKlZGkbil-_YD7GpdhxA5ZCFKIi9luSK1xK1outuBYrkuExIzifMI6NxnelRnHBZsnEJlAhl99-jTdL7wB2IJjoFI7-VOCaFzWKEEUgJ_4EPA==&uniplatform=NZKPT&language=CHS)] 
+
+
+
+ ![](https://img.shields.io/badge/-ML-red) **Ai meets ai: Leveraging query executions to improve index recommendations**  
+
+*Ding, Bailu and Das, Sudipto and Marcus, Ryan and Wu, Wentao and Chaudhuri, Surajit and Narasayya, Vivek R. SIGMOD, 2019* [[paper](https://www.bing.com/ck/a?!&&p=f316aa373db264d0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Ai+meets+ai%3a+Leveraging+query+executions+to+improve+index+recommendations&u=a1aHR0cHM6Ly9wYWdlcy5jcy53aXNjLmVkdS9-d2VudGFvd3UvcGFwZXJzL3NpZ21vZDE5LWF1dG8taW5kZXhpbmcucGRm&ntb=1)] 
+
+
+
+ ![](https://img.shields.io/badge/-ML-red) [SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator**   
+
+*Gao, Jianling and Zhao, Nan and Wang, Ning and Hao, Shuang. CIKM, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557163)] [[code](https://github.com/JerryGao818/Index_selection_with_learned_estimator)] 
+
+
+ ![](https://img.shields.io/badge/-ML-red)  [DISTILL] **DISTILL: low-overhead data-driven techniques for filtering and costing indexes for scalable index tuning**  
+ 
+*Siddiqui, Tarique and Wu, Wentao and Narasayya, Vivek and Chaudhuri, Surajit. VDLB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3547305.3547309)] 
+
+
+ ![](https://img.shields.io/badge/-ML-red) [LIB] **Learned Index Benefits: Machine Learning Based Index Performance Estimation**  
+
+*Shi, Jiachen and Cong, Gao and Li, Xiao-Li. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3565838.3565848)] [[code](https://www.bing.com/ck/a?!&&p=14cd0ddb44d6c124JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIzNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Learned+Index+Benefits%3a+Machine+Learning+Based+Index+Performance+Estimation&u=a1aHR0cHM6Ly9naXRodWIuY29tL0pDLVNoaS9MZWFybmVkLUluZGV4LUJlbmVmaXRz&ntb=1)] 
+
+ ![](https://img.shields.io/badge/-ML-red)   **Autoindex: An incremental index management system for dynamic workloads** 
+ 
+*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835594)]  [[code](https://github.com/zhouxh19/AutoIndex)]
+
+
+ ![](https://img.shields.io/badge/-ML-red) [QueryFormer] **QueryFormer: a tree transformer model for query plan representation**  
+
+*Zhao, Yue and Cong, Gao and Shi, Jiachen and Miao, Chunyan. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3529337.3529349)] [[code](https://www.bing.com/ck/a?!&&p=3329458fd937365eJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIwNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=QueryFormer%3a+a+tree+transformer+model+for+query+plan+representation&u=a1aHR0cHM6Ly9naXRodWIuY29tL3Vlc3RjLXRhbmd5aWhlbmcvcXVlcnlmb3JtZXI&ntb=1)] 
+
+
+ ![](https://img.shields.io/badge/-ML-red)  **Zero-shot cost models for out-of-the-box learned cost prediction** 
+
+ *Hilprecht, Benjamin and Binnig, Carsten. arXiv, 2022* [[paper](https://arxiv.org/pdf/2201.00561.pdf)] [[code](https://github.com/DataManagementLab/zero-shot-cost-estimation)]
+
+---
+
+#### Industry Papers
+
 
 **[Industry, Microsoft Azure]** Sudipto Das, Miroslav Grbic, Igor Ilic, Isidora Jovandic, Andrija Jovanovic, Vivek R. Narasayya, Miodrag Radulovic, Maja Stikic, Gaoxiang Xu, Surajit Chaudhuri: *Automatically Indexing Millions of Databases in Microsoft Azure SQL Database.* SIGMOD Conference 2019: 666-679 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)]
 
 **[Industry, Meta]** Ritwik Yadav, Satyanarayana R. Valluri, Mohamed Zait: *AIM: A practical approach to automated index management for SQL databases*. ICDE 2023 [[paper](https://research.facebook.com/micro_site/url/?click_from_context_menu=true&country=CN&destination=https%3A%2F%2Fresearch.facebook.com%2Ffile%2F215595724407039%2FAIM_SRT_Update.pdf&event_type=click&last_nav_impression_id=0CS9zArYOjQEk5cnm&max_percent_page_viewed=36&max_viewport_height_px=961&max_viewport_width_px=1912&orig_http_referrer=https%3A%2F%2Fwww.google.com%2F&orig_request_uri=https%3A%2F%2Fresearch.facebook.com%2Fpublications%2Faim-a-practical-approach-to-automated-index-management-for-sql-databases%2F&region=apac&scrolled=false&session_id=0e6eXwoLiqjYPPnEb&site=mc_research)]
 
-**[Heuristic-based, AutoAdmin]** Surajit Chaudhuri, Vivek R. Narasayya: *An Efficient Cost-Driven Index Selection Tool for Microsoft SQL Server.* VLDB 1997: 146-155 [[paper](https://www.vldb.org/conf/1997/P146.PDF)]
 
-**[Heuristic-based, DB2Advis]** Gary Valentin, Michael Zuliani, Daniel C. Zilio, Guy M. Lohman, Alan Skelley: *DB2 Advisor: An Optimizer Smart Enough to Recommend Its Own Indexes.* ICDE 2000: 101-110 [[paper](http://www.cs.toronto.edu/~alan/papers/icde00.pdf)]
+---
 
-**[Heuristic-based, Relaxation]** Nicolas Bruno, Surajit Chaudhuri: Automatic Physical Database Tuning: *A Relaxation-based Approach.* SIGMOD Conference 2005: 227-238 [[paper](https://dl.acm.org/doi/10.1145/1066157.1066184)]
+#### Adaptive Indexing
 
-**[Heuristic-based, COLT]** Karl Schnaitter, Serge Abiteboul, Tova Milo, Neoklis Polyzotis: *On-Line Index Selection for Shifting Workloads.* ICDE Workshops 2007: 459-468 [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.3168&rep=rep1&type=pdf)]
+**Self-Selecting, Self-Tuning, Incrementally Optimized Indexes**  
+ 
+*Graefe, Goetz and Kuno, Harumi. EDBT, 2010* [[paper](https://dl.acm.org/doi/pdf/10.1145/1739041.1739087)] 
 
-**[Heuristic-based, Extend]** Rainer Schlosser, Jan Kossmann, Martin Boissier: *Efficient Scalable Multi-attribute Index Selection Using Recursive Strategies.* ICDE 2019: 1238-1249 [[paper](http://ieeexplore.ieee.org/document/8731387)]
 
-**[Learning-based, DQN]** Hai Lan, Zhifeng Bao, Yuwei Peng: *An Index Advisor Using Deep Reinforcement Learning.* CIKM 2020: 2105-2108 [[paper](https://doi.org/10.1145/3340531.3412106)]
+**Concurrency control for adaptive indexing**  
+ 
+*Graefe, Goetz and Halim, Felix and Idreos, Stratos and Kuno, Harumi and Manegold, Stefan. VLDB, 2012* [[paper](https://dl.acm.org/doi/pdf/10.14778/2180912.2180918)] 
 
-**[Learning-based, DQN]** Zahra Sadri, Le Gruenwald, Eleazar Leal: *Online Index Selection Using Deep Reinforcement Learning for a Cluster Database.* ICDE Workshops 2020: 158-161 [[paper](https://doi.org/10.1109/ICDEW49219.2020.00035)]
 
-**[Learning-based, DQN]** Gabriel Paludo Licks, Júlia Mara Colleoni Couto, Priscilla de Fátima Miehe, Renata De Paris, Duncan Dubugras A. Ruiz, Felipe Meneguzzi: *SmartIX: A Database Indexing Agent based on Reinforcement Learning.* Appl. Intell. 50(8): 2575-2588 (2020) [[paper](https://link.springer.com/article/10.1007/s10489-020-01674-8)]
 
-**[Learning-based, DQN]** Vishal Sharma, Curtis E. Dyreson, Nicholas Flann: *MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning.* IDEAS 2021: 56-64 [[paper](https://dl.acm.org/doi/abs/10.1145/3472163.3472176)]
+**Database Cracking**  
+ 
+*Idreos, Stratos and Kersten, Martin L and Manegold, Stefan and others. CIDR, 2007* [[paper](https://www.bing.com/ck/a?!&&p=261de0897d1b9ec4JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxOA&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Database+Cracking&u=a1aHR0cHM6Ly9zdHJhdG9zLnNlYXMuaGFydmFyZC5lZHUvZmlsZXMvSUtNX0NJRFIwNy5wZGY&ntb=1)] 
 
-**[Learning-based, DQN]** Yu Yan, Shun Yao, Hongzhi Wang, Meng Gao: *Index selection for NoSQL database with deep reinforcement learning.* Inf. Sci. 561: 20-30 (2021) [[paper](https://www.sciencedirect.com/science/article/pii/S0020025521000049)]
 
-**[Learning-based, DQN]** Vishal Sharma, Curtis E. Dyreson: *Indexer++: Workload-aware Online Index Tuning with Transformers and Reinforcement Learning.* SAC 2022: 372-380 [[paper](https://dl.acm.org/doi/10.1145/3477314.3507691)]
 
-**[Learning-based, MAB]** R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein, Renata Borovica-Gajic: *DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees.* ICDE 2021: 600-611 [[paper](https://arxiv.org/pdf/2010.09208.pdf)]
+**Merging what's cracked, cracking what's merged: adaptive indexing in main-memory column-stores**  
+ 
+*Idreos, Stratos and Manegold, Stefan and Kuno, Harumi and Graefe, Goetz. VLDB, 2011* [[paper](https://www.bing.com/ck/a?!&&p=c08875f9f2329754JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE3Ng&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Merging+what%27s+cracked%2c+cracking+what%27s+merged%3a+adaptive+indexing+in+main-memory+column-stores&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sNC9wNTg2LWlkcmVvcy5wZGY&ntb=1)] 
 
-**[Learning-based, MAB]** R. Malinga Perera, Bastian Oetomo, Benjamin I. P. Rubinstein, Renata Borovica-Gajic:
-*HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning.* Proc. VLDB Endow. 16(2): 216-229 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3565816.3565824)]
 
-**[Learning-based, MCTS]** Xuanhe Zhou, Luyang Liu, Wenbo Li, Lianyuan Jin, Shifu Li, Tianqing Wang, Jianhua Feng: *AutoIndex: An Incremental Index Management System for Dynamic Workloads.* ICDE 2022: 2196-2208 [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]
 
-**[Learning-based, MCTS]** Wentao Wu, Chi Wang, Tarique Siddiqui, Junxiong Wang, Vivek R. Narasayya, Surajit Chaudhuri, Philip A. Bernstein: *Budget-aware Index Tuning with Reinforcement Learning.* SIGMOD Conference 2022: 1528-1541 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/06/mcts-full.pdf)]
 
-**[Optimization, Learned Cost]** Bailu Ding, Sudipto Das, Ryan Marcus, Wentao Wu, Surajit Chaudhuri, Vivek R. Narasayya: *AI Meets AI: Leveraging Query Executions to Improve Index Recommendations.* SIGMOD Conference 2019: 1241-1258 [[paper](https://doi.org/10.1145/3299869.3324957)]
+**Stochastic Database Cracking: Towards Robust Adaptive Indexing in Main-Memory Column-Stores**  
+ 
+*Halim, Felix and Idreos, Stratos and Karras, Panagiotis and Yap, Roland H. C.. VLDB, 2012* [[paper](https://dl.acm.org/doi/pdf/10.14778/2168651.2168652)] 
 
-**[Optimization, Learned Cost]** Jiachen Shi, Gao Cong, Xiaoli Li: Learned Index Benefits: Machine Learning Based Index Performance Estimation. Proc. VLDB Endow. 15(13): 3950-3962 (2022) [[paper](https://www.vldb.org/pvldb/vol15/p3950-shi.pdf)]
 
-**[Optimization, Learned Cost]** Jianling Gao, Nan Zhao, Ning Wang, Shuang Hao:
-*SmartIndex: An Index Advisor with Learned Cost Estimator*. CIKM 2022: 4853-4856 [[paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557163)]
+**Holistic Indexing in Main-Memory Column-Stores**  
+ 
+*Petraki, Eleni and Idreos, Stratos and Manegold, Stefan. SIGMOD, 2015* [[paper](https://dl.acm.org/doi/pdf/10.1145/2723372.2723719)] 
 
-**[Optimization, Workload Summarization]** Tarique Siddiqui, Saehan Jo, Wentao Wu, Chi Wang, Vivek R. Narasayya, Surajit Chaudhuri:
-*ISUM: Efficiently Compressing Large and Complex Workloads for Scalable Index Tuning.* SIGMOD Conference 2022: 660-673 [[paper](https://dl.acm.org/doi/10.1145/3514221.3526152)]
 
-**[Optimization, What-if Call]** Tarique Siddiqui, Wentao Wu, Vivek R. Narasayya, Surajit Chaudhuri:
-*DISTILL: Low-Overhead Data-Driven Techniques for Filtering and Costing Indexes for Scalable Index Tuning.* Proc. VLDB Endow. 15(10): 2019-2031 (2022) [[paper](https://dl.acm.org/doi/abs/10.14778/3547305.3547309)]
+**Predictive indexing**  
+ 
+*Arulraj, Joy and Xian, Ran and Ma, Lin and Pavlo, Andrew. arXiv, 2019* [[paper](https://arxiv.org/pdf/1901.07064.pdf)] 
 
-<br>
+
+
 
 ### Partition Advisor
 
