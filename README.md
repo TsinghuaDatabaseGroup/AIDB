@@ -396,7 +396,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Yadav, Ritwik and Valluri, Satyanarayana R. and Zaït, Mohamed. ICDE, 2023* [[paper](https://www.vldb.org/conf/1997/P146.PDF)] 
 
 
-
+---
 
 
 #### Offline Index Tuning
@@ -609,8 +609,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Wu, Wentao and Wang, Chi and Siddiqui, Tarique and Wang, Junxiong and Narasayya, Vivek and Chaudhuri, Surajit and Bernstein, Philip A. SIGMOD, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526128)] 
 
 
-
-
 ---
 
 #### Online Index Tuning
@@ -650,7 +648,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
  ![](https://img.shields.io/badge/-RL-red)   **Autoindex: An incremental index management system for dynamic workloads**   ![](https://img.shields.io/badge/-MCTS-green)
  
 *Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835594)]  [[code](https://github.com/zhouxh19/AutoIndex)]
-
 
 
 ---
@@ -722,11 +719,9 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 #### Industry Papers
 
 
-
 **[Industry, Microsoft Azure]** Sudipto Das, Miroslav Grbic, Igor Ilic, Isidora Jovandic, Andrija Jovanovic, Vivek R. Narasayya, Miodrag Radulovic, Maja Stikic, Gaoxiang Xu, Surajit Chaudhuri: *Automatically Indexing Millions of Databases in Microsoft Azure SQL Database.* SIGMOD Conference 2019: 666-679 [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)]
 
 **[Industry, Meta]** Ritwik Yadav, Satyanarayana R. Valluri, Mohamed Zait: *AIM: A practical approach to automated index management for SQL databases*. ICDE 2023 [[paper](https://research.facebook.com/micro_site/url/?click_from_context_menu=true&country=CN&destination=https%3A%2F%2Fresearch.facebook.com%2Ffile%2F215595724407039%2FAIM_SRT_Update.pdf&event_type=click&last_nav_impression_id=0CS9zArYOjQEk5cnm&max_percent_page_viewed=36&max_viewport_height_px=961&max_viewport_width_px=1912&orig_http_referrer=https%3A%2F%2Fwww.google.com%2F&orig_request_uri=https%3A%2F%2Fresearch.facebook.com%2Fpublications%2Faim-a-practical-approach-to-automated-index-management-for-sql-databases%2F&region=apac&scrolled=false&session_id=0e6eXwoLiqjYPPnEb&site=mc_research)]
-
 
 
 ---
