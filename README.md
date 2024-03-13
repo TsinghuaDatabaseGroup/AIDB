@@ -1534,10 +1534,9 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *https://aistratagems.com/large-language-model-llm-statistics/*
 
+**ML System Papers**
 
-**Brain in a Vat: On Missing Pieces Towards Artificial General Intelligence in Large Language Models**  ![](https://img.shields.io/badge/benchmark-orange)
-
-*Yuxi Ma, Chi Zhang, Song-Chun Zhu. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2307.03762.pdf)].
+*https://github.com/byungsoo-oh/ml-systems-papers?tab=readme-ov-file*
 
 
 ## S3 Open Datasets And SQLs
