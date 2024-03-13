@@ -1534,7 +1534,7 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *https://aistratagems.com/large-language-model-llm-statistics/*
 
-**ML System Papers**
+**ML System Papers** ![](https://img.shields.io/badge/paper_list-orange) 
 
 *https://github.com/byungsoo-oh/ml-systems-papers?tab=readme-ov-file*
 
