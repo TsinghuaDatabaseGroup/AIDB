@@ -347,7 +347,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 ![](https://img.shields.io/badge/-workload_compression-purple) **Query2Vec: An Evaluation of NLP Techniques for Generalized Workload Analytics**   ![](https://img.shields.io/badge/-index_agnostic-yellow) 
 
-*Shrainik, Jain and Bill, Howe and Jiaqi, Yan and Thierry, Cruanes. VLDB, 2018* [[paper]https://arxiv.org/abs/1801.05613]
+*Shrainik, Jain and Bill, Howe and Jiaqi, Yan and Thierry, Cruanes. arXiv, 2018* [[paper]https://arxiv.org/abs/1801.05613]
 
 ---
 
