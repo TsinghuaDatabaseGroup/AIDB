@@ -330,19 +330,24 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Siddiqui, Tarique and Jo, Saehan and Wu, Wentao and Wang, Chi and Narasayya, Vivek and Chaudhuri, Surajit. SIGMOD, 2022* [[paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/04/ISUM-ExtendedVersion.pdf)] 
 
 
-![](https://img.shields.io/badge/-workload_compression-purple) [GSUM] **Primitives for workload summarization and implications for SQL**  ![](https://img.shields.io/badge/-index_agnostic-yellow)
+![](https://img.shields.io/badge/-workload_compression-purple) **Primitives for workload summarization and implications for SQL**  ![](https://img.shields.io/badge/-index_agnostic-yellow)
 
-*Chaudhuri, Surajit and Narasayya, Vivek and Ganesan, Prasanna. VLDB, 2023* [[paper](https://www.bing.com/ck/a?!&&p=e01a9d95f910866cJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTAwOA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMjJQMDIucGRm&ntb=1)] 
+*Chaudhuri, Surajit and Narasayya, Vivek and Ganesan, Prasanna. VLDB, 2003* [[paper](https://www.bing.com/ck/a?!&&p=e01a9d95f910866cJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTAwOA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvY29uZi8yMDAzL3BhcGVycy9TMjJQMDIucGRm&ntb=1)] 
 
 ![](https://img.shields.io/badge/-workload_compression-purple)  **Compressing sql workloads**  ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-query_clustering-green)
 
-*Chaudhuri, Surajit and Gupta, Ashish Kumar and Narasayya, Vivek. SIGMOD, 2022* [[paper](https://www.bing.com/ck/a?!&&p=6b800d696b3d4e5aJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Compressing+sql+workloads&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwMi8wNi9TaWcwMi1XQy5wZGY&ntb=1)] 
+*Chaudhuri, Surajit and Gupta, Ashish Kumar and Narasayya, Vivek. SIGMOD, 2002* [[paper](https://www.bing.com/ck/a?!&&p=6b800d696b3d4e5aJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Compressing+sql+workloads&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9yZXNlYXJjaC93cC1jb250ZW50L3VwbG9hZHMvMjAwMi8wNi9TaWcwMi1XQy5wZGY&ntb=1)] 
 
 
-![](https://img.shields.io/badge/-workload_compression-purple) **Comprehensive and efficient workload compression**   ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-greedy_selection-green) 
+![](https://img.shields.io/badge/-workload_compression-purple) [GSUM] **Comprehensive and efficient workload compression**   ![](https://img.shields.io/badge/-index_agnostic-yellow) ![](https://img.shields.io/badge/-greedy_selection-green) 
 
 *Deep, Shaleen and Gruenheid, Anja and Koutris, Paraschos and Naughton, Jeffrey and Viglas, Stratis. VLDB, 2020* [[paper](https://www.bing.com/ck/a?!&&p=f48d32f30cba6aa4JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTI0Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Comprehensive+and+efficient+workload+compression&u=a1aHR0cHM6Ly92bGRiYXJjLm9yZy9wdmxkYi92b2wxNC9wNDE4LWRlZXAucGRm&ntb=1)] 
 
+
+
+![](https://img.shields.io/badge/-workload_compression-purple) **Query2Vec: An Evaluation of NLP Techniques for Generalized Workload Analytics**   ![](https://img.shields.io/badge/-index_agnostic-yellow) 
+
+*Shrainik, Jain and Bill, Howe and Jiaqi, Yan and Thierry, Cruanes. arXiv, 2018* [[paper](https://arxiv.org/abs/1801.05613)] 
 
 ---
 
