@@ -21,14 +21,14 @@ Table of Contents
 * [1. Database Configuration](#1-database-configuration)
     * [1.1 Knob Tuner (22)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
-    * [1.3 Index Advisor (77)](#index-advisor)
+    * [1.3 Index Advisor (81)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
     * [2.1 Query Rewriter (13)](#query-rewriter)
-    * [2.2 Cardinality Estimation (35)](#cardinality-estimation)
+    * [2.2 Cardinality Estimation (36)](#cardinality-estimation)
     * [2.3 Cost Estimation (3)](#cost-estimation)
-    * [2.4 Plan Optimization (24)](#plan-optimization)
+    * [2.4 Plan Optimization (25)](#plan-optimization)
 * [3. Workload Scheduling (2)](#3-workload-scheduling)
 * [4. Database Design](#4-database-design)
     * [4.1 Learned Index (30)](#index)
@@ -41,11 +41,11 @@ Table of Contents
 * [7. General Techniques](#7-general-techniques)
     * [7.1 Feature Engineering for DB (7)](#feature-engineering-for-db)
     * [7.2 Feature Engineering for AI (6)](#feature-engineering-for-ai)
-    * [7.3 Model Transfer (1)](#model-transfer) 
+    * [7.3 Model Transfer (2)](#model-transfer) 
     * [7.4 Query And Data Generation (5)](#query-and-data-generation)
 * [8. Database Frameworks (17)](#8-database-frameworks)
 * [9. Demonstrations (13)](#9-demonstrations)
-* [S1. LLM x DB (32)](#s1-large-language-models-meet-database)
+* [S1. LLM x DB (33)](#s1-large-language-models-meet-database)
 * [S2. AI Resources (5)](#s2-ai-paper-and-code-list)
 * [S3. Data And SQLs (3)](#s3-open-datasets-and-sqls)
 
@@ -64,7 +64,7 @@ Table of Contents
 ***From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.*** Immanuel Trummer. [[link](https://drive.google.com/file/d/1U-2j8oi5au3nuYwPIlhnno7c6UNDfifl/view)]
 
 
-***Retrieval-based Language Models and Applications.*** Akari Asai,	Sewon Min,	Zexuan Zhong,	Danqi Chen. [[link](https://acl2023-retrieval-lm.github.io/)]
+***Retrieval-based Language Models and Applications.*** Akari Asai, Sewon Min, Zexuan Zhong, Danqi Chen. [[link](https://acl2023-retrieval-lm.github.io/)]
 
 ---
 
@@ -343,8 +343,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Deep, Shaleen and Gruenheid, Anja and Koutris, Paraschos and Naughton, Jeffrey and Viglas, Stratis. VLDB, 2020* [[paper](https://www.bing.com/ck/a?!&&p=f48d32f30cba6aa4JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTI0Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Comprehensive+and+efficient+workload+compression&u=a1aHR0cHM6Ly92bGRiYXJjLm9yZy9wdmxkYi92b2wxNC9wNDE4LWRlZXAucGRm&ntb=1)] 
 
-
-
 ![](https://img.shields.io/badge/-workload_compression-purple) **Query2Vec: An Evaluation of NLP Techniques for Generalized Workload Analytics**   ![](https://img.shields.io/badge/-index_agnostic-yellow) 
 
 *Shrainik, Jain and Bill, Howe and Jiaqi, Yan and Thierry, Cruanes. arXiv, 2018* [[paper](https://arxiv.org/abs/1801.05613)] 
@@ -354,7 +352,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 #### Offline Index Tuning
 
-![](https://img.shields.io/badge/-Experimental-red) **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)      
+![](https://img.shields.io/badge/-Experimental-red) **Magic mirror in my hand, which is the best in the land? An Experimental Evaluation of Index Selection Algorithms** ![](https://img.shields.io/badge/-heuristics-yellowgreen)     
+
 *Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
  ![](https://img.shields.io/badge/-LP-purple)  **Exact and approximate algorithms for the index selection problem in physical database design**  ![](https://img.shields.io/badge/-branch_and_cut-green)
@@ -472,8 +471,12 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Suboti{\'c}, Pavle and Jordan, Herbert and Chang, Lijun and Fekete, Alan and Scholz, Bernhard. VLDB, 2018* [[paper](https://www.bing.com/ck/a?!&&p=8cda915901b9dd66JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=Automatic+index+selection+for+large-scale+datalog+computation&u=a1aHR0cHM6Ly93d3cudmxkYi5vcmcvcHZsZGIvdm9sMTIvcDE0MS1zdWJvdGljLnBkZg&ntb=1)] 
 
+![](https://img.shields.io/badge/-Heuristic-Orange)   **Wred: Workload Reduction for Scalable Index Tuning**  
 
- ![](https://img.shields.io/badge/-Heuristic-orange)  **AIM: A practical approach to automated index management for SQL databases**   ![](https://img.shields.io/badge/-Industry_Meta-red)
+*Matteo Brucato, Tarique Siddiqui, Wentao Wu, Vivek Narasayya, Surajit Chaudhuri. SIGMOD, 2024* [[paper](https://dl.acm.org/doi/10.1145/3639305)] 
+
+
+ ![](https://img.shields.io/badge/-Heuristic-Orange)  **AIM: A practical approach to automated index management for SQL databases**   ![](https://img.shields.io/badge/-Industry_Meta-red)
 
 *Yadav, Ritwik and Valluri, Satyanarayana R. and Zaït, Mohamed. ICDE, 2023* [[paper](https://www.vldb.org/conf/1997/P146.PDF)] 
 
@@ -564,6 +567,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Wu, Wentao and Wang, Chi and Siddiqui, Tarique and Wang, Junxiong and Narasayya, Vivek and Chaudhuri, Surajit and Bernstein, Philip A. SIGMOD, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526128)] 
 
+ ![](https://img.shields.io/badge/-RL_Robustness-red)   **Robustness of Updatable Learning-based Index Advisors against Poisoning Attack**
+
+*Yihang Zheng, Chen Lin, Xian Lyu, Xuanhe Zhou, Guoliang Li, Tianqing Wang. SIGMOD, 2024* [[paper](https://dl.acm.org/doi/10.1145/3639265)] 
+
 
 ---
 
@@ -601,11 +608,13 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Sharma, Vishal and Dyreson, Curtis. SIGAPP, 2022* [[paper](https://www.bing.com/ck/a?!&&p=e1afe298caf3fbf1JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTE4Mw&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Indexer%2b%2b+workload-aware+online+index+tuning+with+transformers+and+reinforcement+learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDc3MzE0LjM1MDc2OTE&ntb=1)] 
 
-
-
  ![](https://img.shields.io/badge/-RL-red)   **Autoindex: An incremental index management system for dynamic workloads**   ![](https://img.shields.io/badge/-MCTS-green)  ![](https://img.shields.io/badge/-cost_estimate-orange)
 
-*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835594)]  [[code](https://github.com/zhouxh19/AutoIndex)]
+*Zhou, Xuanhe and Liu, Luyang and Li, Wenbo and Jin, Lianyuan and Li, Shifu and Wang, Tianqing and Feng, Jianhua. ICDE, 2022* [[paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde2022-autoindex.pdf)]  [[code](https://github.com/zhouxh19/AutoIndex)]
+
+![](https://img.shields.io/badge/-Transfer_RL-red)   **Leveraging Dynamic and Heterogeneous Workload Knowledge to Boost the Performance of Index Advisors**
+
+*Zijia Wang, Haoran Liu, Chen Lin, Zhifeng Bao, Guoliang Li, and Tianqing Wang. VLDB, 2024* [[paper](https://www.vldb.org/pvldb/vol17/p1642-lin.pdf)]
 
 
 ---
@@ -655,8 +664,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Ding, Bailu and Das, Sudipto and Marcus, Ryan and Wu, Wentao and Chaudhuri, Surajit and Narasayya, Vivek R. SIGMOD, 2019* [[paper](https://www.bing.com/ck/a?!&&p=f316aa373db264d0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Ai+meets+ai%3a+Leveraging+query+executions+to+improve+index+recommendations&u=a1aHR0cHM6Ly9wYWdlcy5jcy53aXNjLmVkdS9-d2VudGFvd3UvcGFwZXJzL3NpZ21vZDE5LWF1dG8taW5kZXhpbmcucGRm&ntb=1)] 
 
-
-
  ![](https://img.shields.io/badge/-ML-red) [SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator**   [](https://img.shields.io/badge/-LSTM_GCN_ResNet-green)
 
 *Gao, Jianling and Zhao, Nan and Wang, Ning and Hao, Shuang. CIKM, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557163)] [[code](https://github.com/JerryGao818/Index_selection_with_learned_estimator)] 
@@ -677,9 +684,13 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Zhao, Yue and Cong, Gao and Shi, Jiachen and Miao, Chunyan. VLDB, 2022* [[paper](https://dl.acm.org/doi/pdf/10.14778/3529337.3529349)] [[code](https://www.bing.com/ck/a?!&&p=3329458fd937365eJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIwNg&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=QueryFormer%3a+a+tree+transformer+model+for+query+plan+representation&u=a1aHR0cHM6Ly9naXRodWIuY29tL3Vlc3RjLXRhbmd5aWhlbmcvcXVlcnlmb3JtZXI&ntb=1)] 
 
 
- ![](https://img.shields.io/badge/-ML-red)  **Zero-shot cost models for out-of-the-box learned cost prediction** 
+ ![](https://img.shields.io/badge/-ML-red) **Zero-shot cost models for out-of-the-box learned cost prediction** 
 
- *Hilprecht, Benjamin and Binnig, Carsten. arXiv, 2022* [[paper](https://arxiv.org/pdf/2201.00561.pdf)] [[code](https://github.com/DataManagementLab/zero-shot-cost-estimation)]
+ *Hilprecht, Benjamin and Binnig, Carsten. VLDB, 2022* [[paper](https://arxiv.org/pdf/2201.00561.pdf)] [[code](https://github.com/DataManagementLab/zero-shot-cost-estimation)]
+
+ ![](https://img.shields.io/badge/-ML-red) [RIBE] **Refactoring Index Tuning Process with Benefit Estimation** 
+
+ *Tao Yu, Zhaonian Zou, Weihua Sun, and Yu Yan. VLDB, 2024* [[paper](https://www.vldb.org/pvldb/vol17/p1528-zou.pdf)]
 
 
 ---
@@ -716,8 +727,6 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 **Predictive indexing**  
 
 *Arulraj, Joy and Xian, Ran and Ma, Lin and Pavlo, Andrew. arXiv, 2019* [[paper](https://arxiv.org/pdf/1901.07064.pdf)] 
-
-
 
 
 
@@ -883,6 +892,8 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 **[Card, Query&Data-based]** Pengfei Li, Wenqing Wei, Rong Zhu, Bolin Ding, Jingren Zhou, and Hua Lu. ALECE: An Attention-based Learned Cardinality Estimator for SPJ Queries on Dynamic Workloads. VLDB, 2024. [[paper](https://www.vldb.org/pvldb/vol17/p197-li.pdf)]
 
+**[Card, Attack]** Jintao Zhang, Guoliang Li, Chao Zhang, Chengliang Chai. PACE: Poisoning Attacks on Learned Cardinality Estimation. SIGMOD, 2024. [[paper](https://dl.acm.org/doi/10.1145/3639292)]
+
 **[ EA&B ]** Wang, X., Qu, C., Wu, W., Wang, J., & Zhou, Q. (2021). Are We Ready For Learned Cardinality Estimation?  Proc. VLDB Endow. 14(9): 1640-1654 (2021). [[paper](http://www.vldb.org/pvldb/vol14/p1640-wang.pdf)]
 
 **[ EA&B ]** Sun, J., Zhang, J., Sun, Z., Li, G., & Tang, N. (n.d.). *Learned Cardinality Estimation : A Design Space Exploration and a Comparative Evaluation [ EA & B ]*. *14*(1). VLDB, 2022. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb22-card-exp.pdf)]
@@ -905,6 +916,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2361-hilprecht.pdf)]
 
 ### Plan Optimization
+
+**[EA&B] Is Your Learned Query Optimizer Behaving As You Expect? A Machine Learning Perspective**
+
+*Claude Lehmann, Pavel Sulimov, and Kurt Stockinger. VLDB, 2024.* [[paper](https://www.vldb.org/pvldb/vol17/p1565-lehmann.pdf)]
 
 **Continuously Adaptive Query Processing**
 
@@ -1007,6 +1022,8 @@ Out-of-the-box Learned Cost Prediction*. VLDB, 2022. [[paper](https://www.vldb.o
 Ibrahim Sabek, Tenzin Samten Ukyab, Tim Kraska. *LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems*. SIGMOD, 2022. [[paper](https://dl.acm.org/doi/pdf/10.1145/3514221.3526158)] 
 
 Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep Reinforcement Learning. In VLDB, 2020. [[paper](https://arxiv.org/pdf/2007.10568.pdf)] 
+
+
 
 
 ## 4. Database Design
@@ -1223,6 +1240,8 @@ Jiang H, Liu C, Paparrizos J, et al. Good to the Last Bit: Data-Driven Encoding 
 
 Meghdad Kurmanji, Peter Triantafillou. Detect, Distill and Update: Learned DB Systems Facing Out of Distribution Data. SIGMOD, 2023. [[paper](https://arxiv.org/pdf/2210.05508.pdf)]
 
+Peizhi Wu, Zachary G. Ives. Modeling Shifting Workloads for Learned Database Systems. SIGMOD, 2024. [[paper](https://dl.acm.org/doi/10.1145/3639293)]
+
 ### Query And Data Generation
 
 #### Query Generation
@@ -1341,7 +1360,7 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 
 **[DB Tuning]** Xuanhe Zhou, Guoliang Li, Jianming Wu, Jiesi Liu, Zhaoyan Sun, Xinning Zhang. *A Learned Query Rewrite System*. VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4110-li.pdf)] [[website](http://rewrite_demo.dbmind.cn/)]
 
-**[DB Tuning]** Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors.* CIKM, 2023. [[video](https://youtu.be/RfV4ylOxpcc)]
+**[DB Tuning]** Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors.* CIKM, 2023. [[paper](https://xmudm.github.io/files/Zhou2023ViTA.pdf)] [[video](https://youtu.be/RfV4ylOxpcc)]
 
 **[DB Tuning]** Qiushi Bai, Sadeem Alsudais, Chen Li. *Demo of QueryBooster: Supporting Middleware-based SQL Query Rewriting as a Service.* VLDB, 2023. [[paper](https://www.vldb.org/pvldb/vol16/p4038-bai.pdf)]
 
@@ -1436,6 +1455,10 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *I Trummer. SIGMOD 2022* [[paper](https://dl.acm.org/doi/abs/10.1145/3514221.3517843)]
 
+**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.** ![](https://img.shields.io/badge/knob_tuning-blue)  
+
+*Jiale Lao, Yibo Wang, Yufei Li, et al. VLDB, 2024.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)] [[code](https://github.com/SolidLao/GPTuner)]
+
 
 
 
@@ -1501,11 +1524,6 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 
 *Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. arXiv 2023.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)].
 
-
-**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization.** ![](https://img.shields.io/badge/knob_tuning-blue)  
-
-*Jiale Lao, Yibo Wang, Yufei Li, et al. arXiv, 2023.* [[pdf](https://web1.arxiv.org/pdf/2311.03157.pdf)] [[code](https://github.com/SolidLao/GPTuner)]
-
 **DBCopilot: Scaling Natural Language Querying to Massive Databases.**  ![](https://img.shields.io/badge/text2sql-orange)
 
 *Tianshu Wang, Hongyu Lin, Xianpei Han, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2312.03463.pdf)]
@@ -1517,6 +1535,10 @@ Y Zhang, A Floratou, J Cahoon, S Krishnan, AC Müller, D Banda, F Psallidas, JM 
 **OpsEval: A Comprehensive Task-Oriented AIOps Benchmark for Large Language Models** ![](https://img.shields.io/badge/db_maintenance-purple) 
 
 *Yuhe Liu, Changhua Pei, Longlong Xu, et al. arXiv, 2023.* [[pdf](https://arxiv.org/pdf/2310.07637.pdf)]
+
+**LLMTune: Accelerate Database Knob Tuning with Large Language Models** ![](https://img.shields.io/badge/knob_tuning-blue)  
+
+*Xinmei Huang , Haoyang Li , Jing Zhang , Xinxin Zhao, Zhiming Yao, Yiyan Li, Zhuohao Yu, Tieying Zhang, Hong Chen, Cuiping Li. arxiv, 2024.* [[pdf](https://arxiv.org/pdf/2404.11581.pdf)]
 
 
 
