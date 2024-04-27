@@ -356,6 +356,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
+![](https://img.shields.io/badge/-Robustness_Assessment-red) **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**
+
+*Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. ICDE 2024.* [[paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/TRAP_ICDE__CR_.pdf)] [[code](https://github.com/Beliefuture/TRAP)]
+
  ![](https://img.shields.io/badge/-LP-purple)  **Exact and approximate algorithms for the index selection problem in physical database design**  ![](https://img.shields.io/badge/-branch_and_cut-green)
 
 *Caprara, Alberto and Fischetti, Matteo and Maio, Dario. TKDE, 1995* [[paper](https://www.academia.edu/10160281/Exact_and_Approximate_Algorithms_for_the_Index_Selection_Problem_in_Physical_Database_Design)] 
