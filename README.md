@@ -19,9 +19,9 @@ Table of Contents
 
 * [0. Survey and Tutorial (16)](#0-survey-and-tutorial)
 * [1. Database Configuration](#1-database-configuration)
-    * [1.1 Knob Tuner (22)](#knob-tuner)
+    * [1.1 Knob Tuner (23)](#knob-tuner)
     * [1.2 View Advisor (9)](#view-advisor)
-    * [1.3 Index Advisor (81)](#index-advisor)
+    * [1.3 Index Advisor (86)](#index-advisor)
     * [1.4 Partition Advisor (11)](#partition-advisor)
     * [1.5 Hybrid Advisor (2)](#hybrid-advisor)
 * [2. Query Optimization](#2-query-optimization)
@@ -34,7 +34,7 @@ Table of Contents
     * [4.1 Learned Index (30)](#index)
     * [4.2 Learned Layout (6)](#layout)
     * [4.3 Query Execution (3)](#query-execution)
-* [5. Database Monitoring (11)](#5-database-monitoring)
+* [5. Database Monitoring (12)](#5-database-monitoring)
 * [6. Database Diagnosis](#6-database-diagnosis)
     * [6.1 System Diagnosis (7)](#system-and-kernel-causes)
     * [6.2 Query Diagnosis (1)](#bottleneck-queries)
@@ -126,10 +126,9 @@ https://15799.courses.cs.cmu.edu/spring2022/schedule.html
 
 *Guoliang Li, Xuanhe Zhou, Lei Cao. SIGMOD, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod21-tutorial-slides.pdf)]
 
-
 **Machine Learning for Databases.** ![](https://img.shields.io/badge/-ai4db-Informational)
 
-*Guoliang Li, Xuanhe Zhou, Lei Cao. VLDB, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)][[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
+*Guoliang Li, Xuanhe Zhou, Lei Cao. VLDB, 2021.*  [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf)] [[slides](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-slides.pdf)]
 
 
 **Machine Learning for Cloud Data Systems: the Promise, the Progress, and the Path Forward.** ![](https://img.shields.io/badge/-learned_cloud_db-Informational)
@@ -150,6 +149,8 @@ https://15799.courses.cs.cmu.edu/spring2022/schedule.html
 **From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management.** ![](https://img.shields.io/badge/-llm4db-Informational)
 
 *Immanuel Trummer. VLDB, 2022.*  [[paper](https://dl.acm.org/doi/pdf/10.14778/3554821.3554896)]
+
+
 
 
 ## 1. Database Configuration
@@ -207,6 +208,10 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 **LlamaTune: Sample-Efficient DBMS Configuration Tuning** ![](https://img.shields.io/badge/-gaussian_process-orange)  
 
 *Kanellis K, Ding C, Kroth B, et al. VLDB, 2022.* [[paper](https://arxiv.org/pdf/2203.05128)]
+
+**VDTuner: Automated Performance Tuning for Vector Data Management Systems**
+
+*Tiannuo Yang, Wen Hu, Wangqi Peng, Yusen Li, Jianguo Li, Gang Wang, Xiaoguang Liu. ICDE, 2024.* [[paper](https://arxiv.org/pdf/2404.10413)]
 
 ---
 
@@ -356,6 +361,10 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Kossmann, Jan and Halfpap, Stefan and Jankrift, Marcel and Schlosser, Rainer. VLDB, 2020.* [[paper](http://www.vldb.org/pvldb/vol13/p2382-kossmann.pdf)] 
 
+![](https://img.shields.io/badge/-Experimental-red)**Breaking It Down: An In-depth Study of Index Advisors** ![](https://img.shields.io/badge/-heuristics_&_learning-yellowgreen)
+
+*Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. VLDB, 2024* [[code](https://github.com/Beliefuture/Index_EAB?tab=readme-ov-file)] [[pypi](https://pypi.org/project/index-eab/0.1.0/)]
+
 ![](https://img.shields.io/badge/-Robustness_Assessment-red) **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**
 
 *Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. ICDE 2024.* [[paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/TRAP_ICDE__CR_.pdf)] [[code](https://github.com/Beliefuture/TRAP)]
@@ -398,7 +407,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Kllapi, Herald and Pietri, Ilia and Kantere, Verena and Ioannidis, Yannis E. EDBT, 2020* [[paper](https://openproceedings.org/2020/conf/edbt/paper_87.pdf)] 
 
- ![](https://img.shields.io/badge/-DFS-purple)  **The optimal selection of secondary indices for files**  ![](https://img.shields.io/badge/--)
+ ![](https://img.shields.io/badge/-DFS-purple)  **The optimal selection of secondary indices for files**
 
 *Mario Schkolnick. Information Systems, 1975* [[paper](https://figshare.com/articles/journal_contribution/The_optimal_selection_of_secondary_indices_for_files/6610724/1/files/12102875.pdf)] 
 
@@ -558,7 +567,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 *Sharma, Vishal and Dyreson, Curtis and Flann, Nicholas. 25th International Database Engineering \& Applications Symposium, 2021* [[paper](https://www.bing.com/ck/a?!&&p=0d157108672eb397JmltdHM9MTcwODczMjgwMCZpZ3VpZD0zOTA4NTgzYi1hNGIzLTY5NTItMjhhMC00YTVjYTU5ZDY4MWEmaW5zaWQ9NTIxMw&ptn=3&ver=2&hsh=3&fclid=3908583b-a4b3-6952-28a0-4a5ca59d681a&psq=MANTIS%3a+Multiple+Type+and+Attribute+Index+Selection+using+Deep+Reinforcement+Learning&u=a1aHR0cHM6Ly9kbC5hY20ub3JnL2RvaS9wZGYvMTAuMTE0NS8zNDcyMTYzLjM0NzIxNzY&ntb=1)] 
 
 
- ![](https://img.shields.io/badge/-RL-red)   **Index selection for NoSQL database with deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green)  (https://img.shields.io/badge/-NoSQL-blue)
+ ![](https://img.shields.io/badge/-RL-red)   **Index selection for NoSQL database with deep reinforcement learning**  ![](https://img.shields.io/badge/-DQN-green) 
 
 *Yan, Yu and Yao, Shun and Wang, Hongzhi and Gao, Meng. Information Sciences, 2021* [[paper](https://www.sciencedirect.com/science/article/pii/S0020025521000049/pdfft?md5=7f93e2ee09b9b75820df384a601148bf&pid=1-s2.0-S0020025521000049-main.pdf)] 
 
@@ -574,6 +583,18 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
  ![](https://img.shields.io/badge/-RL_Robustness-red)   **Robustness of Updatable Learning-based Index Advisors against Poisoning Attack**
 
 *Yihang Zheng, Chen Lin, Xian Lyu, Xuanhe Zhou, Guoliang Li, Tianqing Wang. SIGMOD, 2024* [[paper](https://dl.acm.org/doi/10.1145/3639265)] 
+
+![](https://img.shields.io/badge/-BO-red)   **MFIX: An Efficient and Reliable Index Advisor via Multi-Fidelity Bayesian Optimization**
+
+*Zhuo Chang, Xinyi Zhang, Yang Li, Xupeng Miao, Yanzhao Qin, Bin Cui. ICDE, 2024*
+
+**Wii: Dynamic Budget Reallocation In Index Tuning**
+
+*Xiaoying Wang, Wentao Wu, Chi Wang, Vivek Narasayya, Surajit Chaudhuri. SIGMOD, 2024*
+
+![](https://img.shields.io/badge/-Industry-red)**Online Index Recommendation for Slow Queries**
+
+*Gan Peng, Peng Cai, Kaikai Ye, Kai Li, Jinlong Cai, Yufeng Shen, Han Su, Weiyuan Xu. ICDE, 2024*
 
 
 ---
@@ -668,7 +689,7 @@ Han, Y., Li, G., Yuan, H. and Sun, J., TKDE, 2022. [[paper](https://ieeexplore.i
 
 *Ding, Bailu and Das, Sudipto and Marcus, Ryan and Wu, Wentao and Chaudhuri, Surajit and Narasayya, Vivek R. SIGMOD, 2019* [[paper](https://www.bing.com/ck/a?!&&p=f316aa373db264d0JmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zNDY3ZGRjMS0yZmMwLTYyMzctM2E0Ny1jZTJiMmUzYTYzZGYmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=3467ddc1-2fc0-6237-3a47-ce2b2e3a63df&psq=Ai+meets+ai%3a+Leveraging+query+executions+to+improve+index+recommendations&u=a1aHR0cHM6Ly9wYWdlcy5jcy53aXNjLmVkdS9-d2VudGFvd3UvcGFwZXJzL3NpZ21vZDE5LWF1dG8taW5kZXhpbmcucGRm&ntb=1)] 
 
- ![](https://img.shields.io/badge/-ML-red) [SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator**   [](https://img.shields.io/badge/-LSTM_GCN_ResNet-green)
+ ![](https://img.shields.io/badge/-ML-red) [SmartIndex] **SmartIndex: An Index Advisor with Learned Cost Estimator**
 
 *Gao, Jianling and Zhao, Nan and Wang, Ning and Hao, Shuang. CIKM, 2022* [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557163)] [[code](https://github.com/JerryGao818/Index_selection_with_learned_estimator)] 
 
@@ -1122,6 +1143,8 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 **[CodeGen]** Immanuel Trummer. *CodexDB: Synthesizing Code for Qery Processing from Natural Language Instructions using GPT-3 Codex*. VLDB, 2022. [[paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)]
 
 
+
+
 ## 5. Database Monitoring
 
 **[Trend Prediction]** L. Ma, D. V. Aken, A. Hefny, G. Mezerhane, A. Pavlo, and G. J. Gordon, “Query-based Workload Forecasting for Self-driving Database Management Systems,” in SIGMOD, 2018. [[paper](https://www.pdl.cmu.edu/PDL-FTP/Database/sigmod18-ma.pdf)]
@@ -1145,6 +1168,8 @@ Chi Zhang, Ryan Marcus, and et al. Buffer Pool Aware Query Scheduling via Deep R
 **[Performance Prediction]** Unterbrunner, P., Giannikis, G., Alonso, G., Fauser, D., & Kossmann, D. (2009). Predictable performance for unpredictable workloads. *Proceedings of the VLDB Endowment*, *2*(1), 706–717. [[paper](https://doi.org/10.14778/1687627.1687707)]
 
 **[Performance Prediction]** Xuanhe Zhou, Ji Sun, Guoliang Li, Jianhua Feng. Query Performance Prediction for Concurrent Queries using Graph Embedding. [[paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb2020-concurrent.pdf)]
+
+**[Performance Prediction]** Ziniu Wu, Ryan Marcus, Zhengchun Liu, Parimarjan Negi, Vikram Nathan, Pascal Pfeil, Gaurav Saxena, Mohammad Rahman, Balakrishnan Narayanaswamy, Tim Kraska. Stage: Query Execution Time Prediction in Amazon Redshift. [[paper](https://arxiv.org/pdf/2403.02286)]
 
 
 
