@@ -12,6 +12,8 @@ Kindly let us know if we have missed any great papers. Thank you!
 
 Conference deadlines: https://github.com/ccfddl/ccf-deadlines
 
+The up-to-date list of LLM4DB papers is moved to https://github.com/code4DB/LLM4DB
+
 (Note *conference postponement* may not be promptly synchronized, so just consider it as a reference.)
 
 Table of Contents
