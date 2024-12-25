@@ -226,6 +226,9 @@ PGTune: https://pgtune.leopard.in.ua. ![](https://img.shields.io/badge/-rule-gre
 ---
 
 #### RL-based
+**UDO: Universal Database Optimization using Reinforcement Learning**
+
+*Junxiong Wang, Immanuel Trummer, Debabrota Basu. VLDB, 2021.* [[paper](https://par.nsf.gov/servlets/purl/10377794)]
 
 **An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning** 
 
@@ -1411,6 +1414,11 @@ Ju Fan, Tongyu Liu, Guoliang Li, Yuwei Shen, Xiaoyong Du. Relational Data Synthe
 ## S1 Large Language Models Meet Database
 
 ### Peer-Reviewed
+
+**𝜆-Tune: Harnessing Large Language Models for Automated Database System Tuning.** ![](https://img.shields.io/badge/knob_tuning-blue)
+
+*Victor Giannakouris, Immanuel Trummer. SIGMOD 2025* [[paper](https://arxiv.org/pdf/2411.03500)]
+
 
 **Annotating Columns with Pre-trained Language Models.** ![](https://img.shields.io/badge/-llm4db-Informational) ![](https://img.shields.io/badge/-data_augment-purple)
 
